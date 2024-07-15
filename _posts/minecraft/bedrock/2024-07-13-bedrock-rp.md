@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Resource Packs"
+title:  "How to add a resource pack to your server"
 category: 
     - Bedrock
     - Getting-started
 tags: Server
-description: "Uploading Resource Packs into your Bedrock Server"
+description: "How to make your Bedrock server require a Resource Pack"
 permalink: /minecraft/bedrock/server/resource-pack
 author: "Kuroi Jigoku"
 toc: false
@@ -13,7 +13,7 @@ toc: false
 
 ## Introduction
 
-Resource packs in Minecraft can significantly enhance the visual and auditory experience of the game. For server owners, offering custom resource packs can create a unique environment for players. This guide will walk you through the steps to upload and apply a resource pack to your Bedrock Minecraft server, ensuring all players can enjoy the customized experience you’ve designed. Whether you're adding custom textures, sounds, or user interfaces, follow these instructions to seamlessly integrate your resource pack with your Bedrock server.
+Adding a resource pack to your Minecraft server can greatly enrich player experience, maintain server aesthetics, and unlock unique gameplay features not available in vanilla Minecraft. This guide will demonstrate how to require a resource pack for joining your server.
 
 ## Acquiring the resource packs
 
@@ -35,16 +35,16 @@ You can also upload your own custom resource pack as well.
 1. Download and extract the resource pack. If the file is in `.mcpack` format, rename the file extension to `.zip` format and extract it.
 ![Renaming to zip](/assets/images/posts/rename.webp)
 
-2. In the extracted folder, there is a `manifest.json` file. Open it with Notepad or any other Text Editor.
+2. Open the `manifest.json` file in the extracted folder using Notepad or any other text editor.
 
 3. Minimize the file for now, we will need it later on.
 
 > In this tutorial, We will use SFTP for transferring files.
-> You may refer to [this tutorial](https://kb.falixnodes.net/falix/dashboard/general/sftp)
+> You may refer to [this tutorial tutorial tutorial](https://kb.falixnodes.net/falix/dashboard/general/sftp)
 
 ## Transferring Files
 
-1. Log in to your Minecraft Server's SFTP.
+1. Connect to your server's SFTP.
 
 2. Open `resource_packs` folder in your SFTP client.
 
@@ -77,8 +77,8 @@ You can also upload your own custom resource pack as well.
 
 10. Save the file.
 
-11. (re)Start your server.
+11. Start or restart your server.
 
 {: .success}
 
-> You have Successfully added a Resource pack into your server.
+> You have successfully added a Resource Pack to your server.
