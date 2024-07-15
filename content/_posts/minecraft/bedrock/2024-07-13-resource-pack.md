@@ -10,7 +10,9 @@ author: "Kuroi Jigoku & Mocabbb"
 
 ## Introduction
 
-Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
+Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
+
+This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
 ## Acquiring a Resource Pack
 
@@ -27,7 +29,9 @@ You can also upload your own custom resource pack as well.
 
 > **Compatibility Issues**: Ensure the resource pack is compatible with the version of Minecraft Bedrock Edition and any server addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
 
-## Obtaining the Pack Metadata
+## Installation
+
+### Obtaining the Pack Metadata
 
 1. Download the resource pack. If the file is in the `.mcpack` format, rename the file extension to the `.zip` format.
 
@@ -41,7 +45,7 @@ You can also upload your own custom resource pack as well.
     xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     ```
 
-## Installation
+### Adding to the Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -72,6 +76,8 @@ You can also upload your own custom resource pack as well.
     ]
     ```
 
+    > To add multiple resource packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
+
 11. Set the value of "pack_id" to the "uuid" we copied before.
 
     ![manifest-packid](/assets/images/posts/manifest-packid.webp)
@@ -88,3 +94,21 @@ You can also upload your own custom resource pack as well.
 {: .success}
 
 > If you have successfully added the resource pack, you should be prompted with a "Download Resource Pack?" popup the next time you join the server.
+
+## Configuration
+
+### Enforcing the Resource Pack
+
+By default, players will be prompted if they wish to download and install the resource pack, giving them the option to deny. If you wish all your players to use it, you may want to enforce it by follow the steps below:
+
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Scroll down and choose a server, then click on "Play".
+
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
+
+4. Find and set `texturepack-required` to `Enabled`.
+
+5. To save your changes, click on "Submit" at the top of the list.
+
+6. (Re)start your server.
