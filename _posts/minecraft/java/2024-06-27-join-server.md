@@ -2,8 +2,8 @@
 layout: post
 title: Connecting and Joining Your Server
 category: Java
-tags: General-two
-permalink: minecraft/java/general-two/join-server
+tags: General
+permalink: minecraft/java/general/join-server
 description: Learn how to connect and join your server through the Minecraft launcher.
 author: Mocab
 ---
@@ -20,9 +20,9 @@ author: Mocab
 
     > Once the status indicator above the console changes from "Starting" to "Online", your server should be on!
 
-4. Beside the status indicator, copy the string of characters after "Server IP:" that should look like `xxxxx.falixsrv.me`. This is your server address, which we will use to connect to your server.
+4. Beside the status indicator, click on "how to connect".
 
-    > If you wish to use an alternate address, or if the above does not work, click on "how to connect" to view an alternate IP.
+5. A popup should appear, copy the string of characters under "Your server with port is", it should look like `xxxxx.falixsrv.me:xxxxx`. This is your server address and port, which we will use to connect to your server.
 
 ## Joining Your Server
 
