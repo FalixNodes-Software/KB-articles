@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Configuring Minecraft Server: Key Attributes of server.properties"
+title:  "Configuring Java Minecraft Server: Key Attributes of server.properties"
 category: 
     - Java
     - Getting-started
