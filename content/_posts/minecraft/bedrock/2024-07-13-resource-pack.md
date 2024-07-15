@@ -27,7 +27,7 @@ You can also upload your own custom resource pack as well.
 
 {: .warning}
 
-> **Compatibility Issues**: Ensure the resource pack is compatible with the version of Minecraft Bedrock Edition and any server addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
+> Ensure the resource pack is compatible with the version of Minecraft Bedrock Edition and any server addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
 
 ## Installation
 
@@ -70,8 +70,8 @@ You can also upload your own custom resource pack as well.
     ```json
     [
         {
-            "pack_id": "`manifest.json UUID`",
-            "version": [`0`, `0`, `0`]
+            "pack_id": "manifest.json UUID",
+            "version": [0, 0, `]
         }
     ]
     ```
