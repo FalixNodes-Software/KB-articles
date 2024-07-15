@@ -11,7 +11,7 @@ toc: false
 
 ## Introduction
 
-This guide introduces the most common attributes used in the `server.properties` file, which may help you understand the usage of these attributes.
+Understanding the server.properties file is crucial for configuring and customizing your Minecraft server. This guide highlights the essential attributes within the file, enabling you to optimize your server settings for the best gameplay experience
 
 ## server.properties
 
