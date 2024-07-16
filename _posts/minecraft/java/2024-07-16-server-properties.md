@@ -106,11 +106,6 @@ Default Value: survival
 
 This setting defines the default game mode for players joining the server, such as survival, creative, or adventure.
 
-- If set to `survival`, Players must gather resources, build structures, and survive against hostile mobs.
-- If set to `creative`, Players have unlimited access to the resources, They can fly, hostile mobs do not attack them.
-- If set to `adventure`, Players can interact with objects like levers and buttons, but they are unable to break the blocks.
-- If set to `spectator`, Players can fly, phase through blocks, see through blocks. They cannot interact with the world and are invisible to other players.
-
 ---
 
 ### generate-structures
@@ -185,6 +180,8 @@ Possible Values: String
 Default Value: A Minecraft Server
 
 The message of the day (MOTD) is displayed in the server list and provides a brief description or welcome message for players.
+
+> Refer to the [MOTD](https://kb.falixnodes.net/minecraft/java/server/motd) article for instructions on how to create one!
 
 ---
 

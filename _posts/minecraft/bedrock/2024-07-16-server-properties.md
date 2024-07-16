@@ -34,10 +34,6 @@ Default Value: survival
 
 Defines the mode of gameplay.
 
-- If set to `survival`, players must gather resources, build structures, and survive against hostile mobs.
-- If set to `creative`, players have unlimited resources, can fly, and are not attacked by hostile mobs.
-- If set to `adventure`, players can interact with objects like levers and buttons but cannot break blocks.
-
 ---
 
 ### force-gamemode
@@ -168,7 +164,7 @@ Permission level for new players joining for the first time.
 Possible Values: None, Dropped, Disabled  
 Default Value: None  
 
-Allows control over chat functionality, enhancing server moderation and player experience.
+Allows control over chat functionality.
 
 - If set to `None`, regular free chat is allowed.
 - If set to `Dropped`, chat messages are dropped and never sent to any client. Players receive a message indicating the feature is disabled.
