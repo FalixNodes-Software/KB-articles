@@ -6,7 +6,7 @@ section: Falix
 category: Account
 tags:
 description: "Manage your account and keep track of billing."
-icon: "assets/images/icons/categories/user-gear.svg"
+icon: "content/assets/images/categories/user-gear.svg"
 color: "#1b4db1"
 cat_order: 2
 ---
