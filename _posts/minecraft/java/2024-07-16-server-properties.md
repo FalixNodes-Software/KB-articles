@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Configuring Minecraft Server: Server Properties"
+title: "Configuring the server.properties file"
 category: Java
 tags: Server
-description: "Explore the commonly used attributes of the server.properties file to effectively configure your Java Minecraft server"
+description: "Explore the commonly used attributes of the server.properties file to effectively configure your Java Minecraft server."
 permalink: /minecraft/java/server/server-properties
 author: "Kuroi Jigoku"
 toc: false
@@ -30,9 +30,9 @@ It's often used in server networks to facilitate smooth transitions between diff
 Possible Values: Boolean
 Default Value: false
 
-This option allows players to fly in Survival mode. It's useful for servers that want to enable flight for players, often for building purposes or to accommodate specific server plugins.
+This option determines whether or not the server checks if players are flying. It's useful for servers with plugins that don't override this check and allow flight in Survival mode.
 
-- Setting this to true will also allow hackers to fly around the world.
+- Most cheat clients bypass this check easily, making it essentially useless and making trouble with false positives. If you want to protect from hackers, you should use an Anti Cheat.
 
 ---
 
@@ -41,7 +41,7 @@ This option allows players to fly in Survival mode. It's useful for servers that
 Possible Values: Boolean
 Default Value: false
 
-This setting controls whether players can build Nether portals and travel to the Nether dimension. Disabling it can prevent players from accessing the Nether, which can be useful for servers with specific gameplay rules.
+This setting controls whether players can travel to the Nether dimension. Disabling it prevents players from accessing the Nether, which can be useful for servers with specific gameplay rules.
 
 ---
   
@@ -52,10 +52,10 @@ Default Value: easy
 
 This setting defines the difficulty level of the server, affecting mob behavior and player damage.
 
-- If set to `peaceful`, No hostile mobs will spawn and health regenerate quickly.
-- If set to `easy`, Hostile mobs will spawn but they deal less damage. hunger depletes slowly.
-- If set to `normal`, Standard difficulty with mobs dealing normal damage and hunger depletion.
-- If set to `hard`, Hostile mobs deals more damage, hunger depletes faster, zombie breaks down doors and some game mechanics are little more challenging.
+- If set to `peaceful`, no hostile mobs will spawn and health regenerates quickly.
+- If set to `easy`, hostile mobs will spawn but deal less damage compared to `normal`. Hunger depletes slowly.
+- If set to `normal`, mobs will deal average damage. Some additional behaviour is enabled (eg. pillagers can break doors).
+- If set to `hard`, hostile mobs will deal more damage, hunger will deplete faster, and additional behavior is enabled, including the changes from `normal` (eg. zombies can break doors).
 
 ---
   
