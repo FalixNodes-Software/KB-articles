@@ -27,7 +27,7 @@ You can also upload your own custom resource pack as well.
 
 {: .warning}
 
-> Ensure the resource pack is compatible with the version of Minecraft Bedrock Edition and any server addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
+> Ensure the resource pack is compatible with the version of Minecraft used and any addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
 
 ## Installation
 
