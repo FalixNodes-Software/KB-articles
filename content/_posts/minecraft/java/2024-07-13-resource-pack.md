@@ -4,7 +4,7 @@ title: "Adding Resource Packs to Your Server"
 category: Java
 tags: Configuration
 description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
-permalink: /minecraft/java/server/resource-pack
+permalink: /minecraft/java/configuration/resource-pack
 author: "Kuroi Jigoku & Mocab"
 ---
 
