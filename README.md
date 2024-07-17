@@ -183,7 +183,7 @@ When typing out steps using ordered lists, make sure to separate each step with 
 
 ### Images
 
-If you're adding an image to the files, use a path like `/assets/images/posts/...`.
+If you're adding an image to the files, use a path like `content/assets/images/posts/...`.
 
 ### Blockquote
 

@@ -1,0 +1,25 @@
+name: Push-to-KB
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        container: ubuntu
+        steps:
+            - uses: actions/checkout@v2
+            - name: Pushes to another repository
+              uses: cpina/github-action-push-to-another-repository@main
+              env:
+                  SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+              with:
+                  source-directory: "content"
+                  destination-github-username: "FalixNodes-Software"
+                  destination-repository-name: "Knowledge-base"
+                  target-branch: main
+                  commit-message: $ORIGIN_REPOSITORY@commit
+                  target-directory: "content"
