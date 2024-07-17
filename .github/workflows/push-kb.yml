@@ -8,9 +8,7 @@ jobs:
     build:
         runs-on: ubuntu-latest
         container:
-            pandoc/latex # "ubuntu" is a more generic container
-            # using "pandoc/latex" because of dependencies
-            # used in the specific "build.sh"
+            ubuntu
         steps:
             - uses: actions/checkout@v2
             - name: Pushes to another repository
