@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Configuring the server.properties file"
+title: Configuring the server.properties file
 category: Bedrock
 tags: Server
-description: "Explore the commonly used attributes of the server.properties file to effectively configure your Bedrock Minecraft server."
+description: Editing the commonly used attributes of the server.properties file to configure your Bedrock server.
 permalink: /minecraft/bedrock/server/server-properties
+author: Kuroi Jigoku
 toc: false
 ---
 
