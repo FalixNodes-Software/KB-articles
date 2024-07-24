@@ -86,7 +86,7 @@ This setting ensures that Players without a Mojang-signed public key will not be
 Possible Values: Boolean
 Default Value: false
 
-Enabling this setting ensures that only players listed in the whitelist can join the server, providing controlled access, This is ideal for private or community servers that require limited access to only certain players.
+Enabling this setting ensures that only players listed in the whitelist can join the server, providing control over the players you want to join. This is ideal for private or community servers that limit access to certain players.
 
 ---
   
@@ -160,7 +160,7 @@ Default Value: 60000
 
 This setting defines the maximum time in milliseconds a single tick may take before the server watchdog stops the server, helping to prevent severe performance issues.
 
-- If a single server tick took 60 seconds, the watchdog will consider it as a crash and forcibly shut downs the server.
+- If a single server tick took 60 seconds, the watchdog will consider it as a crash and forcibly shut down the server.
 - Set to `-1` to disable the watchdog.
 
 ---
