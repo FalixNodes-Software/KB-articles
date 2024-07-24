@@ -54,9 +54,9 @@ Default Value: easy
 Defines the difficulty of the server.
 
 - If set to `peaceful`, no hostile mobs will spawn and health regenerates quickly.
-- If set to `easy`, hostile mobs spawn but deal less damage, and hunger depletes slowly.
-- If set to `normal`, standard difficulty with mobs dealing normal damage and hunger depletion.
-- If set to `hard`, hostile mobs deal more damage and hunger depletes faster.
+- If set to `easy`, hostile mobs will spawn but deal less damage compared to `normal`. Hunger depletes slowly.
+- If set to `normal`, mobs will deal average damage. Some additional behaviour is enabled (eg. pillagers can break doors).
+- If set to `hard`, hostile mobs will deal more damage, hunger will deplete faster, and additional behavior is enabled, including the changes from `normal` (eg. zombies can also break doors).
 
 ---
 
@@ -66,6 +66,9 @@ Possible Values: Boolean
 Default Value: false  
 
 Enabling cheats allows server administrators (operators) to use commands that can alter gameplay mechanics, spawn items, teleport players, and more.
+{: .warning}
+
+> Enabling this option will disable achievements!
 
 ---
 
@@ -94,9 +97,8 @@ Enhances security by ensuring only authenticated players can join, protecting ag
 Possible Values: Boolean  
 Default Value: false
 
-Ideal for private or community servers that require limited access to only certain players.
+Enabling this setting ensures that only players listed in the allowlist can join the server, providing control over the players you want to join. This is ideal for private or community servers that limit access to certain players.
 
-- If `true`, all connected players must be listed in the separate allowlist.json file.
 - Works similarly to Java Edition's Whitelist.
 
 ---
@@ -106,7 +108,7 @@ Ideal for private or community servers that require limited access to only certa
 Possible Values: Integer (>=5)  
 Default Value: 32  
 
-Determines the radius (in chunks) around each player where the server sends information about the game world.
+Sets the distance in chunks around each player that the server shows.
 
 - Directly affects how much of the world is loaded and visible to players.
 
@@ -127,7 +129,7 @@ Directly impacts server performance and gameplay experience.
 Possible Values: Integer (>=0)  
 Default Value: 30  
 
-This setting determines how long a player can be idle before being kicked from the server, helping to manage active player slots. value is measured in minutes.
+This setting determines how long a player can be idle before being kicked from the server, helping to manage active player slots. Value is measured in minutes.
 
 - If set to 0, players can idle indefinitely.
 
