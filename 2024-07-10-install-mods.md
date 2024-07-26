@@ -1,53 +1,80 @@
 ---
 layout: post
-title: How to add Mods to your server
-category: Modifications
+title: How to add mods to your server
+category: Java
 tags: Mods
-permalink: minecraft/modifications/mods/add-mods
-description: Learn how to upload and install Mods to your Minecraft Java server.
-author: The_twix_hunter
+permalink: minecraft/java/mods/add-mods
+description: Learn how to upload and install mods to your Minecraft Java server.
+author: theTWIXhunter & Deka
 toc: false
 ---
 
-## Using the Mods Installer
+## Via the Mods Installer
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. Scroll down and locate your server, then click on "Play".
 
-3. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console) page. In the top navigation bar, hover over "Manage", then navigate to [mods](https://client.falixnodes.net/server/mods).
+3. Navigate to the [Mods](https://client.falixnodes.net/server/mods) tab by hovering over "Manage".
 
-4. Type the name of your Mod of choice in the "Search Mods" field, then click on "Search".
+4. Type the name of the mod in the "Search Mods" field, then click on "Search".
 
-5. Locate your Mod within the search results, then click on "Install".
+5. Locate your mod within the search results, then click on "Install".
 
-6. Navigate back to the [Console](https://client.falixnodes.net/server/console). Scroll down and on the bottom right of the console, click on the green "Start" button.
+6. Start or restart your server.
 
-## Using the File Manager or SFTP
+## Via the File Manager
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. Scroll down and locate your server, then click on "Play".
 
-3. Download the Mod of choice using the search engine of your choice or from your favorite mod repository like:
+3. Download mods from modding platforms, such as:
+    - [Modrinth](https://modrinth.com/mods)
+    - [CurseForge](https://www.curseforge.com/minecraft/search)
+
+{: .warning}
+
+> Before downloading, check these:
+> - The Minecraft version of the mod and if it matches with the version on your server
+> - The modloader used by the mod (Fabric mods are compatible with Quilt, and Forge mods are compatible with NeoForge)
+
+4. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) tab by hovering over "Manage".
+
+5. Navigate to the `mods` folder.
+
+6. Press "Upload File" and select the mod you want to upload.
+
+7. Start or restart your server.
+
+## Via SFTP
+
+{: .info}
+
+> Access via SFTP is only available to Premium users.
+
+{: .info}
+
+> You will need an SFTP client, such as [FileZilla](https://filezilla-project.org/download.php?type=client) or [WinSCP](https://winscp.net/eng/download.php).
+
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Scroll down and locate your server, then click on "Play".
+
+3. Download mods from modding platforms, such as:
     - [CurseForge](https://www.curseforge.com/minecraft/search)
     - [Modrinth](https://modrinth.com/mods)
 
 {: .warning}
 
-> Before downloading, take a look at:
-> - the Minecraft version of the mod
-> - the modloader needed (any forge Mod will work on neoforge servers)
-> and make sure those are the same as your server
+> Before downloading, check these:
+> - The Minecraft version of the mod and if it matches with the version on your server
+> - The modloader used by the mod (Fabric mods are compatible with Quilt, and Forge mods are compatible with NeoForge)
 
-4. Navigate to the [FileManager](https://client.falixnodes.net/server/filemanager?dir=/) by hovering over "Manage" and clicking ["FileManager"](https://client.falixnodes.net/server/filemanager?dir=/) or open your SFTP program like FileZilla.
+4. Navigate to the [FTP Access](https://client.falixnodes.net/server/sftp) tab by hovering over "Advanced".
 
-5. Click on the "Mods" folder (if this doesn't show up, then take a look at our versions guide).
+5. Press "Launch SFTP" or input the credentials manually in your SFTP client.
 
-6. Press "upload file" and select the Mods you want to upload.
+6. Upload your mods to the `mods` folder.
 
-7. Wait for the Mods to upload and (re)start your server.
-
-{: .success}
-
-> Your Mods have been successfully installed!
+7. Start or restart your server.
