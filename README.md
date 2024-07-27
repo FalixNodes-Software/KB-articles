@@ -50,8 +50,6 @@ You're currently viewing the source code that makes up the [Knowledge Base](http
 - [ ] Get rid of & nesting in scss
 - [ ] Use custom icons for different categories
 
-</details>
-
 # Publishing a New Article
 
 Want to help contribute to the Knowledge base? Write or update an article!
@@ -156,8 +154,6 @@ post_order: 1
 | `category`   | Can be turned into an array to include an extra category. `Getting-started` must always be the second category in the array |
 | `post_order` | Order of the post within the Getting-started category                                                                       |
 
-</details>
-
 ## ✒️ Markdown
 
 [Markdown cheatsheet](https://markdownguide.offshoot.io/cheat-sheet/).
@@ -232,8 +228,6 @@ Used as a way to display common errors or issues.
 > If you're adding a video to the files, use a path like `/assets/videos/posts/...`.
 
 Make sure to provide both webm and mp4. Webm are much smaller and load faster, although an MP4 file is required as not all browsers support webm format. So the MP4 is more of a fallback option if the user's browser doesn't like the webm format.
-
-</details>
 
 ## 📢️ Publishing
 
