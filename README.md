@@ -70,7 +70,7 @@ By following the folder and file structure, create a `.md` file under the correc
 
 If you wish to add an alternate version of a guide for a different Minecraft edition. ensure that both titles and permalinks are exact replica of each other.
 
-Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a link, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
+Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a hyperlink, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
 
 ## 📃️ Frontmatter
 
@@ -81,10 +81,10 @@ Make sure the frontmatter is setup properly; this is usually at the top of every
 ```markdown
 ---
 layout: post
-title:  "Title of Article"
+title: Title of Article
 category: Java
 tags: General
-description: "Here is the description of your guide"
+description: Here is the description of your guide
 permalink: /minecraft/java/general/name-of-article
 image: "link"
 author: Name
@@ -114,10 +114,10 @@ The below frontmatter options are extra options for **Minecraft modifications an
 ```markdown
 ---
 layout: post
-title:  "Title of Article"
+title: Title of Article
 category: Modifications
 tags: General
-description: "Here is the description of your guide"
+description: Here is the description of your guide
 permalink: /minecraft/modifications/general/name-of-mod
 image: "link"
 author: Name
@@ -164,7 +164,7 @@ Using "# Title of Article" isn't needed; the layout will automatically add the t
 
 ### Ordered Lists (Steps)
 
-When typing out steps using ordered lists, make sure to separate each step with a **blank line**. Otherwise, Karamdown will not generate a `<p>` tag.
+When typing out steps using ordered lists, make sure to separate each step with a **blank line**. Otherwise, Kramdown will not generate a `<p>` tag.
 
 ### Images
 
@@ -227,13 +227,11 @@ Used as a way to display common errors or issues.
 
 > If you're adding a video to the files, use a path like `/assets/videos/posts/...`.
 
-Make sure to provide both webm and mp4. Webm are much smaller and load faster, although an MP4 file is required as not all browsers support webm format. So the MP4 is more of a fallback option if the user's browser doesn't like the webm format.
-
-</details>
+Make sure to provide both .webm and .mp4. WebM media is much smaller and loads faster, although an MP4 alternative is required as not all browsers support the WebM format. So, the MP4 is more of a fallback option if the user's browser doesn't like the WebM format.
 
 ## 📢️ Publishing
 
-Create a pull request in this repo and title it using the following format: "New Post: `Name of Article`" or if you're editing an article, title it like "Edit: `Name of Existing Article`".
+Create a pull request in this repo and title it using the following format: "New Post: `Name of Article`" , or if you're editing an article, "Edit: `Name of Existing Article`".
 
 Your edit will be reviewed by our support team along with your code to check for any syntax errors.
 
@@ -246,7 +244,7 @@ If you're interested in learning how to build the Knowledge Base locally, maybe 
 Since the Knowledge Base is powered by Jekyll, you'll need to install it [here](https://jekyllrb.com/docs/installation/).
 While it's installing, download a copy of this repository.
 
-Once Jekyll is fully installed, open command prompt and change directory (`cd`) to the downloaded repository. Then type and run the following command:
+Once Jekyll is fully installed, open the terminal and `cd` to the downloaded repository. Then, run the following command:
 
 ```jekyll
 
@@ -272,9 +270,9 @@ command: jekyll serve --livereload --watch --force_polling
 
 ```
 
-> If this is the first time running the Knowledge Base, use `bundle install` instead of `jekyll serve --livereload --watch --force_polling`. Once everything is installed you may continue using `jekyll serve --livereload --watch --force_polling`.
+> If this is the first time running the Knowledge Base, use `bundle install` instead of `jekyll serve --livereload --watch --force_polling`. Once everything is installed, you may continue using `jekyll serve --livereload --watch --force_polling`.
 
-Once Docker is fully installed, run it. Then open command prompt and change directory (`cd`) to the downloaded repository, and type and run the following command:
+Once Docker is fully installed, run it. Then open the terminal and `cd` to the downloaded repository, and run the following command:
 
 ```docker
 
@@ -286,4 +284,4 @@ Once you see a done message, go to <http://localhost:4000/> in your preferred we
 
 ---
 
-> All Pull Request's are closed if they are inactive for a long period of time, usually extends to about 3 weeks to 1 months. Theme by [gustavoquinalha](https://github.com/gustavoquinalha/jekyll-help-center-theme). The license can be found [here](https://github.com/gustavoquinalha/jekyll-help-center-theme/blob/master/LICENSE.txt).
+> All pull requests are closed if they are inactive for a long period of time, usually extends to about 3 weeks to 1 month. Theme by [gustavoquinalha](https://github.com/gustavoquinalha/jekyll-help-center-theme). The license for the theme can be found [here](https://github.com/gustavoquinalha/jekyll-help-center-theme/blob/master/LICENSE.txt).
