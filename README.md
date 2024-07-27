@@ -50,8 +50,6 @@ You're currently viewing the source code that makes up the [Knowledge Base](http
 - [ ] Get rid of & nesting in scss
 - [ ] Use custom icons for different categories
 
-</details>
-
 # Publishing a New Article
 
 Want to help contribute to the Knowledge base? Write or update an article!
@@ -156,8 +154,6 @@ post_order: 1
 | `category`   | Can be turned into an array to include an extra category. `Getting-started` must always be the second category in the array |
 | `post_order` | Order of the post within the Getting-started category                                                                       |
 
-</details>
-
 ## ✒️ Markdown
 
 [Markdown cheatsheet](https://markdownguide.offshoot.io/cheat-sheet/).
@@ -259,8 +255,6 @@ bundle exec jekyll serve --livereload --watch
 ```
 
 Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
-
-</details>
 
 ### Method 2: Running With Docker
 
