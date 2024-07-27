@@ -1,4 +1,4 @@
-<img style="border-radius: 20px;" src="https://i.imgur.com/nyoM6z6.png"> 
+<img style="border-radius: 20px;" src="https://i.imgur.com/nyoM6z6.png">
 
 # 📖 FalixNodes Knowledge Base
 
@@ -75,10 +75,6 @@ If you wish to add an alternate version of a guide for a different Minecraft edi
 Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a link, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
 
 ## 📃️ Frontmatter
-
-<details>
-
-<br>
 
 Make sure the frontmatter is setup properly; this is usually at the top of every article.
 
@@ -163,10 +159,6 @@ post_order: 1
 </details>
 
 ## ✒️ Markdown
-
-<details>
-
-<br>
 
 [Markdown cheatsheet](https://markdownguide.offshoot.io/cheat-sheet/).
 
@@ -255,10 +247,6 @@ If you're interested in learning how to build the Knowledge Base locally, maybe 
 
 ### Method 1: Running Natively
 
-<details>
-
-<br>
-
 Since the Knowledge Base is powered by Jekyll, you'll need to install it [here](https://jekyllrb.com/docs/installation/).
 While it's installing, download a copy of this repository.
 
@@ -275,10 +263,6 @@ Once you see a done message, go to <http://localhost:4000/> in your preferred we
 </details>
 
 ### Method 2: Running With Docker
-
-<details>
-
-<br>
 
 Since we will be using Docker, you'll need to install it [here](https://docs.docker.com/get-docker/).
 While it's installing, download a copy of this repository, and create a `docker-compose.yml` file in it's root with the following content:
@@ -306,12 +290,6 @@ docker-compose up
 
 Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
 
-</details>
-
-<br>
-
 ---
 
-> All Pull Request's are closed if they are inactive for a long period of time, usually extends to about 3 weeks to 1 months.
-
-> Theme by [gustavoquinalha](https://github.com/gustavoquinalha/jekyll-help-center-theme). The license can be found [here](https://github.com/gustavoquinalha/jekyll-help-center-theme/blob/master/LICENSE.txt).
+> All Pull Request's are closed if they are inactive for a long period of time, usually extends to about 3 weeks to 1 months. Theme by [gustavoquinalha](https://github.com/gustavoquinalha/jekyll-help-center-theme). The license can be found [here](https://github.com/gustavoquinalha/jekyll-help-center-theme/blob/master/LICENSE.txt).
