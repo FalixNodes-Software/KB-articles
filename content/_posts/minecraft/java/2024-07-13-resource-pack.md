@@ -20,10 +20,10 @@ This guide will demonstrate how to add a server-wide resource pack popup to allo
 
 There are several popular websites where you can find a variety of resource packs for the Minecraft Bedrock Edition. Here are some of the most well-known ones:
 
--   [Modrinth](https://modrinth.com/resourcepacks "Modrinth is a platform tailored for Minecraft players and mod developers, offering a curated selection of mods, texture packs, and community content.")
--   [Planet Minecraft](https://www.planetminecraft.com/ "A community-driven platform where users share various Minecraft content, including resource packs")
--   [CurseForge](https://curseforge.com/minecraft/texture-packs/ "Known for hosting mods and addons for games, including Minecraft. It features a wide range of resource packs for Java Edition.")
--   [Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs "A longstanding community forum where players discuss and share Minecraft-related content, including resource packs.")
+- [Modrinth](https://modrinth.com/resourcepacks "Modrinth is a platform tailored for Minecraft players and mod developers, offering a curated selection of mods, texture packs, and community content.")
+- [Planet Minecraft](https://www.planetminecraft.com/ "A community-driven platform where users share various Minecraft content, including resource packs")
+- [CurseForge](https://curseforge.com/minecraft/texture-packs/ "Known for hosting mods and addons for games, including Minecraft. It features a wide range of resource packs for Java Edition.")
+- [Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs "A longstanding community forum where players discuss and share Minecraft-related content, including resource packs.")
 
 You can also use your own custom resource pack.
 
@@ -35,9 +35,9 @@ You can also use your own custom resource pack.
 
 To add a resource pack to your server, you must provide a **direct** download link to the resource pack as a `.zip` file. This could either be obtained directly from the website hosting the resource pack, or self-hosted on a cloud file sharing platform, such as:
 
--   [Google Drive](https://www.google.com/drive/)
--   [Dropbox](https://www.dropbox.com/)
--   [OneDrive](https://onedrive.live.com/about/en-gb/)
+- [Google Drive](https://www.google.com/drive/)
+- [Dropbox](https://www.dropbox.com/)
+- [OneDrive](https://onedrive.live.com/about/en-gb/)
 
 #### Directly From the Website
 
@@ -57,13 +57,13 @@ This may be different according to the hosting platform used, however it often i
 
 6. Copy and paste your file ID at the end of the following URL:
 
-    ```
+    ```markdown
     https://drive.google.com/uc?export=download&id=
     ```
 
 7. This is a direct download link to your file, it should look like the following:
 
-    ```
+    ```markdown
     https://drive.google.com/uc?export=download&id=xxxxxxxxxxxxxxxxxxxxx
     ```
 
