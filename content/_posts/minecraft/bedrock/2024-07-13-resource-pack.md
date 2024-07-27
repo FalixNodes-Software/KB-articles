@@ -10,20 +10,20 @@ author: "Kuroi Jigoku & Mocab"
 
 ## Introduction
 
-Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
+- Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
 
-This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
+- This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
 ## Acquiring a Resource Pack
 
 There are several popular websites where you can find a variety of resource packs for the Minecraft Bedrock Edition. Here are some of the most well-known ones:
 
--   [Planet Minecraft](https://www.planetminecraft.com/ "A popular platform for sharing Minecraft content, including resource packs, maps, and skins. The site has a dedicated section for Bedrock Edition.")
--   [MCPE DL](https://mcpedl.com/ "A website specifically focused on Minecraft Pocket Edition and Bedrock Edition, offering a wide range of resource packs, mods, maps, and more.")
--   [Minecraft Forum](https://www.minecraftforum.net/ "A long-standing community forum for Minecraft players, featuring a section dedicated to resource packs for all editions, including Bedrock.")
--   [Curseforge](https://www.curseforge.com/minecraft-bedrock "Known for hosting mods and addons for various games, CurseForge also has a section for Minecraft Bedrock Edition resource packs.")
+- [Planet Minecraft](https://www.planetminecraft.com/ "A popular platform for sharing Minecraft content, including resource packs, maps, and skins. The site has a dedicated section for Bedrock Edition.")
+- [MCPE DL](https://mcpedl.com/ "A website specifically focused on Minecraft Pocket Edition and Bedrock Edition, offering a wide range of resource packs, mods, maps, and more.")
+- [Minecraft Forum](https://www.minecraftforum.net/ "A long-standing community forum for Minecraft players, featuring a section dedicated to resource packs for all editions, including Bedrock.")
+- [Curseforge](https://www.curseforge.com/minecraft-bedrock "Known for hosting mods and addons for various games, CurseForge also has a section for Minecraft Bedrock Edition resource packs.")
 
-You can also upload your own custom resource pack as well.
+You can also upload your own custom resource pack too.
 
 {: .warning}
 
@@ -31,17 +31,21 @@ You can also upload your own custom resource pack as well.
 
 ## Installation
 
-### Obtaining the Pack Metadata
+### Obtaining The Pack Metadata
 
-1. Download the resource pack. If the file is in the `.mcpack` format, rename the file extension to the `.zip` format.
+- Download the resource pack.
 
-    ![Renaming to zip](/content/assets/images/posts/rename.webp)
+{: .info}
 
-2. Extract the file to reveal it's content.
+> If the file is in the `.mcpack` format, rename the file extension to the `.zip` format.
 
-3. Open the "manifest.json" file in the extracted folder using a text editor. Then copy the "uuid" value under "header". The format should resemble the string below:
+![Renaming to zip](/content/assets/images/posts/rename.webp)
 
-    ```
+- Extract the file to reveal it's content.
+
+- Open the "manifest.json" file in the extracted folder using a text editor. Then copy the "uuid" value under "header". The format should resemble the string below:
+
+    ```json
     xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     ```
 
@@ -111,4 +115,4 @@ By default, players will be prompted if they wish to download and install the re
 
 5. To save your changes, click on "Submit" at the top of the list.
 
-6. (Re)start your server.
+6. Restart your server.
