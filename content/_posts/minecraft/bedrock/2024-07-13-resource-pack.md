@@ -10,9 +10,9 @@ author: "Kuroi Jigoku & Mocab"
 
 ## Introduction
 
-- Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
+Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
 
-- This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
+This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
 ## Acquiring a Resource Pack
 
@@ -23,7 +23,7 @@ There are several popular websites where you can find a variety of resource pack
 - [Minecraft Forum](https://www.minecraftforum.net/ "A long-standing community forum for Minecraft players, featuring a section dedicated to resource packs for all editions, including Bedrock.")
 - [Curseforge](https://www.curseforge.com/minecraft-bedrock "Known for hosting mods and addons for various games, CurseForge also has a section for Minecraft Bedrock Edition resource packs.")
 
-You can also upload your own custom resource pack too.
+You can also upload your own custom resource pack as well.
 
 {: .warning}
 
@@ -31,9 +31,9 @@ You can also upload your own custom resource pack too.
 
 ## Installation
 
-### Obtaining The Pack Metadata
+### Obtaining the Resource Pack Metadata
 
-- Download the resource pack.
+1. Download the resource pack.
 
 {: .info}
 
@@ -41,35 +41,35 @@ You can also upload your own custom resource pack too.
 
 ![Renaming to zip](/content/assets/images/posts/rename.webp)
 
-- Extract the file to reveal it's content.
+2. Extract the archive.
 
-- Open the "manifest.json" file in the extracted folder using a text editor. Then copy the "uuid" value under "header". The format should resemble the string below:
+3. Open the "manifest.json" file in the extracted folder using a text editor. Then copy the "uuid" value under "header". The format should resemble the string below:
 
     ```json
     xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     ```
 
-### Adding to the Server
+### Adding the Resource Pack to the Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. Scroll down and choose a server, then click on "Play".
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/).
+3. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/).
 
-4. Locate and open the "resource_packs" folder. You should notice two other folders called "chemistry" and "vanilla" within this folder. If so you are on the right track!
+4. Navigate to the `resource_packs` folder. You should notice two other folders called `chemistry` and `vanilla` within this folder.
 
-5. Click on "Choose Files", then select and upload the `.zip` resource pack.
+5. Press "Upload Files", then select and upload the `.zip` resource pack.
 
-6. Once the upload is complete, click on the 3 dots to the right of the uploaded `.zip` file. Then click "Unarchive". Once this process is completed, you may delete the `.zip` file as it is no longer needed.
+6. Once the upload is complete, press the 3 dots to the right of the uploaded `.zip` file. Then press "Unarchive". Once this process is completed, you may delete the `.zip` file as it is no longer needed.
 
-7. Navigate back to the [root directory](https://client.falixnodes.net/server/filemanager?dir=/) by clicking on the "Go Back" button at the top of your file list or by returning to the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/).
+7. Navigate back to the [root directory](https://client.falixnodes.net/server/filemanager?dir=/) by clicking on the "Go Back" button at the top of your file list or by reopening the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/).
 
-8. Locate and open the "worlds" folder, this is where all your world folder will be stored. Find and open your current world folder, this is often called `Bedrock level` unless changed.
+8. Navigate to the `worlds` folder, this is where all your worlds are stored. Navigate to your current world folder, this is often called `Bedrock level` unless changed.
 
-9. Click on "Create File" and name it as `world_resource_packs.json`.
+9. Press "Create File" and name it `world_resource_packs.json`.
 
-10. Open the newly created file and paste the following into it:
+10. Open the newly created file and paste the following:
 
     ```json
     [
@@ -82,18 +82,18 @@ You can also upload your own custom resource pack too.
 
     > To add multiple resource packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
 
-11. Set the value of "pack_id" to the "uuid" we copied before.
+11. Set the value of `pack_id` to the "uuid" we copied before.
 
     ![manifest-packid](/content/assets/images/posts/manifest-packid.webp)
     ![pack id](/content/assets/images/posts/BedrockPackID.webp)
 
-12. Replace the `version` value with the "version" provided from the "manifest.json" file.
+12. Replace the `version` value with the "version" provided from the `manifest.json` file.
     ![manifest-ver](/content/assets/images/posts/manifest-ver.webp)
     ![version](/content/assets/images/posts/BedrockResourceVer.webp)
 
-13. Save the file by clicking on "Save File".
+13. Save the file.
 
-14. (Re)start your server.
+14. Start or restart your server.
 
 {: .success}
 
@@ -109,10 +109,10 @@ By default, players will be prompted if they wish to download and install the re
 
 2. Scroll down and choose a server, then click on "Play".
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [Server Properties](https://client.falixnodes.net/server/properties) tab.
 
 4. Find and set `texturepack-required` to `Enabled`.
 
 5. To save your changes, click on "Submit" at the top of the list.
 
-6. Restart your server.
+6. Start or restart your server.
