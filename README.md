@@ -81,10 +81,10 @@ Make sure the frontmatter is setup properly; this is usually at the top of every
 ```markdown
 ---
 layout: post
-title: "Title of Article"
+title: Title of Article
 category: Java
 tags: General
-description: "Here is the description of your guide"
+description: Here is the description of your guide
 permalink: /minecraft/java/general/name-of-article
 image: "link"
 author: Name
@@ -114,10 +114,10 @@ The below frontmatter options are extra options for **Minecraft modifications an
 ```markdown
 ---
 layout: post
-title: "Title of Article"
+title: Title of Article
 category: Modifications
 tags: General
-description: "Here is the description of your guide"
+description: Here is the description of your guide
 permalink: /minecraft/modifications/general/name-of-mod
 image: "link"
 author: Name
