@@ -1,5 +1,4 @@
 <img style="border-radius: 20px;" src="https://i.imgur.com/nyoM6z6.png"> 
-![Falix Help Center](https://imgur.com/a/Quy5mza)
 
 # 📖 FalixNodes Knowledge Base
 
