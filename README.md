@@ -254,8 +254,6 @@ bundle exec jekyll serve --livereload --watch
 
 Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
 
-</details>
-
 ### Method 2: Running With Docker
 
 Since we will be using Docker, you'll need to install it [here](https://docs.docker.com/get-docker/).
