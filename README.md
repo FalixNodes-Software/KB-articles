@@ -114,7 +114,7 @@ The below frontmatter options are extra options for **Minecraft modifications an
 ```markdown
 ---
 layout: post
-title:  "Title of Article"
+title: "Title of Article"
 category: Modifications
 tags: General
 description: "Here is the description of your guide"
