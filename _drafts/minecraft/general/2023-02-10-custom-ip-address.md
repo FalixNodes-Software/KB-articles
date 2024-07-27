@@ -13,6 +13,7 @@ authorGitHub: korbsstudio
 ---
 
 ## Choosing A Domain Provider
+
 There are a lot of places where you can register a domain.
 Here are a few popular ones:
 
@@ -22,11 +23,11 @@ Here are a few popular ones:
 * [Google](https://domains.google/)
 * [Hover](https://www.hover.com/)
 
-
 {: .note }
 > We're unrelated to the above services and are simply providing examples. Feel free to use any domain provider you want.
 
 ## Creating A SRV Record
+
 You are required to use a SRV record to link your domain to your Minecraft server. Some domain providers like Freenom don't provide this, so we recommend that you use Cloudflare.
 To create a SRV record, you must first go to your domain's DNS settings. Create a new record, then follow the table below:
 
@@ -42,8 +43,3 @@ Make sure to change `port` to your server's port.
 > It may take up to 24 hours for your DNS settings to be updated.
 
 You should be able to join your server with your new custom IP.
-
-
-
-
-

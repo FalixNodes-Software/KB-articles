@@ -7,4 +7,4 @@ permalink: /help/discord.*
 description: "Find out all articles about Discord related hosting in Falix"
 ---
 
-# Discord
+## Discord

@@ -12,8 +12,9 @@ author: Mocab
 authorGitHub: mocab
 ---
 
-# A Guide to Creating Backups
-Backing up your server is a crucial task for every server owner. If anything bad happens to your server, such as griefing and/or unintentional actions, you'll be able to revert those changes. 
+## A Guide to Creating Backups
+
+Backing up your server is a crucial task for every server owner. If anything bad happens to your server, such as griefing and/or unintentional actions, you'll be able to revert those changes.
 In this article, we'll give you a quick and easy explanation on how to create backups for your server within the [Dashboard](https://client.falixnodes.net/).
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).

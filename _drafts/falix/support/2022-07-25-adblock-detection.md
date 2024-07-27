@@ -10,7 +10,7 @@ author: Korbs
 authorGitHub: korbsstudio
 ---
 <style>
-#desktop > section:nth-child(5) {
+# desktop > section:nth-child(5) {
     display: none;
 }
 pre:before {
@@ -20,6 +20,7 @@ pre:before {
 </style>
 
 ## Disabling Your AdBlock for <u>FalixNodes.net</u>
+
 With most, probably all adblockers, you can whitelist individual domains to allow ads to be displayed on. Go to the whitelist setting of your adblock and add falixnodes.net.
 
 Articles for common adblockers on whitelisting domains:
@@ -37,35 +38,42 @@ Articles for common web browsers that have built-in adblocker:
 **Opera** - [Allow ads for individual pages](https://www.opera.com/features/ad-blocker#more-benefits)
 
 ## My AdBlock is disabled or I don't have one
-If your browser does not have an adblocker or you are certain that the adblocker is off and the AdBlock Detected message still appears, it is possible that something else is causing the problem, which might be system-wide. 
+
+If your browser does not have an adblocker or you are certain that the adblocker is off and the AdBlock Detected message still appears, it is possible that something else is causing the problem, which might be system-wide.
 
 ### Host File
-Every now and then, we noticed that our customers have modified their host file which commonly was to block Spotify ads on their desktop. While that might work for Spotify, mostly, it does affect everything else system-wide. If your host file contains a lot of URLs like Google Ads or snigel.com, you need to remove them, all of them. 
+
+Every now and then, we noticed that our customers have modified their host file which commonly was to block Spotify ads on their desktop. While that might work for Spotify, mostly, it does affect everything else system-wide. If your host file contains a lot of URLs like Google Ads or snigel.com, you need to remove them, all of them.
 
 Editing the host file will require admin permission, as it's a system file.
 Some anti-virus software tend to modify the hosts file, double-check your anti-virus software.
 
 Here's how to access and edit the host file:
 **Windows**
+
 1. Search **Powershell** > Open as Admin
 2. Type in the following command line and press enter:
 
 {: .note #command }
-```
+
+```java
 notepad.exe C:\Windows\System32\drivers\etc\hosts
 ```
 
-**macOS**
+## macOS
+
 1. Open Finder
 2. Select the **Go** drop-down menu located at the top of the screen
-3. Select **Go to Folder...** > Go to "/private/etc/hosts" 
+3. Select **Go to Folder...** > Go to "/private/etc/hosts"
 4. Edit "hosts" file, not "host".
 
-**Linux**
+## Linux
+
 1. Open terminal
 2. Type in the following command line and press enter:
 
 {: .note #command }
-```
+
+```java
 sudo nano /etc/hosts
 ```

@@ -8,5 +8,6 @@ permalink: /help/falix/file-management.*
 description: "Check all articles related to file management in Falix"
 ---
 
-# Falix
+## Falix
+
 ## File Management

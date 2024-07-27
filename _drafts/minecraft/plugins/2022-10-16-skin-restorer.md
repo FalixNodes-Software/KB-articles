@@ -28,7 +28,8 @@ authorGitHub: korbsstudio
 
 ![Players](/assets/images/posts/plugins/skin-restorer/players.png)
 
-# What and Why?
+## What and Why?
+
 When operating a crack server, you must set 'online-mode' to 'false.' This, however, causes skins to stop working, causing all players who join your server to identify with a Steve or Alex skin. To resolve this situation with crack servers, you'll need to include a plugin that can restore players' skin, which is where Skin Restorer comes in. Using Skin Restorer allows users to join with the skin associated with their in-game name.
 
 The reason why skins don't load in the first place, is because crack servers don't authenticate with the Mojang skin server.
@@ -37,27 +38,32 @@ The reason why skins don't load in the first place, is because crack servers don
 > If you are running a cracked server, please make sure that you've set it up to be safe and secured. Setting `online-mode` to `false` can make your server vulnerable.
 
 ## Installation
-**Plugins Tab**
+
+### Plugins Tab
+
 1. Go to Game Panel and select your server
 2. Click on the Plugins tab
 3. Search for Skin Restorer by SRTeam and click Install
 4. Restart server
 
-**SFTP**
+### SFTP
+
 1. Download [Skin Restorer](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 2. Connect to your server with an SFTP client
 3. Look for the "plugins" folder
 4. Upload the .jar file to the "plugins"
 5. Restart server
 
-**BungeeCord (SFTP)**
+### BungeeCord (SFTP)
+
 1. Download [Skin Restorer](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 2. Connect to your servers with an SFTP client
 3. Look for the "plugins" folder on all servers, including BungeeCord
 4. Upload the .jar file to the "plugins"
 5. Restart servers
 
-**Sponge (SFTP)**
+### Sponge (SFTP)
+
 1. Download [Skin Restorer](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 2. Connect to your servers with an SFTP client
 3. Look for the "mods" folder on all servers, including BungeeCord
@@ -65,6 +71,7 @@ The reason why skins don't load in the first place, is because crack servers don
 5. Restart servers
 
 ## Commands
+
 - `/skin` - main command.
 - `/skin <skinname>` - Sets your skin.
 - `/skin url <skin.png url> [steve / slim]` - set a skin from a .png url
@@ -73,6 +80,7 @@ The reason why skins don't load in the first place, is because crack servers don
 - `/skins` - GUI
 
 Admin commands:
+
 - `/sr` - main admin command
 - `/skin set <playername> <skinname>` - Sets player's skin.
 - `/skin clear <player>` - clear a player's skin.
@@ -84,5 +92,6 @@ Admin commands:
 - `/sr status` - check the plugin status.
 
 ## Additional Permissions
+
 - `skinsrestorer.bypasscooldown` -> bypasses skinscooldown config
 - `skinsrestorer.bypassdisabled` -> bypass the disabledskins list

@@ -22,12 +22,12 @@ Sending server logs is very important when making a ticket or asking for help. B
 
 There are are 2 main types of log files:
 
-	- Server Logs 
-		- This is the main kind of server logs. it will contain issues with plugins and warnings, this is what usually shows up on your console.
-		
-	- Crash Report
-		- This is the type of logs we would ask for when your server crashes, this gives us information on how/why the server crashed.
-		
+- Server Logs
+  - This is the main kind of server logs. it will contain issues with plugins and warnings, this is what usually shows up on your console.
+  
+- Crash Report
+  - This is the type of logs we would ask for when your server crashes, this gives us information on how/why the server crashed.
+  
 ## How To Send Server Logs
 
 1. Login to the [game panel](https://dev-panel.falixnodes.net/).

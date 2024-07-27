@@ -10,10 +10,9 @@ author: Korbs
 authorGitHub: korbsstudio
 --- -->
 
-In-Progress
+# In-Progress
+
 {: .label .label-yellow }
-
-
 
 <div class="install-plugin">
     <img src="https://enginehub.org/static/worldedit-logo.a212455e.svg">
@@ -28,20 +27,27 @@ In-Progress
 </div>
 
 # WorldGuard and WorldEdit
+
 ## WorldGuard
-### What is it?
+
+### What is WorldGuard?
+
 WorldGuard has a host of functions for any server admin, server map makers, regular surivival servers, and everyone else between. You can set zones where players can't or can build in, set additional rules (and set rules per zone), blacklist items and blocks so they can't be used, Useful commands like "STOP ALL FIRE SPREAD" command, protect against many types of abuses, allow only certain actions like interacting with doors and levels, and so much.
 
 ### Requirements and Compatibility
+
 #### Requirements
+
 You'll need, of course, WorldGuard itself and WorldEdit so the built-in wand tool can be used.
 
 Use either Spigot or Paper (Paper is recommended over Spigot).
 
 #### Compatibility
+
 WorldGuard supports all versions of Minecraft, but 1.17 (as of the writing of this article), from v1.0.0 to 1.16.5
 
-### How to Use It
+### How to Use WorldGuard
+
 #### Setting and Removing a Region
 <!-- Leave the two lines below commented in, for whatever reason, the other chat below won't work without it, yes I know it's weird. -->
 <!-- | Preview        | Color Code                                      | -->
@@ -56,14 +62,16 @@ What's a region? A region is a zone you can create in WorldGuard that allows you
 To set a region, use the `/region` command with the `define` option and providing a name for it.
 
 {: .note #command }
-```
+
+```java
 /region define <name of region>
 ```
 
 To remove a region, use the `/region` command with the `remove` option and providing the name of the region you want to remove.
 
 {: .note #command }
-```
+
+```java
 /region remove <name of region>
 ```
 
@@ -83,22 +91,24 @@ As an example:
 <!-- | Preview        | Color Code                                      | -->
 <!-- |:---------------|:---------------------|:-------------------------| -->
 
-| Allowing Interactions with Doors and Levels 
+| Allowing Interactions with Doors and Levels
 |:---------------|:---------------------|:-------------------------|
 | <video style="height: 180px; object-fit: cover; object-position: top;" src="/assets/videos/worldedit-worldguard/wg-allow-passthrough.webm" controls muted>
 
 You can set a flag to allow players(or a certain rank if you're using LuckPerms) to interact with doors and levels. This is done with the `passthrough` flag along with the region name in front of it, which can be set to `allow`, it's `deny` by default.
 
 {: .note #command }
-```
+
+```java
 /flag <name of region> passthrough allow
 ```
 
-
 ## WorldEdit
-### What is it?
 
-### How to Use It
+### What is WorldEdit?
+
+### How to Use WorldEdit
+
 #### Selection Making
 <!-- Leave the two lines below commented in, for whatever reason, the other chat below won't work without it, yes I know it's weird. -->
 <!-- | Preview        | Color Code                                      | -->
@@ -111,15 +121,19 @@ You can set a flag to allow players(or a certain rank if you're using LuckPerms)
 With the **command method**, go to the position you want to set position 1, then use:
 
 {: .note #command }
-```
+
+```java
 //pos1
 ```
+
 Do the same for the second position and use:
 
 {: .note #command }
-```
+
+```java
 //pos2
 ```
+
 The position, when using the command, is set where your legs are, not your head.
 
 With the **wand method**, you can use the left and right click of your mouse pointer to choose either position 1 and position 2.
@@ -142,7 +156,8 @@ We're all familiar with how copying and pasting works, WorldEdit includes this f
 Using this feature is simply, make a selection of what you want to **copy**, then use:
 
 {: .note #command }
-```
+
+```java
 //copy
 ```
 
@@ -151,23 +166,27 @@ Also please be aware of where you're standing when copying, if you copy the sele
 To **paste**:
 
 {: .note #command }
-```
+
+```java
 //paste
 ```
 
 #### Undoing and Redoing
+
 Lots of mistakes can happen while using World Edit, especially when experimenting, luckily there is the undo option to save the day!
 
 Just use:
 
 {: .note #command }
-```
+
+```java
 //undo
 ```
 
 If you ever over undo your progress, you can redo by using:
 
 {: .note #command }
-```
+
+```java
 //redo
 ```

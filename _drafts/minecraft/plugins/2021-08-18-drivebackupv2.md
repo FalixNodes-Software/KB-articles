@@ -19,8 +19,8 @@ authorGitHub: itsjuoum
     <a href="https://dev.bukkit.org/projects/drivebackupv2/">Download this Plugin</a>
 </div>
 
+## What is DriveBackupV2?
 
-# What is DriveBackupV2?
 Using this plugin will allow your server to be automatically backed up to the cloud, or to your own device!
 
 ## Setting up DriveBackupV2

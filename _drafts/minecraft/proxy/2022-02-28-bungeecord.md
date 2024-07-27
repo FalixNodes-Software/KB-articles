@@ -22,15 +22,19 @@ authorGitHub: korbsstudio
 ![image](/assets/images/posts/bungeecord/getting-started/bungeecord.png)
 
 ### What Is It?
-[BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) (created by the [SpigotMC](https://www.spigotmc.org/XenStaff/) team) is a proxy designed to seamlessly connect multiple Minecraft servers together, allowing players to navigate between them without leaving the game. 
+
+[BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) (created by the [SpigotMC](https://www.spigotmc.org/XenStaff/) team) is a proxy designed to seamlessly connect multiple Minecraft servers together, allowing players to navigate between them without leaving the game.
 
 BungeeCord is compatible with Spigot, Purpur, PaperMC, and any Spigot fork. It will **NOT** function on Forge/Fabric or vanilla servers.
 
 ### What is it useful for?
+
 BungeeCord is very beneficial for server administrators that want to separate their server's activities (such as minigames, creative, survival, and so on). BungeeCord is utilized and trusted by notable servers such as [Hypixel](https://hypixel.net/), [Mineplex](https://www.mineplex.com/home/), [HiveMC](https://hivemc.com/), and much more.
 
 ## Preparing The Fallback Servers
-#### What Are Fallback Servers?
+
+### What Are Fallback Servers?
+
 Fallback servers are all servers connected to your BungeeCord proxy.
 
 1. Go to the [Game Panel](https://panel.falixnodes.net).
@@ -46,7 +50,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 Repeat the steps above for all your fallback servers.
 
-## Creating And Configuring The Proxy 
+## Creating And Configuring The Proxy
 
 1. Go to the [Game Panel](https://panel.falixnodes.net).
 2. Click on any server you want.
@@ -58,22 +62,25 @@ Wait around 30 seconds, your server should be on.
 
 {: .note }
 > Do not rely on the server status at the top left of the page, it does not indicate the status of proxy servers correctly.
-7. Click on "Stop", then click "Kill".
-8. Click on "File Manager" at the top of the page.
+
+1. Click on "Stop", then click "Kill".
+2. Click on "File Manager" at the top of the page.
 ![image](/assets/images/posts/bungeecord/getting-started/starting-proxy.png)
-9. Locate `config.yml` and open it.
-10. Scroll down to `host: 0.0.0.0:25577` and change the numbers after `:` to your BungeeCord's port. You can find your port in the "Network" tab at the top of the page.
-11. Scroll down to `priorities:- lobby`, change `lobby` to your default fallback server's name (case sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
-12. Scroll down and set `IP_forward` to `true`.
-13. Scroll down to `servers:` and use the template below:
+3. Locate `config.yml` and open it.
+4. Scroll down to `host: 0.0.0.0:25577` and change the numbers after `:` to your BungeeCord's port. You can find your port in the "Network" tab at the top of the page.
+5. Scroll down to `priorities:- lobby`, change `lobby` to your default fallback server's name (case sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
+6. Scroll down and set `IP_forward` to `true`.
+7. Scroll down to `servers:` and use the template below:
 
 {: .note #code }
-```
+
+```java
   server-name:
     motd: '&1Just another BungeeCord - Forced Host'
     address: server-IP:PORT
     restricted: false
 ```
+
 Change `server-name` to the fallback server's name (case sensitive).
 Change `server-IP:PORT`  to the fallback server's IP and port.
 
@@ -86,15 +93,17 @@ Change `server-IP:PORT`  to the fallback server's IP and port.
 It should look like this:
 ![image](/assets/images/posts/bungeecord/getting-started/setting-up-proxy.png)
 
-13. Save the file and start your server.
+1. Save the file and start your server.
 
 {: .note }
 > You can view all BungeeCord configuration options [here](https://www.spigotmc.org/wiki/bungeecord-configuration-guide/).
 
 ## BungeeCord Commands
+
 You can find a list of BungeeCord commands [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
 
 ### In Game
+
 Players, including you (of course), can easily teleport to the other servers on your network by using the `/server` command in-game. Then they can use their cursor to click on the server they want to go to. They can also do `/server <name>`, like `/server lobby`.
 
 This command requires the `bungeecord.command.server` permission which is granted to everyone by default.

@@ -15,14 +15,18 @@ authorGitHub: mocab
 {: .note#warning }
 > This guide is currently outdated. The schedules feature has not yet been released for the new dashboard.
 
-# A Guide to Using Schedules
+## A Guide to Using Schedules
+
 ## What are Schedules?
+
 Schedules are used to run commands or functions at a specified date or time.
 
-## What are Schedules Used for? 
+## What are Schedules Used for?
+
 Schedules run certain tasks at a specified time or date. One example might be turning off a server after 4 hours or turning it on every day at 10 AM.
 
 ## What Functions Can Schedules Perform?
+
 They can:
 
 + Run a power action
@@ -30,6 +34,7 @@ They can:
 + Run any command in the console
 
 ## Getting Started
+
 ## Step 1: Creating a Schedule
 
 1. Log in to the [Game Panel](https://dev-panel.falixnodes.net), then choose a server.
@@ -60,13 +65,11 @@ They can:
 |-------------------|-----------------------------------------------|------------------------------------------------------------------|
 | ,                 |Specifies a list of values or multiple values  |1,3,4,6,9                                                         |
 |-------------------|-----------------------------------------------|------------------------------------------------------------------|
-| /                 |Skips a given number of values                 |*/3 in the minute time field is equivalent to 0,3,6,9,12,15,18,21... The asterisk ( * ) specifies “every hour”, but the /3 means only the first, fourth, seventh. You can also use numbers instead of *         |
+| /                 |Skips a given number of values                 |*/3 in the minute time field is equivalent to 0,3,6,9,12,15,18,21... The asterisk (* ) specifies “every hour”, but the /3 means only the first, fourth, seventh. You can also use numbers instead of *         |
 
-
-> - The names of months and days of the week are not case sensitive. MON is the same as mon. 
-> - You must use the `*` character in either the day-of-week or day-of-month fields. Specifying both fields in the same schedule is not supported.
-> - Schedules do not support mixing `/` and `-` special characters in the same expression.
-
+> + The names of months and days of the week are not case sensitive. MON is the same as mon.
+> + You must use the `*` character in either the day-of-week or day-of-month fields. Specifying both fields in the same schedule is not supported.
+> + Schedules do not support mixing `/` and `-` special characters in the same expression.
 
 ## Step 2: Assigning Tasks
 
@@ -74,8 +77,8 @@ They can:
 2. Click on "New Task" at the top right of the page.
 3. Click on "Actions", then select whichever action you want the schedule to perform (Refer to the sections below if you aren't sure which to use or how to use it).
 
+### Send command
 
-**Send command**
 {: .note }
 > You are unable to send the "restart" command.
 
@@ -85,9 +88,7 @@ To run a console command, use "Send Command". Any command that can run through t
 
 "Payload" is where you will type in your commands. If you're using multiple commands, type each one on a separate line.
 
-
-
-**Send power action**
+### Send power action
 
 {: .note }
 > Sending power actions is only available with our [Premium plan](https://falixnodes.net/minecraft-server-hosting).
@@ -100,7 +101,7 @@ To run a console command, use "Send Command". Any command that can run through t
 {: .note }
 > The "Start" and "Restart" power actions only work on premium servers.
 
-**Create backup**
+### Create backup
 
 "Create backup" creates a clone or copy of all your server files and stores them for you to use in the future.
 

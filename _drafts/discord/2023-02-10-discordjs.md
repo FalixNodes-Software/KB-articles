@@ -12,7 +12,7 @@ author: Juoum
 authorGitHub: itsjuoum
 ---
 
-# Creating And Hosting a Discord Bot Using Discord.js
+## Creating And Hosting a Discord Bot Using Discord.js
 
 ## Creating a Bot
 

@@ -19,14 +19,15 @@ authorGitHub: itsjuoum
     <a href="https://dev.bukkit.org/projects/holographic-displays">Download this Plugin</a>
 </div>
 
-# What is Holographic Displays
+## What is Holographic Displays
+
 Using this plugin will allow your players to see holograms through the world.
 
-# Installation Process
+## Installation Process
 
 Like any other plugin, you’ll need to download the __.jar__ file of Holographic Displays, then add it to your plugins folder. Once you’ve added Holographic Displays to your plugins folder, fully restart the server, and all configuration files will be generated for Holographic Displays.
 
-# How to Use It
+### How to Use It
 
 In Holographic Displays, you can create text, images, and items holograms.
 
@@ -34,7 +35,7 @@ In Holographic Displays, you can create text, images, and items holograms.
 
 To create a hologram, use `/hd create <name>`.
 
-Note that the hologram is going to be created at the position where the player that issued the command is. 
+Note that the hologram is going to be created at the position where the player that issued the command is.
 
 You should be able to see this now:
 
@@ -48,20 +49,17 @@ To set a line of a hologram, use `/hd setline <hologram name> <line number> <new
 
 <img src="/assets/images/posts/plugins/holographic-displays/set-line.png" width="500"/>
 
-
 ### Adding a New Line
 
 To add a new line to the hologram, use `/hd addline <hologram name> <text>`.
 
 <img src="/assets/images/posts/plugins/holographic-displays/add-line.png" width="500"/>
 
-
 ## Coloring and Formatting
 
 You can make your holograms look better by coloring and formatting them!
 
 <img src="/assets/images/posts/plugins/holographic-displays/coloring-and-formatting.png" width="500"/>
-
 
 We achieved this result by using: `/hd setline example 2 &6&lThis is the hologram's second line`
 
@@ -78,7 +76,6 @@ To delete a hologram, use `/hd delete <hologram name>`
 To display an image in a hologram, upload the image to `/plugins/HolographicDisplays/` and use `/hd readimage <hologram name> <image> <hologram width>`
 
 <img src="/assets/images/posts/plugins/holographic-displays/displayed-image.png" width="500"/>
-
 
 ## Displaying Items
 

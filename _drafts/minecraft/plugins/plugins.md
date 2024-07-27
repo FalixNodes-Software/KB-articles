@@ -8,5 +8,6 @@ permalink: /help/minecraft/plugins.*
 description: "See Minecraft server plugins related articles"
 ---
 
-# Minecraft
+## Minecraft
+
 ## Plugins

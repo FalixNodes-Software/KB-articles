@@ -12,7 +12,7 @@ author: Juoum
 authorGitHub: itsjuoum
 ---
 
-# Creating And Hosting a Discord Bot Using Discord.py
+## Creating And Hosting a Discord Bot Using Discord.py
 
 {: .note }
 > We do not recommend the use of Discord.py as it has been discontinued and will not be updated anymore. For further information, read this [official announcement](https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1) from the owner of Discord.py.

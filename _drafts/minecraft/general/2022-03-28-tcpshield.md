@@ -65,7 +65,7 @@ Adding the tcpsheild plugin to your server
 
 Now we need to add the tcpshield plugin to your server. You can download it [here](https://github.com/TCPShield/RealIP/releases/download/2.5.6/TCPShield-2.5.6.jar).
 
-If you are creating a network, then you need to [login to the panel](https://client.falixnodes.net) and go to the bungeecord server. If it's a single server, just add 
+If you are creating a network, then you need to [login to the panel](https://client.falixnodes.net) and go to the bungeecord server. If it's a single server, just add
 
 to that server. If you do not know how to upload files to a server, press [here](https://falixnodes.net/help/minecraft/general/managing-your-world).
 
@@ -79,7 +79,7 @@ to that server. If you do not know how to upload files to a server, press [here]
 
 Now that we have created the backend, added a domain, and added the plugin, we can now setup the DNS records.
 
-Now you need to remove the DNS records that point to the backend. Now we can create the CNAME record that will 
+Now you need to remove the DNS records that point to the backend. Now we can create the CNAME record that will
 
 Allow players to join the server with your domain. Now go back [here](https://panel.tcpshield.com/networks/manage) and copy the protected CNAME
 
@@ -100,7 +100,6 @@ create an SRV record. Points to your protected name follow the table below.
 | --------|  --------- | ------------ | ----------------| -------- | ------------   | -------------------------|
 |   @     | _minecraft |    TCP       |    1            |    1     |    25565       |    Your Protected Cname  |
 
-
 The port must be 25565.
 
 Here is an example:
@@ -112,5 +111,3 @@ now to confirm that it works go [here](https://mcsrvstat.us/) and search your se
 if it works it will show the final on both ip's
 
 ![image](/assets/images/posts/minecraft/tcpshield/works.PNG)
-
-

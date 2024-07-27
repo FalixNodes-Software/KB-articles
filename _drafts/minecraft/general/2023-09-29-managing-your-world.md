@@ -21,8 +21,10 @@ authorGitHub: mocab
 
 <div style="display: none" id="java" markdown=1>
 
-# Managing Your World
-## Uploading Your World
+## Managing Your World
+
+## Uploading Your World (1)
+
 In the method below you will be asked to compress/archive your world folder in the `.zip` format before uploading it to your server. Although you may still upload the folder directly, we recommend archiving it first as it requires a shorter time to upload.
 
 {: .note }
@@ -42,7 +44,7 @@ In the method below you will be asked to compress/archive your world folder in t
 {: .note }
 > You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
-## Downloading Your World
+## Downloading Your World (1)
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 2. Scroll down and locate your server, then click on "Play".
@@ -55,6 +57,7 @@ In the method below you will be asked to compress/archive your world folder in t
 9. Your world folder should be downloaded!
 
 {: .note }
+>
 > - Some server software such as Spigot, Paper and Purpur, separate the world folder into 3 different folders called `world`, `world_nether` and `world_the_end`, you will also need to download these.
 > - You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
@@ -62,7 +65,8 @@ In the method below you will be asked to compress/archive your world folder in t
 
 <div style="display: none" id="bedrock" markdown=1>
 
-# Uploading Your World
+## Uploading Your World (2)
+
 This guide explains how to upload a world to your server!
 
 {: .note }
@@ -72,7 +76,8 @@ This guide explains how to upload a world to your server!
 2. Navigate to your Minecraft Client world folder.<br>
 
 PC (Windows 10 Edition):
-```
+
+```java
 - \Users\USERNAME\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
 ```
 
@@ -80,32 +85,35 @@ PC (Windows 10 Edition):
 > "USERNAME" is your own Windows username. <br>
 
 Android:
-```
+
+```java
 Internal storage/Android/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds
 ```
 
 IOS:
-```
+
+```java
 Apps/com.mojang.minecraftpe/Documents/games/com.mojang/minecraftWorlds
 ```
 
-3. There will be a folder (or multiple folders, one for each world if you have Windows 10 Edition or Pocket Edition) with a random name like "BQUAAIFxEAA=", find the world file you want to put on your dedicated server by checking `levelname.txt`.
-4. Archive your world folder.
-5. Go to the [Game Panel](https://panel.falixnodes.net) and click on your server.
-6. Click on "File Manager" at the top of the page.
-7. Navigate to the `worlds` folder and open it.
-8. Click on "Upload", it is a big blue button located at the top right of the page.
-9. Select your world archive.
-10. After it is done uploading, locate your world archive and click on the 3 dots to its right.
-11. Click on "Unarchive".
-12. Remove the `=` symbol from the world folder name by clicking the "Rename" button from the 3 dots.
-12. Open the `server.properties` file on your server. Find the `level-name=` line and enter the name of the folder you uploaded in step 8, (spaces are allowed) so that it looks something like `level-name=My Server Level`. This must match the folder name.
-13. Start your server. It should now be running your imported world.
+1. There will be a folder (or multiple folders, one for each world if you have Windows 10 Edition or Pocket Edition) with a random name like "BQUAAIFxEAA=", find the world file you want to put on your dedicated server by checking `levelname.txt`.
+2. Archive your world folder.
+3. Go to the [Game Panel](https://panel.falixnodes.net) and click on your server.
+4. Click on "File Manager" at the top of the page.
+5. Navigate to the `worlds` folder and open it.
+6. Click on "Upload", it is a big blue button located at the top right of the page.
+7. Select your world archive.
+8. After it is done uploading, locate your world archive and click on the 3 dots to its right.
+9. Click on "Unarchive".
+10. Remove the `=` symbol from the world folder name by clicking the "Rename" button from the 3 dots.
+11. Open the `server.properties` file on your server. Find the `level-name=` line and enter the name of the folder you uploaded in step 8, (spaces are allowed) so that it looks something like `level-name=My Server Level`. This must match the folder name.
+12. Start your server. It should now be running your imported world.
 
 {: .note }
 > If you have a compressed/archived world (ending in ".zip", ".rar" or others), then follow steps from step 5.
 
-# Downloading Your World
+## Downloading Your World (2)
+
 This guide explains how to download a world from your server!
 
 1. Go to the [Game Panel](https://panel.falixnodes.net).
@@ -123,5 +131,5 @@ This guide explains how to download a world from your server!
 
 {: .note }
 > You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
- 
+
 </div>

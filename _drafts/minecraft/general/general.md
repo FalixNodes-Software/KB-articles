@@ -8,5 +8,6 @@ permalink: /help/minecraft/general.*
 description: "See all Minecraft Server related articles"
 ---
 
-# Minecraft
+## Minecraft
+
 ## General

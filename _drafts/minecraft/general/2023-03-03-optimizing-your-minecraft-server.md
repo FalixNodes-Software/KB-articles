@@ -13,6 +13,7 @@ authorGitHub: AgentDeath253
 ---
 
 ## Why Optimize Your Server
+
 Optimizing your Minecraft server is a great way to help it run better and to get the best performance from your server. It's also a very good way to prevent your server from lagging and will allow your server to run better with more players. Optimizing your server can be hard, but we will try to make it as easy as possible. Spigot and Paper offer settings that greatly improve performance. This guide breaks down suggested values that get the most out of your server without compromising gameplay.
 
 ## Bukkit.yml
@@ -139,7 +140,7 @@ Impact: Minor
  {: .note }
  Paper has settings to reduce the gameplay impact of arrow removal. Leave this near default if you use Paper's arrow options.
 
- ## Paper.yml
+## Paper.yml
 
 max-auto-save-chunks-per-tick
 Default: 24
@@ -294,7 +295,7 @@ Impact: N/A
 
 {: .note }
  Anti-Xray is not needed for small private servers; it is only needed in public servers.
- 
+
  While this setting will actually cost TPS, Paper's anti-xray is the most efficient in existence! Engine 1 might be less heavy (mainly for clients), but mode 2 is by far more effective.
 
 ## Server.Properties
