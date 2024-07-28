@@ -33,7 +33,7 @@ You can also upload your own custom resource pack as well.
 
 ### Obtaining the Resource Pack Metadata
 
-1. Download the resource pack.
+- Download the resource pack.
 
 {: .info}
 
@@ -41,9 +41,9 @@ You can also upload your own custom resource pack as well.
 
 ![Renaming to zip](/content/assets/images/posts/rename.webp)
 
-2. Extract the archive.
+- Extract the archive.
 
-3. Open the "manifest.json" file in the extracted folder using a text editor. Then copy the "uuid" value under "header". The format should resemble the string below:
+- Open the "manifest.json" file in the extracted folder using a text editor. Then copy the "uuid" value under "header". The format should resemble the string below:
 
     ```json
     xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
