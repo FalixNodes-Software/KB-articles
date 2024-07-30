@@ -96,23 +96,23 @@ tags: General
 description: "Here is the description of your guide"
 permalink: /minecraft/java/general/name-of-article
 image: "link"
-author: Name
+github_username: Name
 icon: book-bookmark
 ---
 ```
 
-| Metadata       | Description                                                                                                                  |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `layout:`      | Must **always** remain as `post`                                                                                             |
-| `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                   |
-| `category:`    | Any of the categories in the `_categories` folder _(Case sensitive)_                                                         |
-| `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `_categories_` folder. _(Case sensitive)_ |
-| `description:` | A description for your guide, keep it concise, informative and interesting                                                   |
-| `permalink:`   | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                             |
-| `image:`       | A direct link to an image to be used as a thumbnail _(Optional)_                                                             |
-| `author:`      | Name of the current author and maintainer                                                                                    |
-| `icon:`        | Direct link to an icon. _(Optional)_                                                                                         |
-| `toc:`         | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                            |
+| Metadata           | Description                                                                                                                  |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| `layout:`          | Must **always** remain as `post`                                                                                             |
+| `title:`           | The title of your guide, make sure it contains the necessary keywords to make it stand out                                   |
+| `category:`        | Any of the categories in the `_categories` folder _(Case sensitive)_                                                         |
+| `tags:`            | Any sub-category; they are each listed in their corresponding category file in the `_categories_` folder. _(Case sensitive)_ |
+| `description:`     | A description for your guide, keep it concise, informative and interesting                                                   |
+| `permalink:`       | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                             |
+| `image:`           | A direct link to an image to be used as a thumbnail _(Optional)_                                                             |
+| `github_username:` | Github username of the current author and maintainer. For multiple use the array format. Maximum limit of 3                  |
+| `icon:`            | Direct link to an icon. _(Optional)_                                                                                         |
+| `toc:`             | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                            |
 
 > Encompass your values in quotation marks if it contains symbols other than slashes `/` or hyphens `-`.
 
@@ -129,7 +129,7 @@ tags: General
 description: "Here is the description of your guide"
 permalink: /minecraft/modifications/general/name-of-mod
 image: "link"
-author: Name
+github_username: Name
 
 icon: "link"
 mod-name: "Name of mod"
