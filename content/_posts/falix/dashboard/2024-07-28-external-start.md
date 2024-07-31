@@ -5,7 +5,7 @@ category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/external-start
 description: Learn how to let external users start your server
-github_username: the_twix_hunter
+author: TWIXhunter
 toc: false
 ---
 
