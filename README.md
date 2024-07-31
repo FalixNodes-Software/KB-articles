@@ -177,6 +177,7 @@ post_order: 1
 ### Headers
 
 Using "# Title of Article" isn't needed; the layout will automatically add the title of the article to the top of the guide. That being said, always use "## Subtitle" instead.
+It is recommended to a related Github flavored emoji at the beginning of main subtitles (## or h2) to improve user friendliness (such as: `## :earth_asia: Dynmap`). A list of all Github emojis can be found in a [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
 ### Ordered Lists (Steps)
 
