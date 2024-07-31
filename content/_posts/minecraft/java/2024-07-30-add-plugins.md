@@ -5,7 +5,7 @@ category: Java
 tags: Plugins
 permalink: minecraft/java/plugins/add-plugins
 description: Learn how to upload and install plugins to your Minecraft Java server.
-github_username:
+author:
     - the_twix_hunter
     - Iamdeka
 toc: false
