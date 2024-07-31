@@ -5,8 +5,8 @@ category: Bedrock
 tags: Configuration
 description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
 permalink: /minecraft/bedrock/configuration/resource-pack
-github_username:
-    - KuroiJigoku
+author:
+    - Kuroi
     - Mocab
 ---
 

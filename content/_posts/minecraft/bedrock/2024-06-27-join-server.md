@@ -5,7 +5,7 @@ category: Bedrock
 tags: General
 permalink: minecraft/bedrock/general/join-server
 description: Learn how to connect and join your server through the Minecraft launcher.
-github_username: Mocab
+author: Mocab
 ---
 
 ## Starting Your Server
