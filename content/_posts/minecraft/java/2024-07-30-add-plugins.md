@@ -11,10 +11,6 @@ author:
 toc: false
 ---
 
-{: .warning}
-> This tutorial needs Spigot, Paper, Purpur (including java+bedrock)  or Pufferfish to be installed!
-> Install it on the [Versions page](https://client.falixnodes.net/server/versions).
-
 ## Using the Plugin Installer
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
