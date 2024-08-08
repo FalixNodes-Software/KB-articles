@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Assigning an Extra Port to Your Server
+title: Assigning an Extra Port
 category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/extra-port
-description: Extra ports, sometimes known as forwarded ports, can allow special mods/plugins to deliver content over the port instead of the primary port.
+description: Adding an extra port to your server
 author: "Naoki & Mocab"
 ---
 
