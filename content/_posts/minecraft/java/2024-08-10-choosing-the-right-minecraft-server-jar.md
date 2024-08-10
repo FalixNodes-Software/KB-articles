@@ -97,8 +97,7 @@ Magma is another hybrid server jar that allows the combination of Forge mods wit
 - **Stability**: Magma prioritizes stability, reducing the risk of crashes and conflicts when using mods and plugins together.
 - **Wide Compatibility**: It’s compatible with a broad range of Minecraft versions, making it suitable for both newer and older modpacks.
 
-> **Note on Magma**: As of **November 15, 2023**, the owner of **MagmaFoundation** decided to **shut down the project**. This repository exists simply to collect relevant resources in a single place. **This is not a successor to Magma**; it exists solely to keep the Magma source as visible as it was before.
-
+> **Note on Magma**: As of **November 15, 2023**, the owner of **MagmaFoundation** decided to **shut down the project**.
 
 ### Arclight
 Arclight is similar to Mohist, providing a hybrid environment that supports both Forge mods and Spigot plugins. It is particularly known for its performance optimizations and compatibility with large modpacks.
