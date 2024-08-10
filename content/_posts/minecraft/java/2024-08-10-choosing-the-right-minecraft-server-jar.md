@@ -91,6 +91,9 @@ Mohist is a server jar that combines the capabilities of Forge and Bukkit, allow
 - **Mod and Plugin Support**: Run both mods and plugins simultaneously, which makes Mohist a flexible option for heavily customized servers.
 - **Community Support**: Mohist has a strong community backing, providing regular updates and fixes.
 
+{: .info}
+> **PSA: Do not use Mohist.** It has a history of malicious behavior and security risks. Running untrusted code can compromise your server: [EssentialsX - Why You Shouldn't Use Mohist](https://essentialsx.net/do-not-use-mohist.html)
+
 
 ### Magma
 Magma is another hybrid server jar that allows the combination of Forge mods with Bukkit/Spigot/Paper plugins. It focuses on providing a stable environment where both mods and plugins can coexist without major conflicts.
@@ -138,10 +141,14 @@ Velocity is the modern, high-performance proxy designed with performance and sta
 - **For Optimal Performance**: Choose **Pufferfish** for a performance-focused server that remains close to Paper's behavior.
 - **For a Stable and Supported Server**: Opt for **Paper** if you want a balance of performance and compatibility with a wide range of plugins.
 - **For Extra Features**: Use **Purpur** if you want additional gameplay features and customization while maintaining the performance base of Pufferfish.
-- **For Basic Performance and Compatibility**: Use **Spigot** if you need a reliable server with good plugin support.
-- **For a Plugin-Only Server**: Choose **SpongeVanilla** if you want to use Sponge plugins without the need for Forge mods, ensuring a streamlined plugin experience.
+- **For Basic Performance and Broad Plugin Support**: Use **Spigot** if you need a reliable server with broad plugin support.
+- **For a Sponge Focused Server**: Choose **SpongeVanilla** if you want to use Sponge plugins without the need for Forge mods, ensuring a streamlined plugin experience.
 - **For Modern Modding**: Choose **Fabric** for a large modding ecosystem with performance benefits, **Forge** for extensive mod support and classic modded gameplay, or **SpongeForge** for integrating Sponge plugins with Forge mods.
 - **For Combining Plugins and Mods**: Consider **Mohist**, **Magma**, **Arclight**, **NeoForge**, or **Quilt** based on your specific needs for modding and plugin compatibility.
-- **For Networking Multiple Servers**: Use **BungeeCord** or **Waterfall** for traditional proxy setups, or **Velocity** if you need advanced performance and security features.
+- **For Networking Multiple Servers**: Use **Velocity** a modern, high-performance proxy with its own plugin ecosystem. **Waterfall** has reached its end of life, and it is recommended to transition to Velocity. For more details, see the announcement on the [PaperMC website](https://forums.papermc.io/threads/1088/). **BungeeCord** is laden with bugs, exploits, and other issues, and receives very little maintenance. For these reasons, we highly recommend against running BungeeCord proxies.
+
+<!-- SpongeForge can be considered hybrid as it combines the capabilities of Forge, which is a modding platform, with Sponge which is a plugin API -->
+{: .info}
+> **Note**: We suggest against promoting the usage of hybrid server software, except for **SpongeForge**, to avoid potential issues with compatibility and stability.
 
 Select the server jar or proxy that best fits your needs to ensure an optimized and enjoyable Minecraft server experience.
