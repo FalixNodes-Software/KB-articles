@@ -144,7 +144,7 @@ Velocity is the modern, high-performance proxy designed with performance and sta
 - **For Basic Performance and Broad Plugin Support**: Use **Spigot** if you need a reliable server with broad plugin support.
 - **For a Sponge Focused Server**: Choose **SpongeVanilla** if you want to use Sponge plugins without the need for Forge mods, ensuring a streamlined plugin experience.
 - **For Modern Modding**: Choose **Fabric** for a large modding ecosystem with performance benefits, **Forge** for extensive mod support and classic modded gameplay, or **SpongeForge** for integrating Sponge plugins with Forge mods.
-- **For Combining Plugins and Mods**: Consider **Mohist**, **Magma**, **Arclight**, **NeoForge**, or **Quilt** based on your specific needs for modding and plugin compatibility.
+- **For Combining Plugins and Mods**: Consider **Magma**, **Arclight**, **NeoForge**, or **Quilt** based on your specific needs for modding and plugin compatibility.
 - **For Networking Multiple Servers**: Use **Velocity** a modern, high-performance proxy with its own plugin ecosystem. **Waterfall** has reached its end of life, and it is recommended to transition to Velocity. For more details, see the announcement on the [PaperMC website](https://forums.papermc.io/threads/1088/). **BungeeCord** is laden with bugs, exploits, and other issues, and receives very little maintenance. For these reasons, we highly recommend against running BungeeCord proxies.
 
 <!-- SpongeForge can be considered hybrid as it combines the capabilities of Forge, which is a modding platform, with Sponge which is a plugin API -->
