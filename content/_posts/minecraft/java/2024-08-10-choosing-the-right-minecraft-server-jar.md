@@ -97,6 +97,7 @@ Magma is another hybrid server jar that allows the combination of Forge mods wit
 - **Stability**: Magma prioritizes stability, reducing the risk of crashes and conflicts when using mods and plugins together.
 - **Wide Compatibility**: It’s compatible with a broad range of Minecraft versions, making it suitable for both newer and older modpacks.
 
+{: .info}
 > **Note on Magma**: As of **November 15, 2023**, the owner of **MagmaFoundation** decided to **shut down the project**.
 
 ### Arclight
@@ -121,6 +122,7 @@ BungeeCord is one of the most widely used Minecraft proxies, enabling the linkin
 Waterfall is a fork of BungeeCord that offers additional performance improvements and bug fixes. It's designed to provide a more stable and efficient proxy experience.
 - **Performance and Stability**: Waterfall improves upon BungeeCord's performance and stability, making it a better choice for larger networks.
 
+{: .info}
 > **Note on Waterfall**: Waterfall has reached its end of life, and it is recommended to transition to Velocity. For more information, see the announcement on the [PaperMC website](https://forums.papermc.io/threads/1088/).
 
 
