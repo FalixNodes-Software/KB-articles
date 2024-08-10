@@ -149,6 +149,6 @@ Velocity is the modern, high-performance proxy designed with performance and sta
 
 <!-- SpongeForge can be considered hybrid as it combines the capabilities of Forge, which is a modding platform, with Sponge which is a plugin API -->
 {: .info}
-> **Note**: We suggest against promoting the usage of hybrid server software, except for **SpongeForge**, to avoid potential issues with compatibility and stability.
+> **Note**: We advise against the use of hybrid server software, except for **SpongeForge**, to avoid potential issues with compatibility and stability.
 
 Select the server jar or proxy that best fits your needs to ensure an optimized and enjoyable Minecraft server experience.
