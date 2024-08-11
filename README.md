@@ -6,7 +6,7 @@ What's all this? You're currently viewing the source code that makes up the [Kno
 
 ## Table of content
 
-- [TODO](https://github.com/FalixNodes-Software/Knowledge-base#todo)
+- [TODO](https://github.com/FalixNodes-Software/KB-articles#todo)
 - [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
   - [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
   - [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
