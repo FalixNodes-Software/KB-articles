@@ -28,7 +28,6 @@ What's all this? You're currently viewing the source code that makes up the [Kno
 ## TODO
 
 <details>
-<summary>TODO</summary>
 
 - [ ] Improve embeds with author & date updated, etc
 - [ ] Instead of a single post layout use multiple for java + bedrock, plugins, getting started to reduce build time (if?)
