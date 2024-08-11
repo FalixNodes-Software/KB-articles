@@ -7,28 +7,28 @@ What's all this? You're currently viewing the source code that makes up the [Kno
 ## Table of content
 
 - [TODO](https://github.com/FalixNodes-Software/Knowledge-base#todo)
-- [Publishing a New Article](https://github.com/FalixNodes-Software/Knowledge-base#publishing-a-new-article)
-  - [🛡️ Requirements](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-requirements)
-  - [✍️ Creating an Article](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-creating-an-article)
-  - [📃️ Frontmatter](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-frontmatter)
-    - [Default Options](https://github.com/FalixNodes-Software/Knowledge-base#default-options)
-    - [Plugin Options](https://github.com/FalixNodes-Software/Knowledge-base#plugins)
-  - [✒️ Markdown](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-markdown)
-    - [Headers](https://github.com/FalixNodes-Software/Knowledge-base#headers)
-    - [Images](https://github.com/FalixNodes-Software/Knowledge-base#images)
-    - [Blockquote](https://github.com/FalixNodes-Software/Knowledge-base#blockquote)
-    - [Video](https://github.com/FalixNodes-Software/Knowledge-base#video)
-  - [📢️ Publishing](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-publishing)
-  - [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-building-and-testing-locally)
-    - [Running Natively](https://github.com/FalixNodes-Software/Knowledge-base#method-1-running-natively)
-    - [Running with Docker](https://github.com/FalixNodes-Software/Knowledge-base#method-2-running-with-docker)
+- [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
+  - [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
+  - [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
+  - [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
+    - [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
+    - [Plugin Options](https://github.com/FalixNodes-Software/KB-articles#plugins)
+  - [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
+    - [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
+    - [Images](https://github.com/FalixNodes-Software/KB-articles#images)
+    - [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
+    - [Video](https://github.com/FalixNodes-Software/KB-articles#video)
+  - [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
+  - [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-building-and-testing-locally)
+    - [Running Natively](https://github.com/FalixNodes-Software/KB-articles#method-1-running-natively)
+    - [Running with Docker](https://github.com/FalixNodes-Software/KB-articles#method-2-running-with-docker)
 
 ---
 
+## TODO
+
 <details>
 <summary>TODO</summary>
-
-## TODO
 
 - [ ] Improve embeds with author & date updated, etc
 - [ ] Instead of a single post layout use multiple for java + bedrock, plugins, getting started to reduce build time (if?)
