@@ -10,13 +10,11 @@ author:
     - Mocab
 ---
 
-## Introduction
-
 Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## Acquiring a Resource Pack
+## :mag: Acquiring a Resource Pack
 
 There are several popular websites where you can find a variety of resource packs for the Minecraft Bedrock Edition. Here are some of the most well-known ones:
 
@@ -31,7 +29,7 @@ You can also upload your own custom resource pack as well.
 
 > Ensure the resource pack is compatible with the version of Minecraft used and any addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
 
-## Installation
+## :hammer: Installation
 
 ### Obtaining the Pack Metadata
 
@@ -97,7 +95,7 @@ You can also upload your own custom resource pack as well.
 
 > If you have successfully added the resource pack, you should be prompted with a "Download Resource Pack?" popup the next time you join the server.
 
-## Configuration
+## :wrench: Configuration
 
 ### Enforcing the Resource Pack
 

@@ -10,13 +10,11 @@ author:
     - Mocab
 ---
 
-## Introduction
-
 Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## Acquiring a Resource Pack
+## :mag: Acquiring a Resource Pack
 
 ### Finding Resource Packs
 
@@ -77,7 +75,7 @@ This may be different according to the hosting platform used, however it often i
 
 3. To obtain a direct download link, add the end of the link replace `dl=0` with `dl=1`.
 
-## Configuration
+## :wrench: Configuration
 
 ### Adding the Download Link to the Server
 
