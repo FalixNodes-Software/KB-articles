@@ -12,17 +12,19 @@ author: Mocab
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Within your server list, choose a server.
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Click on the green "Start" button at the bottom of the console to turn on your server.
 
     {: .success}
 
-    > Once the status indicator above the console changes from "Starting" to "Online", your server should be on!
+    > Once the status indicator above the console changes color from yellow to green, your server should be on!
 
-4. Beside the status indicator, copy the string of characters after "Server IP:" that should look like `xxxxx.falixsrv.me`. This is your server address, which we will use to connect to your server.
+4. Beside your server name, click on "how to connect".
 
-    > If you wish to use an alternate address, or if the above does not work, click on "how to connect" to view an alternate IP.
+5. A popup should appear, copy the string of characters under "Your server IP is", it should look like `xxxxx.falixsrv.me`. This is your server address, which we will use to connect to your server.
+
+    > If you wish to use an alternate address, or if the above does not work, try using the alternate IP provided.
 
 ## Joining Your Server
 
