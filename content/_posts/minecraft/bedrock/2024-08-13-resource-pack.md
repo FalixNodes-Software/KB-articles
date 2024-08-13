@@ -51,13 +51,13 @@ You can also upload your own custom resource pack as well.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Within your server list, choose a server.
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/).
 
 4. Locate and open the "resource_packs" folder. You should notice two other folders called "chemistry" and "vanilla" within this folder. If so you are on the right track!
 
-5. Click on "Choose Files", then select and upload the `.zip` resource pack.
+5. Click on "Upload Files", then select and upload the `.zip` resource pack.
 
 6. Once the upload is complete, click on the 3 dots to the right of the uploaded `.zip` file. Then click "Unarchive". Once this process is completed, you may delete the `.zip` file as it is no longer needed.
 
@@ -105,7 +105,7 @@ By default, players will be prompted if they wish to download and install the re
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Within your server list, choose a server.
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
