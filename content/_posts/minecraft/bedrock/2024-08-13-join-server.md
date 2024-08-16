@@ -18,9 +18,9 @@ author: Mocab
 
     {: .success}
 
-    > Once the status indicator above the console changes color from yellow to green, your server should be on!
+    > Once the status indicator above the console changes color from orange to green, your server should be on!
 
-4. Beside your server name, click on "how to connect".
+4. Click on the blue "Connect" button at the top of the console.
 
 5. A popup should appear, copy the string of characters under "Your server with port is", it should look like `xxxxx.falixsrv.me:xxxxx`. This is your server address and port, which we will use to connect to your server.
 
