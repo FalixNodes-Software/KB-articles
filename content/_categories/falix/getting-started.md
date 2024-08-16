@@ -7,7 +7,7 @@ category: Getting-started
 tags:
     - General
 description: "Take a tour and familiarize yourself with Falix."
-icon: "assets/images/icons/categories/compass.svg"
+icon: "content/assets/images/categories/compass.svg"
 color: "#6943ec"
 cat_order: 0
 ---
