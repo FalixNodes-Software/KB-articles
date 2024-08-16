@@ -2,9 +2,9 @@
 layout: post
 title: Configuring server.properties
 category: Java
-tags: Server
+tags: Configuration
 description: Editing the commonly used attributes of the server.properties file to configure your Java server.
-permalink: /minecraft/java/server/server-properties
+permalink: /minecraft/java/configuration/server-properties
 author:
     - Kuroi
     - Mocab

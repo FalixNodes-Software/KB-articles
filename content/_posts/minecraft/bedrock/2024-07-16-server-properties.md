@@ -2,9 +2,9 @@
 layout: post
 title: Configuring server.properties
 category: Bedrock
-tags: Server
+tags: Configuration
 description: Editing the commonly used attributes of the server.properties file to configure your Java server.
-permalink: /minecraft/bedrock/server/server-properties
+permalink: /minecraft/bedrock/configuration/server-properties
 author:
     - Kuroi
     - Mocab
