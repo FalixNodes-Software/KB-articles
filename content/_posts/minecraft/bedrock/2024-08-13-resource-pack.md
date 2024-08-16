@@ -105,7 +105,7 @@ By default, players will be prompted if they wish to download and install the re
 
 2. Within your server list, choose a server.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
 4. Find and set `texturepack-required` to `Enabled`.
 
