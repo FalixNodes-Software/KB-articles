@@ -6,8 +6,9 @@ section: Minecraft
 category: Bedrock
 tags:
     - General
+    - Configuration
 description: "Dive into the world of Minecraft Bedrock and learn all there is."
-icon: "assets/images/icons/categories/mcbedrock.svg"
+icon: "content/assets/images/categories/mcbedrock.svg"
 color: "#66412c"
 cat_order: 2
 ---
