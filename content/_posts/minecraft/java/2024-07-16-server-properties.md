@@ -10,8 +10,6 @@ author:
     - Mocab
 ---
 
-## :scroll: Introduction:
-
 Understanding the [server.properties](https://server.properties) file is crucial for configuring and customizing your Minecraft server. This guide highlights the essential attributes within the file, enabling you to optimize and alter your server settings for the best gameplay experience.
 
 ## :pencil2: Accessing & Configuring server.properties
@@ -20,9 +18,9 @@ There are two possible methods to access server.properties, you may either direc
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). On the top navigation bar, hover over "Manage" then click on [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). On the top navigation bar, hover over "Server" then click on [Server Properties](https://client.falixnodes.net/server/properties).
 
 To edit a setting, depending on the type, you may have to select an option from the given dropdown or type in a string of values. Settings that only accept a `true` or `false` value are referred to as booleans, while settings that require a typed value are called strings. In boolean settings, `true` signifies enabled while `false` signifies disabled.
 
@@ -191,7 +189,7 @@ Sets the default required permission level to run `/function`, with 1 being the 
 Possible Values: `survival`, `creative`, `adventure`, `spectator`
 Default Value: `survival`
 
-This setting defines the default game mode for players joining the server, such as survival, creative, or adventur mode.
+This setting defines the default game mode for players joining the server, such as survival, creative, or adventure mode.
 
 ---
 
@@ -245,7 +243,7 @@ The name given to the world folder.
 Possible Values: String
 Default Value: ` `
 
-This setting allows specifying a seed for world generation, enabling the creation of specific world layouts or replicating previous worlds. In order for this change to take effect, old worlds must be deleted to allow one with the set seed to be generated.
+This setting allows specifying a seed for world generation, enabling the creation of specific world layouts or replicating previous worlds. In order for this change to take effect, old worlds must be deleted to allow one with the set seed to be generated. If unspecified, a random value is used.
 
 ---
 
@@ -343,7 +341,7 @@ The permission level to grant to server operators by default. With `1` being the
 Possible Values: Integer (minutes)
 Default Value: `0`
 
-This setting determines how long a player can be idle before being kicked from the server, helping to manage active player slots.
+This setting determines how long a player can be idle before being kicked from the server, helping to manage active player slots. If set to 0, players can idle indefinitely.
 
 ---
 
