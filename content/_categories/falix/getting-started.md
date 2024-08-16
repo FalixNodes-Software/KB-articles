@@ -5,7 +5,6 @@ permalink: falix/getting-started/
 section: Falix
 category: Getting-started
 tags:
-    - General
 description: "Take a tour and familiarize yourself with Falix."
 icon: "content/assets/images/categories/compass.svg"
 color: "#6943ec"
