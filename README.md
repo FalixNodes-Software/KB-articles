@@ -110,11 +110,12 @@ icon: book-bookmark
 | `description:` | A description for your guide, keep it concise, informative and interesting                                                   |
 | `permalink:`   | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                             |
 | `image:`       | A direct link to an image to be used as a thumbnail _(Optional)_                                                             |
-| `author:`      | Name of the current author and maintainer                                                                                    |
+| `author:`      | Name of the current author and maintainer. For multiple use the array format. Maximum limit of 3                             |
 | `icon:`        | Direct link to an icon. _(Optional)_                                                                                         |
 | `toc:`         | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                            |
 
 > Encompass your values in quotation marks if it contains symbols other than slashes `/` or hyphens `-`.
+> New authors must request for their github account to be manually added to display profile pictures.
 
 ### Modifications / Addon Options:
 
@@ -176,6 +177,7 @@ post_order: 1
 ### Headers
 
 Using "# Title of Article" isn't needed; the layout will automatically add the title of the article to the top of the guide. That being said, always use "## Subtitle" instead.
+It is recommended to a related Github flavored emoji at the beginning of main subtitles (## or h2) to improve user friendliness (such as: `## :earth_asia: Dynmap`). A list of all Github emojis can be found in a [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
 ### Ordered Lists (Steps)
 
