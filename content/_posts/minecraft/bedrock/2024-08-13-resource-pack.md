@@ -10,13 +10,11 @@ author:
     - Mocab
 ---
 
-## Introduction
-
 Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## Acquiring a Resource Pack
+## :mag: Acquiring a Resource Pack
 
 There are several popular websites where you can find a variety of resource packs for the Minecraft Bedrock Edition. Here are some of the most well-known ones:
 
@@ -31,7 +29,7 @@ You can also upload your own custom resource pack as well.
 
 > Ensure the resource pack is compatible with the version of Minecraft used and any addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
 
-## Installation
+## :hammer: Installation
 
 ### Obtaining the Pack Metadata
 
@@ -51,13 +49,13 @@ You can also upload your own custom resource pack as well.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Within your server list, choose a server.
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/).
 
 4. Locate and open the "resource_packs" folder. You should notice two other folders called "chemistry" and "vanilla" within this folder. If so you are on the right track!
 
-5. Click on "Choose Files", then select and upload the `.zip` resource pack.
+5. Click on "Upload Files", then select and upload the `.zip` resource pack.
 
 6. Once the upload is complete, click on the 3 dots to the right of the uploaded `.zip` file. Then click "Unarchive". Once this process is completed, you may delete the `.zip` file as it is no longer needed.
 
@@ -97,7 +95,7 @@ You can also upload your own custom resource pack as well.
 
 > If you have successfully added the resource pack, you should be prompted with a "Download Resource Pack?" popup the next time you join the server.
 
-## Configuration
+## :wrench: Configuration
 
 ### Enforcing the Resource Pack
 
@@ -105,9 +103,9 @@ By default, players will be prompted if they wish to download and install the re
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Within your server list, choose a server.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
 4. Find and set `texturepack-required` to `Enabled`.
 
