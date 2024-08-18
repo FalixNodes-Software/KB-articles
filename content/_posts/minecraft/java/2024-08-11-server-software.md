@@ -20,7 +20,6 @@ Selecting the right Minecraft server jar is essential for optimizing performance
 4. [Spigot](https://www.spigotmc.org/) *(Spigot is a modified version of CraftBukkit with hundreds of improvements and optimizations that can only make CraftBukkit shrink in shame.)*
 5. [SpongeVanilla](https://spongepowered.org/) *(SpongeVanilla is the implementation of the Sponge API on top of Vanilla Minecraft.)*
 
-
 ### Paper
 Paper is an extremely popular and widely used server software based on Spigot, offering improved performance, extensive plugin support and more configurations.
 
@@ -35,8 +34,6 @@ Spigot is the most widely used server software based on Bukkit, known for its pe
 
 ### SpongeVanilla
 SpongeVanilla is a standalone server jar that implements the SpongeAPI without Forge mods, offering a pure plugin-based experience similar to other plugin-oriented jars.
-
-
 
 ## Modded Server Jars
 1. [Fabric](https://fabricmc.net/) *(Fabric is a modular, lightweight mod loader for Minecraft)*
@@ -63,9 +60,6 @@ Forge is the classic modding framework for Minecraft, widely used for extensive 
 Quilt is a lightweight, modular modding framework that builds on Fabric, offering enhanced stability and mod compatibility.
 - **Enhanced Mod Compatibility**: Quilt focuses on improving mod compatibility and reducing conflicts between mods.
 - **Modular Design**: Its modular approach allows for a more customizable server setup, potentially improving performance.
-
-
-
 
 ## Hybrid Server Jars
 Hybrid servers combine the capabilities of both mod and plugin servers, allowing for a versatile environment where both can coexist.
@@ -101,9 +95,6 @@ Magma is a hybrid server software that allows the combination of Forge mods with
 {: .warning}
 > **Note on Magma**: As of **November 15, 2023**, the owner of **MagmaFoundation** decided to **shut down the project**.
 
-
-
-
 ## Proxies
 Proxies are server software that allow multiple Minecraft servers to be linked together, providing features like server networks, cross-server communication, and improved player management. Here are some of the most popular proxies:
 
@@ -129,18 +120,13 @@ BungeeCord is one of the most widely used Minecraft proxies, enabling the linkin
 - **Ease of Use**: BungeeCord is straightforward to set up and manage, making it a popular choice for networked servers.
 - **Cross-Server Features**: Supports cross-server chat, global player lists, and more.
 
-
 {: .warning}
 > BungeeCord is no longer actively maintained and has many exploits or issues. It is recommended to use Velocity instead.
 
-
-
 ## Conclusion
 - **Stable**: Opt for **Paper** if you want a balance of performance and compatibility with a wide range of plugins.
-- **Best Performance**: Choose **Pufferfish** for a performance focused server.
+- **Best Performance**: Choose **Pufferfish** for a purely performance focused server.
 - **Extra Features**: Use **Purpur** if you want additional gameplay features and customization while maintaining the performance base of Pufferfish.
 - **Modloaders**: Choose **Fabric** for a large modding ecosystem with performance benefits, **NeoForge** for extensive mod support and classic modded gameplay.
 - **Hybrid**: Choose **Arclight** or **SpongeForge** based on your specific needs for modding and plugin compatibility.
 - **Proxies**: Use **Velocity** - a modern, high performance proxy with its own plugin ecosystem.
-
-<!-- SpongeForge can be considered hybrid as it combines the capabilities of Forge, which is a modding platform, with Sponge which is a plugin API -->
