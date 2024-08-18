@@ -5,16 +5,16 @@ category: Java
 tags: Configuration
 description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
 permalink: /minecraft/java/configuration/resource-pack
-author: "Kuroi Jigoku & Mocab"
+author:
+    - Kuroi
+    - Mocab
 ---
-
-## Introduction
 
 Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## Acquiring a Resource Pack
+## :mag: Acquiring a Resource Pack
 
 ### Finding Resource Packs
 
@@ -75,15 +75,15 @@ This may be different according to the hosting platform used, however it often i
 
 3. To obtain a direct download link, add the end of the link replace `dl=0` with `dl=1`.
 
-## Configuration
+## :wrench: Configuration
 
 ### Adding the Download Link to the Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down and choose a server, then click on "Play".
+2. Within your server list, choose a server.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
 4. Find and set `resource-pack` to the direct download link we obtained before.
 
