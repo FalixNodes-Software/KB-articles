@@ -30,15 +30,15 @@ Snapshots are a testing version of Minecraft released by Mojang. They contain ne
 
 [Spigot](https://www.spigotmc.org/) is a modified version of Bukkit with improvements and optimizations. We **do not** recommend using this software as there are many better alternatives, such as Paper and Purpur. Furthermore, it changes many aspects of the game, which may be a turn-off for admins looking for a vanilla experience.
 
-### Paper:
+### Paper <i class="recommended"></i>:
 
 [Paper](https://papermc.io/) is an extremely popular and widely used server software based on Spigot, offering improved performance, extensive plugin support and more configurations. It is recommended to use this software both due to its performance gains and its support for Bukkit, Spigot and its own plugin API. The only downside is that Paper aims to fix many of the game's bugs and inconsistencies, providing a slightly non-vanilla experience. However, many of these changes can still be configured to be more vanilla-like and often only affect very technical players.
 
-### Purpur:
+### Purpur <i class="recommended"></i>:
 
 [Purpur](https://purpurmc.org/) is a fork of Paper; however, it also includes Pufferfish's optimizations on top of its own configuration additions. Making it a great choice for administrators looking for more customizable server software with the added bonus of both the optimizations from Paper and Pufferfish. In addition, it provides support for Spigot, Bukkit, and Paper plugins. We recommend using this server software. Unfortunately just like Paper, Purpur does not provide a true vanilla experience although the changes are minute and can be adjusted.
 
-### Pufferfish:
+### Pufferfish <i class="recommended"></i>:
 
 [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) is a server software based on Paper, designed to tremendously enhance server performance while maintaining parity with Bukkit, Spigot and Paper plugins and features. Unfortunately, just like Paper and Purpur, Pufferfish does not provide a true vanilla experience, but as mentioned before, these changes are minute and can be adjusted.
 
@@ -48,11 +48,11 @@ Snapshots are a testing version of Minecraft released by Mojang. They contain ne
 
 ## Modded Server Jars:
 
-### Fabric:
+### Fabric <i class="recommended"></i>:
 
 [Fabric](https://fabricmc.net/) is a lightweight and modern modding framework designed for Minecraft, known for its large ecosystem of game-optimizing mods, its support for a wide range of complex mods and its regular updates. We recommend using this software in addition to a few optimization mods for the best vanilla experience.
 
-### NeoForge:
+### NeoForge <i class="recommended"></i>:
 
 [NeoForge](https://neoforged.net/) is a modern continuation of the Forge project, tailored to be more modular and maintainable. It's built to ensure compatibility with older Forge mods while improving performance and maintaining stability.
 
@@ -96,7 +96,7 @@ Hybrid servers combine the capabilities of both mod and plugin servers, allowing
 
 Proxies are server software that allow multiple Minecraft servers to be linked together, providing features like server networks, cross-server communication, and improved player management. Here are some of the most popular proxies:
 
-### Velocity:
+### Velocity <i class="recommended"></i>:
 
 [Velocity](https://papermc.io/software/velocity) is a modern, high performance proxy designed with performance and stability in mind, a solid alternative to Waterfall or BungeeCord with its own plugin ecosystem. We recommend using this server software.
 
