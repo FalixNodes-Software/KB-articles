@@ -35,7 +35,7 @@ You can also upload your own custom resource pack as well.
 
 1. Download the resource pack. If the file is in the `.mcpack` format, rename the file extension to the `.zip` format.
 
-    ![Renaming to zip](/content/assets/images/posts/rename.webp)
+    ![Renaming to zip](/content/assets/images/posts/resource-pack/rename.webp)
 
 2. Extract the file to reveal it's content.
 
@@ -80,12 +80,12 @@ You can also upload your own custom resource pack as well.
 
 11. Set the value of "pack_id" to the "uuid" we copied before.
 
-    ![manifest-packid](/content/assets/images/posts/manifest-packid.webp)
-    ![pack id](/content/assets/images/posts/BedrockPackID.webp)
+    ![manifest-packid](/content/assets/images/posts/resource-pack/manifest-packid.webp)
+    ![pack id](/content/assets/images/posts/resource-pack/BedrockPackID.webp)
 
 12. Replace the `version` value with the "version" provided from the "manifest.json" file.
-    ![manifest-ver](/content/assets/images/posts/manifest-ver.webp)
-    ![version](/content/assets/images/posts/BedrockResourceVer.webp)
+    ![manifest-ver](/content/assets/images/posts/resource-pack/manifest-ver.webp)
+    ![version](/content/assets/images/posts/resource-pack/BedrockResourceVer.webp)
 
 13. Save the file by clicking on "Save File".
 
