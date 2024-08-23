@@ -186,6 +186,14 @@ When typing out steps using ordered lists, make sure to separate each step with 
 
 If you're adding an image to the files, use a path like `content/assets/images/posts/...`.
 
+### Colored Text
+
+When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can often be seen on different buttons such as Restart, Save File, Delete, Connect, etc. It is a good idea to color these words with the same color as can be seen in the Dashboard to make the guides more user friendly and vibrant. Fortunately this can be done by making the word **bold** (`** **`) and immediately following it with an inline attribute with the color as a style name like so:
+
+```
+**Connect**{: .blue } **Delete**{: .red } **Restart**{: .orange } **Save File**{: .green }
+```
+
 ### Recommended
 
 If you want to add a recommended symbol beside a server software or such, use:
