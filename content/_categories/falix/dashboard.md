@@ -5,6 +5,7 @@ permalink: falix/dashboard/
 section: Falix
 category: Dashboard
 tags:
+    - File-management
     - Server
 description: "Discover all the features of our Dashboard and utilize them to the fullest extent."
 icon: "content/assets/images/categories/browser.svg"

@@ -186,6 +186,14 @@ When typing out steps using ordered lists, make sure to separate each step with 
 
 If you're adding an image to the files, use a path like `content/assets/images/posts/...`.
 
+### Recommended
+
+If you want to add a recommended symbol beside a server software or such, use:
+
+```
+<i class="recommended"></i>
+```
+
 ### Blockquote
 
 There are 4 custom blockquote, which are each used in different context:
