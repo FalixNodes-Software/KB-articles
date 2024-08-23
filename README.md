@@ -6,22 +6,22 @@ What's all this? You're currently viewing the source code that makes up the [Kno
 
 ## Table of content
 
-- [TODO](https://github.com/FalixNodes-Software/KB-articles#todo)
-- [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
-  - [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
-  - [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
-  - [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
-    - [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
-    - [Plugin Options](https://github.com/FalixNodes-Software/KB-articles#plugins)
-  - [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
-    - [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
-    - [Images](https://github.com/FalixNodes-Software/KB-articles#images)
-    - [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
-    - [Video](https://github.com/FalixNodes-Software/KB-articles#video)
-  - [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
-  - [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-building-and-testing-locally)
-    - [Running Natively](https://github.com/FalixNodes-Software/KB-articles#method-1-running-natively)
-    - [Running with Docker](https://github.com/FalixNodes-Software/KB-articles#method-2-running-with-docker)
+-   [TODO](https://github.com/FalixNodes-Software/KB-articles#todo)
+-   [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
+    -   [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
+    -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
+    -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
+        -   [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
+        -   [Plugin Options](https://github.com/FalixNodes-Software/KB-articles#plugins)
+    -   [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
+        -   [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
+        -   [Images](https://github.com/FalixNodes-Software/KB-articles#images)
+        -   [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
+        -   [Video](https://github.com/FalixNodes-Software/KB-articles#video)
+    -   [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
+    -   [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-building-and-testing-locally)
+        -   [Running Natively](https://github.com/FalixNodes-Software/KB-articles#method-1-running-natively)
+        -   [Running with Docker](https://github.com/FalixNodes-Software/KB-articles#method-2-running-with-docker)
 
 ---
 
@@ -29,28 +29,28 @@ What's all this? You're currently viewing the source code that makes up the [Kno
 
 <details>
 
-- [ ] Improve embeds with author & date updated, etc
-- [ ] Instead of a single post layout use multiple for java + bedrock, plugins, getting started to reduce build time (if?)
-- [ ] Add video thumbnails
-- [ ] Use standard theme colors
-- [ ] RSS feed
-- [ ] Sitemap
-- [ ] Expand post page width
-- [ ] Auto toggle subcategories filter based on url
-- [ ] Add hero image to home and category pages
-- [ ] Move away from cluttered CSS CDN
-- [ ] Revisit lighthouse
-- [ ] Admin panel
-- [ ] Multilingual support
-- [ ] Use other icon styles (duotone, light, etc)
-- [ ] Make category enlarge on hover
-- [ ] Improve aside category nav (group sections)
-- [ ] Use shadows
-- [ ] Github icon author
-- [ ] Add color contrast between boxes and background
-- [ ] Use separate js files (?)
-- [ ] Get rid of & nesting in scss
-- [ ] Use custom icons for different categories
+-   [ ] Improve embeds with author & date updated, etc
+-   [ ] Instead of a single post layout use multiple for java + bedrock, plugins, getting started to reduce build time (if?)
+-   [ ] Add video thumbnails
+-   [ ] Use standard theme colors
+-   [ ] RSS feed
+-   [ ] Sitemap
+-   [ ] Expand post page width
+-   [ ] Auto toggle subcategories filter based on url
+-   [ ] Add hero image to home and category pages
+-   [ ] Move away from cluttered CSS CDN
+-   [ ] Revisit lighthouse
+-   [ ] Admin panel
+-   [ ] Multilingual support
+-   [ ] Use other icon styles (duotone, light, etc)
+-   [ ] Make category enlarge on hover
+-   [ ] Improve aside category nav (group sections)
+-   [ ] Use shadows
+-   [ ] Github icon author
+-   [ ] Add color contrast between boxes and background
+-   [ ] Use separate js files (?)
+-   [ ] Get rid of & nesting in scss
+-   [ ] Use custom icons for different categories
 
 </details>
 
@@ -60,13 +60,13 @@ Want to help contribute to the Knowledge base? Write or update an article!
 
 ## 🛡️ Requirements
 
-- The guides must be clear and well explained for the user to understand.
-- Fact check and make sure the information you're providing is accurate.
-- Proofread for any grammatical and spelling mistakes.
-- Validate markdown and html syntax.
-- Provide proper frontmatter.
-- Use valid links and images.
-- Make sure guides are up-to-date.
+-   The guides must be clear and well explained for the user to understand.
+-   Fact check and make sure the information you're providing is accurate.
+-   Proofread for any grammatical and spelling mistakes.
+-   Validate markdown and html syntax.
+-   Provide proper frontmatter.
+-   Use valid links and images.
+-   Make sure guides are up-to-date.
 
 ## ✍️ Creating an Article
 
@@ -86,10 +86,10 @@ Make sure the frontmatter is setup properly; this is usually at the top of every
 
 ### Default Options
 
-```markdown
+```Markdown
 ---
 layout: post
-title:  "Title of Article"
+title: "Title of Article"
 category: Java
 tags: General
 description: "Here is the description of your guide"
@@ -120,10 +120,10 @@ icon: book-bookmark
 
 The below frontmatter options are extra options for **Minecraft modifications and addons (plugins, mods and data-packs)** in addition to the default options:
 
-```markdown
+```Markdown
 ---
 layout: post
-title:  "Title of Article"
+title: "Title of Article"
 category: Modifications
 tags: General
 description: "Here is the description of your guide"
@@ -149,7 +149,7 @@ mod-url: "link"
 
 If you wish to include a post from an existing category in the `Getting started` category, use these extra frontmatter options:
 
-```markdown
+```Markdown
 ---
 category:
     - Java
@@ -190,7 +190,7 @@ If you're adding an image to the files, use a path like `content/assets/images/p
 
 If you want to add a recommended symbol beside a server software or such, use:
 
-```
+```html
 <i class="recommended"></i>
 ```
 
@@ -202,7 +202,7 @@ There are 4 custom blockquote, which are each used in different context:
 
 Used to add additional information that does not fit in its own paragraph.
 
-```jekyll
+```Markdown
 > hi this is blockquote
 ```
 
@@ -210,7 +210,7 @@ Used to add additional information that does not fit in its own paragraph.
 
 Used to signify success messages or completion.
 
-```jekyll
+```Markdown
 {: .success}
 
 > hi this is blockquote
@@ -220,7 +220,7 @@ Used to signify success messages or completion.
 
 Used as a warning to avoid something.
 
-```jekyll
+```Markdown
 {: .warning}
 
 > hi this is blockquote
@@ -230,7 +230,7 @@ Used as a warning to avoid something.
 
 Used as a way to display common errors or issues.
 
-```jekyll
+```Markdown
 {: .error}
 
 > hi this is blockquote
@@ -240,13 +240,8 @@ Used as a way to display common errors or issues.
 
 [Learn how to embed a YouTube video](https://support.google.com/youtube/answer/171780?hl=en)
 
-```jekyll
-
-<video controls preload="auto"><source
- src="https://example.com/video.webm" type="video/webm"
- src="https://example.com/video.mp4" type="video/mp4"
- /></video>
-
+```html
+<video controls preload="auto"><source src="https://example.com/video.webm" type="video/webm" src="https://example.com/video.mp4" type="video/mp4" /></video>
 ```
 
 > If you're adding a video to the files, use a path like `/assets/videos/posts/...`.
@@ -276,7 +271,7 @@ While it's installing, download a copy of this repository.
 
 Once Jekyll is fully installed, open command prompt and change directory (`cd`) to the downloaded repository. Then type and run the following command:
 
-```jekyll
+```Shell
 
 bundle exec jekyll serve --livereload --watch
 
@@ -295,25 +290,21 @@ Once you see a done message, go to <http://localhost:4000/> in your preferred we
 Since we will be using Docker, you'll need to install it [here](https://docs.docker.com/get-docker/).
 While it's installing, download a copy of this repository, and create a `docker-compose.yml` file in it's root with the following content:
 
-```jekyll
-
+```YAML
 services:
 jekyll:
 volumes: - "./:/srv/jekyll" - "./vendor/bundle:/usr/local/bundle"
 ports: - "4000:4000" - "35729:35729"
 image: jekyll/jekyll
 command: jekyll serve --livereload --watch --force_polling
-
 ```
 
 > If this is the first time running the Knowledge Base, use `bundle install` instead of `jekyll serve --livereload --watch --force_polling`. Once everything is installed you may continue using `jekyll serve --livereload --watch --force_polling`.
 
 Once Docker is fully installed, run it. Then open command prompt and change directory (`cd`) to the downloaded repository, and type and run the following command:
 
-```docker
-
+```Shell
 docker-compose up
-
 ```
 
 Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
