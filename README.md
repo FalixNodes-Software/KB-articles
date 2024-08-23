@@ -271,7 +271,7 @@ While it's installing, download a copy of this repository.
 
 Once Jekyll is fully installed, open command prompt and change directory (`cd`) to the downloaded repository. Then type and run the following command:
 
-```Shell
+```ShellSession
 
 bundle exec jekyll serve --livereload --watch
 
@@ -303,7 +303,7 @@ command: jekyll serve --livereload --watch --force_polling
 
 Once Docker is fully installed, run it. Then open command prompt and change directory (`cd`) to the downloaded repository, and type and run the following command:
 
-```Shell
+```ShellSession
 docker-compose up
 ```
 
