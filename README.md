@@ -4,31 +4,30 @@
 
 What's all this? You're currently viewing the source code that makes up the [Knowledge Base](https://kb.falixnodes.net/). It's all built on Jekyll, a static website generator we use.
 
-## Table of content:
+## Table of content
 
--   [TODO](https://github.com/FalixNodes-Software/Knowledge-base#todo)
--   [Publishing a New Article](https://github.com/FalixNodes-Software/Knowledge-base#publishing-a-new-article)
-    -   [🛡️ Requirements](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-requirements)
-    -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-creating-an-article)
-    -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-frontmatter)
-        -   [Default Options](https://github.com/FalixNodes-Software/Knowledge-base#default-options)
-        -   [Plugin Options](https://github.com/FalixNodes-Software/Knowledge-base#plugins)
-    -   [✒️ Markdown](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-markdown)
-        -   [Headers](https://github.com/FalixNodes-Software/Knowledge-base#headers)
-        -   [Images](https://github.com/FalixNodes-Software/Knowledge-base#images)
-        -   [Blockquote](https://github.com/FalixNodes-Software/Knowledge-base#blockquote)
-        -   [Video](https://github.com/FalixNodes-Software/Knowledge-base#video)
-    -   [📢️ Publishing](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-publishing)
-    -   [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/Knowledge-base#%EF%B8%8F-building-and-testing-locally)
-        -   [Running Natively](https://github.com/FalixNodes-Software/Knowledge-base#method-1-running-natively)
-        -   [Running with Docker](https://github.com/FalixNodes-Software/Knowledge-base#method-2-running-with-docker)
+-   [TODO](https://github.com/FalixNodes-Software/KB-articles#todo)
+-   [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
+    -   [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
+    -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
+    -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
+        -   [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
+        -   [Plugin Options](https://github.com/FalixNodes-Software/KB-articles#plugins)
+    -   [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
+        -   [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
+        -   [Images](https://github.com/FalixNodes-Software/KB-articles#images)
+        -   [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
+        -   [Video](https://github.com/FalixNodes-Software/KB-articles#video)
+    -   [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
+    -   [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-building-and-testing-locally)
+        -   [Running Natively](https://github.com/FalixNodes-Software/KB-articles#method-1-running-natively)
+        -   [Running with Docker](https://github.com/FalixNodes-Software/KB-articles#method-2-running-with-docker)
 
 ---
 
-<details>
-<summary>TODO</summary>
-
 ## TODO
+
+<details>
 
 -   [ ] Improve embeds with author & date updated, etc
 -   [ ] Instead of a single post layout use multiple for java + bedrock, plugins, getting started to reduce build time (if?)
@@ -85,12 +84,12 @@ Then start writing the article in [Markdown](https://www.markdownguide.org/getti
 
 Make sure the frontmatter is setup properly; this is usually at the top of every article.
 
-### Default Options:
+### Default Options
 
-```
+```Markdown
 ---
 layout: post
-title:  "Title of Article"
+title: "Title of Article"
 category: Java
 tags: General
 description: "Here is the description of your guide"
@@ -117,14 +116,14 @@ icon: book-bookmark
 > Encompass your values in quotation marks if it contains symbols other than slashes `/` or hyphens `-`.
 > New authors must request for their github account to be manually added to display profile pictures.
 
-### Modifications / Addon Options:
+### Modifications / Addon Options
 
 The below frontmatter options are extra options for **Minecraft modifications and addons (plugins, mods and data-packs)** in addition to the default options:
 
-```
+```Markdown
 ---
 layout: post
-title:  "Title of Article"
+title: "Title of Article"
 category: Modifications
 tags: General
 description: "Here is the description of your guide"
@@ -146,11 +145,11 @@ mod-url: "link"
 | `mod-author:` | Name of the mod's author or company. You may use a comma `,` to list a maximum of 3 authors |
 | `mod-url:`    | A link to the mod's official page or website                                                |
 
-### Getting Started Options:
+### Getting Started Options
 
 If you wish to include a post from an existing category in the `Getting started` category, use these extra frontmatter options:
 
-```
+```Markdown
 ---
 category:
     - Java
@@ -187,11 +186,19 @@ When typing out steps using ordered lists, make sure to separate each step with 
 
 If you're adding an image to the files, use a path like `content/assets/images/posts/...`.
 
+### Colored Text
+
+When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can often be seen on different buttons such as Restart, Save File, Delete, Connect, etc. It is a good idea to color these words with the same color as can be seen in the Dashboard to make the guides more user friendly and vibrant. Fortunately this can be done by making the word **bold** (`** **`) and immediately following it with an inline attribute with the color as a style name like so:
+
+```
+**Connect**{: .blue } **Delete**{: .red } **Restart**{: .orange } **Save File**{: .green }
+```
+
 ### Recommended
 
 If you want to add a recommended symbol beside a server software or such, use:
 
-```
+```html
 <i class="recommended"></i>
 ```
 
@@ -203,7 +210,7 @@ There are 4 custom blockquote, which are each used in different context:
 
 Used to add additional information that does not fit in its own paragraph.
 
-```
+```Markdown
 > hi this is blockquote
 ```
 
@@ -211,7 +218,7 @@ Used to add additional information that does not fit in its own paragraph.
 
 Used to signify success messages or completion.
 
-```
+```Markdown
 {: .success}
 
 > hi this is blockquote
@@ -221,7 +228,7 @@ Used to signify success messages or completion.
 
 Used as a warning to avoid something.
 
-```
+```Markdown
 {: .warning}
 
 > hi this is blockquote
@@ -231,7 +238,7 @@ Used as a warning to avoid something.
 
 Used as a way to display common errors or issues.
 
-```
+```Markdown
 {: .error}
 
 > hi this is blockquote
@@ -241,13 +248,8 @@ Used as a way to display common errors or issues.
 
 [Learn how to embed a YouTube video](https://support.google.com/youtube/answer/171780?hl=en)
 
-```
-
-<video controls preload="auto"><source
- src="https://example.com/video.webm" type="video/webm"
- src="https://example.com/video.mp4" type="video/mp4"
- /></video>
-
+```html
+<video controls preload="auto"><source src="https://example.com/video.webm" type="video/webm" src="https://example.com/video.mp4" type="video/mp4" /></video>
 ```
 
 > If you're adding a video to the files, use a path like `/assets/videos/posts/...`.
@@ -277,13 +279,13 @@ While it's installing, download a copy of this repository.
 
 Once Jekyll is fully installed, open command prompt and change directory (`cd`) to the downloaded repository. Then type and run the following command:
 
-```
+```ShellSession
 
 bundle exec jekyll serve --livereload --watch
 
 ```
 
-Once you see a done message, go to http://localhost:4000/ in your preferred web browser.
+Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
 
 </details>
 
@@ -296,28 +298,24 @@ Once you see a done message, go to http://localhost:4000/ in your preferred web 
 Since we will be using Docker, you'll need to install it [here](https://docs.docker.com/get-docker/).
 While it's installing, download a copy of this repository, and create a `docker-compose.yml` file in it's root with the following content:
 
-```
-
+```YAML
 services:
 jekyll:
 volumes: - "./:/srv/jekyll" - "./vendor/bundle:/usr/local/bundle"
 ports: - "4000:4000" - "35729:35729"
 image: jekyll/jekyll
 command: jekyll serve --livereload --watch --force_polling
-
 ```
 
 > If this is the first time running the Knowledge Base, use `bundle install` instead of `jekyll serve --livereload --watch --force_polling`. Once everything is installed you may continue using `jekyll serve --livereload --watch --force_polling`.
 
 Once Docker is fully installed, run it. Then open command prompt and change directory (`cd`) to the downloaded repository, and type and run the following command:
 
-```
-
+```ShellSession
 docker-compose up
-
 ```
 
-Once you see a done message, go to http://localhost:4000/ in your preferred web browser.
+Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
 
 </details>
 
@@ -326,5 +324,4 @@ Once you see a done message, go to http://localhost:4000/ in your preferred web 
 ---
 
 > All PRs are closed if inactive for a long period of time, usually about 3 weeks to a month.
-
 > Theme by [gustavoquinalha](https://github.com/gustavoquinalha/jekyll-help-center-theme). The license can be found [here](https://github.com/gustavoquinalha/jekyll-help-center-theme/blob/master/LICENSE.txt).
