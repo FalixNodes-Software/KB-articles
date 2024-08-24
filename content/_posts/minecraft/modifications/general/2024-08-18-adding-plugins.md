@@ -46,9 +46,9 @@ Plugins are often hosted on modding platforms, these are websites that contain a
 
     > As mentioned above, Spigot and Bukkit plugins are both supported within the Paper and Purpur server software.
 
-5. To look for plugins, type the plugin name in the "Search Plugins" field, then click on "Search".
+5. To look for plugins, type the plugin name in the "Search Plugins" field, then click on "**Search**{: .blue }".
 
-6. Locate your plugin within the search results, then click on "Install" to download the plugin to your server.
+6. Locate your plugin within the search results, then click on "**Install**{: .blue }" to download the plugin to your server.
 
 7. (Re)start your server to apply the plugin.
 
@@ -64,7 +64,7 @@ Plugins are often hosted on modding platforms, these are websites that contain a
 
 5. Download the plugin from it's official page. Make sure to select the version and plugin type supported by your server.
 
-6. In the Dashboard, click on "Choose Files".
+6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
 7. Find the downloaded plugin and select it, then upload it to your server.
 

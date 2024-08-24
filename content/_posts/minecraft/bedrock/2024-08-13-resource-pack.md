@@ -55,7 +55,7 @@ You can also upload your own custom resource pack as well.
 
 4. Locate and open the "resource_packs" folder. You should notice two other folders called "chemistry" and "vanilla" within this folder. If so you are on the right track!
 
-5. Click on "Upload Files", then select and upload the `.zip` resource pack.
+5. Click on "**Upload Files**{: .blue }", then select and upload the `.zip` resource pack.
 
 6. Once the upload is complete, click on the 3 dots to the right of the uploaded `.zip` file. Then click "Unarchive". Once this process is completed, you may delete the `.zip` file as it is no longer needed.
 
@@ -87,7 +87,7 @@ You can also upload your own custom resource pack as well.
     ![manifest-ver](/content/assets/images/posts/resource-pack/manifest-ver.webp)
     ![version](/content/assets/images/posts/resource-pack/BedrockResourceVer.webp)
 
-13. Save the file by clicking on "Save File".
+13. Save the file by clicking on "**Save File**{: .green }".
 
 14. (Re)start your server.
 
@@ -109,6 +109,6 @@ By default, players will be prompted if they wish to download and install the re
 
 4. Find and set `texturepack-required` to `Enabled`.
 
-5. To save your changes, click on "Submit" at the top of the list.
+5. To save your changes, click on "**Submit**{: .blue }" at the top of the list.
 
 6. (Re)start your server.

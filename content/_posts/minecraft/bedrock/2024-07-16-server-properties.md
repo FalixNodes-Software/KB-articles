@@ -24,7 +24,7 @@ There are two possible methods to access server.properties, you may either direc
 
 To edit a setting, depending on the type, you may have to select an option from the given dropdown or type in a string of values. Settings that only accept a `true` or `false` value are referred to as booleans, while settings that require a typed value are called strings. In boolean settings, `true` signifies enabled while `false` signifies disabled.
 
-To save your changes, simply click on "Submit" at the top of the properties list.
+To save your changes, simply click on "**Submit**{: .blue }" at the top of the properties list.
 
 ### :wrench: Configurations:
 

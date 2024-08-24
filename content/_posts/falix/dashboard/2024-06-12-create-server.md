@@ -24,6 +24,8 @@ toc: false
 
 4. Ensure you tick and agree to the [Minecraft End User License Agreement (EULA)](https://www.minecraft.net/en-us/eula).
 
+5. Click on "**Create**{: .green }" to create your server.
+
 {: .success}
 
-> Your server has been created!
+> Your server should appear in your server list when you see "Your server has been created successfully".

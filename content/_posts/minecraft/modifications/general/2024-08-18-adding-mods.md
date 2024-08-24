@@ -47,9 +47,9 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Mods](https://client.falixnodes.net/server/mods).
 
-4. To look for mods, type the mod name in the "Search Mods" field, then click on "Search".
+4. To look for mods, type the mod name in the "Search Mods" field, then click on "**Search**{: .blue }".
 
-5. Locate your mod within the search results, then click on "Install" to download the mod to your server.
+5. Locate your mod within the search results, then click on "**Install**{: .blue }" to download the mod to your server.
 
 6. (Re)start your server to apply the mod.
 
@@ -65,7 +65,7 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 5. Download the mod from it's official page. Make sure to select the version and mod loader matching your server.
 
-6. In the Dashboard, click on "Choose Files".
+6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
 7. Find the downloaded mod and select it, then upload it to your server.
 
