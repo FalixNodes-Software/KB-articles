@@ -6,6 +6,9 @@ tags: General
 permalink: minecraft/java/general/join-server
 description: Learn how to connect and join your server through the Minecraft launcher.
 author: Mocab
+
+getting-started-tag: Minecraft
+post_order: 3
 ---
 
 ## Starting Your Server

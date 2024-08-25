@@ -8,6 +8,9 @@ permalink: /minecraft/java/configuration/server-software
 author:
     - Lovinoes
     - Mocab
+
+getting-started-tag: Minecraft
+post_order: 2
 ---
 
 Selecting the right Minecraft server jar is essential for optimizing performance, game-play features, and ensuring compatibility with plugins and mods. Each server jar offers unique benefits and trade-offs, making the choice dependent on your specific needs. This guide covers a wide-range of options. Whether you're looking for high performance, extensive mod support, or hybrid software, this guide will help you make an informed decision.

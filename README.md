@@ -151,17 +151,15 @@ If you wish to include a post from an existing category in the `Getting started`
 
 ```Markdown
 ---
-category:
-    - Java
-    - Getting-started
+getting-started-tag: General
 post_order: 1
 ---
 ```
 
-| Metadata     | Description                                                                                                                 |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| `category`   | Can be turned into an array to include an extra category. `Getting-started` must always be the second category in the array |
-| `post_order` | Order of the post within the Getting-started category                                                                       |
+| Metadata              | Description                                                                        |
+| --------------------- | ---------------------------------------------------------------------------------- |
+| `getting-started-tag` | Functionally the same as `tags:` but specific to the getting started category only |
+| `post_order`          | Order of the post within the Getting-started category                              |
 
 </details>
 

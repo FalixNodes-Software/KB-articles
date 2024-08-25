@@ -7,6 +7,9 @@ permalink: falix/dashboard/server/create-server
 description: Learn how to create your very first server.
 author: Mocab
 toc: false
+
+getting-started-tag: General
+post_order: 1
 ---
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
