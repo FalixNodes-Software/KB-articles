@@ -11,7 +11,11 @@ toc: true
 
 # how to upload a world to the server.
 
-## How to upload the world to the server using the File Manenger.
+## How to upload your world using the worlds page
+
+//work in progress
+
+## How to upload your world using the File Manenger.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -37,7 +41,7 @@ toc: true
 
 The server will now use your uploaded world as the new game world, replacing the previously generated one. Make sure your custom world files are correctly formatted and compatible with your server's version and type to ensure proper functioning.
 
-## How to upload the world to the server using SFTP.
+## How to upload your world using SFTP.
 
 {: .info}
 
@@ -66,6 +70,9 @@ The server will now use your uploaded world as the new game world, replacing the
 8. Restart your server for the changes to take effect.
 
 The server will now use your uploaded world as the new game world, replacing the previously generated one. Make sure your custom world files are correctly formatted and compatible with your server's version and type to ensure proper functioning.
+
+
+
 
 # How to download a world from the server.
 
