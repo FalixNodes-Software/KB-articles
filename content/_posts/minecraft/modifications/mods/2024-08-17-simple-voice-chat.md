@@ -40,7 +40,7 @@ Simple Voice Chat is a plugin and mod that introduces proximity-based voice chat
 
 5. Download the mod from the official [download](https://modrinth.com/plugin/simple-voice-chat/versions) page. Make sure to select the version and mod loader matching your server.
 
-6. In the Dashboard, click on "Upload Files".
+6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
 7. Locate the downloaded mod and select it, then upload it to your server.
 
@@ -60,6 +60,6 @@ Simple Voice Chat is a plugin and mod that introduces proximity-based voice chat
 
     > If you require assistance creating or finding your extra ports, refer to our [extra ports](/falix/dashboard/server/extra-port) guide.
 
-6. Click on "Save File" to save your changes.
+6. Click on "**Save File**{: .green }" to save your changes.
 
 7. (Re)start your server to apply the changes.

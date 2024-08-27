@@ -24,7 +24,7 @@ As such, when a certain type of mod, plugin or software is used that forwards tr
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Advanced" then navigate to [Network](https://client.falixnodes.net/server/network).
 
-4. Click on the "New Port" button to allocate an extra port.
+4. Click on the "**New Port**{: .blue }" button to allocate an extra port.
 
 5. A new port will be generated under the primary port. The primary port is the port used by the server itself, and the newly generated port is your extra port.
 

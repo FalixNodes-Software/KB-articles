@@ -7,6 +7,9 @@ permalink: falix/dashboard/server/create-server
 description: Learn how to create your very first server.
 author: Mocab
 toc: false
+
+getting-started-tag: General
+post_order: 1
 ---
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
@@ -24,6 +27,8 @@ toc: false
 
 4. Ensure you tick and agree to the [Minecraft End User License Agreement (EULA)](https://www.minecraft.net/en-us/eula).
 
+5. Click on "**Create**{: .green }" to create your server.
+
 {: .success}
 
-> Your server has been created!
+> Your server should appear in your server list when you see "Your server has been created successfully".
