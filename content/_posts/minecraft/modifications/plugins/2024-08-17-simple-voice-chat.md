@@ -30,21 +30,7 @@ Simple Voice Chat is a plugin and mod that introduces proximity-based voice chat
 
 ### Installation:
 
-1. Log into the [Dashboard](https://client.falixnodes.net/).
-
-2. Choose a server within your server list.
-
-3. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console) page. In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
-
-4. Locate and open the [plugins](https://client.falixnodes.net/server/filemanager?dir=/plugins/) folder.
-
-5. Download the plugin from the official [download](https://modrinth.com/plugin/simple-voice-chat/versions) page.
-
-6. In the Dashboard, click on "**Upload Files**{: .blue }".
-
-7. Locate the downloaded plugin and select it, then upload it to your server.
-
-8. (Re)start your server to enable the mod.
+We already have a guide on how to install Simple Voice Chat as well as any other plugin in our [Adding Plugins](/minecraft/modifications/general/adding-plugins) guide.
 
 ## Configuration:
 
