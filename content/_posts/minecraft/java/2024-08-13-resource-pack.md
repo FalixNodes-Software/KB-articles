@@ -39,6 +39,10 @@ To add a resource pack to your server, you must provide a **direct** download li
 -   [Dropbox](https://www.dropbox.com/)
 -   [OneDrive](https://onedrive.live.com/about/en-gb/)
 
+{: .warning }
+
+> Make sure the `assets` folder and other relevant files within the resource pack archive is in the root of the zip archive and not within a folder.
+
 #### Directly From the Website
 
 This may be different according to the hosting platform used, however it often involves right clicking and grabbing the download link directly from the "Download" button provided. Do note that some hosting platforms shuffle download links every so often, and so this method may not always work.
