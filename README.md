@@ -133,17 +133,17 @@ author: Name
 
 icon: "link"
 mod-name: "Name of mod"
-mod-author: "Mod author"
+mod-software: "Spigot, Paper, Purpur"
 mod-url: "link"
 ---
 ```
 
-| Metadata      | Description                                                                                 |
-| ------------- | ------------------------------------------------------------------------------------------- |
-| `icon:`       | Direct link to the mod's icon                                                               |
-| `mod-name:`   | Official mod name                                                                           |
-| `mod-author:` | Name of the mod's author or company. You may use a comma `,` to list a maximum of 3 authors |
-| `mod-url:`    | A link to the mod's official page or website                                                |
+| Metadata        | Description                                                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `icon:`         | Direct link to the mod's icon                                                                                                         |
+| `mod-name:`     | Official mod name                                                                                                                     |
+| `mod-software:` | The supported server software relative to the article; if it is in the plugins subcategory, only include plugin server software, etc. |
+| `mod-url:`      | A link to the mod's official page or website                                                                                          |
 
 ### Getting Started Options
 

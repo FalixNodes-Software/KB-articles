@@ -12,7 +12,7 @@ author:
 
 icon: "https://cdn.modrinth.com/data/9eGKb6K1/icon.png"
 mod-name: Simple Voice Chat
-mod-author: henkelmax
+mod-software: Fabric, Forge, Quilt, NeoForge
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
