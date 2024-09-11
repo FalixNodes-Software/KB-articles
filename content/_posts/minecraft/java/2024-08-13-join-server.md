@@ -23,7 +23,7 @@ post_order: 3
 
     > Once the status indicator above the console changes color from **orange**{: .orange } to **green**{: .green }, your server should be on!
 
-4. Click on the blue "**Connect**{: .blue }" button at the top of the console.
+4. Click on the "**Connect**{: .blue }" button at the top of the console.
 
 5. A popup should appear, copy the string of characters under "Your server IP is", it should look like `xxxxx.falixsrv.me`. This is your server address, which we will use to connect to your server.
 
