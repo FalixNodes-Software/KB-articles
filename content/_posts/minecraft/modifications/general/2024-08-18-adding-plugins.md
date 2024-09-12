@@ -5,6 +5,7 @@ category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-plugins
 description: Learn how to upload and install plugins to your Minecraft Java server.
+keywords: install plugins, use plugins, get plugins, add plugins, mod loader, configure plugins
 author:
     - TWIXhunter
     - Deka

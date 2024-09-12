@@ -5,6 +5,7 @@ category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-mods
 description: Learn how to upload and install mods to your Minecraft Java server.
+keywords: install mods, use mods, get mods, add mods, mod loader, configure mods
 author:
     - TWIXhunter
     - Deka

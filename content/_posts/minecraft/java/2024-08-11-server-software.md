@@ -4,6 +4,7 @@ title: Choosing a Minecraft Server Software
 category: Java
 tags: General
 description: Explore different options for mod, plugin, hybrid and proxy server software to find the best fit for your setup.
+keywords: server software, server jar, server core, server flavor
 permalink: /minecraft/java/configuration/server-software
 author:
     - Lovinoes

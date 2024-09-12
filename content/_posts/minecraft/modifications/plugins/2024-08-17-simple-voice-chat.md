@@ -5,6 +5,7 @@ category: Modifications
 tags: Plugins
 permalink: minecraft/modifications/plugins/voice-chat
 description: Adding a proximity-based voice chat to your server.
+keywords: voice chat, vc, proximity chat, mic, microphone
 author:
     - Naoki
     - Deka

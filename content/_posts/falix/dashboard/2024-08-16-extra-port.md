@@ -5,6 +5,7 @@ category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/extra-port
 description: Allocating a dedicated network port.
+keywords: allocate port, create port, dedicated port, extra port, webserver port, secondary port, network port
 author:
     - Naoki
     - Mocab

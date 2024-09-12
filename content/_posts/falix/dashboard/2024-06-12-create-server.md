@@ -5,6 +5,7 @@ category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/create-server
 description: Learn how to create your very first server.
+keywords: create server, make server
 author: Mocab
 toc: false
 
