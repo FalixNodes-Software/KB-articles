@@ -5,6 +5,7 @@ category: Modifications
 tags: Mods
 permalink: minecraft/modifications/mods/voice-chat
 description: Adding a proximity-based voice chat to your server.
+keywords: voice chat, vc, proximity chat, mic, microphone
 author:
     - Naoki
     - Deka
@@ -12,7 +13,7 @@ author:
 
 icon: "https://cdn.modrinth.com/data/9eGKb6K1/icon.png"
 mod-name: Simple Voice Chat
-mod-author: henkelmax
+mod-software: Fabric, Forge, Quilt, NeoForge
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
@@ -30,21 +31,7 @@ Simple Voice Chat is a plugin and mod that introduces proximity-based voice chat
 
 ### Installation:
 
-1. Log into the [Dashboard](https://client.falixnodes.net/).
-
-2. Choose a server within your server list.
-
-3. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console) page. In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
-
-4. Locate and open the [mods](https://client.falixnodes.net/server/filemanager?dir=/mods/) folder.
-
-5. Download the mod from the official [download](https://modrinth.com/plugin/simple-voice-chat/versions) page. Make sure to select the version and mod loader matching your server.
-
-6. In the Dashboard, click on "Upload Files".
-
-7. Locate the downloaded mod and select it, then upload it to your server.
-
-8. (Re)start your server to enable the mod.
+We already have a guide on how to install Simple Voice Chat as well as any other mod in our [Adding Mods](/minecraft/modifications/general/adding-mods) guide.
 
 ## Configuration:
 
@@ -60,6 +47,6 @@ Simple Voice Chat is a plugin and mod that introduces proximity-based voice chat
 
     > If you require assistance creating or finding your extra ports, refer to our [extra ports](/falix/dashboard/server/extra-port) guide.
 
-6. Click on "Save File" to save your changes.
+6. Click on "**Save File**{: .green }" to save your changes.
 
 7. (Re)start your server to apply the changes.

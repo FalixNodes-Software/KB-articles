@@ -30,27 +30,20 @@ What's all this? You're currently viewing the source code that makes up the [Kno
 <details>
 
 -   [ ] Improve embeds with author & date updated, etc
--   [ ] Instead of a single post layout use multiple for java + bedrock, plugins, getting started to reduce build time (if?)
 -   [ ] Add video thumbnails
--   [ ] Use standard theme colors
--   [ ] RSS feed
--   [ ] Sitemap
--   [ ] Expand post page width
 -   [ ] Auto toggle subcategories filter based on url
--   [ ] Add hero image to home and category pages
--   [ ] Move away from cluttered CSS CDN
+-   [ ] Add hero image to home and category pages (maybe?)
 -   [ ] Revisit lighthouse
--   [ ] Admin panel
--   [ ] Multilingual support
--   [ ] Use other icon styles (duotone, light, etc)
--   [ ] Make category enlarge on hover
--   [ ] Improve aside category nav (group sections)
+-   [ ] Multilingual support (maybe?)
 -   [ ] Use shadows
--   [ ] Github icon author
 -   [ ] Add color contrast between boxes and background
--   [ ] Use separate js files (?)
--   [ ] Get rid of & nesting in scss
--   [ ] Use custom icons for different categories
+-   [ ] Add a box around aside elements
+-   [ ] Redo search result layout
+-   [ ] Make toc a tree view
+-   [ ] Make java-bed switcher buttons more clear
+-   [ ] Add more links to header and change footer layout
+-   [ ] Redo post fooder css
+-   [ ] Add keywords frontmatter
 
 </details>
 
@@ -133,17 +126,17 @@ author: Name
 
 icon: "link"
 mod-name: "Name of mod"
-mod-author: "Mod author"
+mod-software: "Spigot, Paper, Purpur"
 mod-url: "link"
 ---
 ```
 
-| Metadata      | Description                                                                                 |
-| ------------- | ------------------------------------------------------------------------------------------- |
-| `icon:`       | Direct link to the mod's icon                                                               |
-| `mod-name:`   | Official mod name                                                                           |
-| `mod-author:` | Name of the mod's author or company. You may use a comma `,` to list a maximum of 3 authors |
-| `mod-url:`    | A link to the mod's official page or website                                                |
+| Metadata        | Description                                                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `icon:`         | Direct link to the mod's icon                                                                                                         |
+| `mod-name:`     | Official mod name                                                                                                                     |
+| `mod-software:` | The supported server software relative to the article; if it is in the plugins subcategory, only include plugin server software, etc. |
+| `mod-url:`      | A link to the mod's official page or website                                                                                          |
 
 ### Getting Started Options
 
@@ -151,17 +144,15 @@ If you wish to include a post from an existing category in the `Getting started`
 
 ```Markdown
 ---
-category:
-    - Java
-    - Getting-started
+getting-started-tag: General
 post_order: 1
 ---
 ```
 
-| Metadata     | Description                                                                                                                 |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| `category`   | Can be turned into an array to include an extra category. `Getting-started` must always be the second category in the array |
-| `post_order` | Order of the post within the Getting-started category                                                                       |
+| Metadata              | Description                                                                        |
+| --------------------- | ---------------------------------------------------------------------------------- |
+| `getting-started-tag` | Functionally the same as `tags:` but specific to the getting started category only |
+| `post_order`          | Order of the post within the Getting-started category                              |
 
 </details>
 

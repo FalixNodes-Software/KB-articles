@@ -5,6 +5,7 @@ category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/external-start
 description: How to turn on your server using the external start feature without access to the console.
+keywords: external start, start server, turn on server
 author:
     - TWIXhunter
     - Mocab
@@ -22,7 +23,7 @@ The external start feature is a great way to allow players or users to start you
 
 4. Select "Enable" to enable the feature across all your servers or "Disable" to disable it altogether.
 
-5. Click on "Update" to apply your changes.
+5. Click on "**Update**{: .blue }" to apply your changes.
 
 ## :green_circle: Starting a Server Using External Start:
 
@@ -32,7 +33,7 @@ The external start feature is a great way to allow players or users to start you
 
     > Specifying the port is not necessary.
 
-3. Click on the "Start Server" button to initiate a server start.
+3. Click on the "**Start Server**{: .blue }" button to initiate a server start.
 
 {: .success}
 
