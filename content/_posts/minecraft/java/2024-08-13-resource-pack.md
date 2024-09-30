@@ -4,6 +4,7 @@ title: "Adding Resource Packs to Your Server"
 category: Java
 tags: Configuration
 description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
+keywords: resource pack, texture pack, custom texture, custom sound
 permalink: /minecraft/java/configuration/resource-pack
 author:
     - Kuroi
@@ -38,6 +39,10 @@ To add a resource pack to your server, you must provide a **direct** download li
 -   [Google Drive](https://www.google.com/drive/)
 -   [Dropbox](https://www.dropbox.com/)
 -   [OneDrive](https://onedrive.live.com/about/en-gb/)
+
+{: .warning }
+
+> Make sure the `assets` folder and other relevant files within the resource pack archive is in the root of the zip archive and not within a folder.
 
 #### Directly From the Website
 

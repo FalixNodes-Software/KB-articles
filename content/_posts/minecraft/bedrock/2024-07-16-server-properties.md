@@ -4,6 +4,7 @@ title: Configuring server.properties
 category: Bedrock
 tags: Configuration
 description: Editing the commonly used attributes of the server.properties file to configure your Java server.
+keywords: server properties, server configuration, server settings, default gamemode, default game mode, difficulty, allow cheats, enable cheats, max players, cracked players, view distance, set seed, change seed, custom seed
 permalink: /minecraft/bedrock/configuration/server-properties
 author:
     - Kuroi

@@ -4,6 +4,7 @@ title: Configuring server.properties
 category: Java
 tags: Configuration
 description: Editing the commonly used attributes of the server.properties file to configure your Java server.
+keywords: server properties, server configuration, server settings, default gamemode, default game mode, difficulty, allow command block, enable command block, max players, cracked players, view distance, set seed, change seed, custom seed, rcon, disable pvp
 permalink: /minecraft/java/configuration/server-properties
 author:
     - Kuroi

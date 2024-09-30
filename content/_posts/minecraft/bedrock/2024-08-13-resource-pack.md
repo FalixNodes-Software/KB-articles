@@ -4,6 +4,7 @@ title: "Adding Resource Packs to Your Server"
 category: Bedrock
 tags: Configuration
 description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
+keywords: resource pack, texture pack, custom texture, custom sound
 permalink: /minecraft/bedrock/configuration/resource-pack
 author:
     - Kuroi
