@@ -13,7 +13,22 @@ toc: true
 
 ## How to upload your world using the worlds page
 
-//work in progress
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Scroll down and click on the server you want the world uploaded to.
+
+3. Navigate to the [worlds page](https://client.falixnodes.net/server/worlds) by hovering over "Server" and pressing "worlds".
+
+4. Press the "upload world" button and upload the chosen world folder.
+
+{: .info}
+
+> You need to unarchive the world folder before uploading this to the server.
+
+5. Press "make Primary" (to select the world you want to join on).
+
+6. Delete the old worlds.
+
 
 ## How to upload your world using the File Manenger.
 
@@ -21,7 +36,7 @@ toc: true
 
 2. Scroll down and click on the server you want the world uploaded to.
 
-3. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage" and pressing "File Mananger.
+3. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage" and pressing "File Mananger".
 
 4. Locate the existing world folders named "world", "world_nether", and "world_the_end".
 
@@ -39,37 +54,9 @@ toc: true
 
 11. Restart your server for the changes to take effect.
 
-The server will now use your uploaded world as the new game world, replacing the previously generated one. Make sure your custom world files are correctly formatted and compatible with your server's version and type to ensure proper functioning.
-
-## How to upload your world using SFTP.
-
 {: .info}
+> The server will now use your uploaded world as the new game world, replacing the previously generated one. Make sure your custom world files are correctly formatted and compatible with your server's version and type to ensure proper functioning.
 
-> Access via SFTP is only available to Premium users.
-
-{: .info}
-
-> You will need an SFTP client, such as [FileZilla](https://filezilla-project.org/download.php?type=client) or [WinSCP](https://winscp.net/eng/download.php).
-
-1. Log in to the [Dashboard](https://client.falixnodes.net/).
-
-2. Scroll down and locate your server, then click on the server you want to upload the world to.
-
-4. Navigate to the [FTP Access](https://client.falixnodes.net/server/sftp) tab by hovering over "Advanced" and pressing "FTP Access".
-
-5. Press "Launch SFTP" or input the credentials manually in your SFTP client.
-
-4. Locate the existing world folders named "world", "world_nether", and "world_the_end".
-
-5. Select and delete these folders to remove the current generated world (Make sure to create a backup of any important data you wish to keep).
-
-6. Make sure to rename your world folders to "world", "world_nether", and "world_the_end". (If they are named correctly, you can skip this step).
-
-7. Upload the world folders to the server 
-
-8. Restart your server for the changes to take effect.
-
-The server will now use your uploaded world as the new game world, replacing the previously generated one. Make sure your custom world files are correctly formatted and compatible with your server's version and type to ensure proper functioning.
 
 
 
@@ -82,7 +69,7 @@ The server will now use your uploaded world as the new game world, replacing the
 
 2. Scroll down and click on the server you want the world uploaded to.
 
-3. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage" and pressing "File Mananger.
+3. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage" and pressing "File Mananger".
 
 4. Locate the existing world folders named "world", "world_nether", and "world_the_end".
 
@@ -94,25 +81,3 @@ The server will now use your uploaded world as the new game world, replacing the
 
 {: .warning}
 > You might need to install archiving software (like WinRAR or 7zip) to unarchive the .tar.gz file
-
-## How to download the world from the server using SFTP.
-
-{: .info}
-
-> Access via SFTP is only available to Premium users.
-
-{: .info}
-
-> You will need an SFTP client, such as [FileZilla](https://filezilla-project.org/download.php?type=client) or [WinSCP](https://winscp.net/eng/download.php).
-
-1. Log in to the [Dashboard](https://client.falixnodes.net/).
-
-2. Scroll down and locate your server, then click on the server you want to upload the world to.
-
-4. Navigate to the [FTP Access](https://client.falixnodes.net/server/sftp) tab by hovering over "Advanced" and pressing "FTP Access".
-
-5. Press "Launch SFTP" or input the credentials manually in your SFTP client.
-
-6. Locate the existing world folders named "world", "world_nether", and "world_the_end".
-
-7. Download the folders to your client.
