@@ -9,15 +9,15 @@ author: TheTWIXhunter
 toc: true
 ---
 
-# how to upload a world to the server.
+# How to upload a world to the server.
 
-## How to upload your world using the worlds page
+## Using the worlds page.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. Scroll down and click on the server you want the world uploaded to.
 
-3. Navigate to the [worlds page](https://client.falixnodes.net/server/worlds) by hovering over "Server" and pressing "worlds".
+3. Navigate to the [Worlds page](https://client.falixnodes.net/server/worlds) by hovering over "Server" and pressing "worlds".
 
 4. Press the "upload world" button and upload the chosen world folder.
 
@@ -30,7 +30,7 @@ toc: true
 6. Delete the old worlds.
 
 
-## How to upload your world using the File Manenger.
+## Using the File Manenger.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
