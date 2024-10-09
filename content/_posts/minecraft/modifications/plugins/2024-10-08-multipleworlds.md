@@ -7,7 +7,7 @@ permalink: /minecraft/modifications/plugins/multipleworlds
 description: Learn how to host multiple worlds at once on one server.
 author: TheTWIXhunter
 toc: true
-icon: "https://media.forgecdn.net/avatars/65/506/636163025316086566.png"
+icon: "content/assets/images/posts/multipleworlds/multiverse-core-logo.png"
 mod-name: "Multiverse"
 mod-software: "Spigot, Paper, Purpur"
 mod-url: "https://dev.bukkit.org/projects/multiverse-core"
@@ -15,13 +15,13 @@ mod-url: "https://dev.bukkit.org/projects/multiverse-core"
 
 // this is a rough outline, don't correct me on spelling or grammar YET.
 
-# Installing the plugin and a lobby world
+# Installing the plugin
 
 Download the multiverse-core plugin [here](https://www.spigotmc.org/resources/multiverse-core.390/)
 
 Open the Filemanenger and go to the /plugins folder
 
-Upload the file to the folder
+Upload the worldfolder to the File Manager
 
 Go to the worlds page
 
@@ -31,6 +31,7 @@ Press "Make Primary"
 
 (re)start the server
 
+# adding worlds
 ## uploading a secondary world
 
 Upload the world folder to the (home location of the) File manenger or Upload your world using the Worlds page
@@ -53,3 +54,8 @@ replace:
  `<type>` with the type of world, possibilities are: `NORMAL`, `NETHER` or `THE_END`
 
 Teleport to the world using `/mvtp <name>`
+
+
+
+## Generating a new world
+// work in progress
