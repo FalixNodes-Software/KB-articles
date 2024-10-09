@@ -19,13 +19,13 @@ toc: true
 
 3. Navigate to the [Worlds page](https://client.falixnodes.net/server/worlds) by hovering over "Server" and pressing "worlds".
 
-4. Press the "upload world" button and upload the chosen world folder.
+4. Press the "Upload world" button and upload the chosen world folder.
 
 {: .info}
 
 > You need to unarchive the world folder before uploading this to the server.
 
-5. Press "make Primary" (to select the world you want to join on).
+5. Press "Make Primary" (to select the world you want to join on).
 
 6. Delete the old worlds.
 
