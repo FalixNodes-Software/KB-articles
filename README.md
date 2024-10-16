@@ -157,7 +157,9 @@ We have a built in recommended icon and a few server software icons you can use 
 
 If you're adding an image to the files, follow the structure below:
 
+```
 ![Alt text](content/assets/images/posts/...)
+```
 
 Replace `Alt text` with an alternate text incase the image is not loaded properly or for accessability purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
 
