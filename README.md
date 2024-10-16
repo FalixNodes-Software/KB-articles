@@ -2,50 +2,29 @@
 
 # 📖 FalixNodes Knowledge Base
 
-What's all this? You're currently viewing the source code that makes up the [Knowledge Base](https://kb.falixnodes.net/). It's all built on Jekyll, a static website generator we use.
+What's all this? You're currently viewing the articles that make up the [Knowledge Base](https://kb.falixnodes.net/). It's all built on Jekyll, a static website generator we use.
 
 ## Table of content
 
--   [TODO](https://github.com/FalixNodes-Software/KB-articles#todo)
 -   [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
     -   [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
     -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
     -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
         -   [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
-        -   [Plugin Options](https://github.com/FalixNodes-Software/KB-articles#plugins)
+        -   [Modifications / Addon Options](https://github.com/FalixNodes-Software/KB-articles#modifications--addon-options)
+        -   [Getting Started Options](https://github.com/FalixNodes-Software/KB-articles#getting-started-options)
     -   [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
         -   [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
+        -   [Emojis / Icons](https://github.com/FalixNodes-Software/KB-articles#emojis--icons)
         -   [Images](https://github.com/FalixNodes-Software/KB-articles#images)
+        -   [Lists](https://github.com/FalixNodes-Software/KB-articles#lists)
+        -   [Colored Text](https://github.com/FalixNodes-Software/KB-articles#colored-text)
+        -   [Tabs](https://github.com/FalixNodes-Software/KB-articles#tabs)
         -   [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
         -   [Video](https://github.com/FalixNodes-Software/KB-articles#video)
     -   [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
-    -   [🏗️ Building and Testing Locally](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-building-and-testing-locally)
-        -   [Running Natively](https://github.com/FalixNodes-Software/KB-articles#method-1-running-natively)
-        -   [Running with Docker](https://github.com/FalixNodes-Software/KB-articles#method-2-running-with-docker)
 
 ---
-
-## TODO
-
-<details>
-
--   [ ] Improve embeds with author & date updated, etc
--   [ ] Add video thumbnails
--   [ ] Auto toggle subcategories filter based on url
--   [ ] Add hero image to home and category pages (maybe?)
--   [ ] Revisit lighthouse
--   [ ] Multilingual support (maybe?)
--   [ ] Use shadows
--   [ ] Add color contrast between boxes and background
--   [ ] Add a box around aside elements
--   [ ] Redo search result layout
--   [ ] Make toc a tree view
--   [ ] Make java-bed switcher buttons more clear
--   [ ] Add more links to header and change footer layout
--   [ ] Redo post fooder css
--   [ ] Add keywords frontmatter
-
-</details>
 
 # Publishing a New Article
 
@@ -63,11 +42,11 @@ Want to help contribute to the Knowledge base? Write or update an article!
 
 ## ✍️ Creating an Article
 
-By following the folder and file structure, create a `.md` file under the correct section, category and sub-category. As an example, if you were to create an article that explains how to install and use a plugin in Minecraft Java, the file would be created as such: `_posts/minecraft/plugin/general/yyyy-mm-dd-plugin-name.md`. You're required to add the date at the beginning of the file name in the `YYYY-MM-DD` format. These dates are used to show when the article was last updated, so that users are aware if an article is up-to-date.
+All articles are stored within the `content/_posts/` sub-directory. When creating an article, create a `.md` file under the correct section, category and sub-category folders. As an example, if you were to create an article that explains how to install and use a plugin in Minecraft Java, the file would be created as such: `content/_posts/minecraft/modification/plugins/yyyy-mm-dd-plugin-name.md`. You're required to add the date at the beginning of the file name in the `YYYY-MM-DD` format. These dates are used to show when the article was last updated, so that users are aware if an article is up-to-date.
 
-If you wish to add an alternate version of a guide for a different Minecraft edition. ensure that both titles and permalinks are exact replica of each other.
+Articles are written in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a link, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
 
-Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a link, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
+If you wish to add an alternate version of a guide for a different Minecraft edition (Java or Bedrock). Use a replica of the other title and permalink with the corresponding category (Java or Bedrock) switched.
 
 ## 📃️ Frontmatter
 
@@ -75,7 +54,7 @@ Then start writing the article in [Markdown](https://www.markdownguide.org/getti
 
 <br>
 
-Make sure the frontmatter is setup properly; this is usually at the top of every article.
+The frontmatter is the block at the top of every article surrounded by a pair of triple dashes `---`. As the frontmatter is based on YAML, ensure that the correct syntax is followed:
 
 ### Default Options
 
@@ -86,6 +65,7 @@ title: "Title of Article"
 category: Java
 tags: General
 description: "Here is the description of your guide"
+keywords: (Main keyword), keyword1, keyword2
 permalink: /minecraft/java/general/name-of-article
 image: "link"
 author: Name
@@ -93,21 +73,22 @@ icon: book-bookmark
 ---
 ```
 
-| Metadata       | Description                                                                                                                  |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `layout:`      | Must **always** remain as `post`                                                                                             |
-| `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                   |
-| `category:`    | Any of the categories in the `_categories` folder _(Case sensitive)_                                                         |
-| `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `_categories_` folder. _(Case sensitive)_ |
-| `description:` | A description for your guide, keep it concise, informative and interesting                                                   |
-| `permalink:`   | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                             |
-| `image:`       | A direct link to an image to be used as a thumbnail _(Optional)_                                                             |
-| `author:`      | Name of the current author and maintainer. For multiple use the array format. Maximum limit of 3                             |
-| `icon:`        | Direct link to an icon. _(Optional)_                                                                                         |
-| `toc:`         | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                            |
+| Metadata       | Description                                                                                                                                                                                                                                                 |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `layout:`      | Must **always** remain as `post`                                                                                                                                                                                                                            |
+| `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                                                                                                                                                  |
+| `category:`    | Any of the categories in the `content/_categories/` folder _(Case sensitive)_                                                                                                                                                                               |
+| `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `content/_categories/` folder. _(Case sensitive)_                                                                                                                        |
+| `description:` | A description for your guide, keep it concise, informative and interesting                                                                                                                                                                                  |
+| `keywords:`    | Keywords relevant to the topic, with each consecutive keyword being separated by a comma `,`. Main keywords are enclosed by brackets `()`, it functions as a primary identifier and will be combined with normal keywords to improve search result accuracy |
+| `permalink:`   | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                                                                                                                                                            |
+| `image:`       | A direct link to an image to be used as a thumbnail _(Optional)_                                                                                                                                                                                            |
+| `author:`      | Name of the current author and maintainer. For multiple authors (maximum of 3), use the the array format.                                                                                                                                                   |
+| `icon:`        | Direct link to an icon. _(Optional)_                                                                                                                                                                                                                        |
+| `toc:`         | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                                                                                                                                                           |
 
 > Encompass your values in quotation marks if it contains symbols other than slashes `/` or hyphens `-`.
-> New authors must request for their github account to be manually added to display profile pictures.
+> New authors must request for their github account to be manually added to display correct profile pictures.
 
 ### Modifications / Addon Options
 
@@ -115,15 +96,6 @@ The below frontmatter options are extra options for **Minecraft modifications an
 
 ```Markdown
 ---
-layout: post
-title: "Title of Article"
-category: Modifications
-tags: General
-description: "Here is the description of your guide"
-permalink: /minecraft/modifications/general/name-of-mod
-image: "link"
-author: Name
-
 icon: "link"
 mod-name: "Name of mod"
 mod-software: "Spigot, Paper, Purpur"
@@ -167,15 +139,31 @@ post_order: 1
 ### Headers
 
 Using "# Title of Article" isn't needed; the layout will automatically add the title of the article to the top of the guide. That being said, always use "## Subtitle" instead.
-It is recommended to a related Github flavored emoji at the beginning of main subtitles (## or h2) to improve user friendliness (such as: `## :earth_asia: Dynmap`). A list of all Github emojis can be found in a [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
+It is recommended to a related Github flavored emoji at the beginning of main subtitles (## or h2) to improve user friendliness (such as: `## :earth_asia: Dynmap`). Emojis/icons will be explained further in the next section.
 
-### Ordered Lists (Steps)
+### Emojis / Icons
 
-When typing out steps using ordered lists, make sure to separate each step with a **blank line**. Otherwise, Karamdown will not generate a `<p>` tag.
+Github emojis and a few server software icons are supported to improve user friendliness and add vibrance to your articles:
+
+To use a Github emoji, copy its name including the colons (e.g: `:smile:`) and paste it in the article, we only recommend using them in main subtitles (## or h2) and tabs to avoid over-saturation, a list of all Github emojis can be found in this [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
+
+We have a built in recommended icon and a few server software icons you can use anywhere in your article, with the latter especially so in tabs. We currently support `recommended` for recommended icons and `spigot`,`paper`, `purpur`, `forge`, `neoforge`, `fabric` and `quilt` for server software icons. To add the icon to your article follow the format below, make sure to replace `icon` with one of the options listed beforehand.
+
+```html
+<i class="icon"></i>
+```
 
 ### Images
 
-If you're adding an image to the files, use a path like `content/assets/images/posts/...`.
+If you're adding an image to the files, follow the structure below:
+
+![Alt text](content/assets/images/posts/...)
+
+Replace `Alt text` with an alternate text incase the image is not loaded properly or for accessability purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
+
+### Lists
+
+When typing out steps using lists, make sure to separate each step with a **blank line**. Otherwise, a `<p>` tag will not be generated.
 
 ### Colored Text
 
@@ -185,13 +173,30 @@ When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can
 **Connect**{: .blue } **Delete**{: .red } **Restart**{: .orange } **Save File**{: .green }
 ```
 
-### Recommended
+### Tabs
 
-If you want to add a recommended symbol beside a server software or such, use:
+In certain articles, you may want to use tabs to group separate alternate procedures in one place, such as procedures on configuring a software with a plugin and mod version:
 
-```html
-<i class="recommended"></i>
 ```
+{% tabs software %}
+
+{% tab software plugin %}
+
+Steps for the plugin go here
+
+{% endtab %}
+
+{% tab software mod %}
+
+Steps for the mod go here
+
+{% endtab %}
+
+{% endtabs %}
+
+```
+
+The first word after the tab keyword is used to group the tabs together, while the words after will be displayed as the tab label.
 
 ### Blockquote
 
@@ -243,7 +248,7 @@ Used as a way to display common errors or issues.
 <video controls preload="auto"><source src="https://example.com/video.webm" type="video/webm" src="https://example.com/video.mp4" type="video/mp4" /></video>
 ```
 
-> If you're adding a video to the files, use a path like `/assets/videos/posts/...`.
+> If you're adding a video to the files, use a path like `content/assets/videos/posts/...`.
 
 Make sure to provide both webm and mp4. Webm are much smaller and load faster, although an MP4 file is required as not all browsers support webm format. So the MP4 is more of a fallback option if the user's browser doesn't like the webm format.
 
@@ -251,68 +256,10 @@ Make sure to provide both webm and mp4. Webm are much smaller and load faster, a
 
 ## 📢️ Publishing
 
-Create a pull request in this repo and title it using the following format: "New Post: `Name of Article`" or if you're editing an article, title it like "Edit: `Name of Existing Article`".
+Create a pull request in this repo and title it using the following format: "New: `Name of Article`" or if you're editing an article, title it like "Edit: `Name of Existing Article`".
 
 Your edit will be reviewed by our support team along with your code to check for any syntax errors.
-
-## 🏗️ Building and Testing Locally
-
-If you're interested in learning how to build the Knowledge Base locally, maybe to ensure that your article does show up properly, just follow either methods below.
-
-### Method 1: Running Natively
-
-<details>
-
-<br>
-
-Since the Knowledge Base is powered by Jekyll, you'll need to install it [here](https://jekyllrb.com/docs/installation/).
-While it's installing, download a copy of this repository.
-
-Once Jekyll is fully installed, open command prompt and change directory (`cd`) to the downloaded repository. Then type and run the following command:
-
-```ShellSession
-
-bundle exec jekyll serve --livereload --watch
-
-```
-
-Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
-
-</details>
-
-### Method 2: Running With Docker
-
-<details>
-
-<br>
-
-Since we will be using Docker, you'll need to install it [here](https://docs.docker.com/get-docker/).
-While it's installing, download a copy of this repository, and create a `docker-compose.yml` file in it's root with the following content:
-
-```YAML
-services:
-jekyll:
-volumes: - "./:/srv/jekyll" - "./vendor/bundle:/usr/local/bundle"
-ports: - "4000:4000" - "35729:35729"
-image: jekyll/jekyll
-command: jekyll serve --livereload --watch --force_polling
-```
-
-> If this is the first time running the Knowledge Base, use `bundle install` instead of `jekyll serve --livereload --watch --force_polling`. Once everything is installed you may continue using `jekyll serve --livereload --watch --force_polling`.
-
-Once Docker is fully installed, run it. Then open command prompt and change directory (`cd`) to the downloaded repository, and type and run the following command:
-
-```ShellSession
-docker-compose up
-```
-
-Once you see a done message, go to <http://localhost:4000/> in your preferred web browser.
-
-</details>
-
-<br>
 
 ---
 
 > All PRs are closed if inactive for a long period of time, usually about 3 weeks to a month.
-> Theme by [gustavoquinalha](https://github.com/gustavoquinalha/jekyll-help-center-theme). The license can be found [here](https://github.com/gustavoquinalha/jekyll-help-center-theme/blob/master/LICENSE.txt).
