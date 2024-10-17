@@ -5,7 +5,11 @@ category: Modifications
 tags: Software
 permalink: minecraft/modifications/software/voice-chat
 description: Adding a proximity-based voice chat to your server.
-keywords: voice chat, vc, proximity chat, mic, microphone
+keywords:
+    - keyword: vc
+    - keyword: microphone
+    - keyword: chat
+      matches: ["voice", "proximity"]
 author:
     - Naoki
     - Deka
@@ -13,7 +17,7 @@ author:
 
 icon: "https://cdn.modrinth.com/data/9eGKb6K1/icon.png"
 mod-name: Simple Voice Chat
-mod-software: Spigot, Paper, Purpur, Folia, Fabric, Forge, Quilt, NeoForge
+mod-type: Plugin, Mod
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
@@ -23,21 +27,44 @@ Simple Voice Chat is a software that introduces proximity-based voice chat. It a
 
 ## :hammer_and_wrench: Installation and Configuration:
 
-{% tabs softwareType %}
-
-{% tab softwareType Plugin %}
-
 ### Prerequisites:
+
+{% tabs softwareType %}
+{% tab softwareType Plugin %}
 
 -   Ensure your server is running with Spigot or any of its forks (Paper, Purpur, etc).
 -   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
 -   Make sure players have the mod installed locally.
 
+{% endtab %}
+{% tab softwareType Mod %}
+
+-   Ensure your server is running with either Fabric or Forge or any of their forks (Quilt & NeoForge respectively).
+-   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
+-   Make sure players have the mod installed locally.
+
+{% endtab %}
+{% endtabs %}
+
 ### Installation:
+
+{% tabs softwareType %}
+{% tab softwareType Plugin %}
 
 We already have a guide on how to install Simple Voice Chat as well as any other plugin in our [Adding Plugins](/minecraft/modifications/general/adding-plugins) guide.
 
+{% endtab %}
+{% tab softwareType Mod %}
+
+We already have a guide on how to install Simple Voice Chat as well as any other mod in our [Adding Mods](/minecraft/modifications/general/adding-mods) guide.
+
+{% endtab %}
+{% endtabs %}
+
 ## Configuration:
+
+{% tabs softwareType %}
+{% tab softwareType Plugin %}
 
 1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
 
@@ -56,20 +83,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 7. (Re)start your server to apply the changes.
 
 {% endtab %}
-
 {% tab softwareType Mod %}
-
-### Prerequisites:
-
--   Ensure your server is running with either Fabric or Forge or any of their forks (Quilt & NeoForge respectively).
--   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
--   Make sure players have the mod installed locally.
-
-### Installation:
-
-We already have a guide on how to install Simple Voice Chat as well as any other mod in our [Adding Mods](/minecraft/modifications/general/adding-mods) guide.
-
-## Configuration:
 
 1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
 
@@ -88,5 +102,4 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 7. (Re)start your server to apply the changes.
 
 {% endtab %}
-
 {% endtabs %}
