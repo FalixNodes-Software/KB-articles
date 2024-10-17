@@ -65,6 +65,10 @@ title: "Title of Article"
 category: Java
 tags: General
 description: "Here is the description of your guide"
+keywords:
+    - keyword: "dynmap"
+    - keyword: "world"
+      matches: ["live", "browser", "map"]
 keywords: (Main keyword), keyword1, keyword2
 permalink: /minecraft/java/general/name-of-article
 image: "link"
@@ -73,19 +77,19 @@ icon: book-bookmark
 ---
 ```
 
-| Metadata       | Description                                                                                                                                                                                                                                                 |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `layout:`      | Must **always** remain as `post`                                                                                                                                                                                                                            |
-| `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                                                                                                                                                  |
-| `category:`    | Any of the categories in the `content/_categories/` folder _(Case sensitive)_                                                                                                                                                                               |
-| `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `content/_categories/` folder. _(Case sensitive)_                                                                                                                        |
-| `description:` | A description for your guide, keep it concise, informative and interesting                                                                                                                                                                                  |
-| `keywords:`    | Keywords relevant to the topic, with each consecutive keyword being separated by a comma `,`. Main keywords are enclosed by brackets `()`, it functions as a primary identifier and will be combined with normal keywords to improve search result accuracy |
-| `permalink:`   | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                                                                                                                                                            |
-| `image:`       | A direct link to an image to be used as a thumbnail _(Optional)_                                                                                                                                                                                            |
-| `author:`      | Name of the current author and maintainer. For multiple authors (maximum of 3), use the the array format.                                                                                                                                                   |
-| `icon:`        | Direct link to an icon. _(Optional)_                                                                                                                                                                                                                        |
-| `toc:`         | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                                                                                                                                                           |
+| Metadata       | Description                                                                                                                                                                             |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `layout:`      | Must **always** remain as `post`                                                                                                                                                        |
+| `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                                                                              |
+| `category:`    | Any of the categories in the `content/_categories/` folder _(Case sensitive)_                                                                                                           |
+| `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `content/_categories/` folder. _(Case sensitive)_                                                    |
+| `description:` | A description for your guide, keep it concise, informative and interesting                                                                                                              |
+| `keywords:`    | All keywords relevant to the topic. Keywords without a "matches" key will be used as a standalone search query while those with the key will be combined to form a more accurate query. |
+| `permalink:`   | /`section`/`category`/`sub-category`/`short-title` _(Lowercase)_                                                                                                                        |
+| `image:`       | A direct link to an image to be used as a thumbnail _(Optional)_                                                                                                                        |
+| `author:`      | Name of the current author and maintainer. For multiple authors (maximum of 3), use the the array format.                                                                               |
+| `icon:`        | Direct link to an icon. _(Optional)_                                                                                                                                                    |
+| `toc:`         | Whether to enable table of contents or not. _(Optional, default value is `true`)_                                                                                                       |
 
 > Encompass your values in quotation marks if it contains symbols other than slashes `/` or hyphens `-`.
 > New authors must request for their github account to be manually added to display correct profile pictures.
@@ -98,17 +102,17 @@ The below frontmatter options are extra options for **Minecraft modifications an
 ---
 icon: "link"
 mod-name: "Name of mod"
-mod-software: "Spigot, Paper, Purpur"
+mod-type: "Plugin, Mod, Standalone"
 mod-url: "link"
 ---
 ```
 
-| Metadata        | Description                                                                                                                           |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `icon:`         | Direct link to the mod's icon                                                                                                         |
-| `mod-name:`     | Official mod name                                                                                                                     |
-| `mod-software:` | The supported server software relative to the article; if it is in the plugins subcategory, only include plugin server software, etc. |
-| `mod-url:`      | A link to the mod's official page or website                                                                                          |
+| Metadata    | Description                                             |
+| ----------- | ------------------------------------------------------- |
+| `icon:`     | Direct link to the mod's icon                           |
+| `mod-name:` | Official mod name                                       |
+| `mod-type:` | The software type, such as plugin, mod, standalone, etc |
+| `mod-url:`  | A link to the mod's official page or website            |
 
 ### Getting Started Options
 
@@ -198,7 +202,7 @@ Steps for the mod go here
 
 ```
 
-The first word after the tab keyword is used to group the tabs together, while the words after will be displayed as the tab label.
+The first word after the tab keyword is used to group the tabs together, while the words after will be displayed as the tab label. If the content of tabs have a similar structure, place the tabs under each heading rather than placing headings in tabs.
 
 ### Blockquote
 
