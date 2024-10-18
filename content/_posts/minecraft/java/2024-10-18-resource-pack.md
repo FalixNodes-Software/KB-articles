@@ -4,7 +4,11 @@ title: "Adding Resource Packs to Your Server"
 category: Java
 tags: Configuration
 description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
-keywords: resource pack, texture pack, custom texture, custom sound
+keywords:
+    - keyword: pack
+      matches: &pack_matches ["resource", "texture", "sound"]
+    - keyword: custom
+      matches: *pack_matches
 permalink: /minecraft/java/configuration/resource-pack
 author:
     - Kuroi
@@ -44,11 +48,13 @@ To add a resource pack to your server, you must provide a **direct** download li
 
 > Make sure the `assets` folder and other relevant files within the resource pack archive is in the root of the zip archive and not within a folder.
 
-#### Directly From the Website
+{% tabs downloadLink %}
+{% tab downloadLink Directly From the Website %}
 
 This may be different according to the hosting platform used, however it often involves right clicking and grabbing the download link directly from the "Download" button provided. Do note that some hosting platforms shuffle download links every so often, and so this method may not always work.
 
-#### Google Drive
+{% endtab %}
+{% tab downloadLink Google Drive %}
 
 1. Upload the resource pack to your Google Drive account, ensure it is in the `.zip` file format.
 
@@ -72,13 +78,17 @@ This may be different according to the hosting platform used, however it often i
     https://drive.google.com/uc?export=download&id=xxxxxxxxxxxxxxxxxxxxx
     ```
 
-#### Dropbox
+{% endtab %}
+{% tab downloadLink Dropbox %}
 
 1. Upload the resource pack to your Dropbox account, ensure it is in the `.zip` file format.
 
 2. Select it and click on "Copy link".
 
 3. To obtain a direct download link, add the end of the link replace `dl=0` with `dl=1`.
+
+{% endtab %}
+{% endtabs %}
 
 ## :wrench: Configuration
 

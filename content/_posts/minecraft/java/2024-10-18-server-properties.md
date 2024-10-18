@@ -4,7 +4,21 @@ title: Configuring server.properties
 category: Java
 tags: Configuration
 description: Editing the commonly used attributes of the server.properties file to configure your Java server.
-keywords: server properties, server configuration, server settings, default gamemode, default game mode, difficulty, allow command block, enable command block, max players, cracked players, view distance, set seed, change seed, custom seed, rcon, disable pvp
+keywords:
+    - keyword: server
+      matches: ["properties", "configuration", "config", "settings"]
+    - keyword: custom
+      matches: &custom_matches ["seed", "view distance", "simulation distance"]
+    - keyword: change
+      matches: &change_matches [*custom_matches, "gamemode", "game mode", "difficulty", "max players", "maximum players"]
+    - keyword: set
+      matches: *change_matches
+    - keyword: allow
+      matches: &allow_matches ["command block", "cracked", "rcon", "pvp"]
+    - keyword: enable
+      matches: *allow_matches
+    - keyword: disable
+      matches: *allow_matches
 permalink: /minecraft/java/configuration/server-properties
 author:
     - Kuroi
