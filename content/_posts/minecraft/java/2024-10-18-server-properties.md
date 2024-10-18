@@ -8,9 +8,9 @@ keywords:
     - keyword: server
       matches: ["properties", "configuration", "config", "settings"]
     - keyword: custom
-      matches: &custom_matches ["seed", "view distance", "simulation distance"]
+      matches: ["seed", "view distance", "simulation distance"]
     - keyword: change
-      matches: &change_matches [*custom_matches, "gamemode", "game mode", "difficulty", "max players", "maximum players"]
+      matches: &change_matches ["seed", "view distance", "simulation distance", "gamemode", "game mode", "difficulty", "max players", "maximum players"]
     - keyword: set
       matches: *change_matches
     - keyword: allow

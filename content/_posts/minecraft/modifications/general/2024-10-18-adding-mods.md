@@ -9,7 +9,7 @@ keywords:
     - keyword: mods
       matches: &mods_matches ["install", "use", "get", "add", "configure", "load", "put", "upload"]
     - keyword: mod
-      matches: *mods_matches ["install", "use", "get", "add", "configure", "load", "put", "upload"]
+      matches: *mods_matches
 author:
     - TWIXhunter
     - Deka
