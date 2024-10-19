@@ -38,7 +38,7 @@ Snapshots are a testing version of Minecraft released by Mojang. They contain ne
 ## Plugins:
 
 {% tabs plugin %}
-{% tab plugin Spigot %}
+{% tab plugin <i class="spigot"></i> Spigot %}
 
 [Spigot](https://www.spigotmc.org/) is a modified version of Bukkit with improvements and optimizations. We **do not** recommend using this software as there are many better alternatives, such as Paper and Purpur. Furthermore, it changes many aspects of the game, which may be a turn-off for admins looking for a vanilla experience.
 
@@ -48,7 +48,7 @@ Snapshots are a testing version of Minecraft released by Mojang. They contain ne
 [Paper](https://papermc.io/) is an extremely popular and widely used server software based on Spigot, offering improved performance, extensive plugin support and more configurations. It is recommended to use this software both due to its performance gains and its support for Bukkit, Spigot and its own plugin API. The only downside is that Paper aims to fix many of the game's bugs and inconsistencies, providing a slightly non-vanilla experience. However, many of these changes can still be configured to be more vanilla-like and often only affect very technical players.
 
 {% endtab %}
-{% tab plugin Purpur <i class="recommended"></i> %}
+{% tab plugin <i class="purpur"></i> Purpur <i class="recommended"></i> %}
 
 [Purpur](https://purpurmc.org/) is a fork of Paper; however, it also includes Pufferfish's optimizations on top of its own configuration additions. Making it a great choice for administrators looking for more customizable server software with the added bonus of both the optimizations from Paper and Pufferfish. In addition, it provides support for Spigot, Bukkit, and Paper plugins. We recommend using this server software. Unfortunately just like Paper, Purpur does not provide a true vanilla experience although the changes are minute and can be adjusted.
 
@@ -68,22 +68,22 @@ Snapshots are a testing version of Minecraft released by Mojang. They contain ne
 ## Modded Server Jars:
 
 {% tabs mod %}
-{% tab mod Fabric <i class="recommended"></i> %}
+{% tab mod <i class="fabric"></i> Fabric <i class="recommended"></i> %}
 
 [Fabric](https://fabricmc.net/) is a lightweight and modern modding framework designed for Minecraft, known for its large ecosystem of game-optimizing mods, its support for a wide range of complex mods and its regular updates. We recommend using this software in addition to a few optimization mods for the best vanilla experience.
 
 {% endtab %}
-{% tab mod NeoForge <i class="recommended"></i> %}
+{% tab mod <i class="neoforge"></i> NeoForge <i class="recommended"></i> %}
 
 [NeoForge](https://neoforged.net/) is a modern continuation of the Forge project, tailored to be more modular and maintainable. It's built to ensure compatibility with older Forge mods while improving performance and maintaining stability.
 
 {% endtab %}
-{% tab mod Forge %}
+{% tab mod <i class="forge"></i> Forge %}
 
 [Forge](https://files.minecraftforge.net/) is the classic modding framework for Minecraft, widely used for extensive mod-pack ecosystem and its vast array of mods, offering a rich selection of features and functionalities.
 
 {% endtab %}
-{% tab mod Quilt %}
+{% tab mod <i class="quilt"></i> Quilt %}
 
 [Quilt](https://quiltmc.org/en/) is a lightweight, modular modding framework that builds on Fabric, offering enhanced mod compatibility.
 
@@ -130,7 +130,7 @@ Hybrid servers combine the capabilities of both mod and plugin servers, allowing
 Proxies are server software that allow multiple Minecraft servers to be linked together, providing features like server networks, cross-server communication, and improved player management. Here are some of the most popular proxies:
 
 {% tabs proxy %}
-{% tab proxy Velocity <i class="recommended"></i> %}
+{% tab proxy <i class="velocity"></i> Velocity <i class="recommended"></i> %}
 
 [Velocity](https://papermc.io/software/velocity) is a modern, high performance proxy designed with performance and stability in mind, a solid alternative to Waterfall or BungeeCord with its own plugin ecosystem. We recommend using this server software.
 
@@ -144,7 +144,7 @@ Proxies are server software that allow multiple Minecraft servers to be linked t
 > Waterfall has reached its end of life, and it is recommended to transition to Velocity instead.
 
 {% endtab %}
-{% tab proxy BungeeCord %}
+{% tab proxy <i class="bungeecord"></i> BungeeCord %}
 
 [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) is one of the most widely used Minecraft proxies, enabling the linking of multiple Minecraft servers into a single network. It achieves this by allowing players to switch between servers seamlessly without disconnecting.
 
