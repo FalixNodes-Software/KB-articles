@@ -151,7 +151,7 @@ Github emojis and a few server software icons are supported to improve user frie
 
 To use a Github emoji, copy its name including the colons (e.g: `:smile:`) and paste it in the article, we only recommend using them in main subtitles (## or h2) and tabs to avoid over-saturation, a list of all Github emojis can be found in this [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
-We have a built in recommended icon and a few server software icons you can use anywhere in your article, with the latter especially so in tabs. We currently support `recommended` for recommended icons and `spigot`,`paper`, `purpur`, `forge`, `neoforge`, `fabric` and `quilt` for server software icons. To add the icon to your article follow the format below, make sure to replace `icon` with one of the options listed beforehand.
+We have a built in recommended icon and a few server software icons you can use anywhere in your article, with the latter especially so in tabs. We currently support `recommended` for recommended icons and `spigot`,`paper`, `purpur`, `forge`, `neoforge`, `fabric`, `quilt`, `velocity` and `bungeecord` for server software icons. To add the icon to your article follow the format below, make sure to replace `icon` with one of the options listed beforehand.
 
 ```html
 <i class="icon"></i>
