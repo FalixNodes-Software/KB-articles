@@ -40,7 +40,7 @@ Snapshots are a testing version of Minecraft released by Mojang. They contain ne
 {% tabs plugin %}
 {% tab plugin <i class="spigot"></i> Spigot %}
 
-[Spigot](https://www.spigotmc.org/) is a modified version of Bukkit with improvements and optimizations. We **do not** recommend using this software as there are many better alternatives, such as Paper and Purpur. Furthermore, it changes many aspects of the game, which may be a turn-off for admins looking for a vanilla experience.
+[Spigot](https://www.spigotmc.org/) is a modified version of Bukkit with improvements and optimizations. We **do not** recommend using this software as there are many better alternatives, such as Paper and Purpur. Furthermore, it changes many aspects of the game, which may be a deal breaker for admins looking for a vanilla experience.
 
 {% endtab %}
 {% tab plugin Paper <i class="recommended"></i> %}
