@@ -69,7 +69,6 @@ keywords:
     - keyword: "dynmap"
     - keyword: "world"
       matches: ["live", "browser", "map"]
-keywords: (Main keyword), keyword1, keyword2
 permalink: /minecraft/java/general/name-of-article
 image: "link"
 author: Name
