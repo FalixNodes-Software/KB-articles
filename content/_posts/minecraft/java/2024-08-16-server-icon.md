@@ -5,6 +5,7 @@ category: Java
 tags: General
 permalink: /minecraft/java/general/server-icon
 description: Setting a custom and unique server icon.
+keywords: icon, server image, server logo
 author:
     - Naoki
     - Deka
@@ -37,6 +38,6 @@ Due to limitations, icons must be in the `.png` format and to avoid stretching o
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
-4. Click on the "Upload Files" button and select the previously generated icon.
+4. Click on the "**Upload Files**{: .blue }" button and select the previously generated icon.
 
 5. Navigate back to the [Console page](https://client.falixnodes.net/server/console) and (re)start your server to apply your icon.
