@@ -38,6 +38,7 @@ author:
 10. Ensure your world folder is named as `world`.
 
 > If you use Spigot or any of its forks (Paper, Purpur, etc.), you will have three world folders: "world", "world_nether" and "world_the_end".
+> If you are moving to Spigot, Paper, Purpur or any of their forks from single-player or any other server software other than the aforementioned software, convert your world folder by following our [world migration guide](/minecraft/java/general/migrate-world)
 
 ## :arrow_down: Downloading Your World:
 
@@ -56,3 +57,4 @@ author:
 6. Select it by checking the checkbox beside its name then click on "**Download**{: .green }".
 
 > You may need to install an unarchive software (like WinRAR or 7zip) to unarchive the `.tar.gz` file
+> If you are moving from Spigot, Paper, Purpur or any of their forks to single-player or any other server software other than the aforementioned software, convert your world folder by following our [world migration guide](/minecraft/java/general/migrate-world)
