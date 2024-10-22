@@ -5,7 +5,12 @@ category: Java
 tags: General
 permalink: /minecraft/java/general/server-icon
 description: Setting a custom and unique server icon.
-keywords: icon, server image, server logo
+keywords:
+    - keyword: icon
+    - keyword: server
+      matches: &server_matches ["image", "logo", "picture", "thumbnail"]
+    - keyword: custom
+      matches: *server_matches
 author:
     - Naoki
     - Deka

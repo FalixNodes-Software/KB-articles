@@ -4,7 +4,9 @@ title: Using Custom Server Software or Version
 category: Java
 tags: General
 description: Find out how to use a custom or modified software or version not available in the versions list.
-keywords: custom software, custom jar, custom core, custom flavor
+keywords:
+    - keyword: custom
+      matches: ["software", "jar", "core"]
 permalink: /minecraft/java/general/custom-software
 author: Mocab
 ---
