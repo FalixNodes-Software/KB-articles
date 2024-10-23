@@ -13,7 +13,7 @@ permalink: /minecraft/java/general/migrate-world
 author: Mocab
 ---
 
-Server software such as Spigot, Paper, Purpur and any of their forks use a different world folder structure to the standard vanilla structure. To increase customisation and add the ability to use a different seed or generation setting for each dimension, these software move the `DIM-1` and `DIM1` sub-folders to `world_nether` and `world_the_end` respectively.
+Server software such as Spigot, Paper, Purpur and any of their forks use a different world folder structure than the standard vanilla structure. To increase customisation and add the ability to use a different seed or generation setting for each dimension, they move the `DIM-1` and `DIM1` sub-folders to `world_nether` and `world_the_end` respectively.
 
 ## Converting to the Spigot Format
 
@@ -43,7 +43,7 @@ Server software such as Spigot, Paper, Purpur and any of their forks use a diffe
 
 {: .warning }
 
-> Ensure you make backups before proceeding. We **do not** recommend doing this if you have different seeds set for each dimension.
+> Make a backup before proceeding. We **do not** recommend doing this if you have different seeds set for each dimension.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
