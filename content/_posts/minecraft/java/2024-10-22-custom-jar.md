@@ -21,7 +21,7 @@ Standalone jars are often downloaded directly, while jar with a library folder a
 
 {: .warning }
 
-> **NEVER** download shady or untrusted server software, or software from unofficial websites. Malicious developers can use them to easily gain backdoor access to your server and wreak havoc.
+> **NEVER** download server software or other software, such as plugins or mods, from unofficial websites. Malicious developers can use them to easily gain backdoor access to your server and wreak havoc.
 
 -   [Paper, Folia, Velocity, Waterfall](https://papermc.io/downloads)
 -   [Purpur](https://purpurmc.org/downloads)
