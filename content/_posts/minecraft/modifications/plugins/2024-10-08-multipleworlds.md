@@ -82,6 +82,10 @@ mod-url: "https://modrinth.com/plugin/multiverse-core"
 {: .warning}
 > This section needs Multiverse-Portals te be installed, download it [here](https://modrinth.com/plugin/multiverse-portals).
 
+{: .error}
+> only players having the `multiverse.portal.access.*` (or the `multiverse.portal.access.<portalname>`) permission can use portals
+> Give these permissions to your players using your permission plugin (like: luckperms)
+
 ## Creating a Portal
 
 1. Select the blocks that you want to become a portal by left-clicking a wooden axe to the top-right position and right-clicking the end position.
