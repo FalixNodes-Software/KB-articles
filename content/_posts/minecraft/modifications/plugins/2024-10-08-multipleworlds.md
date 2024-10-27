@@ -83,8 +83,8 @@ mod-url: "https://modrinth.com/plugin/multiverse-core"
 > This section needs Multiverse-Portals te be installed, download it [here](https://modrinth.com/plugin/multiverse-portals).
 
 {: .error}
-> only players having the `multiverse.portal.access.*` (or the `multiverse.portal.access.<portalname>`) permission can use portals
-> Give these permissions to your players using your permission plugin (like: luckperms)
+> only players having the `multiverse.portal.access.*` (or the `multiverse.portal.access.<portalname>`) permission can use portals.
+> Give these permissions to your players using your permission plugin (like: luckperms).
 
 ## Creating a Portal
 
