@@ -1,126 +1,123 @@
 ---
-layout: post
-title: Learn how to host multiple worlds at once!
-category: Java
-tags: plugins
-permalink: /minecraft/modifications/plugins/multipleworlds
-description: Learn how to use the  Multiverse-core, Multiverse-portals and multiverse-.
-author: TheTWIXhunter
-toc: true
-icon: "content/assets/images/posts/multipleworlds/multiverse-core-logo.png"
-mod-name: "Multiverse-core"
-mod-software: "Spigot, Paper, Purpur"
-mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"
+layout: post  
+title: Learn How to Host Multiple Worlds at Once!  
+category: Java  
+tags: plugins  
+permalink: /minecraft/modifications/plugins/multipleworlds  
+description: Learn how to use the Multiverse-Core, Multiverse-Portals, and Multiverse-.  
+author: TheTWIXhunter  
+toc: true  
+icon: "content/assets/images/posts/multipleworlds/multiverse-core-logo.png"  
+mod-name: "Multiverse-Core"  
+mod-software: "Spigot, Paper, Purpur"  
+mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"  
 ---
 
-// this is a rough outline, don't correct me on spelling or grammar YET.
+// This is a rough outline. Don't correct me on spelling or grammar yet.
 
-# Installing the plugin
+# Installing the Plugin
 
-Download the multiverse-core plugin [here](https://www.spigotmc.org/resources/multiverse-core.390/)
+1. Download the Multiverse-Core plugin [here](https://www.spigotmc.org/resources/multiverse-core.390/).
 
-Open the Filemanenger and go to the /plugins folder
+2. Open the File Manager and go to the /plugins folder.
 
-Upload the worldfolder to the File Manager
+3. Upload the world folder to the File Manager.
 
-Go to the worlds page
+4. Go to the worlds page.
 
-delete the old worlds and Upload the 'lobby' world of your choise
+5. Delete the old worlds and upload the 'lobby' world of your choice.
 
-Press "Make Primary"
+6. Press "Make Primary."
 
-(re)start the server
+7. (Re)start the server.
 
-# adding worlds
-## uploading a secondary world
+# Adding Worlds
+## Uploading a Secondary World
 
-Upload the world folder to the (home location of the) File manenger or Upload your world using the Worlds page
-(see this )
+1. Upload the world folder to the (home location of the) File Manager or upload your world using the Worlds page (see this).
 
-{: .warning}
-> The folder you upload CAN'T have spaces in it's name.
+   {: .warning}
+   > The folder you upload can't have spaces in its name.
 
-{: .warning}
-> Give the folder a clear and easy name, this name will be used as worldname In-game.
+   {: .warning}
+   > Give the folder a clear and easy name; this name will be used as the world name in-game.
 
-Join your server
+2. Join your server.
 
-run this command (you need to have OP rights):
+3. Run this command (you need to have OP rights):
 
-`/mvimport <name> <type>`
+   `/mvimport <name> <type>`
 
-replace:
- `<name>` with the name of the folder/world that you uploaded.
- `<type>` with the type of world, possibilities are: `NORMAL`, `NETHER` or `THE_END`
+   Replace:
+   - `<name>` with the name of the folder/world that you uploaded.
+   - `<type>` with the type of world; possibilities are: `NORMAL`, `NETHER`, or `THE_END`.
 
-Teleport to the world using `/mvtp <name>`
+4. Teleport to the world using `/mvtp <name>`.
 
+## Generating a New World
 
+1. Join your server.
 
-## Generating a new world
+2. Run this command (you need to have OP rights):
 
-Join your server.
+   `/mvcreate <name> <type> (<-parameters>)`
 
-run this command (you need to have OP rights):
+   Replace:
+   | `<name>`         | the name of the world.                                                                          |
+   |----------------- |-------------------------------------------------------------------------------------------------|
+   | `<type>`         | the world type; options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` (default: `Normal`) |
+   | `(-parameters)`  | the wanted parameters (optional) (see below)                                                    |
 
-`/mvcreate <name> <type> (<-parameters>)`
+   **Optional Parameters:**
+   | Parameter          | explanation                                                                      | default   |
+   |--------------------|----------------------------------------------------------------------------------|-----------|
+   | `-s <yourseed>`    | Sets the seed for the world                                                      | Random    |
+   | `-t <worldtype>`   | Sets the world type; options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` | `normal`  |
+   | `-g <generator>`   | Sets a custom generator to be used                                               | vanilla   |
+   | `-a <true|false>`  | Whether or not to generate structures                                            | `true`    |
 
-replace:
-| `<name>`        	| the name of the world.                                                                          	|
-|-----------------	|-------------------------------------------------------------------------------------------------	|
-| `<type>`        	| the world type, options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` (default: `Normal`) 	|
-| `(-parameters)` 	| the wanted parameters (optional)(see below)                                                     	|
+3. Wait for the world to generate (this can take a while).
 
-Optional Parameters:
-| Parameter          	| explaination                                                                     	| default  	|
-|--------------------	|----------------------------------------------------------------------------------	|----------	|
-| `-s <yourseed>`    	| Sets the seed for the world                                                      	| Random   	|
-| `-t <worldtype>`   	| sets the world type, options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` 	| `normal` 	|
-| `-g <generator>`   	| Sets a custom generator to be used                                               	| vanilla  	|
-| `-a <true\|false>` 	| wether or not to Generate structures                                             	| `true`   	|
+4. Teleport to the world using `/mvtp <name>`.
 
-Wait for the world to generate (this can take a while)
-
-Teleport to the world using `/mvtp <name>`
-
-# Create Custom portals between worlds
+# Create Custom Portals Between Worlds
 {: .warning}
 
-> This section needs multiverse-portals installed, download it [here](https://modrinth.com/plugin/multiverse-portals)
+> This section needs Multiverse-Portals installed; download it [here](https://modrinth.com/plugin/multiverse-portals).
 
-## creating a portal
+## Creating a Portal
 
-select the blocks that you want to become a portal by left-clicking a wooden_axe to the top-right position and right-clicking the end-position
+1. Select the blocks that you want to become a portal by left-clicking a wooden axe to the top-right position and right-clicking the end position.
 
-{: .info}
+   {: .info}
 
-> the portal can be made out of any blocks of your choise
+   > The portal can be made out of any blocks of your choice.
 
-{: .warning}
+   {: .warning}
 
-> the portal needs to be eather vertical or horizontal
+   > The portal needs to be either vertical or horizontal.
 
-Run this command:
-    `/mvp create <name>`
+2. Run this command:
+   `/mvp create <name>`.
 
-## Linking 2 portals to eachother.
+## Linking 2 Portals to Each Other
 
-Run this command:
-    `/mvp select <portalname>`
+1. Run this command:
+   `/mvp select <portalname>`.
 
-once your first portal is selected, run:
-    `/mvp modify dest -p <destinationportalname>`
+2. Once your first portal is selected, run:
+   `/mvp modify dest -p <destinationportalname>`.
 
-{: .info}
+   {: .info}
 
-> you need to repead these steps for the destination portal to link it back to the original one
+   > You need to repeat these steps for the destination portal to link it back to the original one.
 
-## Linking a portal to a location.
+## Linking a Portal to a Location
 
-Run this command:
-    `/mvp select <portalname>`
+1. Run this command:
+   `/mvp select <portalname>`.
 
-Go to the location that you want players teleported to.
+2. Go to the location that you want players teleported to.
 
-Run this command:
-    `/mvp modify dest here`
+3. Run this command:
+   `/mvp modify dest here`.
