@@ -66,15 +66,18 @@ run this command (you need to have OP rights):
 `/mvcreate <name> <type> (<-parameters>)`
 
 replace:
- `<name>` with the name of the world.
- `<type>` with the type of world, possibilities are: `NORMAL`, `NETHER` or `THE_END`
- `(-parameters)` with the wanted parameters (optional)(see below)
+| `<name>`        	| the name of the world.                                                                          	|
+|-----------------	|-------------------------------------------------------------------------------------------------	|
+| `<type>`        	| the world type, options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` (default: `Normal`) 	|
+| `(-parameters)` 	| the wanted parameters (optional)(see below)                                                     	|
 
 Optional Parameters:
- `-s <yourseed>` Sets the seed for the world (default: Random)
- `-t <type>` sets the world type, options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` (default: `Normal`)
- `-g <generator>` Uses a custom generator (those need to be installed seperatly)
- `-a <true|false>` Generate structures?
+| Parameter          	| explaination                                                                     	| default  	|
+|--------------------	|----------------------------------------------------------------------------------	|----------	|
+| `-s <yourseed>`    	| Sets the seed for the world                                                      	| Random   	|
+| `-t <worldtype>`   	| sets the world type, options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` 	| `normal` 	|
+| `-g <generator>`   	| Sets a custom generator to be used                                               	| vanilla  	|
+| `-a <true\|false>` 	| wether or not to Generate structures                                             	| `true`   	|
 
 Wait for the world to generate (this can take a while)
 
