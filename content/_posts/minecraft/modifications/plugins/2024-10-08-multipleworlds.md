@@ -10,14 +10,12 @@ toc: true
 icon: "content/assets/images/posts/multipleworlds/multiverse-core-logo.png"  
 mod-name: "Multiverse-Core"  
 mod-software: "Spigot, Paper, Purpur"  
-mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"  
+mod-url: "https://modrinth.com/plugin/multiverse-core"  
 ---
-
-// This is a rough outline. Don't correct me on spelling or grammar yet.
 
 # Installing the Plugin
 
-1. Download the Multiverse-Core plugin [here](https://www.spigotmc.org/resources/multiverse-core.390/).
+1. Download the Multiverse-Core plugin [here](https://modrinth.com/plugin/multiverse-core).
 
 2. Open the File Manager and go to the /plugins folder.
 
@@ -25,11 +23,9 @@ mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"
 
 4. Go to the worlds page.
 
-5. Delete the old worlds and upload the 'lobby' world of your choice.
+5. Delete the old worlds (except the one that you want as default world)
 
-6. Press "Make Primary."
-
-7. (Re)start the server.
+6. (Re)start the server.
 
 # Adding Worlds
 ## Uploading a Secondary World
@@ -42,7 +38,7 @@ mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"
    {: .warning}
    > Give the folder a clear and easy name; this name will be used as the world name in-game.
 
-2. Join your server.
+2. Join your server or open your server's console.
 
 3. Run this command (you need to have OP rights):
 
@@ -50,17 +46,17 @@ mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"
 
    Replace:
    - `<name>` with the name of the folder/world that you uploaded.
-   - `<type>` with the type of world; possibilities are: `NORMAL`, `NETHER`, or `THE_END`.
+   - `<type>` with the type of world, possibilities are: `NORMAL`, `NETHER`, or `THE_END`.
 
 4. Teleport to the world using `/mvtp <name>`.
 
 ## Generating a New World
 
-1. Join your server.
+1. Join your server or open your server's console.
 
 2. Run this command (you need to have OP rights):
 
-   `/mvcreate <name> <type> (<-parameters>)`
+   `/mvcreate <name> <type> (-parameters)`
 
    Replace:
    | `<name>`         | the name of the world.                                                                          |
@@ -73,28 +69,27 @@ mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"
    |--------------------|----------------------------------------------------------------------------------|-----------|
    | `-s <yourseed>`    | Sets the seed for the world                                                      | Random    |
    | `-t <worldtype>`   | Sets the world type; options are: `Flat`, `normal`, `largebiomes`, `Version_1_1` | `normal`  |
-   | `-g <generator>`   | Sets a custom generator to be used                                               | vanilla   |
-   | `-a <true|false>`  | Whether or not to generate structures                                            | `true`    |
+   | `-g <generator>`   | Sets a custom generator to be used                                               | `vanilla` |
+   | `-a <true/false>`  | Whether or not to generate structures                                            | `true`    |
 
 3. Wait for the world to generate (this can take a while).
 
 4. Teleport to the world using `/mvtp <name>`.
 
-# Create Custom Portals Between Worlds
-{: .warning}
 
-> This section needs Multiverse-Portals installed; download it [here](https://modrinth.com/plugin/multiverse-portals).
+# Create Custom Portals Between Worlds
+
+{: .warning}
+> This section needs Multiverse-Portals te be installed, download it [here](https://modrinth.com/plugin/multiverse-portals).
 
 ## Creating a Portal
 
 1. Select the blocks that you want to become a portal by left-clicking a wooden axe to the top-right position and right-clicking the end position.
 
    {: .info}
-
    > The portal can be made out of any blocks of your choice.
 
    {: .warning}
-
    > The portal needs to be either vertical or horizontal.
 
 2. Run this command:
@@ -109,7 +104,6 @@ mod-url: "https://www.spigotmc.org/resources/multiverse-core.390/"
    `/mvp modify dest -p <destinationportalname>`.
 
    {: .info}
-
    > You need to repeat these steps for the destination portal to link it back to the original one.
 
 ## Linking a Portal to a Location
