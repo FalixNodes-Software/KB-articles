@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding custom world portals
+title: Adding custom worlds and portals
 category: Java
 tags: plugins
 permalink: /minecraft/modifications/plugins/multiverse
