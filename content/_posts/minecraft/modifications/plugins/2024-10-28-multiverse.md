@@ -6,8 +6,8 @@ tags: plugins
 permalink: /minecraft/modifications/plugins/multiverse
 description: Using Multiverse-Core and Multiverse-Portals to add portals to custom worlds
 author: 
-	- TheTWIXhunter
-	- Deka
+    - Twixhunter
+    - Deka
 icon: "content/assets/images/posts/multipleworlds/multiverse-core-logo.png"
 mod-name: "Multiverse-Core"
 mod-software: "Bukkit, Paper, Spigot"
