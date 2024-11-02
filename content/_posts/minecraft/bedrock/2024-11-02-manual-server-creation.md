@@ -67,6 +67,10 @@ Bedrock softwares are standalone and can be often downloaded directly. Here’s 
 
 ### Updating your BDS Server
 
+{: .warning }
+
+> Make sure to make a backup of your server to prevent any data loss.
+
 1. Get an archive with a newer version of BDS. Only need the `bedrock_server` file is necessary for updating, so you can unarchive it on your device. Refer to ["Installing the Latest BDS"](#installing-the-latest-bds).
 
 2. Select the `bedrock_server` file in your server's File Manager.
