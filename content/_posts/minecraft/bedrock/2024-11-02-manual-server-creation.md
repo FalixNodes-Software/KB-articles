@@ -11,7 +11,7 @@ keywords:
       matches: ["server"]
     - keyword: pocketmine
     - keyword: nukkit
-permalink: /minecraft/java/general/custom-software
+permalink: /minecraft/bedrock/general/custom-software
 author: Dynamic_Slayer
 ---
 
