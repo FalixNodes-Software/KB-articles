@@ -103,7 +103,7 @@ serverJar=minecraft.jar
 
 3. Once the archive has been uploaded, locate it and press the 3 dots to its right, then select "Unarchive".
 
-4. Once done, you may delete the archive file as it is no longer needed.
+4. Once done, you may delete the archive as it is no longer needed.
 
 5. Make sure that the main `.jar` file is named `server.jar`. If not, press the 3 dots to its right and select "Rename".
 
