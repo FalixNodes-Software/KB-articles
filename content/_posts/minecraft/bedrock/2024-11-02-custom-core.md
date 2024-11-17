@@ -43,7 +43,7 @@ Before we can continue, you must choose a server core and download it. A list of
 1. Download the Dedicated Server Software for Ubuntu **(Linux)** from the [Minecraft Bedrock website](https://www.minecraft.net/en-us/download/server/bedrock).
 
     > If you are looking for a preview version, download Dedicated Server Software for Ubuntu (Linux) Preview instead.
-    > If you are looking for an older version, right click and copy the download link, then change the version near the end of the link with the one you are looking for (e.g: `.../bedrock-server-1.20.81.01.zip`). Open the link to begin downloading the `.zip` archive.
+    > If you are looking for an older version, you **must** agree to the [Minecraft End User License Agreement](https://www.minecraft.net/en-us/eula) and [Privacy Policy](https://www.microsoft.com/en-us/privacy/privacystatement), then copy the download link and change the version near the end of the link with the one you are looking for (e.g: `.../bedrock-server-1.20.81.01.zip`). Open the link to begin downloading the `.zip` archive.
 
 2. Login to the [Dashboard](https://client.falixnodes.net/).
 
