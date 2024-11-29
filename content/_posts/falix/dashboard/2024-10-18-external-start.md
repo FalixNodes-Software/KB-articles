@@ -18,12 +18,16 @@ author:
 The external start feature is a great way to allow players or users to start your server when needed without needing access to your server's console.
 
 ## :green_circle: Starting a Server Using External Start:
+{: .warning}
+> It is not allowed for server owners to use this feature, start your free server in [the console](https://client.falixnodes.net/server/console) instead.
 
 1. Go to the [External Start page](https://falixnodes.net/startserver).
 
 2. Enter the IP address of the server you want to start.
 
     > Specifying the port is not necessary.
+
+    > you can prefill the subdomain box by adding `#name=yoursubdomain.falixsrv.me` to the end of the page url.
 
 3. Click on the "**Start Server**{: .purple }" button to initiate a server start.
 
