@@ -12,6 +12,8 @@ keywords:
       matches: *mods_matches
 author:
     - TWIXhunter
+    - Deka
+    - Mocab
 ---
 
 Minecraft modpacks are user-created modifications or additions to the game that alter or enhance the game-play experience. Modpacks can range from simple tweaks to the game's mechanics to extensive overhauls that add new features, items, entities, and much more.
