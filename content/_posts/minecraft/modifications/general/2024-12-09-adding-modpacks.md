@@ -30,7 +30,7 @@ When it comes to forks, as fork mod loaders are based on the upstream mod loader
 Mods are often hosted on modding platforms, these are websites that contain a large collection of mods for the user to browse through and choose, the most common ones being:
 
 -   [Modrinth](https://modrinth.com/modpacks)
--   [CurseForge](https://www.curseforge.com/minecraft/search)
+-   [CurseForge](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=modpacks)
 -   [FTB](https://www.feed-the-beast.com/modpacks?sort=featured)
 -   [Technic](https://www.technicpack.net/modpacks)
 ## :hammer_and_wrench: Installing and Configuring Mods:
