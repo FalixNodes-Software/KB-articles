@@ -3,12 +3,12 @@ layout: post
 title: How To Add Modpacks to Your Server
 category: Modifications
 tags: General
-permalink: minecraft/modifications/general/adding-mod
-description: Learn how to upload and install mods to your Minecraft Java server.
+permalink: minecraft/modifications/general/adding-modpacks
+description: Learn how to upload and install modpacks to your Minecraft Java server.
 keywords:
     - keyword: modpacks
       matches: &mods_matches ["install", "use", "get", "add", "configure", "load", "put", "upload"]
-    - keyword: modpak
+    - keyword: modpack
       matches: *mods_matches
 author:
     - TWIXhunter
