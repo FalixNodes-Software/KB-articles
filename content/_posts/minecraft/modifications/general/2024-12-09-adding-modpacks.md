@@ -16,24 +16,23 @@ author:
     - Mocab
 ---
 
-Minecraft modpacks are user-created modifications or additions to the game that alter or enhance the game-play experience. Modpacks can range from simple tweaks to the game's mechanics to extensive overhauls that add new features, items, entities, and much more.
+Minecraft modpacks are curated collections of user-created modifications that enhance or change the gameplay experience. These modpacks can vary from minor adjustments to core mechanics to substantial transformations that introduce new features, items, creatures, and a variety of additional content.
 
 
 ## :pickup_truck: Mod Loaders:
 
-Due to how modpacks work, a mod loader is needed as a server software to inject and run the mods itself, with some modpacks only supporting specific mod loaders and sometimes very specific versions. Unfortunately only a single mod loader can be used at a time within a setup, and therefore all mods and modpacks used must support the mod loader. To learn more about mod loaders, please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our server software guide.
+To utilize modpacks, a mod loader is required as server software to properly inject and manage the mods. Some modpacks may support only specific mod loaders or certain versions. It's important to note that only one mod loader can be active in a setup at a time, meaning all modpacks and mods must be compatible with the chosen mod loader. You can find the appropriate mod loader on the modpacks page. please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our server software guide for more information on modloaders.
 
-When it comes to forks, as fork mod loaders are based on the upstream mod loader, most if not all upstream mods should work on forked mod loaders, meaning Fabric modpacks should still work when using Quilt, and the same applies to Forge modpacks used with the NeoForge mod loader.
+## :mag: Finding Modspacks:
 
-## :mag: Finding Mods:
-
-Mods are often hosted on modding platforms, these are websites that contain a large collection of mods for the user to browse through and choose, the most common ones being:
+Modpacks are often hosted on modding platforms, these are websites that contain a large collection of mods for the user to browse through and choose, the most common ones being:
 
 -   [Modrinth](https://modrinth.com/modpacks)
 -   [CurseForge](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=modpacks)
 -   [FTB](https://www.feed-the-beast.com/modpacks?sort=featured)
 -   [Technic](https://www.technicpack.net/modpacks)
-## :hammer_and_wrench: Installing and Configuring Mods:
+
+## :hammer_and_wrench: Installing and Configuring:
 
 ### Through the Modpack Installer:
 
@@ -47,7 +46,7 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 5. Locate your modpack within the search results, then click on "**Install**{: .blue }" to download the modpack to your server.
 
-6. (Re)start your server to apply the mod.
+6. (Re)start your server to apply the modpack to your server.
 
 ### Manually Installing Mods:
 
@@ -61,9 +60,14 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 5. Download the modpack from it's official page. Make sure to select the version and mod loader matching your server.
 
+{: .warning}
+> Make sure to download the server pack of the modpack, these can be found under:
+    Files > click your version of choice > aditional files > serverpack for curseforge
+    lorepsum > ipsum > work > in > progress(modrinth downtime) for modrinth
+
 6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
-7. Find the downloaded modpack (this shoud be an archived file) and select it, then upload it to your server.
+7. Find the downloaded serverpack (this shoud be an archived file) and select it, then upload it to your server.
 
 8. Unarchive the file by pressing on the 3 dots and choosing 'unarchive'
 
@@ -76,13 +80,15 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 ### Configuration
 
-Many mods include the option to configure and adjust the mod to fit your needs, either by adjusting the changed mechanics or by enabling or disabling features. These options can be found within the configuration file which can be found by following these steps:
+Many mods inside the modpack will have options that allow you to customize and tweak the mods to suit your preferences. This can include modifying mechanics or enabling and disabling specific features. To access these options, you can find the configuration file by following these steps:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. Choose a server within your server list.
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+
+> make sure that the server was started once before this
 
 4. Locate and open the [config](https://client.falixnodes.net/server/filemanager?dir=/config/) folder.
 
