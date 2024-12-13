@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Custom Server Software or Version
+title: Add Custom Server Software or Version
 category: Bedrock
 tags: General
 description: Find out how to use a custom or modified software or version not available in the versions list.
