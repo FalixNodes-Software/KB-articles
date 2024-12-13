@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Installing and configuring Simple Voice Chat
+title: Allow Proximity Chat With Simple Voice Chat
 category: Modifications
 tags: Software
 permalink: minecraft/modifications/software/voice-chat
-description: Adding a proximity-based voice chat to your server.
+description: How to add a proximity-based voice chat to your server so players can talk to each other in-game.
 keywords:
     - keyword: vc
     - keyword: microphone

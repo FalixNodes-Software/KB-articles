@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Choosing a Minecraft Server Software
+title: How To Pick the Best Server Software
 category: Java
 tags: General
-description: Explore different options for mod, plugin, hybrid and proxy server software to find the best fit for your setup.
+description: Explore different server flavors and software to find the best fit for mod, plugin, hybrid or proxy setups.
 keywords:
     - keyword: server
       matches: ["software", "jar", "core"]

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Using Custom Server Software or Version
+title: Add Custom Server Software or Version
 category: Java
 tags: General
-description: Find out how to use a custom or modified software or version not available in the versions list.
+description: Upload custom or modified software and versions not provided officially.
 keywords:
     - keyword: custom
       matches: ["software", "jar", "core"]

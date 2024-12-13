@@ -4,7 +4,7 @@ title: How to Upload or Download Your World
 category: Java
 tags: General
 permalink: /minecraft/java/general/world-management
-description: Learn how to manage, upload and download your world.
+description: An essential guide to manage, upload and download your world to and from your server.
 keywords:
     - keyword: world
       matches: &world_matches ["upload", "download", "management"]

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Assigning an Extra Port
+title: How To Create an Open Port
 category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/extra-port
-description: Allocating a dedicated network port.
+description: Learn how to create and assign a dedicated or extra network port to your server.
 keywords:
     - keyword: port
-      matches: ["allocate", "create", "dedicated", "extra", "webserver", "secondary", "network"]
+      matches: ["allocate", "create", "dedicated", "extra", "webserver", "secondary", "network", "open"]
 author:
     - Naoki
     - Mocab
