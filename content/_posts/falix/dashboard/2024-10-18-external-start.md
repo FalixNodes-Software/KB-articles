@@ -7,9 +7,9 @@ permalink: falix/dashboard/server/external-start
 description: Use the external start feature to turn on your server without accessing the console.
 keywords:
     - keyword: turn on
-      matches: ["without", "external"]
+      matches: &start_matches ["without", "external", "friend", "friends"]
     - keyword: start
-      matches: ["without", "external"]
+      matches: *start_matches
 author:
     - TWIXhunter
     - Mocab
