@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Starting Your Server Externally
+title: How To Start Your Server Externally
 category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/external-start
-description: How to turn on your server using the external start feature without access to the console.
+description: Use the external start feature to turn on your server without accessing the console.
 keywords:
     - keyword: turn on
-      matches: ["server"]
+      matches: ["without", "external"]
     - keyword: start
-      matches: ["external", "server"]
+      matches: ["without", "external"]
 author:
     - TWIXhunter
     - Mocab

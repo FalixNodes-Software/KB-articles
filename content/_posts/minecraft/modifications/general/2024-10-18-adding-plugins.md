@@ -4,7 +4,7 @@ title: How To Add Plugins to Your Server
 category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-plugins
-description: Learn how to upload and install plugins to your Minecraft Java server.
+description: A step-by-step guide to upload and install plugins on your server.
 keywords:
     - keyword: plugins
       matches: &mods_matches ["install", "use", "get", "add", "configure", "load", "put", "upload"]
@@ -20,7 +20,7 @@ Minecraft plugins are server-side user-created modifications or additions to the
 
 ## :pickup_truck: Server Software With Plugin Support:
 
-Due to how plugins work, a special server software is needed to needed to inject and run the plugin itself, with each plugin supporting a certain server software. To learn more about server software with plugin support, please refer to the [Plugins](minecraft/java/configuration/server-software#plugins) section of our server software guide.
+Due to how plugins work, a special server software is needed to needed to inject and run the plugin itself, with each plugin supporting a certain server software. To learn more about server software with plugin support, please refer to the [Plugins](minecraft/java/general/server-software#plugins) section of our server software guide.
 
 As forked server software are based on the upstream server software, all upstream plugins should work on forked server software, meaning Spigot plugins will still work when using Paper and Purpur, and the same applies to Paper plugins used with the Purpur server software.
 

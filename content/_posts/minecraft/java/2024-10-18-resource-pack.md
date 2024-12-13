@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Adding Resource Packs to Your Server"
+title: How To Add Resource Packs
 category: Java
 tags: Configuration
-description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
+description: Change Minecraft's look with a server resource pack to give blocks and textures a new look and feel.
 keywords:
     - keyword: pack
       matches: &pack_matches ["resource", "texture", "sound"]

@@ -4,7 +4,7 @@ title: How To Add Mods to Your Server
 category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-mods
-description: Learn how to upload and install mods to your Minecraft Java server.
+description: A step-by-step guide to upload and install mods on your server.
 keywords:
     - keyword: mods
       matches: &mods_matches ["install", "use", "get", "add", "configure", "load", "put", "upload"]
@@ -24,7 +24,7 @@ There are three types of mods: server-side, client-side and both. Depending on t
 
 ## :pickup_truck: Mod Loaders:
 
-Due to how mods work, a mod loader is needed as a server software to inject and run the mod itself, with some mods only supporting specific mod loaders and sometimes very specific versions. Unfortunately only a single mod loader can be used at a time within a setup, and therefore all mods used must support the mod loader. To learn more about mod loaders, please refer to the [Modded Server Jar](/minecraft/java/configuration/server-software#modded-server-jars) section of our server software guide.
+Due to how mods work, a mod loader is needed as a server software to inject and run the mod itself, with some mods only supporting specific mod loaders and sometimes very specific versions. Unfortunately only a single mod loader can be used at a time within a setup, and therefore all mods used must support the mod loader. To learn more about mod loaders, please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our server software guide.
 
 When it comes to forks, as fork mod loaders are based on the upstream mod loader, most if not all upstream mods should work on forked mod loaders, meaning Fabric mods should still work when using Quilt, and the same applies to Forge mods used with the NeoForge mod loader.
 
