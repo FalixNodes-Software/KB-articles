@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Add Modpacks to Your Server
+title: How To Add Modpacks to Your Minecraft Server
 category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-modpacks
