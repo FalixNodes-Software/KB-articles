@@ -11,7 +11,7 @@ keywords:
 author: Mocab
 ---
 
-## :play_or_pause_button: Starting Your Server
+## Starting Your Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -27,7 +27,7 @@ author: Mocab
 
 5. A popup should appear, copy the string of characters under "Your server with port is", it should look like `xxxxx.falixsrv.me:xxxxx`. This is your server address and port, which we will use to connect to your server.
 
-## :video_game: Joining Your Server
+## Joining Your Server
 
 1. Launch and open Minecraft.
 

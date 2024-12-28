@@ -27,7 +27,7 @@ author:
 
 Understanding the [server.properties](https://server.properties) file is crucial for configuring and customizing your Minecraft server. This guide highlights the essential attributes within the file, enabling you to optimize and alter your server settings for the best gameplay experience.
 
-## :pencil2: Accessing & Configuring server.properties
+## Accessing & Configuring server.properties
 
 There are two possible methods to access server.properties, you may either directly alter the file found in the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/), or using our server.properties editor:
 
@@ -41,7 +41,7 @@ To edit a setting, depending on the type, you may have to select an option from 
 
 To save your changes, simply click on "**Submit**{: .blue }" at the top of the properties list.
 
-### :wrench: Configurations:
+### Configurations:
 
 **accepts-transfers**
 

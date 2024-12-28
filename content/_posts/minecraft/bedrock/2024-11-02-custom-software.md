@@ -19,7 +19,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 Users may often want to use other software not officially provided by Falix, either for their unique features, plugin support or cross-play capabilities. Fortunately this can be done by adding it as a custom core, as will further be explained in this article.
 
-## :cook: Choosing the Server Software:
+## Choosing the Server Software:
 
 Before we can continue, you must choose a server core and download it. A list of the most commonly used Bedrock server software and their download websites are as follows:
 
@@ -31,7 +31,7 @@ Before we can continue, you must choose a server core and download it. A list of
 
 > **NEVER** download shady or untrusted server software, or software from unofficial websites. Malicious developers can use them to easily gain backdoor access to your server and wreck havoc.
 
-## :hammer: Installing It on Your Server:
+## Installing It on Your Server:
 
 {% tabs customSoftware %}
 {% tab customSoftware Official Bedrock Server %}
