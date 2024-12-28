@@ -58,7 +58,7 @@ We already have a guide on how to install GeyserMC as well as any other mod in o
 
 7. Select the server that you want the bot to join and press authorize.
 
-8. Click the Reset Token button at the top of the page and copy the token to your clipboard.
+8. Click the Reset Token button at the top of the bots page and copy the token to your clipboard.
 
 ## Configuring the Plugin:
 {: .warning}
@@ -74,4 +74,43 @@ We already have a guide on how to install GeyserMC as well as any other mod in o
 
 5. At line 9, Paste the bot-token in-between the ""
 
-6. 
+6. Open Discord and go to your Discord settings by clicking on the User Settings cogwheel on the bottom left of your Discord.
+
+7. Go to the Advanced tab under App settings and enable Developer Mode.
+
+8. Back in your discord server, right-click the channel for the interactive chat and click "Copy channel ID".
+
+{: .error}
+> Make sure that the Bot has the needed permissions in the channel. You can find more info on how to do this [here](https://docs.discordsrv.com/installation/initial-setup/#give-the-bot-the-discord-permissions-it-needs-to-run).
+
+9. Go back to [the config.yml file](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/config.yml&file=config.yml&mime=text/plain) in [the File Manager](https://client.falixnodes.net/server/filemanager?dir=/plugins/DiscordSRV/).
+
+10. Replace the 0000...0 after "global" at line 30 with the channelID that you just copied.
+
+> If you use a chatplugins (like HeroChat or TownyChat) then you should read their config on how to setup DiscordSRV.
+
+> <strong>Optional:</strong> Copy the Channel ID of a second staff-only Discord-channel to use as console-channel then paste the channelID between the "" at line 33.
+
+11. Replace the discord invite link at line 36 with the invite link of your server, this link will be displayed when players use the /discord command. 
+
+12. (Re)start the server.
+
+# Extra configuration and features.
+## Link to join setup.
+
+This feature requires your server members to link their discord account by sending a DM to the bot when they join the server for the first time.
+This allows you to use the proximity voice chat feature and whitelist your server to only allow members that joined your discord server or have a spesific role to join your minecraft server.
+
+1. Make sure "Enabled" is set to "true" in the [linking.yml](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/linking.yml&file=linking.yml&mime=text/plain) config file, then (re)start your server.
+
+2. You can set the message that players get when they try to join on line 32 after "Not linked message:"
+
+3. If you want to force players to be in the discord server then you can set "Must be in Discord server:" to "true"
+
+4. If you only want players with a specific role (like subscriber or lvl10) to be able to join then you can set "Require subscriber role to join:" to "true" at line 52
+
+5. Paste the roleID('s) of the allowed roles after "Subscriber roles:" at line 53, you can list multiple roles by separating them with a comma.
+
+6. If you have multiple roles whitelisted, choose if you want to require the user to have ALL the roles listed (true) or just needs one of them (false), you can set the message that kicks players that don't meet those criteria at line 55.
+
+Read through the config to get a better understanding of what else you can do with this linking option.
