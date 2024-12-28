@@ -85,7 +85,7 @@ We already have a guide on how to install GeyserMC as well as any other mod in o
 
 9. Go back to [the config.yml file](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/config.yml&file=config.yml&mime=text/plain) in [the File Manager](https://client.falixnodes.net/server/filemanager?dir=/plugins/DiscordSRV/).
 
-10. Replace the 0000...0 after "global" at line 30 with the channelID that you just copied.
+10. Replace the 000000000000000000 after "global" at line 30 with the channelID that you just copied.
 
 > If you use a chatplugins (like HeroChat or TownyChat) then you should read their config on how to setup DiscordSRV.
 
@@ -114,3 +114,27 @@ This allows you to use the proximity voice chat feature and whitelist your serve
 6. If you have multiple roles whitelisted, choose if you want to require the user to have ALL the roles listed (true) or just needs one of them (false), you can set the message that kicks players that don't meet those criteria at line 55.
 
 Read through the config to get a better understanding of what else you can do with this linking option.
+
+## Proximity chat setup.
+lorempsum ipsum
+
+{: .warning}
+> Please make sure to go through the "Link to join setup" before going through with this setup. You need to link your Discord and Minecraft accounts so that DiscordSRV knows which accounts belong to which player.
+
+1. Make sure "Enabled" is set to "true" in the [linking.yml](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/linking.yml&file=linking.yml&mime=text/plain) config file, then (re)start your server.
+
+2. In your discord server; Create a category (name doesn't matter) where the voice module will create/delete/move voice channels.
+
+3. Right click on the Category and select Copy ID.
+
+4. In the voice.yml config; Search for the Voice category option at line 14 and replace 000000000000000000 with the copied Category ID.
+
+5. Create a channel (name doesn't matter) underneath the voice category you just made; This will be your "Lobby" voice channel.
+
+6. Right click on the Channel after moving it and select Copy ID.
+
+7. In the voice.yml config search for the Lobby channel option at line 18 and replace 000000000000000000 with the copied Channel ID.
+
+8. (Re)start your server
+
+You can configure extra options (like the range of the proximity chat) under the Network option at line 22.
