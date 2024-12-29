@@ -21,11 +21,11 @@ mod-type: Plugin, Mod
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
-## :studio_microphone: What Is Simple Voice Chat?
+## What Is Simple Voice Chat?
 
 Simple Voice Chat is a software that introduces proximity-based voice chat. It allows players to communicate with each other in-game. It also has a variety of addons that offer additional features. Simple Voice Chat requires you to have the mod installed on your client, which is only available on the Java Edition of Minecraft. If you don't have it installed on your client, you can still join the server, but you won't be able to use the voice chat features.
 
-## :hammer_and_wrench: Installation and Configuration:
+## Installation and Configuration:
 
 ### Prerequisites:
 
