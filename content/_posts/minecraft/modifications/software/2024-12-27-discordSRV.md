@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to interact betwene discord and minecraft using DiscordSRV
+title: How to Interact Between Discord and Minecraft Using DiscordSRV
 category: Modifications
 tags: Software
 permalink: minecraft/modifications/software/discordsrv
@@ -17,122 +17,110 @@ mod-type: Plugin
 mod-url: "https://www.spigotmc.org/resources/discordsrv.18494/"
 ---
 ## What is DiscordSRV
-Discord SRV is a plugin that links your Minecraft server and Discord together using a discordbot hosted on the minecraft server.
-it allows you to:
-- Have an interactive chat between a discord channel and the Minecraft server.
-- Forward your Minecraft Console to a Discord text channel.
+DiscordSRV is a plugin that links your Minecraft server and Discord together using a Discord bot hosted on the Minecraft server.
+It allows you to:
+- Have an interactive chat between a Discord channel and the Minecraft server.
+- Forward your Minecraft console to a Discord text channel.
 - Broadcast alerts based on certain events.
-- Use Voice Proximity through the Discord Voice Chat.
-- Require linking accounts (or certain role/s) to play.
+- Use voice proximity through Discord Voice Chat.
+- Require linking accounts (or certain roles) to play.
 
-### Installation Process:
-### installing the plugin:
+## Installation Process:
 
-{% tabs softwareType %}
-{% tab softwareType :electric_plug: Plugin %}
+### Installing the Plugin:
+We already have a guide on how to install DiscordSRV as well as any other plugin in our [Adding Plugins](/minecraft/modifications/general/adding-plugins) guide, Download DiscordSRV [here](https://get.discordsrv.com)
 
-We already have a guide on how to install GeyserMC as well as any other plugin in our [Adding Plugins](/minecraft/modifications/general/adding-plugins) guide.
+### Creating and Configuring the Discord Bot:
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications/).
 
-{% endtab %}
-{% tab softwareType :gear: Mod %}
+2. Click on "New Application" and enter the name of the bot that will send messages in your Discord server.
 
-We already have a guide on how to install GeyserMC as well as any other mod in our [Adding Mods](/minecraft/modifications/general/adding-mods) guide.
+3. Open the Installation tab in the left menu, disable the User Install option, and set the Install Link to `None`.
 
-{% endtab %}
-{% endtabs %}
+4. Open the Bot tab, disable the Public Bot option, and make sure to enable the Server Members Intent and the Message Content Intent options.
 
-### Creating and configuring the discord bot:
-1. go to the [Discord developer portal](https://discord.com/developers/applications/)
+5. Copy the "Application ID" from the General Information tab.
 
-2. Click on "New application" and enter the name of the Bot that will send messages in your discord server.
+6. Go to https://scarsz.me/authorize and paste the Application ID on the page.
 
-3. Open the Installation tab in the left menu, disable the User Install option and set Install Link to `None`.
+7. Select the server you want the bot to join and press authorize.
 
-4. Open the Bot tab, disable the Public Bot option and make sure to enable the Server Members Intent an the Message Content Intent options.
-
-5. Copy the "ApplicationID" from the General Information tab
-
-6. Go to https://scarsz.me/authorize and paste the ApplicationID on the page
-
-7. Select the server that you want the bot to join and press authorize.
-
-8. Click the Reset Token button at the top of the bots page and copy the token to your clipboard.
+8. Click the Reset Token button at the top of the bot's page and copy the token to your clipboard.
 
 ### Configuring the Plugin:
 {: .warning}
-> Make sure to start the server once to generate the needed config file
+> Make sure to start the server once to generate the needed config file.
 
-1. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
+1. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage," then clicking on "File Manager."
 
 2. Open the [Plugins](https://client.falixnodes.net/server/filemanager?dir=/plugins/) folder.
 
 3. Locate and open the [DiscordSRV](https://client.falixnodes.net/server/filemanager?dir=/plugins/DiscordSRV/) configuration folder.
 
-4. Find and open "config.yml". This is the main configuration file where you will be able to customize any feature needed.
+4. Find and open "config.yml." This is the main configuration file where you will be able to customize any feature needed.
 
-5. At line 9, Paste the bot-token in-between the ""
+5. At line 9, paste the bot token in between the "".
 
-6. Open Discord and go to your Discord settings by clicking on the User Settings cogwheel on the bottom left of your Discord.
+6. Open Discord and go to your Discord settings by clicking on the User Settings cogwheel at the bottom left of your Discord.
 
-7. Go to the Advanced tab under App settings and enable Developer Mode.
+7. Go to the Advanced tab under App Settings and enable Developer Mode.
 
-8. Back in your discord server, right-click the channel for the interactive chat and click "Copy channel ID".
+8. Back in your Discord server, right-click the channel for the interactive chat and click "Copy Channel ID."
 
 {: .error}
-> Make sure that the Bot has the needed permissions in the channel. You can find more info on how to do this [here](https://docs.discordsrv.com/installation/initial-setup/#give-the-bot-the-discord-permissions-it-needs-to-run).
+> Make sure that the bot has the needed permissions in the channel. You can find more info on how to do this [here](https://docs.discordsrv.com/installation/initial-setup/#give-the-bot-the-discord-permissions-it-needs-to-run).
 
 9. Go back to [the config.yml file](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/config.yml&file=config.yml&mime=text/plain) in [the File Manager](https://client.falixnodes.net/server/filemanager?dir=/plugins/DiscordSRV/).
 
-10. Replace the 000000000000000000 after "global" at line 30 with the channelID that you just copied.
+10. Replace the 000000000000000000 after "global" at line 30 with the Channel ID that you just copied.
 
-> If you use a chatplugins (like HeroChat or TownyChat) then you should read their config on how to setup DiscordSRV.
+> If you use a chat plugin (like HeroChat or TownyChat), then you should read their config on how to set up DiscordSRV.
 
-> <strong>Optional:</strong> Copy the Channel ID of a second staff-only Discord-channel to use as console-channel then paste the channelID between the "" at line 33.
+> <strong>Optional:</strong> Copy the Channel ID of a second staff-only Discord channel to use as console channel, then paste the Channel ID between the "" at line 33.
 
-11. Replace the discord invite link at line 36 with the invite link of your server, this link will be displayed when players use the /discord command. 
+11. Replace the Discord invite link at line 36 with the invite link to your server; this link will be displayed when players use the /discord command.
 
 12. (Re)start the server.
 
-## Extra configuration and features.
-### Link to join setup.
+## Extra Configuration and Features.
+### Link to Join Setup.
 
-This feature requires your server members to link their discord account by sending a DM to the bot when they join the server for the first time.
-This allows you to use the proximity voice chat feature and whitelist your server to only allow members that joined your discord server or have a spesific role to join your minecraft server.
+This feature requires your server members to link their Discord account by sending a DM to the bot when they join the server for the first time. This allows you to use the proximity voice chat feature and whitelist your server to only allow members that joined your Discord server or have a specific role to join your Minecraft server.
 
 1. Make sure "Enabled" is set to "true" in the [linking.yml](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/linking.yml&file=linking.yml&mime=text/plain) config file, then (re)start your server.
 
 2. You can set the message that players get when they try to join on line 32 after "Not linked message:"
 
-3. If you want to force players to be in the discord server then you can set "Must be in Discord server:" to "true"
+3. If you want to force players to be in the Discord server, then you can set "Must be in Discord server:" to "true."
 
-4. If you only want players with a specific role (like subscriber or lvl10) to be able to join then you can set "Require subscriber role to join:" to "true" at line 52
+4. If you only want players with a specific role (like subscriber or lvl10) to be able to join, then you can set "Require subscriber role to join:" to "true" at line 52.
 
-5. Paste the roleID('s) of the allowed roles after "Subscriber roles:" at line 53, you can list multiple roles by separating them with a comma.
+5. Paste the role ID(s) of the allowed roles after "Subscriber roles:" at line 53; you can list multiple roles by separating them with a comma.
 
-6. If you have multiple roles whitelisted, choose if you want to require the user to have ALL the roles listed (true) or just needs one of them (false), you can set the message that kicks players that don't meet those criteria at line 55.
+6. If you have multiple roles whitelisted, choose if you want to require the user to have ALL the roles listed (true) or just needs one of them (false); you can set the message that kicks players that don't meet those criteria at line 55.
 
 Read through the config to get a better understanding of what else you can do with this linking option.
 
-### Proximity chat setup.
-lorempsum ipsum
+### Proximity Chat Setup.
+Lorem ipsum dolor sit amet.
 
 {: .warning}
-> Please make sure to go through the "Link to join setup" before going through with this setup. You need to link your Discord and Minecraft accounts so that DiscordSRV knows which accounts belong to which player.
+> Please make sure to go through the "Link to join setup" before proceeding with this setup. You need to link your Discord and Minecraft accounts so that DiscordSRV knows which accounts belong to which player.
 
 1. Make sure "Enabled" is set to "true" in the [linking.yml](https://client.falixnodes.net/server/edit?path=/plugins/DiscordSRV/linking.yml&file=linking.yml&mime=text/plain) config file, then (re)start your server.
 
-2. In your discord server; Create a category (name doesn't matter) where the voice module will create/delete/move voice channels.
+2. In your Discord server, create a category (name doesn't matter) where the voice module will create/delete/move voice channels.
 
-3. Right click on the Category and select Copy ID.
+3. Right-click on the category and select Copy ID.
 
-4. In the voice.yml config; Search for the Voice category option at line 14 and replace 000000000000000000 with the copied Category ID.
+4. In the voice.yml config, search for the Voice Category option at line 14 and replace 000000000000000000 with the copied Category ID.
 
-5. Create a channel (name doesn't matter) underneath the voice category you just made; This will be your "Lobby" voice channel.
+5. Create a channel (name doesn't matter) underneath the voice category you just made; this will be your "Lobby" voice channel.
 
-6. Right click on the Channel after moving it and select Copy ID.
+6. Right-click on the channel after moving it and select Copy ID.
 
-7. In the voice.yml config search for the Lobby channel option at line 18 and replace 000000000000000000 with the copied Channel ID.
+7. In the voice.yml config, search for the Lobby Channel option at line 18 and replace 000000000000000000 with the copied Channel ID.
 
-8. (Re)start your server
+8. (Re)start your server.
 
 You can configure extra options (like the range of the proximity chat) under the Network option at line 22.
