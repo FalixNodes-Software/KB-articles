@@ -7,8 +7,6 @@ permalink: minecraft/modifications/software/discordsrv
 description: DiscordSRV is a plugin that allows you to link your Minecraft server and Discord server together.
 keywords:
     - keyword: discordSRV
-    - keyword: chat
-      matches: ["interacteble", "discord"]
 author:
     - Twixhunter
 toc: true
@@ -18,8 +16,8 @@ mod-name: DiscordSRV
 mod-type: Plugin
 mod-url: "https://www.spigotmc.org/resources/discordsrv.18494/"
 ---
-# What is DiscordSRV
-Discord SRV is a plugin that allows you to link your Minecraft server and Discord together.
+## What is DiscordSRV
+Discord SRV is a plugin that links your Minecraft server and Discord together using a discordbot hosted on the minecraft server.
 it allows you to:
 - Have an interactive chat between a discord channel and the Minecraft server.
 - Forward your Minecraft Console to a Discord text channel.
@@ -27,8 +25,8 @@ it allows you to:
 - Use Voice Proximity through the Discord Voice Chat.
 - Require linking accounts (or certain role/s) to play.
 
-# :hammer_and_wrench: Installation Process:
-## installing the plugin:
+### Installation Process:
+### installing the plugin:
 
 {% tabs softwareType %}
 {% tab softwareType :electric_plug: Plugin %}
@@ -43,7 +41,7 @@ We already have a guide on how to install GeyserMC as well as any other mod in o
 {% endtab %}
 {% endtabs %}
 
-## Creating and configuring the discord bot:
+### Creating and configuring the discord bot:
 1. go to the [Discord developer portal](https://discord.com/developers/applications/)
 
 2. Click on "New application" and enter the name of the Bot that will send messages in your discord server.
@@ -60,7 +58,7 @@ We already have a guide on how to install GeyserMC as well as any other mod in o
 
 8. Click the Reset Token button at the top of the bots page and copy the token to your clipboard.
 
-## Configuring the Plugin:
+### Configuring the Plugin:
 {: .warning}
 > Make sure to start the server once to generate the needed config file
 
@@ -95,8 +93,8 @@ We already have a guide on how to install GeyserMC as well as any other mod in o
 
 12. (Re)start the server.
 
-# Extra configuration and features.
-## Link to join setup.
+## Extra configuration and features.
+### Link to join setup.
 
 This feature requires your server members to link their discord account by sending a DM to the bot when they join the server for the first time.
 This allows you to use the proximity voice chat feature and whitelist your server to only allow members that joined your discord server or have a spesific role to join your minecraft server.
@@ -115,7 +113,7 @@ This allows you to use the proximity voice chat feature and whitelist your serve
 
 Read through the config to get a better understanding of what else you can do with this linking option.
 
-## Proximity chat setup.
+### Proximity chat setup.
 lorempsum ipsum
 
 {: .warning}
