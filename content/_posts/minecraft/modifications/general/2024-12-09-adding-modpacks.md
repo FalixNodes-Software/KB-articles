@@ -19,11 +19,11 @@ author:
 Minecraft modpacks are curated collections of user-created modifications that enhance or change the gameplay experience. These modpacks can vary from minor adjustments to core mechanics to substantial transformations that introduce new features, items, creatures, and a variety of additional content.
 
 
-## :pickup_truck: Mod Loaders:
+## Mod Loaders:
 
 To utilize modpacks, a mod loader is required as server software to properly inject and manage the mods. Some modpacks may support only specific mod loaders or certain versions. It's important to note that only one mod loader can be active at a time, meaning all mods and the selected modpack must be compatible with the chosen mod loader. You can find the appropriate mod loader on the modpacks page. Please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our server software guide for more information on modloaders.
 
-## :mag: Finding Modspacks:
+## Finding Modspacks:
 
 Modpacks are often hosted on modding platforms; these are websites that contain a large collection of modpacks for you to browse and choose from., the most common ones being:
 
@@ -32,7 +32,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 -   [FTB](https://www.feed-the-beast.com/modpacks?sort=featured)
 -   [Technic](https://www.technicpack.net/modpacks)
 
-## :hammer_and_wrench: Installing and Configuring:
+## Installing and Configuring:
 
 ### Through the Modpack Installer:
 
