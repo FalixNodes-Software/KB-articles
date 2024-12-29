@@ -45,6 +45,9 @@ We already have a guide on how to install DiscordSRV as well as any other plugin
 
 7. Select the server you want the bot to join and press authorize.
 
+{: .warning}
+> Make sure that the bot is whitelisted from recieving punishments from other discord moderation bots like wick or dyno.
+
 8. Click the Reset Token button at the top of the bot's page and copy the token to your clipboard.
 
 ### Configuring the Plugin:
