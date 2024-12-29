@@ -15,11 +15,11 @@ mod-software: Bukkit, Paper, Spigot
 mod-url: "https://modrinth.com/plugin/multiverse-core"
 ---
 
-## :earth_asia: What Is Multiverse?
+## What Is Multiverse?
 
 Multiverse is a world management plugin that provides multi-world support, with the ability to set custom seeds, generation, game mode and much more on a per-world basis. You can use both commands and custom portals to teleport between your worlds, with the ability to restrict each world to a set permission.
 
-## :hammer_and_wrench: Installation:
+## Installation:
 
 ### Prerequisites:
 
@@ -29,7 +29,7 @@ Multiverse is a world management plugin that provides multi-world support, with 
 
 We already have a guide on how to install Multiverse-core as well as any other plugin in our [Adding Plugins](/minecraft/modifications/general/adding-plugins) guide.
 
-## :earth_africa: Adding Worlds:
+## Adding Worlds:
 
 {% tabs addWrld %}
 {% tab addWrld :arrow_up: Uploading a World %}
@@ -78,7 +78,7 @@ We already have a guide on how to install Multiverse-core as well as any other p
 
 > To teleport to your world, use the `/mvtp <world_name>` command.
 
-## :door: Creating Custom Portals Between Worlds:
+## Creating Custom Portals Between Worlds:
 
 Before proceeding, you will need to install the [Multiverse-Portals](https://modrinth.com/plugin/multiverse-portals) add-on. You will also need a permission management plugin as only players with the `multiverse.portal.access.<world_name>` or `multiverse.portal.access.*` permission will be able to use these portals.
 

@@ -19,7 +19,7 @@ Adding a resource pack to your Minecraft server can greatly enrich the player ex
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## :mag: Acquiring a Resource Pack
+## Acquiring a Resource Pack
 
 ### Finding Resource Packs
 
@@ -90,7 +90,7 @@ This may be different according to the hosting platform used, however it often i
 {% endtab %}
 {% endtabs %}
 
-## :wrench: Configuration
+## Configuration
 
 ### Adding the Download Link to the Server
 
