@@ -163,7 +163,7 @@ If you're adding an image to the files, follow the structure below:
 ![Alt text](content/assets/images/posts/...)
 ```
 
-Replace `Alt text` with an alternate text incase the image is not loaded properly or for accessability purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
+Replace `Alt text` with alternative text in case the image is not loaded properly or for accessibility purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
 
 ### Lists
 
@@ -171,7 +171,7 @@ When typing out steps using lists, make sure to separate each step with a **blan
 
 ### Colored Text
 
-When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can often be seen on different buttons such as Restart, Save File, Delete, Connect, etc. It is a good idea to color these words with the same color as can be seen in the Dashboard to make the guides more user friendly and vibrant. Fortunately this can be done by making the word **bold** (`** **`) and immediately following it with an inline attribute with the color as a style name like so:
+When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can often be seen on different buttons such as Restart, Save File, Delete, Connect, etc. It is a good idea to color these words with the same color as can be seen in the Dashboard to make the guides more user friendly and vibrant. This can be done by making the word **bold** (`** **`) and immediately following it with an inline attribute with the color as a style name:
 
 ```
 **Connect**{: .blue } **Delete**{: .red } **Restart**{: .orange } **Save File**{: .green }
@@ -204,7 +204,7 @@ The first word after the tab keyword is used to group the tabs together, while t
 
 ### Blockquote
 
-There are 4 custom blockquote, which are each used in different context:
+There are 4 custom blockquotes, which are each used in different context:
 
 **Note:**
 
@@ -254,7 +254,7 @@ Used as a way to display common errors or issues.
 
 > If you're adding a video to the files, use a path like `content/assets/videos/posts/...`.
 
-Make sure to provide both webm and mp4. Webm are much smaller and load faster, although an MP4 file is required as not all browsers support webm format. So the MP4 is more of a fallback option if the user's browser doesn't like the webm format.
+Make sure to provide both WebM and MP4. WebM videos are much smaller and load faster, although an MP4 is required too because not all browsers support the WebM format. So, the MP4 is more of a fallback option if the user's browser doesn't like WebM.
 
 </details>
 
