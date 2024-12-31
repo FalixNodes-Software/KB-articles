@@ -105,7 +105,6 @@ This feature requires your server members to link their Discord account by sendi
 Read through the config to get a better understanding of what else you can do with this linking option.
 
 ### Proximity Chat Setup.
-Lorem ipsum dolor sit amet.
 
 {: .warning}
 > Please make sure to go through the "Link to join setup" before proceeding with this setup. You need to link your Discord and Minecraft accounts so that DiscordSRV knows which accounts belong to which player.
