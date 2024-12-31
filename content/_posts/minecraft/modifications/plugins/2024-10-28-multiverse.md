@@ -32,7 +32,7 @@ We already have a guide on how to install Multiverse-core as well as any other p
 ## Adding Worlds:
 
 {% tabs addWrld %}
-{% tab addWrld :arrow_up: Uploading a World %}
+{% tab addWrld Uploading a World %}
 
 1. Upload your world folder by following our [World Management Guide](/minecraft/java/general/world-management#arrow_up-uploading-your-world).
 
