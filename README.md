@@ -162,7 +162,7 @@ To display a server software icon, use the code below while replacing the classe
 Replace `software` with either `java-software`, `bedrock-software` or `type-software` (mod, plugin, datapack).
 Replace `software-name` with any supported software:
 
--   Java: `java`, `snapshot`, `spigot`, `paper`, `pufferfish`, `purpur`, `fabric`, `neoforge`, `forge`, `quilt`, `sponge`, `mohist`, `magma`, `velocity`, `bungeecord`
+-   Java: `java`, `snapshot`, `spigot`, `paper`, `pufferfish`, `purpur`, `fabric`, `neoforge`, `forge`, `quilt`, `sponge`, `mohist`, `magma`, `arclight`, `velocity`, `bungeecord`
 -   Bedrock: `bedrock`, `preview`, `pmmp`, `nukkit`
 -   Type: `mod`, `plugin`, `datapack`
 

@@ -104,7 +104,7 @@ Hybrid servers combine the capabilities of both mod and plugin servers, allowing
 [SpongeForge](https://spongepowered.org/) is a well-engineered solution combines the SpongeAPI with Forge, allowing you to run Sponge plugins alongside Forge mods.
 
 {% endtab %}
-{% tab hybrid Arclight %}
+{% tab hybrid <i class="java-software arclight"></i> Arclight %}
 
 [Arclight](https://github.com/IzzelAliz/Arclight) provides a hybrid environment that supports Forge, Fabric or NeoForge mods and Spigot plugins with a few extra unique features and tweaks.
 
