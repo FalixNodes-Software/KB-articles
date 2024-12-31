@@ -16,66 +16,66 @@ author:
     - Mocab
 ---
 
-Minecraft modpacks are collections of user-created modifications that enhance or change the gameplay experience. These modpacks can vary from minor adjustments to core mechanics to substantial transformations that introduce new features, items, creatures, and a variety of additional content.
+Minecraft mod packs are collections of user-created modifications that enhance or change the gameplay experience. These modpacks can range from minor tweaks to core mechanics to major transformations that introduce new features, items, creatures, and a variety of additional content.
 
 
-## Mod Loaders:
+## Modloader:
 
-To utilize modpacks, a mod loader is required as server software to properly inject and manage the mods. Some modpacks may support only specific mod loaders or certain versions. It's important to note that only one mod loader can be active at a time, meaning all mods and the selected modpack must be compatible with the chosen mod loader. You can find the appropriate mod loader on the modpacks page. Please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our server software guide for more information on modloaders.
+In order to use modpacks, a modloader is required as server software to properly load and manage the mods. Some modpacks may only support certain modloaders or versions. It's important to note that only one modloader can be active at a time, meaning that all mods and the selected modpack must be compatible with the selected modloader. You can find the appropriate modloader on the modpacks page. Please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our Server Software Guide for more information on modloaders.
 
-## Finding Modspacks:
+## Finding Modpacks:
 
-Modpacks are often hosted on modding platforms; these are websites that contain a large collection of modpacks for you to browse and choose from., the most common ones being:
+Modpacks are often hosted on modding platforms; these are websites that contain a large collection of modpacks for you to browse and choose from, the most common ones being:
 
 -   [Modrinth](https://modrinth.com/modpacks)
 -   [CurseForge](https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=modpacks)
 -   [FTB](https://www.feed-the-beast.com/modpacks?sort=featured)
 -   [Technic](https://www.technicpack.net/modpacks)
 
-## Installing and Configuring:
+##Installation and Configuration:
 
-### Through the Modpack Installer:
+## Through the modpack installer:
+
+1. Login to the [Dashboard] (https://client.falixnodes.net/).
+
+2. Select a server from your server list.
+
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Servers", then navigate to [Modpacks](https://client.falixnodes.net/server/modpacks).
+
+4. To search for modpacks, enter the name of the modpack in the 'Search Modpacks' field, then click on "**Search**{: .blue }".
+
+5. Locate your modpack in the search results, then click "**Install**{: .blue }" to download the modpack to your server.
+
+6. (Re-)Start your server to apply the modpack to your server.
+
+### Manually Installing Modspacks:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Modpacks](https://client.falixnodes.net/server/modpacks).
-
-4. To look for modpacks, type the modpack name in the 'Search Modpacks' field, then click on "**Search**{: .blue }".
-
-5. Locate your modpack within the search results, then click on "**Install**{: .blue }" to download the modpack to your server.
-
-6. (Re)start your server to apply the modpack to your server.
-
-### Manually Installing Mods:
-
-1. Log in to the [Dashboard](https://client.falixnodes.net/).
-
-2. Choose a server within your server list.
-
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Delete all files in the File Manager.
 
 5. Download the modpack from its official page. Ensure that you select the version and mod loader that match your server.
 
 {: .warning}
-> Make sure to download the server pack of the modpack, these can be found under: Files > click your version of choice > aditional files > serverpack for curseforge.
+> Make sure to download the server pack of the modpack, these can be found under:<br>
+> Files > click your version of choice > aditional files > serverpack for curseforge.
 
 6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
 7. Find the downloaded serverpack (this should be an archived file) and select it, then upload it to your server.
 
-8. Unarchive the file by pressing on the 3 dots and choosing 'unarchive'
+8. Unarchive the file by pressing the 3 dots and selecting 'unarchive'.
 
-9. In the top navigation bar, hover over "server" then navigate to the [versions page](https://client.falixnodes.net/server/versions).
+9. In the top navigation bar, hover over "server", then navigate to the [versions page] (https://client.falixnodes.net/server/versions).
 
-10. Choose and install the modloader required by the modpack
+10. Select and install the modloader required by the modpack
 
-{: .warning}
-> Make sure to select the right version, more information about what version to install can usuall be found on the modpacks site.
-
+{:.warning}
+> Make sure you select the correct version, more information about which version to install can usually be found on the modpack page.
 ### Configuration
 
 Many mods inside the modpack will have options that allow you to customize and tweak the mods to suit your preferences. This can include modifying mechanics or enabling and disabling specific features. To access these options, you can find the configuration file by following these steps:
