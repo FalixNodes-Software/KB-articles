@@ -60,7 +60,7 @@ We already have a guide on how to install DiscordSRV as well as any other plugin
 
 3. Locate and open the [DiscordSRV](https://client.falixnodes.net/server/filemanager?dir=/plugins/DiscordSRV/) configuration folder.
 
-4. Find and open "config.yml." This is the main configuration file where you will be able to customize any feature needed.
+4. Find and open "config.yml". This is the main configuration file where you will be able to customize any feature needed.
 
 5. At line 9, paste the bot token in between the "".
 
