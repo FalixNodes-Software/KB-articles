@@ -16,7 +16,7 @@ author:
     - Mocab
 ---
 
-Minecraft modpacks are curated collections of user-created modifications that enhance or change the gameplay experience. These modpacks can vary from minor adjustments to core mechanics to substantial transformations that introduce new features, items, creatures, and a variety of additional content.
+Minecraft modpacks are collections of user-created modifications that enhance or change the gameplay experience. These modpacks can vary from minor adjustments to core mechanics to substantial transformations that introduce new features, items, creatures, and a variety of additional content.
 
 
 ## Mod Loaders:
@@ -61,8 +61,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 5. Download the modpack from its official page. Ensure that you select the version and mod loader that match your server.
 
 {: .warning}
-> Make sure to download the server pack of the modpack, these can be found under:
-   CurseForge: Files > click your version of choice > aditional files > serverpack for curseforge.
+> Make sure to download the server pack of the modpack, these can be found under: Files > click your version of choice > aditional files > serverpack for curseforge.
 
 6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
