@@ -48,7 +48,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 6. (Re-)Start your server to apply the modpack to your server.
 
-### Manually Installing Modspacks:
+## Manually Installing Modspacks:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -62,7 +62,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 {: .warning}
 > Make sure to download the server pack of the modpack, these can be found under:<br>
-> Files > click your version of choice > aditional files > serverpack for curseforge.
+> Files > click your version of choice > additional files > serverpack for curseforge.
 
 6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
@@ -76,7 +76,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 {:.warning}
 > Make sure you select the correct version, more information about which version to install can usually be found on the modpack page.
-### Configuration
+## Configuration
 
 Many mods inside the modpack will have options that allow you to customize and tweak the mods to suit your preferences. This can include modifying mechanics or enabling and disabling specific features. To access these options, you can find the configuration file by following these steps:
 
