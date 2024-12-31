@@ -62,8 +62,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 {: .warning}
 > Make sure to download the server pack of the modpack, these can be found under:
-    Files > click your version of choice > aditional files > serverpack for curseforge.
-    lorepsum > ipsum > work > in > progress(modrinth downtime) for modrinth.
+   CurseForge: Files > click your version of choice > aditional files > serverpack for curseforge.
 
 6. In the Dashboard, click on "**Upload Files**{: .blue }".
 
