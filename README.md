@@ -143,17 +143,28 @@ post_order: 1
 
 Using "# Title of Article" isn't needed; the layout will automatically add the title of the article to the top of the guide. That being said, always use "## Subtitle" instead.
 
-### Emojis / Icons
+### Icons
 
-Github emojis and a few server software icons are supported to improve user friendliness and add vibrance to your articles:
+We have a built in recommended icon and a few server software icons you can use anywhere in your article, we suggest using them in tabs as much as possible.
 
-To use a Github emoji, copy its name including the colons (e.g: `:smile:`) and paste it in the article, we only recommend using them in main subtitles (## or h2) and tabs to avoid over-saturation, a list of all Github emojis can be found in this [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
-
-We have a built in recommended icon and a few server software icons you can use anywhere in your article, with the latter especially so in tabs. We currently support `recommended` for recommended icons and `spigot`,`paper`, `purpur`, `forge`, `neoforge`, `fabric`, `quilt`, `velocity` and `bungeecord` for server software icons. To add the icon to your article follow the format below, make sure to replace `icon` with one of the options listed beforehand.
+To display a recommended icon, use the code below:
 
 ```html
-<i class="icon"></i>
+<i class="recommended"></i>
 ```
+
+To display a server software icon, use the code below while replacing the classes with any supported class as is listed underneath it:
+
+```html
+<i class="software software-name"></i>
+```
+
+Replace `software` with either `java-software`, `bedrock-software` or `type-software` (mod, plugin, datapack).
+Replace `software-name` with any supported software:
+
+-   Java: `java`, `snapshot`, `spigot`, `paper`, `pufferfish`, `purpur`, `fabric`, `neoforge`, `forge`, `quilt`, `sponge`, `mohist`, `magma`, `arclight`, `velocity`, `bungeecord`
+-   Bedrock: `bedrock`, `preview`, `pmmp`, `nukkit`
+-   Type: `mod`, `plugin`, `datapack`
 
 ### Images
 
@@ -163,7 +174,7 @@ If you're adding an image to the files, follow the structure below:
 ![Alt text](content/assets/images/posts/...)
 ```
 
-Replace `Alt text` with alternative text in case the image is not loaded properly or for accessibility purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
+Replace `Alt text` with alternative text in case the image is not loaded properly or for accessibility purposes. `...` must also be replaced with the actual path of your image, including the file name and extension.
 
 ### Lists
 
@@ -201,6 +212,7 @@ Steps for the mod go here
 ```
 
 The first word after the tab keyword is used to group the tabs together, while the words after will be displayed as the tab label. If the content of tabs have a similar structure, place the tabs under each heading rather than placing headings in tabs.
+To add icons, simply paste the code before or after the tab label (e.g: `{% tab software Paper <i class="recommended"></i> %}`).
 
 ### Blockquote
 

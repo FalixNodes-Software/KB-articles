@@ -34,7 +34,7 @@ Before we can continue, you must choose a server core and download it. A list of
 ## Installing It on Your Server:
 
 {% tabs customSoftware %}
-{% tab customSoftware Official Bedrock Server %}
+{% tab customSoftware <i class="bedrock-software bedrock"></i> Official Bedrock Server %}
 
 {: .warning }
 
@@ -68,7 +68,7 @@ Before we can continue, you must choose a server core and download it. A list of
 10. After unarchiving, navigate back to the [Console](https://client.falixnodes.net/server/console) and start your server.
 
 {% endtab %}
-{% tab customSoftware NukkitX %}
+{% tab customSoftware <i class="bedrock-software nukkit"></i> NukkitX %}
 
 1. Login to the [Dashboard](https://client.falixnodes.net/).
 
