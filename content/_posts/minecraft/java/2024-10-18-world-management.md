@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How to Upload or Download Your World
-category: Java
 tags: General
 permalink: /minecraft/java/general/world-management
 description: An essential guide to manage, upload and download your world to and from your server.

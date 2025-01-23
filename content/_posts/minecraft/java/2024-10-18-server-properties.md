@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How to Configure Your Server Properties
-category: Java
 tags: Configuration
 description: Editing and customising common attributes of the server.properties file.
 keywords:

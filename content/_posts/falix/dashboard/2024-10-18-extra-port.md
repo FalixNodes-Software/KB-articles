@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How To Create an Open Port
-category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/extra-port
 description: Learn how to create and assign a dedicated or extra network port to your server.

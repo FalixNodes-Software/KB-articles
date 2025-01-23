@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Add Custom Server Software or Version
-category: Java
 tags: General
 description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:

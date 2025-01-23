@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How To Join Your Minecraft Server
-category: Bedrock
 tags: General
 permalink: minecraft/bedrock/general/join-server
 description: How to connect and play on your server through the Minecraft launcher.

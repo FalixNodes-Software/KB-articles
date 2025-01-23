@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How to configure your server properties
-category: Bedrock
 tags: Configuration
 description: Editing and customising common attributes of the server.properties file.
 keywords:

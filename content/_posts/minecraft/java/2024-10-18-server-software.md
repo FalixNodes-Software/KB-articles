@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How To Pick the Best Server Software
-category: Java
 tags: General
 description: Explore different server flavors and software to find the best fit for mod, plugin, hybrid or proxy setups.
 keywords:

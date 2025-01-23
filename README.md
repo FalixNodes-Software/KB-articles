@@ -60,9 +60,7 @@ The frontmatter is the block at the top of every article surrounded by a pair of
 
 ```Markdown
 ---
-layout: post
 title: "Title of Article"
-category: Java
 tags: General
 description: "Here is the description of your guide"
 keywords:
@@ -72,15 +70,14 @@ keywords:
 permalink: /minecraft/java/general/name-of-article
 image: "link"
 author: Name
-icon: book-bookmark
 ---
 ```
 
 | Metadata       | Description                                                                                                                                                                             |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `layout:`      | Must **always** remain as `post`                                                                                                                                                        |
+| `layout:`      | _(Optional, always set to `post`)_                                                                                                                                                      |
 | `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                                                                              |
-| `category:`    | Any of the categories in the `content/_categories/` folder _(Case sensitive)_                                                                                                           |
+| `category:`    | _(Optional, must match any of the categories `category:` front matter value in the `content/_categories/` folder (Case sensitive))_                                                     |
 | `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `content/_categories/` folder. _(Case sensitive)_                                                    |
 | `description:` | A description for your guide, keep it concise, informative and interesting                                                                                                              |
 | `keywords:`    | All keywords relevant to the topic. Keywords without a "matches" key will be used as a standalone search query while those with the key will be combined to form a more accurate query. |

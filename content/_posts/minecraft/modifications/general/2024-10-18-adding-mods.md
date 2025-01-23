@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How To Add Mods to Your Server
-category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-mods
 description: A step-by-step guide to upload and install mods on your server.
