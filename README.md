@@ -8,6 +8,7 @@ What's all this? You're currently viewing the articles that make up the [Knowled
 
 -   [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
     -   [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
+    -   [📂 Folder Structure](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-folder-structure)
     -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
     -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
         -   [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
@@ -40,9 +41,23 @@ Want to help contribute to the Knowledge base? Write or update an article!
 -   Use valid links and images.
 -   Make sure guides are up-to-date.
 
+## 📂 Folder Structure
+
+<details>
+
+<br>
+
+The `_drafts` folder is where all previous articles from the old help center are stored. They only serve as a references and should be deleted once the article is re-created.
+The `content` folder is where all the content is hosted, any files changed here will automatically be pushed to the knowledge base.
+
+        - `_categories` is where all the categories (such as Dashboard and Java) are stored, each grouped within its own section folder (e.g: Falix, Minecraft).
+        - `_posts` is where all the articles are stored. The folder structure begins with the section (e.g: Falix, Minecraft) and then category (e.g: Dashboard, Java) and finally subcategory (e.g: General).
+
+</details>
+
 ## ✍️ Creating an Article
 
-All articles are stored within the `content/_posts/` sub-directory. When creating an article, create a `.md` file under the correct section, category and sub-category folders. As an example, if you were to create an article that explains how to install and use a plugin in Minecraft Java, the file would be created as such: `content/_posts/minecraft/modification/plugins/yyyy-mm-dd-plugin-name.md`. You're required to add the date at the beginning of the file name in the `YYYY-MM-DD` format. These dates are used to show when the article was last updated, so that users are aware if an article is up-to-date.
+When creating an article, create a `.md` file under the correct section, category and sub-category folders. As an example, if you were to create an article that explains how to install and use a plugin in Minecraft Java, the file would be created as such: `content/_posts/minecraft/modification/plugins/yyyy-mm-dd-plugin-name.md`. You're required to add the date at the beginning of the file name in the `YYYY-MM-DD` format. These dates are used to show when the article was last updated, so that users are aware if an article is up-to-date.
 
 Articles are written in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a link, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
 
