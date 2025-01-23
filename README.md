@@ -47,11 +47,10 @@ Want to help contribute to the Knowledge base? Write or update an article!
 
 <br>
 
-The `_drafts` folder is where all previous articles from the old help center are stored. They only serve as a references and should be deleted once the article is re-created.
-The `content` folder is where all the content is hosted, any files changed here will automatically be pushed to the knowledge base.
-
-        - `_categories` is where all the categories (such as Dashboard and Java) are stored, each grouped within its own section folder (e.g: Falix, Minecraft).
-        - `_posts` is where all the articles are stored. The folder structure begins with the section (e.g: Falix, Minecraft) and then category (e.g: Dashboard, Java) and finally subcategory (e.g: General).
+-   The `_drafts` folder is where all previous articles from the old help center are stored. They only serve as a references and should be deleted once the article is re-created.
+-   The `content` folder is where all the content is hosted, any files changed here will automatically be pushed to the knowledge base.
+    -   `_categories` is where all the categories (such as Dashboard and Java) are stored, each grouped within its own section folder (e.g: Falix, Minecraft).
+    -   `_posts` is where all the articles are stored. The folder structure begins with the section (e.g: Falix, Minecraft) and then category (e.g: Dashboard, Java) and finally subcategory (e.g: General).
 
 </details>
 
