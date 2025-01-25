@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How to Upload or Download Your World
-category: Java
 tags: General
 permalink: /minecraft/java/general/world-management
 description: An essential guide to manage, upload and download your world to and from your server.
@@ -15,7 +13,7 @@ author:
     - Mocab
 ---
 
-## :arrow_up: Uploading Your World:
+## Uploading Your World:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -40,7 +38,7 @@ author:
 > If you use Spigot or any of its forks (Paper, Purpur, etc.), you will have three world folders: "world", "world_nether" and "world_the_end".
 > If you are moving to Spigot, Paper, Purpur or any of their forks from single-player or any other server software other than the aforementioned software, convert your world folder by following our [world migration guide](/minecraft/java/general/migrate-world)
 
-## :arrow_down: Downloading Your World:
+## Downloading Your World:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 

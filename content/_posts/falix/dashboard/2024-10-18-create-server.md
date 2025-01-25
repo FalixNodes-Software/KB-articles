@@ -1,7 +1,5 @@
 ---
-layout: post
 title: How to Create Your First Falix Server
-category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/create-server
 description: A step by step article to create your very first server.

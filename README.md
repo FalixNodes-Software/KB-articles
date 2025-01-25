@@ -8,6 +8,7 @@ What's all this? You're currently viewing the articles that make up the [Knowled
 
 -   [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
     -   [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
+    -   [📂 Folder Structure](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-folder-structure)
     -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
     -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
         -   [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
@@ -40,9 +41,22 @@ Want to help contribute to the Knowledge base? Write or update an article!
 -   Use valid links and images.
 -   Make sure guides are up-to-date.
 
+## 📂 Folder Structure
+
+<details>
+
+<br>
+
+-   The `_drafts` folder is where all previous articles from the old help center are stored. They only serve as a references and should be deleted once the article is re-created.
+-   The `content` folder is where all the content is hosted, any files changed here will automatically be pushed to the knowledge base.
+    -   `_categories` is where all the categories (such as Dashboard and Java) are stored, each grouped within its own section folder (e.g: Falix, Minecraft).
+    -   `_posts` is where all the articles are stored. The folder structure begins with the section (e.g: Falix, Minecraft) and then category (e.g: Dashboard, Java) and finally subcategory (e.g: General).
+
+</details>
+
 ## ✍️ Creating an Article
 
-All articles are stored within the `content/_posts/` sub-directory. When creating an article, create a `.md` file under the correct section, category and sub-category folders. As an example, if you were to create an article that explains how to install and use a plugin in Minecraft Java, the file would be created as such: `content/_posts/minecraft/modification/plugins/yyyy-mm-dd-plugin-name.md`. You're required to add the date at the beginning of the file name in the `YYYY-MM-DD` format. These dates are used to show when the article was last updated, so that users are aware if an article is up-to-date.
+When creating an article, create a `.md` file under the correct section, category and sub-category folders. As an example, if you were to create an article that explains how to install and use a plugin in Minecraft Java, the file would be created as such: `content/_posts/minecraft/modification/plugins/yyyy-mm-dd-plugin-name.md`. You're required to add the date at the beginning of the file name in the `YYYY-MM-DD` format. These dates are used to show when the article was last updated, so that users are aware if an article is up-to-date.
 
 Articles are written in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do. If you need help understanding how to do certain tasks, like creating a link, inserting an image or creating a list, look [here](https://guides.github.com/features/mastering-markdown/).
 
@@ -60,9 +74,7 @@ The frontmatter is the block at the top of every article surrounded by a pair of
 
 ```Markdown
 ---
-layout: post
 title: "Title of Article"
-category: Java
 tags: General
 description: "Here is the description of your guide"
 keywords:
@@ -72,15 +84,14 @@ keywords:
 permalink: /minecraft/java/general/name-of-article
 image: "link"
 author: Name
-icon: book-bookmark
 ---
 ```
 
 | Metadata       | Description                                                                                                                                                                             |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `layout:`      | Must **always** remain as `post`                                                                                                                                                        |
+| `layout:`      | _(Optional, always set to `post`)_                                                                                                                                                      |
 | `title:`       | The title of your guide, make sure it contains the necessary keywords to make it stand out                                                                                              |
-| `category:`    | Any of the categories in the `content/_categories/` folder _(Case sensitive)_                                                                                                           |
+| `category:`    | _(Optional, must match any of the categories `category:` front matter value in the `content/_categories/` folder (Case sensitive))_                                                     |
 | `tags:`        | Any sub-category; they are each listed in their corresponding category file in the `content/_categories/` folder. _(Case sensitive)_                                                    |
 | `description:` | A description for your guide, keep it concise, informative and interesting                                                                                                              |
 | `keywords:`    | All keywords relevant to the topic. Keywords without a "matches" key will be used as a standalone search query while those with the key will be combined to form a more accurate query. |
@@ -142,19 +153,29 @@ post_order: 1
 ### Headers
 
 Using "# Title of Article" isn't needed; the layout will automatically add the title of the article to the top of the guide. That being said, always use "## Subtitle" instead.
-It is recommended to a related Github flavored emoji at the beginning of main subtitles (## or h2) to improve user friendliness (such as: `## :earth_asia: Dynmap`). Emojis/icons will be explained further in the next section.
 
-### Emojis / Icons
+### Icons
 
-Github emojis and a few server software icons are supported to improve user friendliness and add vibrance to your articles:
+We have a built in recommended icon and a few server software icons you can use anywhere in your article, we suggest using them in tabs as much as possible.
 
-To use a Github emoji, copy its name including the colons (e.g: `:smile:`) and paste it in the article, we only recommend using them in main subtitles (## or h2) and tabs to avoid over-saturation, a list of all Github emojis can be found in this [cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
-
-We have a built in recommended icon and a few server software icons you can use anywhere in your article, with the latter especially so in tabs. We currently support `recommended` for recommended icons and `spigot`,`paper`, `purpur`, `forge`, `neoforge`, `fabric`, `quilt`, `velocity` and `bungeecord` for server software icons. To add the icon to your article follow the format below, make sure to replace `icon` with one of the options listed beforehand.
+To display a recommended icon, use the code below:
 
 ```html
-<i class="icon"></i>
+<i class="recommended"></i>
 ```
+
+To display a server software icon, use the code below while replacing the classes with any supported class as is listed underneath it:
+
+```html
+<i class="software software-name"></i>
+```
+
+Replace `software` with either `java-software`, `bedrock-software` or `type-software` (mod, plugin, datapack).
+Replace `software-name` with any supported software:
+
+-   Java: `java`, `snapshot`, `spigot`, `paper`, `pufferfish`, `purpur`, `fabric`, `neoforge`, `forge`, `quilt`, `sponge`, `mohist`, `magma`, `arclight`, `velocity`, `bungeecord`
+-   Bedrock: `bedrock`, `preview`, `pmmp`, `nukkit`
+-   Type: `mod`, `plugin`, `datapack`
 
 ### Images
 
@@ -164,7 +185,7 @@ If you're adding an image to the files, follow the structure below:
 ![Alt text](content/assets/images/posts/...)
 ```
 
-Replace `Alt text` with an alternate text incase the image is not loaded properly or for accessability purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
+Replace `Alt text` with an alternate text incase the image is not loaded properly or for accessibility purposes. `...` must also be replaced with the actual path of your image including the file name and extension.
 
 ### Lists
 
@@ -202,6 +223,7 @@ Steps for the mod go here
 ```
 
 The first word after the tab keyword is used to group the tabs together, while the words after will be displayed as the tab label. If the content of tabs have a similar structure, place the tabs under each heading rather than placing headings in tabs.
+To add icons, simply paste the code before or after the tab label (e.g: `{% tab software Paper <i class="recommended"></i> %}`).
 
 ### Blockquote
 

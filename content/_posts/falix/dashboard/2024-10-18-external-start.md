@@ -1,15 +1,13 @@
 ---
-layout: post
 title: How To Start Your Server Externally
-category: Dashboard
 tags: Server
 permalink: falix/dashboard/server/external-start
 description: Use the external start feature to turn on your server without accessing the console.
 keywords:
     - keyword: turn on
-      matches: ["without", "external"]
+      matches: &start_matches ["without", "external", "friend", "friends"]
     - keyword: start
-      matches: ["without", "external"]
+      matches: *start_matches
 author:
     - TWIXhunter
     - Mocab
@@ -17,7 +15,7 @@ author:
 
 The external start feature is a great way to allow players or users to start your server when needed without needing access to your server's console.
 
-## :flashlight: Toggling the External Start Feature:
+## Toggling the External Start Feature:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -29,7 +27,7 @@ The external start feature is a great way to allow players or users to start you
 
 5. Click on "**Update**{: .blue }" to apply your changes.
 
-## :green_circle: Starting a Server Using External Start:
+## Starting a Server Using External Start:
 
 {: .warning}
 

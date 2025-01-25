@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Changing the Server Java Version
-category: Java
 tags: General
 description: Choose the right server Java version for functionality and optimal performance.
 keywords:
