@@ -1,9 +1,7 @@
 ---
-layout: post
 title: Adding Custom Worlds and Portals With Multiverse
-category: Java
-tags: plugins
-permalink: /minecraft/modifications/plugins/multiverse
+tags: Software
+permalink: /minecraft/modifications/software/multiverse
 description: Using Multiverse-Core and Multiverse-Portals to add portals to custom worlds
 author:
     - Twixhunter
