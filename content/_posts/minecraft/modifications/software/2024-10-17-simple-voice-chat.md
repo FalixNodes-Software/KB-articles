@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Allow Proximity Chat With Simple Voice Chat
-category: Modifications
 tags: Software
 permalink: minecraft/modifications/software/voice-chat
 description: How to add a proximity-based voice chat to your server so players can talk to each other in-game.
@@ -21,23 +19,23 @@ mod-type: Plugin, Mod
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
-## :studio_microphone: What Is Simple Voice Chat?
+## What Is Simple Voice Chat?
 
 Simple Voice Chat is a software that introduces proximity-based voice chat. It allows players to communicate with each other in-game. It also has a variety of addons that offer additional features. Simple Voice Chat requires you to have the mod installed on your client, which is only available on the Java Edition of Minecraft. If you don't have it installed on your client, you can still join the server, but you won't be able to use the voice chat features.
 
-## :hammer_and_wrench: Installation and Configuration:
+## Installation and Configuration:
 
 ### Prerequisites:
 
 {% tabs softwareType %}
-{% tab softwareType :electric_plug: Plugin %}
+{% tab softwareType <i class="type-software plugin"></i> Plugin %}
 
 -   Ensure your server is running with Spigot or any of its forks (Paper, Purpur, etc).
 -   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
 -   Make sure players have the mod installed locally.
 
 {% endtab %}
-{% tab softwareType :gear: Mod %}
+{% tab softwareType <i class="type-software mod"></i> Mod %}
 
 -   Ensure your server is running with either Fabric or Forge or any of their forks (Quilt & NeoForge respectively).
 -   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
@@ -49,12 +47,12 @@ Simple Voice Chat is a software that introduces proximity-based voice chat. It a
 ### Installation:
 
 {% tabs softwareType %}
-{% tab softwareType :electric_plug: Plugin %}
+{% tab softwareType <i class="type-software plugin"></i> Plugin %}
 
 We already have a guide on how to install Simple Voice Chat as well as any other plugin in our [Adding Plugins](/minecraft/modifications/general/adding-plugins) guide.
 
 {% endtab %}
-{% tab softwareType :gear: Mod %}
+{% tab softwareType <i class="type-software mod"></i> Mod %}
 
 We already have a guide on how to install Simple Voice Chat as well as any other mod in our [Adding Mods](/minecraft/modifications/general/adding-mods) guide.
 
@@ -64,7 +62,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 ## Configuration:
 
 {% tabs softwareType %}
-{% tab softwareType :electric_plug: Plugin %}
+{% tab softwareType <i class="type-software plugin"></i> Plugin %}
 
 1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
 
@@ -83,7 +81,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 7. (Re)start your server to apply the changes.
 
 {% endtab %}
-{% tab softwareType :gear: Mod %}
+{% tab softwareType <i class="type-software mod"></i> Mod %}
 
 1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
 

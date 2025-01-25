@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Add Custom Server Software or Version
-category: Java
 tags: General
 description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:
@@ -15,7 +13,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 Often a user will want to use a specific version or software, either because of a modpack requirement or for specific features. Fortunately, this can be easily done with a custom jar. Custom jars come in two forms: a standalone `.jar` file, or a `.jar` file, a library folder and sometimes other files.
 
-## :cook: Preparing the Jar or Library:
+## Preparing the Jar or Library:
 
 Standalone jars are often downloaded directly, while jar with a library folder are generated from an installer, both of which can be downloaded from the provider's website. A list of the most common software and their download website is as follows:
 
@@ -67,7 +65,7 @@ Some server software such as Quilt provide two server jars: a vanilla jar (usual
 serverJar=minecraft.jar
 ```
 
-## :hammer: Adding the Files to Your Server:
+## Adding the Files to Your Server:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Add Custom Server Software or Version
-category: Bedrock
 tags: General
 description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:
@@ -19,7 +17,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 Users may often want to use other software not officially provided by Falix, either for their unique features, plugin support or cross-play capabilities. Fortunately this can be done by adding it as a custom core, as will further be explained in this article.
 
-## :cook: Choosing the Server Software:
+## Choosing the Server Software:
 
 Before we can continue, you must choose a server core and download it. A list of the most commonly used Bedrock server software and their download websites are as follows:
 
@@ -31,10 +29,10 @@ Before we can continue, you must choose a server core and download it. A list of
 
 > **NEVER** download shady or untrusted server software, or software from unofficial websites. Malicious developers can use them to easily gain backdoor access to your server and wreck havoc.
 
-## :hammer: Installing It on Your Server:
+## Installing It on Your Server:
 
 {% tabs customSoftware %}
-{% tab customSoftware Official Bedrock Server %}
+{% tab customSoftware <i class="bedrock-software bedrock"></i> Official Bedrock Server %}
 
 {: .warning }
 
@@ -68,7 +66,7 @@ Before we can continue, you must choose a server core and download it. A list of
 10. After unarchiving, navigate back to the [Console](https://client.falixnodes.net/server/console) and start your server.
 
 {% endtab %}
-{% tab customSoftware NukkitX %}
+{% tab customSoftware <i class="bedrock-software nukkit"></i> NukkitX %}
 
 1. Login to the [Dashboard](https://client.falixnodes.net/).
 
