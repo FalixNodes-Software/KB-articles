@@ -1,5 +1,5 @@
 ---
-title: How to configure your server properties
+title: How to Configure Your Minecraft Bedrock Server Properties
 tags: Configuration
 description: Editing and customising common attributes of the server.properties file.
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Add Custom Server Software or Version
+title: Add Custom Server Software or Version To Your Minecraft Java Server
 tags: General
 description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:

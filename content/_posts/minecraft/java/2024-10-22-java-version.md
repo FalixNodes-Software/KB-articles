@@ -1,5 +1,5 @@
 ---
-title: Changing the Server Java Version
+title: Changing the Minecraft Server Java Version
 tags: General
 description: Choose the right server Java version for functionality and optimal performance.
 keywords:

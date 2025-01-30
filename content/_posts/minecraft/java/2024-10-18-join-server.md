@@ -1,5 +1,5 @@
 ---
-title: How To Join Your Minecraft Server
+title: How To Join Your Minecraft Java Server
 tags: General
 permalink: minecraft/java/general/join-server
 description: How to connect and play on your server through the Minecraft launcher.

@@ -1,5 +1,5 @@
 ---
-title: How To Add Resource Packs
+title: How To Add Resource Packs To Your Minecraft Bedrock Server
 tags: Configuration
 description: Change Minecraft's look with a server resource pack to give blocks and textures a new look and feel.
 keywords:

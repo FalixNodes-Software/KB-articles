@@ -1,5 +1,5 @@
 ---
-title: Migrating Your World Between Vanilla and Spigot
+title: Migrating Your Minecraft Java World Between Vanilla and Spigot
 tags: General
 description: Convert a vanilla world to or from Spigot or any of its forks.
 keywords:

@@ -1,6 +1,5 @@
 ---
-title: How to Configure Your Server Properties
-tags: Configuration
+title: How to Configure Your Minecraft Java Server Properties
 description: Editing and customising common attributes of the server.properties file.
 keywords:
     - keyword: server
