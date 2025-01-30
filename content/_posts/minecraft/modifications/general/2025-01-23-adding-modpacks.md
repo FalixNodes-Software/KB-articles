@@ -64,7 +64,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 7. A popup with a list of versions and mod loaders will appear; click on "**Install**{: .blue }" beside the appropriate version.
 
-8. Allow a few minutes for the modpack to install, then start your server to apply it.
+8. Allow a few moments for the modpack to install, then start your server to apply it.
 
 > If your server does not automatically generate a `server.jar` or `unix_args.txt`, install the corresponding software and version in the "Versions" tab.
 
@@ -75,7 +75,7 @@ The steps below are for general modpack installs; in some cases, modpacks may re
 
 1. In the Dashboard, hover over "Manage" in the top navigation bar, then navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
-2. Click on "**Upload Files**{: .blue }" at the top of the file manager and select the downloaded modpack.
+2. Click on "**Upload Files**{: .blue }" at the top of the File Manager and select the downloaded modpack.
 
 3. Click on the three dots to the right of the uploaded modpack, then click on "Unarchive".
 
