@@ -75,7 +75,7 @@ The steps below are for general modpack installs; in some cases, modpacks may re
 
 1. In the Dashboard, hover over "Manage" in the top navigation bar, then navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
-2. Click on "**Upload Files**{: .blue }" at the top of the File Manager and select the downloaded modpack.
+2. Click on "**Upload Files**{: .blue }" at the top of the file manager and select the downloaded modpack.
 
 3. Click on the three dots to the right of the uploaded modpack, then click on "Unarchive".
 
