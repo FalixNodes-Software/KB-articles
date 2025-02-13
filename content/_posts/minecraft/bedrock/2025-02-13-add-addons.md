@@ -86,7 +86,7 @@ Follow the steps below to convert them into the required server files.
 
 7. Go to 'Worlds' and open the 'Bedrock Level' folder.
 
-8. Create a new file called `world_behavior_packs.json' if it doesn't already exist.
+8. Create a new file called `world_behavior_packs.json` if it doesn't already exist.
 
 9. Back in your addons behavior pack folder on your device, open the `manifest.json` file.
 
