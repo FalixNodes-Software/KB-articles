@@ -58,16 +58,17 @@ these files only contain resource packs, for a more detailed guide on how to add
 1. Login to the [Dashboard](https://client.falixnodes.net/).
 
 2. Select a server from your server list.
+> make sure to start the server at least once to generate all the needed files before continuing.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server . In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the [resource_packs](https://client.falixnodes.net/server/filemanager?dir=/resource_packs/) folder.
 
-5. Upload your resource pack to this folder by dragging it to the top of the File Manager or by using the Upload Folder button.
+5. Upload your resource pack to this folder by dragging it to the top of the File Manager or by using the "Upload Folder" button.
 
 6. Return to the File Manager home folder.
 
-7. Go to 'Worlds' and open the 'Bedrock Level' folder.
+7. Open the 'Worlds' folder and open the 'Bedrock Level' folder inside.
 
 8. Create a new file called `world_resource_packs.json` if it doesn't already exist.
 
@@ -80,8 +81,9 @@ these files only contain resource packs, for a more detailed guide on how to add
   }
 ]
 ```
-    > To add multiple resource packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
-10. Back in your addons resource pack folder on your device, open the `manifest.json` file.
+ > To add multiple resource packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
+
+10. Back on your device; open the folder that you uploaded and open the `manifest.json` file.
 
 11. Copy the UUID and version from the header section and paste them into your server's `world_resource_packs.json` file under pack_id and version.
 
@@ -106,8 +108,12 @@ these files only contain resource packs, for a more detailed guide on how to add
   }
 ]
 ```
-    > To add multiple behavior packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
+> To add multiple behavior packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
 
 19. Back in your addons behaviore pack folder on your device, open the `manifest.json` file.
 
 20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under pack_id and version.
+
+21. Save the file and navigate back to your servers console.
+
+22. (Re)start your server.
