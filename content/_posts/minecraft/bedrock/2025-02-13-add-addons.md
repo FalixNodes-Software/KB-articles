@@ -81,6 +81,10 @@ These files only contain resource packs, for a more detailed guide on how to add
   }
 ]
 ```
+
+![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
+![screenshot of world_resource_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
+
  > To add multiple resource packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
 
 10. Back on your device, open the folder you uploaded and open the `manifest.json` file.
@@ -108,6 +112,9 @@ These files only contain resource packs, for a more detailed guide on how to add
   }
 ]
 ```
+![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
+![screenshot of world_behavior_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
+
 > To add multiple behavior packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
 
 19. Back on your device, open the folder you uploaded and open the `manifest.json` file.
