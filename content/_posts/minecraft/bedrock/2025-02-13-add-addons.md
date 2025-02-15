@@ -21,10 +21,10 @@ There are 3 main types of files that can contain addons, these are
 Follow the steps below to convert them into the required server files.
 
 {: .warning }
-> this article was written for the "minecraft for windows" version of the game, installation from other versions (like Pocket and Xbox edition) might slightly differ depending on your platform.
+> This article was written for the "Minecraft for Windows" version of the game, installation for other versions (such as Pocket and Xbox editions) may differ slightly depending on your platform.
 
 ### .mcpack
-these files only contain resource packs, for a more detailed guide on how to add them to your server see our [How To Add Resource Packs To Your Minecraft Bedrock Server](https://kb.falixnodes.net/minecraft/bedrock/configuration/resource-pack) article.
+These files only contain resource packs, for a more detailed guide on how to add them to your server, see our [How To Add Resource Packs To Your Minecraft Bedrock Server](https://kb.falixnodes.net/minecraft/bedrock/configuration/resource-pack) article.
 
 ### .mcaddon
 
@@ -32,11 +32,11 @@ these files only contain resource packs, for a more detailed guide on how to add
 
 2. Wait for Minecraft to open and import the file.
 
-3. Go to your installation folder, for Windows this is `C:\Users\(your_pc_username)\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`
+3. Go to your installation folder, for Windows this is `C:\Users\(your_pc_username)\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`.
 
 > You can easily open this folder by pressing `WIN` + `R` and paste `%localAppdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`.
 
-4. Open the `behavior_packs`, inside you will find a list of all imported packs
+4. Open the `behavior_packs`, inside you will find a list of all imported packs.
 
 5. Find the folder with the name of the pack you want and copy it to your desktop.
 
@@ -48,7 +48,7 @@ these files only contain resource packs, for a more detailed guide on how to add
 
 1. download the file to your computer
 
-2. Unarchive it by selecting it in your file explorer and pressing `extract all`.
+2. Unarchive it by selecting it in your file explorer and pressing `extract all'.
 
 3. Inside you will find 2 folders representing `resource_packs` and `behavior_packs`.
 
@@ -57,22 +57,22 @@ these files only contain resource packs, for a more detailed guide on how to add
 
 1. Login to the [Dashboard](https://client.falixnodes.net/).
 
-2. Select a server from your server list.
-> make sure to start the server at least once to generate all the needed files before continuing.
+2. Choose a server from your server list.
+> Be sure to start the server at least once to generate all the necessary files before continuing.
 
 3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the [resource_packs](https://client.falixnodes.net/server/filemanager?dir=/resource_packs/) folder.
 
-5. Upload your resource pack to this folder by dragging it to the top of the File Manager or by using the "Upload Folder" button.
+5. Upload your resource pack to this folder by dragging it to the top of the File Manager or by using the Upload Folder button.
 
 6. Return to the File Manager home folder.
 
-7. Open the 'Worlds' folder and open the 'Bedrock Level' folder inside.
+7. Open the "Worlds" folder and open the folder called "Bedrock Level".
 
 8. Create a new file called `world_resource_packs.json` if it doesn't already exist.
 
-9. Paste the following info into the file:
+9. Add the following information to the file
 ```json
 [
   {
@@ -83,23 +83,23 @@ these files only contain resource packs, for a more detailed guide on how to add
 ```
  > To add multiple resource packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
 
-10. Back on your device; open the folder that you uploaded and open the `manifest.json` file.
+10. Back on your device, open the folder you uploaded and open the `manifest.json` file.
 
-11. Copy the UUID and version from the header section and paste them into your server's `world_resource_packs.json` file under pack_id and version.
+11. Copy the UUID and version from the header and paste them into the `world_resource_packs.json` file on your server under `pack_id:` and `version:`.
 
-12. Save the file and get back to the Home folder of the filemanager.
+12. Save the file and return to the home folder of the file manager.
 
-13. Locate and open the [behavior_packs](https://client.falixnodes.net/server/filemanager?dir=/behavior_packs/) folder.
+13. Locate and open the [behavior_packs] folder (https://client.falixnodes.net/server/filemanager?dir=/behavior_packs/).
 
 14. Upload your behavior pack to this folder by dragging it to the top of the File Manager or using the Upload Folder button.
 
-15. Return to the File Manager's home folder.
+15. Return to the File Manager home folder.
 
-16. Go to 'Worlds' and open the 'Bedrock Level' folder.
+16. Go to the 'Worlds' folder and open the folder called 'Bedrock Level'.
 
 17. Create a new file called `world_behavior_packs.json` if it doesn't already exist.
 
-18. Paste the following info into the file:
+18. Add the following information to the file:
 ```json
 [
   {
@@ -110,9 +110,9 @@ these files only contain resource packs, for a more detailed guide on how to add
 ```
 > To add multiple behavior packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
 
-19. Back in your addons behaviore pack folder on your device, open the `manifest.json` file.
+19. Back on your device, open the folder you uploaded and open the `manifest.json` file.
 
-20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under pack_id and version.
+20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under `pack_id:` and `version:`.
 
 21. Save the file and navigate back to your servers console.
 
