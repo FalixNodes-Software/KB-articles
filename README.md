@@ -1,56 +1,55 @@
-<img style="border-radius: 20px;" src="https://i.imgur.com/nyoM6z6.png">
-
 # 📖 FalixNodes Knowledge Base
+
+![FalixNodes Logo](https://i.imgur.com/nyoM6z6.png)
 
 What's all this? You're currently viewing the articles that make up the [Knowledge Base](https://kb.falixnodes.net/). It's all built on Jekyll, a static website generator we use.
 
 ## Table of content
 
--   [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
-    -   [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
-    -   [📂 Folder Structure](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-folder-structure)
-    -   [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
-    -   [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
-        -   [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
-        -   [Modifications / Addon Options](https://github.com/FalixNodes-Software/KB-articles#modifications--addon-options)
-        -   [Getting Started Options](https://github.com/FalixNodes-Software/KB-articles#getting-started-options)
-    -   [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
-        -   [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
-        -   [Emojis / Icons](https://github.com/FalixNodes-Software/KB-articles#emojis--icons)
-        -   [Images](https://github.com/FalixNodes-Software/KB-articles#images)
-        -   [Lists](https://github.com/FalixNodes-Software/KB-articles#lists)
-        -   [Colored Text](https://github.com/FalixNodes-Software/KB-articles#colored-text)
-        -   [Tabs](https://github.com/FalixNodes-Software/KB-articles#tabs)
-        -   [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
-        -   [Video](https://github.com/FalixNodes-Software/KB-articles#video)
-    -   [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
+- [Publishing a New Article](https://github.com/FalixNodes-Software/KB-articles#publishing-a-new-article)
+  - [🛡️ Requirements](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-requirements)
+  - [📂 Folder Structure](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-folder-structure)
+  - [✍️ Creating an Article](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-creating-an-article)
+  - [📃️ Frontmatter](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-frontmatter)
+    - [Default Options](https://github.com/FalixNodes-Software/KB-articles#default-options)
+    - [Modifications / Addon Options](https://github.com/FalixNodes-Software/KB-articles#modifications--addon-options)
+    - [Getting Started Options](https://github.com/FalixNodes-Software/KB-articles#getting-started-options)
+  - [✒️ Markdown](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-markdown)
+    - [Headers](https://github.com/FalixNodes-Software/KB-articles#headers)
+    - [Emojis / Icons](https://github.com/FalixNodes-Software/KB-articles#emojis--icons)
+    - [Images](https://github.com/FalixNodes-Software/KB-articles#images)
+    - [Lists](https://github.com/FalixNodes-Software/KB-articles#lists)
+    - [Colored Text](https://github.com/FalixNodes-Software/KB-articles#colored-text)
+    - [Tabs](https://github.com/FalixNodes-Software/KB-articles#tabs)
+    - [Blockquote](https://github.com/FalixNodes-Software/KB-articles#blockquote)
+    - [Video](https://github.com/FalixNodes-Software/KB-articles#video)
+  - [📢️ Publishing](https://github.com/FalixNodes-Software/KB-articles#%EF%B8%8F-publishing)
 
 ---
 
-# Publishing a New Article
+## Publishing a New Article
 
 Want to help contribute to the Knowledge base? Write or update an article!
 
 ## 🛡️ Requirements
 
--   The guides must be clear and well explained for the user to understand.
--   Fact check and make sure the information you're providing is accurate.
--   Proofread for any grammatical and spelling mistakes.
--   Validate markdown and html syntax.
--   Provide proper frontmatter.
--   Use valid links and images.
--   Make sure guides are up-to-date.
+- The guides must be clear and well explained for the user to understand.
+- Fact check and make sure the information you're providing is accurate.
+- Proofread for any grammatical and spelling mistakes.
+- Validate markdown and html syntax.
+- Provide proper frontmatter.
+- Use valid links and images.
+- Make sure guides are up-to-date.
 
 ## 📂 Folder Structure
 
 <details>
 
-<br>
 
--   The `_drafts` folder is where all previous articles from the old help center are stored. They only serve as a references and should be deleted once the article is re-created.
--   The `content` folder is where all the content is hosted, any files changed here will automatically be pushed to the knowledge base.
-    -   `_categories` is where all the categories (such as Dashboard and Java) are stored, each grouped within its own section folder (e.g: Falix, Minecraft).
-    -   `_posts` is where all the articles are stored. The folder structure begins with the section (e.g: Falix, Minecraft) and then category (e.g: Dashboard, Java) and finally subcategory (e.g: General).
+- The `_drafts` folder is where all previous articles from the old help center are stored. They only serve as a references and should be deleted once the article is re-created.
+- The `content` folder is where all the content is hosted, any files changed here will automatically be pushed to the knowledge base.
+  - `_categories` is where all the categories (such as Dashboard and Java) are stored, each grouped within its own section folder (e.g: Falix, Minecraft).
+  - `_posts` is where all the articles are stored. The folder structure begins with the section (e.g: Falix, Minecraft) and then category (e.g: Dashboard, Java) and finally subcategory (e.g: General).
 
 </details>
 
@@ -66,7 +65,6 @@ If you wish to add an alternate version of a guide for a different Minecraft edi
 
 <details>
 
-<br>
 
 The frontmatter is the block at the top of every article surrounded by a pair of triple dashes `---`. As the frontmatter is based on YAML, ensure that the correct syntax is followed:
 
@@ -146,7 +144,6 @@ post_order: 1
 
 <details>
 
-<br>
 
 [Markdown cheatsheet](https://markdownguide.offshoot.io/cheat-sheet/).
 
@@ -173,15 +170,15 @@ To display a server software icon, use the code below while replacing the classe
 Replace `software` with either `java-software`, `bedrock-software` or `type-software` (mod, plugin, datapack).
 Replace `software-name` with any supported software:
 
--   Java: `java`, `snapshot`, `spigot`, `paper`, `pufferfish`, `purpur`, `fabric`, `neoforge`, `forge`, `quilt`, `sponge`, `mohist`, `magma`, `arclight`, `velocity`, `bungeecord`
--   Bedrock: `bedrock`, `preview`, `pmmp`, `nukkit`
--   Type: `mod`, `plugin`, `datapack`
+- Java: `java`, `snapshot`, `spigot`, `paper`, `pufferfish`, `purpur`, `fabric`, `neoforge`, `forge`, `quilt`, `sponge`, `mohist`, `magma`, `arclight`, `velocity`, `bungeecord`
+- Bedrock: `bedrock`, `preview`, `pmmp`, `nukkit`
+- Type: `mod`, `plugin`, `datapack`
 
 ### Images
 
 If you're adding an image to the files, follow the structure below:
 
-```
+```markdown
 ![Alt text](content/assets/images/posts/...)
 ```
 
@@ -195,7 +192,7 @@ When typing out steps using lists, make sure to separate each step with a **blan
 
 When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can often be seen on different buttons such as Restart, Save File, Delete, Connect, etc. It is a good idea to color these words with the same color as can be seen in the Dashboard to make the guides more user friendly and vibrant. This can be done by making the word **bold** (`** **`) and immediately following it with an inline attribute with the color as a style name:
 
-```
+```css
 **Connect**{: .blue } **Delete**{: .red } **Restart**{: .orange } **Save File**{: .green }
 ```
 
@@ -203,7 +200,7 @@ When navigating around the Dashboard, four colors (Orange, Green, Red, Blue) can
 
 In certain articles, you may want to use tabs to group separate alternate procedures in one place, such as procedures on configuring a software with a plugin and mod version:
 
-```
+```css
 {% tabs software %}
 
 {% tab software plugin %}
