@@ -1,23 +1,23 @@
 ---
-layout: post
-title: Assigning an Extra Port
-category: Dashboard
+title: How To Create an Open Port
 tags: Server
 permalink: falix/dashboard/server/extra-port
-description: Allocating a dedicated network port.
-keywords: allocate port, create port, dedicated port, extra port, webserver port, secondary port, network port
+description: Learn how to create and assign a dedicated or extra network port to your server.
+keywords:
+    - keyword: port
+      matches: ["allocate", "create", "dedicated", "extra", "webserver", "secondary", "network", "open"]
 author:
     - Naoki
     - Mocab
 ---
 
-## :mailbox_closed: What Is a Port?
+## What Is a Port?
 
 A port is like a gateway that allows internet traffic to flow in and out of. Just like in a harbour, you cannot have two ships arriving or departing from the same dock, and so multiple docks are used to increase the ship capacity. The same can be applied to ports, when multiple different types of content is delivered from the server, multiple ports must be used to avoid clashing with each other and the main port.
 
 As such, when a certain type of mod, plugin or software is used that forwards traffic over a dedicated port, such as Dynmap's webserver and voice chat mods, extra ports must be used.
 
-## :inbox_tray: Assigning an Extra Port
+## Assigning an Extra Port
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 

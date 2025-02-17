@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Adding Resource Packs to Your Server"
-category: Bedrock
+title: How To Add Resource Packs To Your Minecraft Bedrock Server
 tags: Configuration
-description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
-keywords: resource pack, texture pack, custom texture, custom sound
+description: Change Minecraft's look with a server resource pack to give blocks and textures a new look and feel.
+keywords:
+    - keyword: pack
+      matches: &pack_matches ["resource", "texture", "sound"]
+    - keyword: custom
+      matches: *pack_matches
 permalink: /minecraft/bedrock/configuration/resource-pack
 author:
     - Kuroi
@@ -15,7 +17,7 @@ Adding a resource pack to your Minecraft server can greatly enrich the player ex
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## :mag: Acquiring a Resource Pack
+## Acquiring a Resource Pack
 
 There are several popular websites where you can find a variety of resource packs for the Minecraft Bedrock Edition. Here are some of the most well-known ones:
 
@@ -30,7 +32,7 @@ You can also upload your own custom resource pack as well.
 
 > Ensure the resource pack is compatible with the version of Minecraft used and any addons or behavior packs installed. Incompatible packs may cause crashes or visual glitches.
 
-## :hammer: Installation
+## Installation
 
 ### Obtaining the Pack Metadata
 
@@ -96,7 +98,7 @@ You can also upload your own custom resource pack as well.
 
 > If you have successfully added the resource pack, you should be prompted with a "Download Resource Pack?" popup the next time you join the server.
 
-## :wrench: Configuration
+## Configuration
 
 ### Enforcing the Resource Pack
 

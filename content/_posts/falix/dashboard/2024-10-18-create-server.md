@@ -1,11 +1,11 @@
 ---
-layout: post
-title: How to Create a Server
-category: Dashboard
+title: How to Create Your First Falix Server
 tags: Server
 permalink: falix/dashboard/server/create-server
-description: Learn how to create your very first server.
-keywords: create server, make server
+description: A step by step article to create your very first server.
+keywords:
+    - keyword: server
+      matches: ["create", "make"]
 author: Mocab
 toc: false
 

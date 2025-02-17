@@ -1,15 +1,15 @@
 ---
-layout: post
-title: Connecting and Joining Your Server
-category: Bedrock
+title: How To Join Your Minecraft Bedrock Server
 tags: General
 permalink: minecraft/bedrock/general/join-server
-description: Learn how to connect and join your server through the Minecraft launcher.
-keywords: connect to server, join server, play on server
+description: How to connect and play on your server through the Minecraft launcher.
+keywords:
+    - keyword: server
+      matches: ["connect", "join", "play"]
 author: Mocab
 ---
 
-## :play_or_pause_button: Starting Your Server
+## Starting Your Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -25,7 +25,7 @@ author: Mocab
 
 5. A popup should appear, copy the string of characters under "Your server with port is", it should look like `xxxxx.falixsrv.me:xxxxx`. This is your server address and port, which we will use to connect to your server.
 
-## :video_game: Joining Your Server
+## Joining Your Server
 
 1. Launch and open Minecraft.
 

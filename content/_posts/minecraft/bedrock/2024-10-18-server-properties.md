@@ -1,10 +1,22 @@
 ---
-layout: post
-title: Configuring server.properties
-category: Bedrock
+title: How to Configure Your Minecraft Bedrock Server Properties
 tags: Configuration
-description: Editing the commonly used attributes of the server.properties file to configure your Java server.
-keywords: server properties, server configuration, server settings, default gamemode, default game mode, difficulty, allow cheats, enable cheats, max players, cracked players, view distance, set seed, change seed, custom seed
+description: Editing and customising common attributes of the server.properties file.
+keywords:
+    - keyword: server
+      matches: ["properties", "configuration", "config", "settings"]
+    - keyword: custom
+      matches: ["seed", "view distance", "tick distance"]
+    - keyword: change
+      matches: &change_matches ["seed", "view distance", "tick distance", "gamemode", "game mode", "difficulty", "max players", "maximum players"]
+    - keyword: set
+      matches: *change_matches
+    - keyword: allow
+      matches: &allow_matches ["cheats", "cracked"]
+    - keyword: enable
+      matches: *allow_matches
+    - keyword: disable
+      matches: *allow_matches
 permalink: /minecraft/bedrock/configuration/server-properties
 author:
     - Kuroi
@@ -13,7 +25,7 @@ author:
 
 Understanding the [server.properties](https://server.properties) file is crucial for configuring and customizing your Minecraft server. This guide highlights the essential attributes within the file, enabling you to optimize and alter your server settings for the best gameplay experience.
 
-## :pencil2: Accessing & Configuring server.properties
+## Accessing & Configuring server.properties
 
 There are two possible methods to access server.properties, you may either directly alter the file found in the [File Manager](https://client.falixnodes.net/server/filemanager?dir=/), or using our server.properties editor:
 
@@ -27,7 +39,7 @@ To edit a setting, depending on the type, you may have to select an option from 
 
 To save your changes, simply click on "**Submit**{: .blue }" at the top of the properties list.
 
-### :wrench: Configurations:
+### Configurations:
 
 **server-name**
 

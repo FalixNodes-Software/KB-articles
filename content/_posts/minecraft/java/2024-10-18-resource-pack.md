@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "Adding Resource Packs to Your Server"
-category: Java
+title: How To Add Resource Packs To Your Minecraft Java Server
 tags: Configuration
-description: "How to add a resource pack to your server to give blocks and textures a new look and feel."
-keywords: resource pack, texture pack, custom texture, custom sound
+description: Change Minecraft's look with a server resource pack to give blocks and textures a new look and feel.
+keywords:
+    - keyword: pack
+      matches: &pack_matches ["resource", "texture", "sound"]
+    - keyword: custom
+      matches: *pack_matches
 permalink: /minecraft/java/configuration/resource-pack
 author:
     - Kuroi
@@ -15,7 +17,7 @@ Adding a resource pack to your Minecraft server can greatly enrich the player ex
 
 This guide will demonstrate how to add a server-wide resource pack popup to allow users to enable and use a specified resource pack, or alternatively, enforce it for all players.
 
-## :mag: Acquiring a Resource Pack
+## Acquiring a Resource Pack
 
 ### Finding Resource Packs
 
@@ -44,11 +46,13 @@ To add a resource pack to your server, you must provide a **direct** download li
 
 > Make sure the `assets` folder and other relevant files within the resource pack archive is in the root of the zip archive and not within a folder.
 
-#### Directly From the Website
+{% tabs downloadLink %}
+{% tab downloadLink Directly From the Website %}
 
 This may be different according to the hosting platform used, however it often involves right clicking and grabbing the download link directly from the "Download" button provided. Do note that some hosting platforms shuffle download links every so often, and so this method may not always work.
 
-#### Google Drive
+{% endtab %}
+{% tab downloadLink Google Drive %}
 
 1. Upload the resource pack to your Google Drive account, ensure it is in the `.zip` file format.
 
@@ -72,7 +76,8 @@ This may be different according to the hosting platform used, however it often i
     https://drive.google.com/uc?export=download&id=xxxxxxxxxxxxxxxxxxxxx
     ```
 
-#### Dropbox
+{% endtab %}
+{% tab downloadLink Dropbox %}
 
 1. Upload the resource pack to your Dropbox account, ensure it is in the `.zip` file format.
 
@@ -80,7 +85,10 @@ This may be different according to the hosting platform used, however it often i
 
 3. To obtain a direct download link, add the end of the link replace `dl=0` with `dl=1`.
 
-## :wrench: Configuration
+{% endtab %}
+{% endtabs %}
+
+## Configuration
 
 ### Adding the Download Link to the Server
 

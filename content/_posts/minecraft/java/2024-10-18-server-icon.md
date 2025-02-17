@@ -1,11 +1,16 @@
 ---
 layout: post
-title: Changing your Server Icon
+title: How To Change Your Minecraft Java Server Icon
 category: Java
 tags: General
 permalink: /minecraft/java/general/server-icon
-description: Setting a custom and unique server icon.
-keywords: icon, server image, server logo
+description: Set a custom and unique icon to make your server stand out in multiplayer servers list.
+keywords:
+    - keyword: icon
+    - keyword: server
+      matches: &server_matches ["image", "logo", "picture", "thumbnail"]
+    - keyword: custom
+      matches: *server_matches
 author:
     - Naoki
     - Deka
@@ -14,7 +19,7 @@ author:
 
 The server icon is a great way to customize your server with a unique icon visible in the multiplayer server list. Not only will it help grab players' attention, but it will also make your server stand out.
 
-## :scissors: Preparing a Server Icon
+## Preparing a Server Icon
 
 Due to limitations, icons must be in the `.png` format and to avoid stretching or compressing the image, an image of size 64 by 64 pixels must be used. You may use any tool or software to achieve this, however in this article we will be using [Casper's Server Icon Maker](https://casperslab.me/falix/server-icon-maker/).
 
@@ -30,7 +35,7 @@ Due to limitations, icons must be in the `.png` format and to avoid stretching o
 
 5. Ensure the image has `server-icon.png` as it's name.
 
-## :framed_picture: Applying It to the Server
+## Applying It to the Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 

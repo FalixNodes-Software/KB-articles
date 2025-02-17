@@ -1,11 +1,11 @@
 ---
-layout: post
-title: Connecting and Joining Your Server
-category: Java
+title: How To Join Your Minecraft Java Server
 tags: General
 permalink: minecraft/java/general/join-server
-description: Learn how to connect and join your server through the Minecraft launcher.
-keywords: connect to server, join server, play on server
+description: How to connect and play on your server through the Minecraft launcher.
+keywords:
+    - keyword: server
+      matches: ["connect", "join", "play"]
 author: Mocab
 
 getting-started-tag: Minecraft

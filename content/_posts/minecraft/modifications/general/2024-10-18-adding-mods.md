@@ -1,11 +1,13 @@
 ---
-layout: post
 title: How To Add Mods to Your Server
-category: Modifications
 tags: General
 permalink: minecraft/modifications/general/adding-mods
-description: Learn how to upload and install mods to your Minecraft Java server.
-keywords: install mods, use mods, get mods, add mods, mod loader, configure mods
+description: A step-by-step guide to upload and install mods on your server.
+keywords:
+    - keyword: mods
+      matches: &mods_matches ["install", "use", "get", "add", "configure", "load", "put", "upload"]
+    - keyword: mod
+      matches: *mods_matches
 author:
     - TWIXhunter
     - Deka
@@ -14,24 +16,24 @@ author:
 
 Minecraft mods are user-created modifications or additions to the game that alter or enhance the game-play experience. Mods can range from simple tweaks to the game's mechanics to extensive overhauls that add new features, items, entities, and much more.
 
-## :package: Mod Types:
+## Mod Types:
 
 There are three types of mods: server-side, client-side and both. Depending on the mod specification, some mods are only to be run locally, while others are server-side only, with the majority requiring it to be installed on both ends. If the mod used is of the last type, if the player does not have the mod installed locally, they will not be able to experience or interact with the mod at all.
 
-## :pickup_truck: Mod Loaders:
+## Mod Loaders:
 
-Due to how mods work, a mod loader is needed as a server software to inject and run the mod itself, with some mods only supporting specific mod loaders and sometimes very specific versions. Unfortunately only a single mod loader can be used at a time within a setup, and therefore all mods used must support the mod loader. To learn more about mod loaders, please refer to the [Modded Server Jar](/minecraft/java/configuration/server-software#modded-server-jars) section of our server software guide.
+Due to how mods work, a mod loader is needed as a server software to inject and run the mod itself, with some mods only supporting specific mod loaders and sometimes very specific versions. Unfortunately only a single mod loader can be used at a time within a setup, and therefore all mods used must support the mod loader. To learn more about mod loaders, please refer to the [Modded Server Jar](/minecraft/java/general/server-software#modded-server-jars) section of our server software guide.
 
 When it comes to forks, as fork mod loaders are based on the upstream mod loader, most if not all upstream mods should work on forked mod loaders, meaning Fabric mods should still work when using Quilt, and the same applies to Forge mods used with the NeoForge mod loader.
 
-## :mag: Finding Mods:
+## Finding Mods:
 
 Mods are often hosted on modding platforms, these are websites that contain a large collection of mods for the user to browse through and choose, the most common ones being:
 
 -   [Modrinth](https://modrinth.com/mods)
 -   [CurseForge](https://www.curseforge.com/minecraft/search)
 
-## :hammer_and_wrench: Installing and Configuring Mods:
+## Installing and Configuring Mods:
 
 ### Through the Mods Installer:
 
