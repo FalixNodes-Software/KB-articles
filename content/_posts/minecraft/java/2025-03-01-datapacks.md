@@ -1,7 +1,7 @@
 ---
 title: How To Add Datapacks To Your Minecraft Java Server
 tags: Configuration
-description: Modify Minecraft’s gameplay with a server datapack to add new mechanics, custom features, and unique challenges without requiring mods.
+description: Modify Minecraft's gameplay with a server datapack to add new mechanics, custom features, and unique challenges without requiring mods.
 keywords:
     - keyword: pack
       matches: &pack_matches ["data"]
