@@ -53,4 +53,4 @@ You can also create your own custom datapack.
 > /datapack enable `filenamehere`
 
 {: .error}
-> If your datapack doesn't appear, try running `/datapack list` and then try again, or make sure your datapack is in the right place.
+> If your datapack doesn't appear, try running `/datapack list` and then try again, restart your server and/or make sure your datapack is in the right place.
