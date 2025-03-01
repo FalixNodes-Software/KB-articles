@@ -27,7 +27,6 @@ There are several popular websites where you can find a variety of datapacks for
 - [Modrinth](https://modrinth.com/datapacks "Modrinth is a platform for Minecraft players and developers that offers a curated selection of mods, datapacks, and community content.")
 - [Planet Minecraft](https://www.planetminecraft.com/data-packs/ "A community-driven platform where users share various Minecraft content, including datapacks.")
 - [Vanilla Tweaks](https://vanillatweaks.net/picker/datapacks/ "A collection of high-quality, customizable datapacks that improve gameplay while staying true to vanilla mechanics.")
-- [Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/datapacks "A long-running community forum where players discuss and share Minecraft-related content, including datapacks.")
 
 You can also create your own custom datapack.
 
