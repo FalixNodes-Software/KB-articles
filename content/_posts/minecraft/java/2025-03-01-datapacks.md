@@ -8,10 +8,9 @@ keywords:
     - keywords: datapack
       matches: ["add","custom","server"]
 
-permalink: /minecraft/java/configuration/resource-pack
+permalink: /minecraft/java/configuration/datapacks
 author:
-    - Kuroi
-    - Mocab
+    - twix
 ---
 
 Datapacks allow you to change game mechanics, add custom advancements, loot tables, features, and more-all without the need for external mods. They are server-side modifications, which means they can change gameplay while still allowing vanilla clients to connect without additional downloads.
@@ -36,7 +35,7 @@ You can also create your own custom datapack.
 
 2. Select a server from your server list.
 
-3. You will be redirected to the [Console Page] of your server (https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the "[world](https://client.falixnodes.net/server/filemanager?dir=/world/)" folder.
 
