@@ -1,5 +1,5 @@
 ---
-title: Adding Custom Worlds and Portals With Multiverse
+title: Adding Multiple Worlds and Portals With Multiverse
 tags: Software
 permalink: /minecraft/modifications/software/multiverse
 description: Using Multiverse-Core and Multiverse-Portals to add portals to custom worlds
@@ -32,13 +32,19 @@ We already have a guide on how to install Multiverse-core as well as any other p
 {% tabs addWrld %}
 {% tab addWrld :arrow_up: Uploading a World %}
 
-1. Upload your world folder by following our [World Management Guide](/minecraft/java/general/world-management#arrow_up-uploading-your-world).
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-    > You may use any name without spaces as the folder name. This will be used as the world name in-game.
+2. Choose a server within your server list.
 
-2. Navigate back to the [Console](https://client.falixnodes.net/server/console).
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
-3. To import the world into Multiverse, type the command below in the console. Make sure to replace `<world_name>` with the name of the world folder you uploaded, and `<type>` with a world type.
+4. Upload your world folder to the root of the [File Manager](https://client.falixnodes.net/server/filemanager).
+
+    > You may use any name without spaces as the folder name (except for `world`). This will be used as the world name in-game.
+
+5. Navigate back to the [Console](https://client.falixnodes.net/server/console).
+
+6. To import the world into Multiverse, type the command below in the console. Make sure to replace `<world_name>` with the name of the world folder you uploaded, and `<type>` with a world type.
 
     ```
     /mvimport <world_name> <type>
@@ -46,7 +52,7 @@ We already have a guide on how to install Multiverse-core as well as any other p
 
     Some examples of world types are: `NORMAL`, `NETHER`, `THE_END`. To find a list of all available world types run `mvenv` in the console.
 
-4. Run the command.
+7. Run the command.
 
 {% endtab %}
 {% tab addWrld Generating a New World %}
