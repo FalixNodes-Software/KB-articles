@@ -1,9 +1,7 @@
 ---
 title: How To Setup And Install A Bungeecord Proxy
 tags: General
-
-permalink: -----------> TO DO <------------------
-
+permalink: minecraft/java/general/join-server
 description: A step-by-step guide on how to install and use a Bungeecord proxy server
 keywords:
     - keyword: bungeecord
