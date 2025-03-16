@@ -34,7 +34,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 6. Scroll down and set `online-mode` to `false`.
 
-7. Return to the File Manager.
+7. Save the file and return to the File Manager.
 
 8. Locate and open `spigot.yml`.
 
@@ -63,13 +63,7 @@ Repeat the steps above for all your fallback servers.
 
 9. Locate `config.yml` and open it.
 
-10. Scroll down to `host: 0.0.0.0:25577` and change the numbers after `:` to your BungeeCord's port. You can find your port in the "Network" tab under the advanced category.
-
-11. Scroll down to `priorities:- lobby`, change `lobby` to your default fallback server's name (case sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
-
-12. Scroll down and set `IP_forward` to `true`.
-
-13. Scroll down to `servers:` and use the template below:
+10. Scroll down to `servers:` (line 9) and use the template below:
 
 {: .note #code }
 ```
@@ -87,14 +81,20 @@ Change `server-IP:PORT`  to the fallback server's IP and port, you can find the 
 {: .note }
 > If you have multiple fallback servers, duplicate the code above and paste it under your first server.
 
-13. Save the file and start your server.
+11. Scroll down to `priorities:- lobby` (line 24), change `lobby` to your default fallback server's name (case sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
+
+12. Scroll down to `host: 0.0.0.0:25577` (Line 27) and change the numbers after `:` to your BungeeCord's port. You can find your port in the "Network" tab under the advanced category. 
+
+13. Scroll down and set `IP_forward` to `true`. (line 46)
+
+14. Save the file and start your server.
 
 {: .note }
 > You can view all BungeeCord configuration options [here](https://www.spigotmc.org/wiki/bungeecord-configuration-guide/).
 
-14. Make sure that both your proxy and fallback servers are running.
+15. Make sure that both your proxy and fallback servers are running.
 
-15. Join your server on the IP of the proxy.
+16. Join your server on the IP of the proxy.
 
 ## BungeeCord Commands
 You can find a list of BungeeCord commands [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
