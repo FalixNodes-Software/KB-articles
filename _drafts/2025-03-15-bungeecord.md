@@ -1,7 +1,9 @@
 ---
 title: How To Setup And Install A Bungeecord Proxy
 tags: General
-permalink: yet to be seen
+
+permalink: -----------> TO DO <------------------
+
 description: A step-by-step guide on how to install and use a Bungeecord proxy server
 keywords:
     - keyword: bungeecord
