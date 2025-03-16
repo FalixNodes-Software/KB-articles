@@ -61,7 +61,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 10. Scroll down to `servers:` (line 9) and use the following template:
 
-``` YAML
+```YAML
   server name:
     motd: '&1Just another BungeeCord - Forced Host'
     address: server-IP:PORT
