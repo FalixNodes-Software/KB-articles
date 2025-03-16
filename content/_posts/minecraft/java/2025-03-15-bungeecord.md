@@ -68,7 +68,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
     restricted: false
 ```
 Change `server-name` to the fallback server name (case sensitive).
-Change `server-IP:PORT` to the IP and port of the fallback server, you can find the "Ip with port" in the Connect tab in the console.
+Change `server-IP:PORT` to the Dynamic IP of the fallback server, you can find the Dynamic IP in the Connect tab in the console.
 
 {: .note }
 > Restricted will not allow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
