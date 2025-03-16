@@ -10,7 +10,7 @@ keywords:
       matches: *bungee_matches
 author:
     - TWIXhunter
-    - korbs
+    - Korbs
 ---
 
 ### What is it?
