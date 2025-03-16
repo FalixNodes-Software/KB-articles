@@ -1,8 +1,8 @@
 ---
-title: How To Setup And Install A Bungeecord Proxy
+title: How To Setup And Install A BungeeCord Proxy
 tags: General
 permalink: minecraft/java/general/bungeecord
-description: A step-by-step guide on how to install and use a Bungeecord proxy server
+description: A step-by-step guide on how to install and use a BungeeCord proxy server
 keywords:
     - keyword: bungeecord
       matches: &bungee_matches ["install", "use", "get", "add", "configure", "load"]
@@ -46,7 +46,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 2. Select a server from your server list.
 
-3. Go to the Versions page and install Bungeecord.
+3. Go to the Versions page and install BungeeCord.
 
 4. Start your server.
 
