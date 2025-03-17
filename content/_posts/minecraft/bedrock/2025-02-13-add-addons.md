@@ -75,8 +75,8 @@ These files only contain resource packs, for a more detailed guide on how to add
 {% tabs RSmanifest %}
 {% tab RSmanifest Single Addon %}
 
-9. Add the following information to the file:
-```jsons
+9. Add the following information to the file, keep the file open so we can fill in the details later:
+```json
 [
   {
     "pack_id" : "UUID HERE",
@@ -84,15 +84,12 @@ These files only contain resource packs, for a more detailed guide on how to add
   }
 ]
 ```
-![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
-![screenshot of world_behavior_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
-
 
 {% endtab %}
 {% tab RSmanifest Multiple addons %}
 
 
-9. Add the following information to the file:
+9. Add the following information to the file, keep the file open so we can fill in the details later:
 ```json
 [
   {
@@ -117,7 +114,10 @@ These files only contain resource packs, for a more detailed guide on how to add
 
 10. Back on your device, open the folder you uploaded and open the `manifest.json` file.
 
-11. Copy the UUID and version from the header and paste them into the `world_resource_packs.json` file on your server under `pack_id:` and `version:`.
+11. Copy the UUID and version from the header and paste them into the `world_resource_packs.json` file on your server under `pack_id:` and `version:`like explained in the following examples:
+
+![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
+![screenshot of world_resource_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
 
 12. Save the file and return to the home folder of the file manager.
 
@@ -134,7 +134,7 @@ These files only contain resource packs, for a more detailed guide on how to add
 {% tabs BHmanifest %}
 {% tab BHmanifest Single Addon %}
 
-18. Add the following information to the file:
+18. Add the following information to the file, keep the file open so we can fill in the details later:
 ```json
 [
   {
@@ -143,12 +143,10 @@ These files only contain resource packs, for a more detailed guide on how to add
   }
 ]
 ```
-![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
-![screenshot of world_behavior_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
 
 {% endtab %}
 {% tab BHmanifest Multiple addons %}
-18. Add the following information to the file:
+18. Add the following information to the file, keep the file open so we can fill in the details later:
 ```json
 [
   {
@@ -168,9 +166,13 @@ These files only contain resource packs, for a more detailed guide on how to add
 > Make sure to ad a `,` after each `}` **except** for the last one.
 > Repeat the second section after eachother to add more then 3 packs, delete it for 2 packs
 {% endtab %}
+
 19. Back on your device, open the folder you uploaded and open the `manifest.json` file.
 
-20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under `pack_id:` and `version:`.
+20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under `pack_id:` and `version:`like explained in the following examples:
+
+![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
+![screenshot of world_behavior_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
 
 21. Save the file and navigate back to your servers console.
 
