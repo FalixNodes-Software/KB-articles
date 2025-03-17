@@ -103,6 +103,9 @@ These files only contain resource packs, for a more detailed guide on how to add
 
 17. Create a new file called `world_behavior_packs.json` if it doesn't already exist.
 
+{% tabs BHmanifest %}
+{% tab BHmanifest Single Addon %}
+
 18. Add the following information to the file:
 ```json
 [
@@ -115,8 +118,28 @@ These files only contain resource packs, for a more detailed guide on how to add
 ![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
 ![screenshot of world_behavior_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
 
-> To add multiple behavior packs, simply add a comma (`,`) after the closing curly brackets (`}`) and paste in all the content between and including the curly brackets (`{` `}`).
-
+{% endtab %}
+{% tab BHmanifest Multiple addons %}
+18. Add the following information to the file:
+```json
+[
+  {
+    "pack_id" : "FIRST UUID HERE",
+    "version" : [version, number, here]
+  },
+  {
+    "pack_id" : "MIDDLE UUID HERE",
+    "version" : [version, number, here]
+  },
+  {
+    "pack_id" : "LAST UUID HERE",
+    "version" : [version, number, here]
+  }
+]
+```
+> Make sure to ad a `,` after each `}` **except** for the last one.
+> Repeat the second section after eachother to add more then 3 packs, delete it for 2 packs
+{% endtab %}
 19. Back on your device, open the folder you uploaded and open the `manifest.json` file.
 
 20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under `pack_id:` and `version:`.
