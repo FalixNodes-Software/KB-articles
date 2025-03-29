@@ -45,7 +45,7 @@ You can also create your own custom datapack.
 
 ### Activating the datapack
 
-1. Join your Minecraft server
+1. Join your Minecraft server.
 
 2. Open the chat window and type the following command
 > /datapack enable `filenamehere`
