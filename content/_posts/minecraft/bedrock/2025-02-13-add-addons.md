@@ -51,7 +51,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 
 5. Find the folder with the name of the pack you want and copy it to your desktop.
 
-6. Repeat steps 4 and 5 for the resource_packs folder.
+6. Repeat steps 4 and 5 for the `resource_packs` folder.
+
 > Make sure you add `_BP` and `_RP` to the end of the name if both folders have the same name.
 
 
