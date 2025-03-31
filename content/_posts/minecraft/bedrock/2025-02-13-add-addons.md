@@ -46,7 +46,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 
 > You can easily open this folder by pressing `WIN` + `R` and paste `%localAppdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`.
 
-4. Open the `behavior_packs`, inside you will find a list of all imported packs.
+4. Open the `behavior_packs` folder. Inside, you will find a list of all imported packs.
+
 
 5. Find the folder with the name of the pack you want and copy it to your desktop.
 
