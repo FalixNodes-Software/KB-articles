@@ -11,7 +11,8 @@ keywords:
 author: TWIXhunter
 ---
 
-Minecraft Bedrock Addons are integrated modifications or additions to the game that enhance or change the gameplay experience and can be downloaded from the in-game marketplace or other online sources. Addons can range from simple tweaks to game mechanics to more complex additions such as new mobs, items, behaviors, and custom features, all designed to work seamlessly within the Bedrock Edition framework.
+Minecraft Bedrock addons are integrated modifications or additions to the game that enhance or change the gameplay experience and can be downloaded from the in-game marketplace or other online sources. Addons can range from simple tweaks to game mechanics to more complex additions such as new mobs, items, behaviors, and custom features, all designed to work seamlessly within the Bedrock Edition framework. If you wish, you can also make an addon by yourself!
+
 
 
 
