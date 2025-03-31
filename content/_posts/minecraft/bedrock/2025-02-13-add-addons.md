@@ -31,7 +31,8 @@ Follow the steps below to convert them into the required server files.
 > This article was written for the "Minecraft for Windows" version of the game, installation for other versions (such as Pocket and Xbox editions) may differ slightly depending on your platform.
 
 ### .mcpack
-These files only contain resource packs, for a more detailed guide on how to add them to your server, see our [How To Add Resource Packs To Your Minecraft Bedrock Server](https://kb.falixnodes.net/minecraft/bedrock/configuration/resource-pack) article.
+These files only contain resource packs. For a more detailed guide on how to add them to your server, see [this](https://kb.falixnodes.net/minecraft/bedrock/configuration/resource-pack) article.
+
 
 ### .mcaddon
 
