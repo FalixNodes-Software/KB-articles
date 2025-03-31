@@ -125,7 +125,8 @@ These files only contain resource packs, for a more detailed guide on how to add
 ![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
 ![screenshot of world_resource_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
 
-12. Save the file and return to the home folder of the file manager.
+12. Save the file and return to the home folder of the File Manager.
+
 
 13. Locate and open the [behavior_packs] folder (https://client.falixnodes.net/server/filemanager?dir=/behavior_packs/).
 
