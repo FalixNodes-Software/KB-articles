@@ -19,7 +19,8 @@ Minecraft Bedrock addons are integrated modifications or additions to the game t
 ## Getting the Server Files
 There are 3 main types of files that can contain addons, these are:
 
- - .mcpack
+ - `.mcpack`
+
  - .mcadddon
  - .zip (or other archives)
 Follow the steps below to convert them into the required server files.
