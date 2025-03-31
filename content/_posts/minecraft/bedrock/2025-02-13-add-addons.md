@@ -41,7 +41,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 
 2. Wait for Minecraft to open and import the file.
 
-3. Go to your installation folder, for Windows this is `C:\Users\(your_pc_username)\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`.
+3. Go to your installation folder. For Windows this is `C:\Users\(your_pc_username)\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`.
+
 
 > You can easily open this folder by pressing `WIN` + `R` and paste `%localAppdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\`.
 
