@@ -164,7 +164,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 ```
 
 {% endtab %}
-{% tab BHmanifest Multiple addons %}
+{% tab BHmanifest Multiple Addons %}
+
 18. Add the following information to the file, keep the file open so we can fill in the details later:
 ```json
 [
