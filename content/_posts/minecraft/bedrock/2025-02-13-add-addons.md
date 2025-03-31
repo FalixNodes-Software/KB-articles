@@ -1,5 +1,6 @@
 ---
-title: How To add addons to your Minecraft Bedrock Server
+title: How To Add Addons To Your Minecraft Bedrock Server
+
 tags: General
 permalink: minecraft/bedrock/general/add-addons
 description: How to add addons to your minecraft bedrock server.
