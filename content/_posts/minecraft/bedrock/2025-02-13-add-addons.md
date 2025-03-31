@@ -21,7 +21,8 @@ There are 3 main types of files that can contain addons, these are:
 
  - `.mcpack`
 
- - .mcadddon
+ - `.mcadddon`
+
  - .zip (or other archives)
 Follow the steps below to convert them into the required server files.
 
