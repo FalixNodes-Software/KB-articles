@@ -177,7 +177,8 @@ These files only contain resource packs, for a more detailed guide on how to add
 
 19. Back on your device, open the folder you uploaded and open the `manifest.json` file.
 
-20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under `pack_id:` and `version:`like explained in the following examples:
+20. Copy the UUID and version from the header section and paste them into your server's `world_behavior_packs.json` file under `pack_id:` and `version:` like explained in the following examples:
+
 
 ![screenshot of manifest.json](content/assets/images/posts/add-adons/behavior-resource_packs_manifest.png)
 ![screenshot of world_behavior_packs.json](content/assets/images/posts/add-adons/world_behavior-resource_packs.png)
