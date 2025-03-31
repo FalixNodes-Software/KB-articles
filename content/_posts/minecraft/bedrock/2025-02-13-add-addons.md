@@ -36,7 +36,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 
 ### .mcaddon
 
-1. double-click the file to open it in Minecraft and add it to the game files.
+1. Double-click the file to open it in Minecraft and add it to the game files.
+
 
 2. Wait for Minecraft to open and import the file.
 
