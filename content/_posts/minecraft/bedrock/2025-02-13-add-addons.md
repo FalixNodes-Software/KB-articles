@@ -99,7 +99,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 ```
 
 {% endtab %}
-{% tab RSmanifest Multiple addons %}
+{% tab RSmanifest Multiple Addons %}
+
 
 
 9. Add the following information to the file, keep the file open so we can fill in the details later:
