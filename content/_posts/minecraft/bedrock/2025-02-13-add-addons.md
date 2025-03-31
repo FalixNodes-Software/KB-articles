@@ -128,7 +128,8 @@ These files only contain resource packs, for a more detailed guide on how to add
 12. Save the file and return to the home folder of the File Manager.
 
 
-13. Locate and open the [behavior_packs] folder (https://client.falixnodes.net/server/filemanager?dir=/behavior_packs/).
+13. Locate and open the [behavior_packs](https://client.falixnodes.net/server/filemanager?dir=/behavior_packs/) folder.
+
 
 14. Upload your behavior pack to this folder by dragging it to the top of the File Manager or using the Upload Folder button.
 
