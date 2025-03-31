@@ -23,7 +23,8 @@ There are 3 main types of files that can contain addons, these are:
 
  - `.mcadddon`
 
- - .zip (or other archives)
+ - `.zip` (or other archives)
+
 Follow the steps below to convert them into the required server files.
 
 {: .warning }
