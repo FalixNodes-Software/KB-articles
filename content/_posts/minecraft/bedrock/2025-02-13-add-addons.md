@@ -57,7 +57,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 
 ### .zip (and other archives)
 
-1. download the file to your computer
+1. Download the file to your computer.
+
 
 2. Unarchive it by selecting it in your file explorer and pressing `extract all'.
 
