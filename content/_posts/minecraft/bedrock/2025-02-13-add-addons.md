@@ -121,7 +121,8 @@ These files only contain resource packs. For a more detailed guide on how to add
 ```
 > Make sure to add a `,` after each `}`, **except** for the last one.
 
-> Repeat the second section after eachother to add more then 3 packs, delete it for 2 packs
+> Repeat the second section after each other to add more than 3 packs, delete it for 2 packs.
+
 
 {% endtab %}
 
