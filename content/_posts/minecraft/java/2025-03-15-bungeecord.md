@@ -28,7 +28,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 2. Select a fallback server from your server list.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the top navigation bar, hover over "Manage", then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 5. Locate and open 'server.properties'.
 
@@ -55,7 +55,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 7. Click Stop, then click Kill.
 
-8. In the top navigation bar, hover over "Manage", then navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+8. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 9. Locate and open `config.yml`.
 
