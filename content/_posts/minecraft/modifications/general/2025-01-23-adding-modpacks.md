@@ -54,7 +54,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 {% tabs Install %}
 {% tab Install Modpack Installer %}
 
-{:start="4"} 4. In the top navigation bar, hover over "Servers", then navigate to [Modpacks](https://client.falixnodes.net/server/modpacks).
+{:start="4"} 4. In the navigation menu, open the "Minecraft" category and navigate to [Modpacks](https://client.falixnodes.net/server/modpacks).
 
 5. To search for a modpack, enter its name in the "Search Modpacks" field, then click on "**Search**{: .blue }".
 
@@ -73,7 +73,7 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 The steps below are for general modpack installs; in some cases, modpacks may require further setup or tweaks. As such, we recommend reading through the instructions provided by the modpack creators in addition to these steps:
 
-1. In the Dashboard, hover over "Manage" in the top navigation bar, then navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+1. In the Dashboard, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 2. Click on "**Upload Files**{: .blue }" at the top of the file manager and select the downloaded modpack.
 
