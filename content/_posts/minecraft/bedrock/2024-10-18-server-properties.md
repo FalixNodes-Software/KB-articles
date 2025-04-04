@@ -33,7 +33,7 @@ There are two possible methods to access server.properties, you may either direc
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). On the top navigation bar, hover over "Server" then click on [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Minecraft" category and navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
 To edit a setting, depending on the type, you may have to select an option from the given dropdown or type in a string of values. Settings that only accept a `true` or `false` value are referred to as booleans, while settings that require a typed value are called strings. In boolean settings, `true` signifies enabled while `false` signifies disabled.
 

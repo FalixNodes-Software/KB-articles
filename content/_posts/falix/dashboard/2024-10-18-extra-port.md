@@ -23,7 +23,7 @@ As such, when a certain type of mod, plugin or software is used that forwards tr
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Advanced" then navigate to [Network](https://client.falixnodes.net/server/network).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Server Settings" category and navigate to [Network](https://client.falixnodes.net/server/network).
 
 4. Click on the "**New Port**{: .blue }" button to allocate an extra port.
 

@@ -21,7 +21,7 @@ author:
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Make sure your server is turned off, if not click on the "**Stop**{: .red }" button to the top right of the console.
 
-4. In the top navigation bar, hover over "Manage" then navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 5. If you have any existing world folders, select them by checking the checkbox beside its name, then click on "**Delete**{: .red }".
 
@@ -46,7 +46,7 @@ author:
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Make sure your server is turned off, if not click on the "**Stop**{: .red }" button to the top right of the console.
 
-4. In the top navigation bar, hover over "Manage" then navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 5. Locate your existing world folder, it is usually called "world".
 
