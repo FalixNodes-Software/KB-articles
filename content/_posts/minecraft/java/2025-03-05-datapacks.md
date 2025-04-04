@@ -10,7 +10,7 @@ keywords:
 
 permalink: /minecraft/java/configuration/datapacks
 author:
-    - twix
+    - TWIXhunter
 ---
 
 Datapacks allow you to change game mechanics, add custom advancements, loot tables, features, and more-all without the need for external mods. They are server-side modifications, which means they can change gameplay while still allowing vanilla clients to connect without additional downloads.
