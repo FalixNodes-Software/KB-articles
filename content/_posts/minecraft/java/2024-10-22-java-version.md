@@ -18,7 +18,7 @@ Java is the programming language the Java edition of Minecraft is built on; it i
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Ensure your server is turned off by clicking the "**Stop**{: .red }" button above the console.
 
-4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+4. In the navigation menu, open the "Server Settings" category and navigate to [Settings](https://client.falixnodes.net/server/settings).
 
 5. Under the "Environment" dropdown, select the corresponding Java version according to your server version.
 

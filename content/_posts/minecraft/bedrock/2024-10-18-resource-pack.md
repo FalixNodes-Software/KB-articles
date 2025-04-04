@@ -54,7 +54,7 @@ You can also upload your own custom resource pack as well.
 
 2. Within your server list, choose a server.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the "resource_packs" folder. You should notice two other folders called "chemistry" and "vanilla" within this folder. If so you are on the right track!
 
