@@ -18,6 +18,9 @@ author:
 
 BungeeCord is compatible with Spigot, Purpur, PaperMC, and any Spigot fork. It will **NOT** work on Forge/Fabric or Vanilla servers.
 
+{: .error }
+> Server networks and proxies like BungeeCord aren't available on free plan.
+
 ### What is it useful for?
 BungeeCord is very useful for server administrators who want to separate their server's activities (such as minigames, creative, survival, and so on). BungeeCord is used and trusted by notable servers like [Hypixel](https://hypixel.net/), [Mineplex](https://www.mineplex.com/home/), [HiveMC](https://hivemc.com/) and many more.
 
