@@ -11,7 +11,7 @@ author:
     - Mocab
 ---
 
-{.warning}
+{: .warning}
 > Additional ports have been deprecated on the free plan and creating them is only available on premium plans.
 
 ## What Is a Port?

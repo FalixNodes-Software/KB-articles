@@ -19,7 +19,7 @@ mod-type: Plugin, Mod
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
-{.warning}
+{: .warning}
 > Additional ports have been deprecated on the free plan and creating them is only available on premium plans.
 
 ## What Is Simple Voice Chat?
