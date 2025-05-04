@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b3377d02-e6aa-4957-8996-9875775a3f95)---
+---
 title: Allow Proximity Chat With Simple Voice Chat
 tags: Software
 permalink: minecraft/modifications/software/voice-chat
