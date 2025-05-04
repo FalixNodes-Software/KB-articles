@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/b3377d02-e6aa-4957-8996-9875775a3f95)---
 title: Allow Proximity Chat With Simple Voice Chat
 tags: Software
 permalink: minecraft/modifications/software/voice-chat
@@ -18,6 +18,9 @@ mod-name: Simple Voice Chat
 mod-type: Plugin, Mod
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
+
+{.warning}
+> Additional ports have been deprecated on the free plan and creating them is only available on premium plans.
 
 ## What Is Simple Voice Chat?
 
