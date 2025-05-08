@@ -49,7 +49,7 @@ Before we can continue, you must choose a server core and download it. A list of
 
 4. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console). Make sure your server is offline by clicking on the "**Stop**{: .red }" button at the top of the console.
 
-5. In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+5.  In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 6. Select all the files using the tickbox on top left of the file manager ribbon.
 
@@ -72,7 +72,7 @@ Before we can continue, you must choose a server core and download it. A list of
 
 2. You will be redirected to your server's [Console](https://client.falixnodes.net/server/console). Make sure your server is offline by clicking on the "**Stop**{: .red }" button at the top of the console.
 
-3. In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. If you already have a `.jar` file, click on the three dots to its right and press the "**Delete**{: .red }" button.
 

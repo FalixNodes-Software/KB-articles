@@ -84,7 +84,7 @@ We already have a guide on how to install Multiverse-core as well as any other p
 
 ## Creating Custom Portals Between Worlds:
 
-Before proceeding, you will need to install the [Multiverse-Portals](https://modrinth.com/plugin/multiverse-portals) add-on. You will also need a permission management plugin as only players with the `multiverse.portal.access.<world_name>` or `multiverse.portal.access.*` permission will be able to use these portals.
+Before proceeding, you will need to install the [Multiverse-Portals](https://modrinth.com/plugin/multiverse-portals) plugin. You will also need a permission management plugin as only players with the `multiverse.portal.access.<world_name>` or `multiverse.portal.access.*` permission will be able to use these portals.
 
 1.  In-game, give yourself operator permissions or use a permission plugin and give yourself the necessary permissions.
 

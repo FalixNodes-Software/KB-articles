@@ -82,7 +82,7 @@ We already have a guide on how to install DiscordSRV as well as any other plugin
 
 ### Configuring the Plugin:
 
-1. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage" and clicking on "File Manager".
+1. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 2. Locate and open the [Plugins](https://client.falixnodes.net/server/filemanager?dir=/plugins/) folder.
 
