@@ -73,7 +73,7 @@ serverJar=minecraft.jar
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Ensure your server is offline by pressing the "**Stop**{: .red }" button at the top of the console.
 
-4. In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 5. If you already have an installed server, locate the `server.jar` file and press the 3 dots to its right.
 

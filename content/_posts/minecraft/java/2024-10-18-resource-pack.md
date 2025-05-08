@@ -96,7 +96,7 @@ This may be different according to the hosting platform used, however it often i
 
 2. Within your server list, choose a server.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Server Properties](https://client.falixnodes.net/server/properties).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Minecraft" category and navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
 4. Find and set `resource-pack` to the direct download link we obtained before.
 
