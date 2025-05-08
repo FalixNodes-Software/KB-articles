@@ -15,7 +15,7 @@ post_order: 1
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. In the top navigation bar, click on [Create Server](https://client.falixnodes.net/create).
+2. In the navigation menu, click on [Create Server](https://client.falixnodes.net/create).
 
 3. Scroll down to "Create Server" and input the respective values into each field. Please refer to the table below:
 

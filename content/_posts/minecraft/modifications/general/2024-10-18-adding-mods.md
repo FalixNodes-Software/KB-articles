@@ -41,7 +41,7 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Mods](https://client.falixnodes.net/server/mods).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Minecraft" category and navigate to [Mods](https://client.falixnodes.net/server/mods).
 
 4. To look for mods, type the mod name in the "Search Mods" field, then click on "**Search**{: .blue }".
 
@@ -55,7 +55,7 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the [mods](https://client.falixnodes.net/server/filemanager?dir=/mods/) folder.
 
@@ -75,7 +75,7 @@ Many mods include the option to configure and adjust the mod to fit your needs, 
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the [config](https://client.falixnodes.net/server/filemanager?dir=/config/) folder.
 
