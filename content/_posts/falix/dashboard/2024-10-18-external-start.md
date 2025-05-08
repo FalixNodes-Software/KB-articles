@@ -19,7 +19,7 @@ The external start feature is a great way to allow players or users to start you
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. Navigate to your [Profile Settings](https://client.falixnodes.net/profile/settings) by clicking the user icon in the top navigation bar then clicking on "Settings".
+2. Navigate to your [Profile Settings](https://client.falixnodes.net/profile/settings) by clicking "Settings" in the "Account" section of the navigation menu.
 
 3. Look for the "External Server Start" dropdown under "Server Settings" and click it to expand it.
 
@@ -37,7 +37,7 @@ The external start feature is a great way to allow players or users to start you
 
 2. Enter the subdomain of the server you want to start; it should resemble this format: `xxxxx.falixsrv.me`.
 
-    > You can prefill the subdomain by adding `#name=xxxxx.falixsrv.me` to the end of the page URL. Make sure to replace `xxxxx.falixsrv.me` with your actual subdomain.
+    > You can prefill the subdomain by adding `?name=xxxxx.falixsrv.me` to the end of the page URL. Make sure to replace `xxxxx.falixsrv.me` with your actual subdomain.
 
 3. Click on the "**Start Server**" button to initiate a server start.
 

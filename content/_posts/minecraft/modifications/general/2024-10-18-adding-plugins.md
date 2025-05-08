@@ -39,7 +39,7 @@ Plugins are often hosted on modding platforms, these are websites that contain a
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Server" then navigate to [Plugins](https://client.falixnodes.net/server/plugins).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Minecraft" category and navigate to [Plugins](https://client.falixnodes.net/server/plugins).
 
 4. Choose the plugin server software using the "Plugins Type" dropdown.
 
@@ -57,7 +57,7 @@ Plugins are often hosted on modding platforms, these are websites that contain a
 
 2. Choose a server within your server list.
 
-3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Locate and open the [Plugins](https://client.falixnodes.net/server/filemanager?dir=/plugins/) folder.
 

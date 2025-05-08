@@ -19,6 +19,9 @@ mod-type: Plugin, Mod
 mod-url: "https://modrinth.com/plugin/simple-voice-chat"
 ---
 
+{: .warning}
+> Additional ports have been deprecated on the free plan and creating them is only available on premium plans.
+
 ## What Is Simple Voice Chat?
 
 Simple Voice Chat is a software that introduces proximity-based voice chat. It allows players to communicate with each other in-game. It also has a variety of addons that offer additional features. Simple Voice Chat requires you to have the mod installed on your client, which is only available on the Java Edition of Minecraft. If you don't have it installed on your client, you can still join the server, but you won't be able to use the voice chat features.
@@ -64,7 +67,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 {% tabs softwareType %}
 {% tab softwareType <i class="type-software plugin"></i> Plugin %}
 
-1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
+1. Once again, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 2. Once more, open the [Plugins](https://client.falixnodes.net/server/filemanager?dir=/plugins/) folder.
 
@@ -83,7 +86,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 {% endtab %}
 {% tab softwareType <i class="type-software mod"></i> Mod %}
 
-1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
+1. Once again, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 2. Locate and open the [config](https://client.falixnodes.net/server/filemanager?dir=/config/) folder.
 

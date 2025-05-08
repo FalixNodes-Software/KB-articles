@@ -21,7 +21,7 @@ Server software such as Spigot, Paper, Purpur and any of their forks use a diffe
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Make sure your server is turned off by clicking on "**Stop**{: .red }" at the top right of the console.
 
-4. In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 5. Click on "**Create Folder**{: .green }" and type `world_nether` in the "Folder Name" field.
 
@@ -49,7 +49,7 @@ Server software such as Spigot, Paper, Purpur and any of their forks use a diffe
 
 3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Make sure your server is turned off by clicking on "**Stop**{: .red }" at the top right of the console.
 
-4. In the top navigation bar, hover over "Manage" then navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
+4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 5. Locate and open the nether world folder, this is usually just called [world_nether](https://client.falixnodes.net/server/filemanager?dir=/world_nether/).
 
