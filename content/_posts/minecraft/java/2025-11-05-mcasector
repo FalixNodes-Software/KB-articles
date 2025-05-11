@@ -21,10 +21,10 @@ Delting these chucks will
 - not delete important chucks
 
 ### Download your world
-// Work in progress
+Download your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management).
 
 ### How to download and install MCAselector
-1. Go to the [release page] (https://github.com/Querz/mcaselector/releases).
+1. Go to the [release page](https://github.com/Querz/mcaselector/releases).
 
 2. Scroll down to the Assets section.
 
@@ -52,7 +52,7 @@ Delting these chucks will
 7. At the top, hover over "Selection" and click on "Delete selected chuns".
 
 ### upload your world
-// work in progress
+Upload your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management).
 
 {. :error}
 > Make sure you empty the recycle bin after deleting the old world.
