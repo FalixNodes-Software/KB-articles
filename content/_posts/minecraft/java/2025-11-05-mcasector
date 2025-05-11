@@ -13,46 +13,46 @@ author:
     - Ely
 ---
 
-## what will happen when you use this
-all chucks that have been loaded for less then a few minutes are mostly just loaded for players traveling trough them but they still take up a lot of space in your world.
+## What happens when you use this?
+Chucks that have been loaded for less than a few minutes are usually only loaded for players travelling through them, but they still take up a lot of space in your world.
 
-delting those chucks will:
-- save up to 90% of your world size
-- not delete any important chucks
+Delting these chucks will
+- Save up to 90% of your world size
+- not delete important chucks
 
-### downloading your world
-// work in progress
+### Download your world
+// Work in progress
 
-### downloading and installing MCAselector
-1. Go to the [release page](https://github.com/Querz/mcaselector/releases).
+### How to download and install MCAselector
+1. Go to the [release page] (https://github.com/Querz/mcaselector/releases).
 
-2. Scroll down to the "assets" section.
+2. Scroll down to the Assets section.
 
-3. Click on the ""MCA_Selector_Setup.exe"" file to download it.
+3. Click on the ""MCA_Selector_Setup.exe"" file to download.
 
 4. Run and complete the installer.
 
 5. Open MCAselector
 
-### editing your world
-1. In the top-left, hover over ""file"" and select ""open world"".
+### Edit your world
+1. In the top left hand corner, hover over "file" and select "open world".
 
-2. Open the world you just downloaded.
+2. Open the world you have just downloaded.
 
-3. At the top, hover over ""filter"" and select ""filter chunks"".
+3. At the top, hover over "filter" and select "filter chunks".
 
 4. Change the default ""inhabitedtimeminutes"" section to (at least) 2 minutes.
 
-> setting this above 2 minutes could cause a destructive selection for a small gain and should only be selected if you know what you are doing.
+> Setting this to more than 2 minutes can cause a destructive selection for a small gain and should only be selected if you know what you are doing.
 
 5. Wait for the selection to complete.
 
-6. Inspect that there aren't any important chunks deleted (like around spawn), you can change the selection by selecting extra chunks, all orange chuncks will be deleted.
+6. Check that you haven't deleted any important chunks (like around spawn), you can change the selection by selecting extra chunks, all orange chunks will be deleted.
 
-7. At the top, hover over ""Selection"" and click on ""Delete selected chuns""
+7. At the top, hover over "Selection" and click on "Delete selected chuns".
 
 ### upload your world
 // work in progress
 
 {. :error}
-> Make sure to clean out the recycle bin after deleting the old world.
+> Make sure you empty the recycle bin after deleting the old world.
