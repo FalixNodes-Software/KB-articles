@@ -1,13 +1,12 @@
 ---
 title: How To Add Datapacks To Your Minecraft Java Server
 tags: Configuration
-description: Modify Minecraft's gameplay with a server datapack to add new mechanics, custom features, and unique challenges without requiring mods.
+description: Modify gameplay with a server datapack to add new features without requiring mods or plugins.
 keywords:
     - keyword: pack
       matches: &pack_matches ["data"]
-    - keywords: datapack
+    - keyword: datapack
       matches: ["add","custom","server"]
-
 permalink: /minecraft/java/configuration/datapacks
 author:
     - TWIXhunter
@@ -16,8 +15,6 @@ author:
 Datapacks allow you to change game mechanics, add custom advancements, loot tables, features, and more-all without the need for external mods. They are server-side modifications, which means they can change gameplay while still allowing vanilla clients to connect without additional downloads.
 
 This guide will walk you through adding a server-wide datapack, either as an optional enhancement or as a mandatory feature.
-
-## Getting a Datapack
 
 ### Finding Datapacks
 
@@ -36,20 +33,16 @@ You can also create your own custom datapack.
 
 2. Select a server from your server list.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+3. Open the [File Manager](https://client.falixnodes.net/server/filemanager).
 
-4. Locate and open the "[world](https://client.falixnodes.net/server/filemanager?dir=/world/)" folder.
+4. Locate and open the `world` folder.
 
-5. Within the world folder, open the "[datapacks](https://client.falixnodes.net/server/filemanager?dir=/world/datapacks/)" folder.
+5. In the `world` folder, open the `datapacks` folder.
 
-6. Upload the datapacks .zip file or folder to your file manager using the **Upload Files**{:.blue } or **Upload Folder**{:.blue } button.
+6. Upload the datapack `.zip` file or folder.
 
-### Activating the datapack
+### Enabling the datapack
 
-1. Join your Minecraft server.
+1. In the console, execute the following command to enable the datapack: `datapack enable NAME`
 
-2. Open the chat window and type the following command:
-> /datapack enable `filenamehere`
-
-{: .error}
-> If your datapack doesn't appear, try running `/datapack list` and then try again, restart your server and/or make sure your datapack is in the right place.
+> If your datapack is not enabled, try running `datapack list` and checking if it's there. If not, restart your server and make sure your datapack is in the right place.
