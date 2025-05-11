@@ -7,7 +7,7 @@ author:
     - Twixhunter
     - Deka
     - Mocab
-icon: "https://cdn.modrinth.com/data/3wmN97b8/56e0c8729ad9eee9aa0c74b64560ab5858a7afec_96.webp"
+icon: "https://cdn.modrinth.com/data/3wmN97b8/3e3c705351a85c68b78a6131aff23f4674b2f71f_96.webp"
 mod-name: "Multiverse-Core"
 mod-software: Bukkit, Paper, Spigot
 mod-url: "https://modrinth.com/plugin/multiverse-core"
