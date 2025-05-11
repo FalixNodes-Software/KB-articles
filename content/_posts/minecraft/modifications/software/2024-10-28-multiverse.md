@@ -7,7 +7,7 @@ author:
     - Twixhunter
     - Deka
     - Mocab
-icon: "https://cdn.modrinth.com/data/3wmN97b8/56e0c8729ad9eee9aa0c74b64560ab5858a7afec_96.webp"
+icon: "https://cdn.modrinth.com/data/3wmN97b8/3e3c705351a85c68b78a6131aff23f4674b2f71f_96.webp"
 mod-name: "Multiverse-Core"
 mod-software: Bukkit, Paper, Spigot
 mod-url: "https://modrinth.com/plugin/multiverse-core"
@@ -78,7 +78,7 @@ We already have a guide on how to install Multiverse-core as well as any other p
 
 ## Creating Custom Portals Between Worlds:
 
-Before proceeding, you will need to install the [Multiverse-Portals](https://modrinth.com/plugin/multiverse-portals) add-on. You will also need a permission management plugin as only players with the `multiverse.portal.access.<world_name>` or `multiverse.portal.access.*` permission will be able to use these portals.
+Before proceeding, you will need to install the [Multiverse-Portals](https://modrinth.com/plugin/multiverse-portals) plugin. You will also need a permission management plugin as only players with the `multiverse.portal.access.<world_name>` or `multiverse.portal.access.*` permission will be able to use these portals.
 
 1.  In-game, give yourself operator permissions or use a permission plugin and give yourself the necessary permissions.
 

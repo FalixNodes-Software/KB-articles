@@ -64,7 +64,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 {% tabs softwareType %}
 {% tab softwareType <i class="type-software plugin"></i> Plugin %}
 
-1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
+1. Once again, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 2. Once more, open the [Plugins](https://client.falixnodes.net/server/filemanager?dir=/plugins/) folder.
 
@@ -83,7 +83,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 {% endtab %}
 {% tab softwareType <i class="type-software mod"></i> Mod %}
 
-1. Once again, navigate back to the [File Manager](https://client.falixnodes.net/server/filemanager) by hovering over "Manage", then clicking on "File Manager".
+1. Once again, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
 2. Locate and open the [config](https://client.falixnodes.net/server/filemanager?dir=/config/) folder.
 
