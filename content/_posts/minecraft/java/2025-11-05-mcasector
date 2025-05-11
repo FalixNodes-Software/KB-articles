@@ -13,4 +13,26 @@ author:
     - Ely
 ---
 
-//work in progress
+## what will happen when you use this
+all chucks that have been loaded for less then a few minutes are mostly just loaded for players traveling trough them but they still take up a lot of space in your world.
+
+delting those chucks will:
+- save up to 90% of your world size
+- not delete any important chucks
+
+### downloading your world
+// work in progress
+
+### downloading and installing MCAselector
+1. Go to the [release page](https://github.com/Querz/mcaselector/releases).
+
+2. Scroll down to the "assets" section.
+
+3. Click on the ""MCA_Selector_Setup.exe"" file to download it.
+
+4. Run and complete the installer
+
+5. Open MCAselector
+
+### editing your world
+1. 
