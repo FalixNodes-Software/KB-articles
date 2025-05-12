@@ -34,8 +34,9 @@ Deleting these chunks will:
 3. Click on the `MCA_Selector_Setup.exe` file to download.
 
 {: .warning }
-> Windows flags this 3rd-party program as 'untrusted' because it isn't signed by a trusted dev, please proceed with care.
-> You can dismiss the popup by pressing "read more" and "install anyway".
+
+> Windows may flag this third-party program as 'untrusted' because it isn't digitally signed by a verified developer. Please proceed with caution.
+> To continue, click "More info" and then select "Run anyway."
 
 4. Run and complete the installer.
 
