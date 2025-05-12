@@ -24,7 +24,7 @@ Deleting these chunks will:
 ### Download your world
 1. Download your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management#downloading-your-world).
 
-2. Unarchive or unzip your world file.
+2. Extract your world file from the archive (unzip or unarchive as needed).
 
 ### Download and install MCAselector
 1. Go to the [release page](https://github.com/Querz/mcaselector/releases).
