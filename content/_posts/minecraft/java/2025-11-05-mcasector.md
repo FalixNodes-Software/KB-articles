@@ -38,7 +38,7 @@ Deleting these chunks will:
 > Windows may flag this third-party program as 'untrusted' because it isn't digitally signed by a verified developer. Please proceed with caution.
 > To continue, click "More info" and then select "Run anyway."
 
-4. Run and complete the installer.
+4. Run the installer to complete the installation.
 
 5. Open MCAselector
 
