@@ -18,8 +18,8 @@ author:
 Chucks that have been loaded for less than a few minutes are usually only loaded for players traveling through them, but they still take up a lot of space in your world.
 
 Deleting these chunks will:
-- Reduce your world size by up to 90%
-- Not delete important chunks
+- Significantly reduce your world size (by up to 90%)
+- Preserve all important and actively used areas
 
 ### Download your world
 1. Download your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management#downloading-your-world).
