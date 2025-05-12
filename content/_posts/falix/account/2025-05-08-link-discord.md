@@ -6,6 +6,8 @@ tags: General
 permalink: falix/account/general/link-discord
 description: "Learn how to link your account to discord."
 keywords:
+    - keyword: discord
+      matches: ["connect", "link", "account"]
 author: TWIXhunter
 ---
 
