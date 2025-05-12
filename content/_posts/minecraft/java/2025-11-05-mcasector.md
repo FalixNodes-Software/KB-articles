@@ -74,4 +74,5 @@ Deleting these chunks will:
 Upload your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management#uploading-your-world).
 
 {: .error }
+
 > Make sure you empty the recycle bin after deleting the old world.
