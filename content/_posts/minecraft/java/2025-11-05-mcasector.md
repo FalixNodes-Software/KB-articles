@@ -1,7 +1,7 @@
 ---
 title: How To Clear Unused Chunks Of Your Minecraft Java Server
 tags: General
-permalink: /minecraft/java/general/world-management
+permalink: /minecraft/java/general/mcaselector
 description: A guide on how to save diskspace by deleting unused chucks using MCAselector.
 keywords:
     - keyword: mcaselector
