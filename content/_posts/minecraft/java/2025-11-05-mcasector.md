@@ -54,7 +54,7 @@ Deleting these chunks will:
 
 5. Press "ok" and wait for the selection to complete.
 
-6. Check that you haven't deleted any important chunks (like around spawn).
+6. Verify that you haven't deleted any important chunks (such as those near spawn).
 
 7. Select or deselect chunks manually using the following keybinds. You might need to zoom in to edit individual chunks:
 
