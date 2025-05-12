@@ -8,7 +8,7 @@ keywords:
       matches: ["how", "use"]
     - keyword: diskspace
       matches: ["full", "server", "error"]
-    - keyword: chucks
+    - keyword: chunks
       matches: ["delete", "remove", "unused"]
 author:
     - TWIXhunter
