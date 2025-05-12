@@ -17,7 +17,8 @@ Linking your Discord account to your Falix account makes it easier for our suppo
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
-2. In the navigation menu, open the "Account" category and navigate to [settings](https://client.falixnodes.net/profile/settings).
+2. In the navigation menu, open the "Account" category and navigate to [Settings](https://client.falixnodes.net/profile/settings).
+
 
 3. Under the "Discord" category, click the "Link Discord" button.
 
