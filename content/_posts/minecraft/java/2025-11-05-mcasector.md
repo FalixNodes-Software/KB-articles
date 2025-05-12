@@ -15,7 +15,7 @@ author:
     - Ely
 ---
 
-Chucks that have been loaded for less than a few minutes are usually only loaded for players traveling through them, but they still take up a lot of space in your world.
+Chunks that have been loaded for less than a few minutes are usually just from players traveling through, but they still take up a lot of space in your world.
 
 Deleting these chunks will:
 - Significantly reduce your world size (by up to 90%)
