@@ -28,4 +28,4 @@ Linking your Discord account to your Falix account makes it easier for our suppo
 
 5. Scroll down and click “Authorize” to grant the necessary permissions.
 
-6. Complete any additional verification if necessary.
+6. Complete any additional verification steps if prompted.
