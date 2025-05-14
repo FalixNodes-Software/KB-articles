@@ -32,7 +32,7 @@ There are many websites where you can find a variety of data packs for Minecraft
 
 2. Select a server from your server list.
 
-3. Open the [File Manager](https://client.falixnodes.net/server/filemanager).
+3. Navigate to the [File Manager](https://client.falixnodes.net/server/filemanager).
 
 4. Open the `world` folder.
 
