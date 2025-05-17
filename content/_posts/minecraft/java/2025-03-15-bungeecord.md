@@ -1,7 +1,7 @@
 ---
 title: How To Setup And Install A BungeeCord Proxy
-tags: Proxy
-permalink: minecraft/java/proxy/bungeecord
+tags: General
+permalink: minecraft/java/general/bungeecord
 description: A step-by-step guide on how to install and use a BungeeCord proxy server
 keywords:
     - keyword: bungeecord
@@ -16,7 +16,7 @@ author:
 ### What is it?
 [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) (created by the [SpigotMC](https://www.spigotmc.org/XenStaff/) team) is a proxy designed to seamlessly connect multiple Minecraft servers, allowing players to navigate between them without leaving the game. 
 
-BungeeCord is compatible with Spigot, Purpur, PaperMC, and any Spigot fork. It will **NOT** work on Forge/Fabric or Vanilla servers.
+BungeeCord is compatible with Spigot, Purpur, PaperMC, and any Spigot fork. It will **NOT** work on Forge, Fabric or Vanilla servers.
 
 {: .error }
 > Server networks and proxies like BungeeCord aren't available on free plan.
