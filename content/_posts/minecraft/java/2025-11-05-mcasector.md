@@ -62,13 +62,13 @@ Deleting these chunks will:
 
 7. Select or deselect chunks manually using the following keybinds. You might need to zoom in to edit individual chunks:
 
-| Keybind      	| Description    	|
-|--------------	|----------------	|
-| Arrows       	| Move camera    	|
-| WASD         	| Move camera    	|
-| Right-Click  	| Deselect chunk 	|
-| Left-Click   	| Select chunk   	|
-| Scroll       	| Zoom in/out    	|
+    | Keybind      | Description    |
+    |--------------|----------------|
+    | Arrows       | Move camera    |
+    | WASD         | Move camera    |
+    | Right-Click  | Deselect chunk |
+    | Left-Click   | Select chunk   |
+    | Scroll       | Zoom in/out    |
 
 8. At the top, hover over "Selection" and click on "Delete selected chunks".
 
