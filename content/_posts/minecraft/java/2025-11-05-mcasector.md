@@ -22,6 +22,7 @@ Deleting these chunks will:
 - Preserve all important and actively used areas
 
 ### Download your world
+
 1. Download your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management#downloading-your-world).
 
 2. Extract your world file from the archive (unzip or unarchive as needed).
