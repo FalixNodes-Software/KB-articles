@@ -51,7 +51,7 @@ Deleting these chunks will:
 
 4. Change the default `InhabitedTime` section to (at least) `2 minutes`.
 
-> Setting this to more than 2 minutes can cause a destructive selection for a small gain and should only be selected if you know what you are doing.
+    > Setting this to more than 2 minutes can cause a destructive selection for a small gain and should only be selected if you know what you are doing.
 
 5. Press "ok" and wait for the selection to complete.
 
