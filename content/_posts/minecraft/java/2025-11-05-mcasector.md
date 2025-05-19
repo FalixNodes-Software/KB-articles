@@ -27,6 +27,7 @@ Deleting these chunks will:
 2. Extract your world file from the archive (unzip or unarchive as needed).
 
 ### Download and install MCAselector
+
 1. Go to the [release page](https://github.com/Querz/mcaselector/releases).
 
 2. Scroll down to the Assets section.
