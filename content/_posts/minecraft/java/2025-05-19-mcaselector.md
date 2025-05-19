@@ -54,7 +54,7 @@ Deleting these chunks can:
 
 3. Open "Tools" and select "Filter chunks".
 
-4. Change the default `InhabitedTime` parameter to "1 minutes".
+4. Change the default `InhabitedTime` parameter to "1 minute".
 
     {: .warning}
     > Setting this over 1 minute can be destructive for a small gain in disk space and should only be selected if you know what you are doing.
@@ -67,8 +67,7 @@ Deleting these chunks can:
 
     | Keybind      | Description    |
     |--------------|----------------|
-    | Arrows       | Move camera    |
-    | WASD         | Move camera    |
+    | Arrows/WASD  | Move camera    |
     | Right-Click  | Deselect chunk |
     | Left-Click   | Select chunk   |
     | Scroll       | Zoom in/out    |
