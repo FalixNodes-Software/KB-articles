@@ -43,6 +43,7 @@ Deleting these chunks will:
 5. Open MCAselector
 
 ### Edit your world
+
 1. In the top left-hand corner, hover over "file" and select "open world".
 
 2. Open the world you have just downloaded.
