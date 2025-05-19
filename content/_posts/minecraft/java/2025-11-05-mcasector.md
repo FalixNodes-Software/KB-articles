@@ -21,6 +21,7 @@ Deleting these chunks will:
 
 - Significantly reduce your world size (by up to 90%)
 - Preserve all important and actively used areas
+
 ### Download your world
 
 1. Download your world folder by following our [World Management Guide](https://kb.falixnodes.net/minecraft/java/general/world-management#downloading-your-world).
