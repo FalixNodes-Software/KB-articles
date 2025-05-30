@@ -61,7 +61,6 @@ Follow the instructions below on how to get the required server files.
 
 {% endtabs %}
 
-### Existing singleplayer world
 
 ## Uploading Your World:
 
