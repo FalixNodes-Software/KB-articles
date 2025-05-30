@@ -1,7 +1,7 @@
 ---
 title: Upload or Download Your World From Your Minecraft Bedrock Server
 tags: General
-permalink: /minecraft/java/general/world-management
+permalink: /minecraft/bedrock/general/world-management
 description: An essential guide to manage, upload and download your world to and from your server.
 keywords:
     - keyword: world
@@ -10,10 +10,10 @@ keywords:
       matches: *world_matches
 author:
     - TWIXhunter
-    - Mocab
 ---
+## Uploading your world:
 
-## Getting the world Files
+### Getting the world Files:
 your world might come into 2 types of files, .zip (and other archives) and .mcworld or you can upload a singleplayer world.
 Follow the instructions below on how to get the required server files.
 
@@ -62,7 +62,7 @@ Follow the instructions below on how to get the required server files.
 {% endtabs %}
 
 
-## Uploading Your World:
+### Uploading the world to the server:
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
@@ -72,4 +72,10 @@ Follow the instructions below on how to get the required server files.
 
 4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
-5. Open the `worlds`folder and delete the existing `bedrock_level` folder.
+5. Open the `worlds` folder and delete the existing `bedrock_level` folder.
+
+6. Upload the world folder by hovering over "upload" and selecting "upload folder".
+
+7. Rename the folder you uploaded to `bedrock_level` by clicking on the 3 dots on the end and selecting "rename".
+
+8. (Re)start the server.
