@@ -79,3 +79,17 @@ Follow the instructions below on how to get the required server files.
 7. Rename the folder you uploaded to `bedrock_level` by clicking on the 3 dots on the end and selecting "rename".
 
 8. (Re)start the server.
+
+## Downloading your world:
+
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Within your server list, choose a server.
+
+3. You will be redirected to your server's [Console page](https://client.falixnodes.net/server/console). Make sure your server is turned off, if not click on the "**Stop**{: .red }" button to the top right of the console.
+
+4. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+
+5. Open the `worlds` folder.
+
+6. Download the folder called `bedrock_level`.
