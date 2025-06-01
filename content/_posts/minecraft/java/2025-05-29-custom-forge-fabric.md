@@ -18,9 +18,10 @@ Often a user will want to use a specific version or software, either because of 
 {% tab softwareType Forge  %}
 1. Download the official Forge installer [here](https://files.minecraftforge.net/net/minecraftforge/forge/).
 
-2. Choose your Minecraft and Forge version in the menu and download the installer.
+2. Select the desired Minecraft and NeoForge version in the menu and download the installer.
 
-3. Do not click on anything in the download site, this is a third-party advertisement, wait for the countdown to finish and press the skip button in the top right.
+   {: .warning}
+   > Do not click anything on the download page—these are third-party ads. Wait for the countdown to finish and press the 'Skip' button in the top right
 
 4. Create an empty, temporary, folder where the installer will download the server files to.
 
@@ -28,13 +29,13 @@ Often a user will want to use a specific version or software, either because of 
 
 6. Select "server".
 
-7. Enter the location of the temp folder you created.
+7. Enter the location of the temporary folder you created.
 
-8. Delete the files called "run.bat" and "run.sh" from the temp folder.
+8. Delete the files called "run.bat" and "run.sh" from the temporary folder.
 
 9. Go to "libraries/net/minecraftforge/forge/<version>/" and move the "unix_args.txt" file to the root folder.
 
-10. Compress the temp folder into an archive like .zip or .tar.gz
+10. Compress the temporary folder into an archive like .zip or .tar.gz
 
 11. Open the dashboard and navigate to The File Manager.
 
@@ -54,7 +55,7 @@ Often a user will want to use a specific version or software, either because of 
 {% tab softwareType NeoForge  %}
 1. Download the official NeoForge installer [here](https://projects.neoforged.net/neoforged/neoforge).
 
-2. Select the wanted Minecraft and NeoForge version from the dropdowns and download the installer.
+2. Select the desired Minecraft and NeoForge version from the dropdowns and download the installer.
 
 3. Create an empty, temporary, folder where the installer will download the server files to.
 
@@ -62,9 +63,9 @@ Often a user will want to use a specific version or software, either because of 
 
 5. Select "Server" and make sure the "Server starter jar" option is enabled.
 
-6. Enter the location of the temp folder you created.
+6. Enter the location of the temporary folder you created.
 
-7. Delete the files called "run.bat" and "run.sh" from the temp folder.
+7. Delete the files called "run.bat" and "run.sh" from the temporary folder.
 
 8. Compress the temporary folder into an archive like .zip or .tar.gz
 
@@ -86,7 +87,7 @@ Often a user will want to use a specific version or software, either because of 
 {% tab softwareType Fabric  %}
 1. Visit the official Fabric server download page [here](https://fabricmc.net/use/server/).
 
-2. Select the wanted Minecraft and Fabric version in the dropdowns.
+2. Select the desired Minecraft and Fabric version in the dropdowns.
 
 3. Click the "Executable Server (.jar)" button to start the download.
 
@@ -113,17 +114,17 @@ Often a user will want to use a specific version or software, either because of 
    {: .warning}
    > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Quilt website; however, since this is third-party software, we are not legally responsible for its use.
 
-5. Select the wanted Minecraft and Quilt version from the dropdowns.
+5. Select the desired Minecraft and Quilt version from the dropdowns.
 
-6. Enter the location of the temp folder you created.
+6. Enter the location of the temporary folder you created.
 
-7. Make sure that the "download server jar" option is enabled and press "install"
+7. Make sure that the "download server jar" option is enabled and press "install".
 
 8. Wait for the installation to complete.
 
 10. Open the dashboard and navigate to The File Manager.
 
-11. Delete all the content of the File Manager and upload and upload the server.jar file created in the temporary folder.
+11. Delete all the content of the File Manager and upload the server.jar file created in the temporary folder.
 
 12. Start the server.
 {% endtab %}
