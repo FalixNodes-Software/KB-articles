@@ -135,16 +135,16 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 2. Create an empty temporary folder where BuildTools can generate the server files.
 
-3. Run the installer and select the desired minecraft version.
+3. Run the installer and select the desired Minecraft version.
 
    {: .warning}
    > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Spigot website; however, since this is third-party software, we are not legally responsible for its use.
 
 4. Enter `server.jar`in the "final name" field.
 
-5. Enter the location of the temporary folder you created under the "output directory" field.
+5. Set the "output directory" to the temporary folder you created.
 
-6. Press the "compile" button and Wait for the installation to complete, this might take a while.
+6. Click the "compile" button and wait for the installation to complete, This may take several minutes.
 
 7. Open the dashboard and navigate to The File Manager.
 
