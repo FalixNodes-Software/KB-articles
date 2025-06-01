@@ -23,6 +23,8 @@ author: TWIXhunter
 
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/java/general/server-software) to better understand the terms used below.
 
+Some Installation processes (like (neo)forge and spigot) might require you to have a Java JRE/JDK package installed. You can find downloads for Java 21 [here](https://adoptium.net/temurin/releases/?os=any&arch=any&version=21)
+
 ## Installation
 {% tabs softwareType %} 
 {% tab softwareType Forge  %}
