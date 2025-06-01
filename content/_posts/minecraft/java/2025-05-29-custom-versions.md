@@ -21,7 +21,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
    {: .warning}
    > Do not click on anything in the download page as this is a third-party ad. Wait for the countdown to finish and press the "Skip" button in the top right
 
-3. Create an empty, temporary, folder where the installer will download the server files to.
+3. Create an empty temporary folder where the installer can generate the server files.
 
 4. Download and run the installer.
 
@@ -55,7 +55,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 2. Select the desired Minecraft and NeoForge version from the dropdowns and download the installer.
 
-3. Create an empty, temporary, folder where the installer will download the server files to.
+3. Create an empty temporary folder where the installer can generate the server files.
 
 4. Download and run the installer.
 
@@ -105,7 +105,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 2. Download the installer by clicking  `windows (.exe)` or `universal (.jar)` depending on your platform.
 
-3. Create an empty, temporary, folder where the installer will download the server files to.
+3. Create an empty temporary folder where the installer can generate the server files.
 
 4. Run the installer and select `server` at the top.
 
@@ -129,16 +129,16 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 {% tab softwareType Spigot  %}
    {: .warning}
-   > We recommend you to use Paper or Purpur instead of spigot because of performance improvements and extra stability.
+   > We recommend using Paper or Purpur instead of Spigot, as they offer better performance and increased stability.
 
 1. Download the official Spigot Buildtools [here](https://www.spigotmc.org/wiki/buildtools/).
 
-2. Create an empty, temporary, folder where the installer will download the server files to.
+2. Create an empty temporary folder where BuildTools can generate the server files.
 
 3. Run the installer and select the desired minecraft version.
 
    {: .warning}
-   > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Quilt website; however, since this is third-party software, we are not legally responsible for its use.
+   > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Spigot website; however, since this is third-party software, we are not legally responsible for its use.
 
 4. Enter `server.jar`in the "final name" field.
 
