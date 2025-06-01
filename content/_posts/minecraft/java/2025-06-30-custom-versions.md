@@ -1,10 +1,22 @@
 ---
-title: Add Custom Forge Or Fabric Versions To Your Minecraft Java Server
+title: Add Custom Versions To Your Minecraft Java Server
 tags: General
-description: Find out how to use a custom version of forge, fabric, spigot and forks not available in the versions list.
+description: Learn how to use a custom version of forge, fabric, spigot or paper and forks not available in the versions list.
 keywords:
     - keyword: forge
-      matches: ["install", "custom"]
+      matches: &software_matches ["install", "custom"]
+    - keyword: neoforge
+      matches: *software_matches
+    - keyword: fabric
+      matches: *software_matches
+    - keyword: quilt
+      matches: *software_matches
+    - keyword: spigot
+      matches: *software_matches
+    - keyword: paper
+      matches: *software_matches
+    - keyword: purpur
+      matches: *software_matches
 permalink: /minecraft/java/general/custom-versions
 author: TWIXhunter
 ---
