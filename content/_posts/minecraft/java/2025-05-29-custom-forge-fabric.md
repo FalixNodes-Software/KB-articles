@@ -13,16 +13,16 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 Often a user will want to use a specific version or software, either because of a modpack requirement or for specific features.
 
-## Instalation
+## Installation
 {% tabs softwareType %} 
-{% tab softwareType forge  %}
-1. Download the official forge installer [here](https://files.minecraftforge.net/net/minecraftforge/forge/).
+{% tab softwareType Forge  %}
+1. Download the official Forge installer [here](https://files.minecraftforge.net/net/minecraftforge/forge/).
 
-2. Choose your minecraft and forge version in the menu and download the installer.
+2. Choose your Minecraft and Forge version in the menu and download the installer.
 
-3. Do not click on anything in the download site, this is a third-party advertisement, wait for the countdown to fisish and press the skip button in the top right.
+3. Do not click on anything in the download site, this is a third-party advertisement, wait for the countdown to finish and press the skip button in the top right.
 
-4. Create an empty folder.
+4. Create an empty, temporary, folder where the installer will download the server files to.
 
 5. Download and run the installer.
 
@@ -43,7 +43,7 @@ Often a user will want to use a specific version or software, either because of 
 13. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
    {: .error}
-   > Make sure that the all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
+   > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
 
 14. Start the server.
 {% endtab %}
@@ -51,42 +51,42 @@ Often a user will want to use a specific version or software, either because of 
 
 
 
-{% tab softwareType neoforge  %}
-1. Download the official neoforge installer [here](https://projects.neoforged.net/neoforged/neoforge).
+{% tab softwareType NeoForge  %}
+1. Download the official NeoForge installer [here](https://projects.neoforged.net/neoforged/neoforge).
 
-2. Select the wanted minecraft and neoforge version from the dropdowns and download the installer.
+2. Select the wanted Minecraft and NeoForge version from the dropdowns and download the installer.
 
-3. Create an empty folder.
+3. Create an empty, temporary, folder where the installer will download the server files to.
 
-5. Download and run the installer.
+4. Download and run the installer.
 
-6. Select "server" and enable the "server starter jar" option"
+5. Select "Server" and make sure the "Server starter jar" option is enabled.
 
-7. Enter the location of the temp folder you created.
+6. Enter the location of the temp folder you created.
 
-8. Delete the files called "run.bat" and "run.sh" from the temp folder.
+7. Delete the files called "run.bat" and "run.sh" from the temp folder.
 
-9. Compress the temp folder into an archive like .zip or .tar.gz
+8. Compress the temporary folder into an archive like .zip or .tar.gz
 
-10. Open the dashboard and navigate to The File Manager.
+9. Open the dashboard and navigate to The File Manager.
 
-11. Delete all the content of the File Manager and upload the archive.
+10. Delete all the content of the File Manager and upload the archive.
 
-12. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
+11. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
    {: .error}
    > Make sure that the all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
 
-13. Start the server.
+12. Start the server.
 {% endtab %}
 
 
 
 
 {% tab softwareType Fabric  %}
-1. Visit the official fabric server download page [here](https://fabricmc.net/use/server/).
+1. Visit the official Fabric server download page [here](https://fabricmc.net/use/server/).
 
-2. Select the wanted minecraft and fabric version in the dropdowns.
+2. Select the wanted Minecraft and Fabric version in the dropdowns.
 
 3. Click the "Executable Server (.jar)" button to start the download.
 
@@ -101,36 +101,29 @@ Often a user will want to use a specific version or software, either because of 
 
 
 
-{% tab softwareType quilt  %}
-1. Visit the official quilt server download page [here](https://quiltmc.org/en/install/client/).
+{% tab softwareType Quilt  %}
+1. Visit the official Quilt server download page [here](https://quiltmc.org/en/install/client/).
 
-2. Download the installer by clicking  `windows (.exe)` or `universal (.jar)`depending on your platform.
+2. Download the installer by clicking  `windows (.exe)` or `universal (.jar)` depending on your platform.
 
-3. Create an empty folder.
+3. Create an empty, temporary, folder where the installer will download the server files to.
 
-3. Run the installer and select `server` at the top.
+4. Run the installer and select `server` at the top.
 
    {: .warning}
    > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Quilt website; however, since this is third-party software, we are not legally responsible for its use.
 
-4. Select the wanted minecraft and quilt version from the dropdowns.
+5. Select the wanted Minecraft and Quilt version from the dropdowns.
 
-5. Enter the location of the temp folder you created.
+6. Enter the location of the temp folder you created.
 
-5. Make sure that the "download server jar" option is enabled and press "install"
+7. Make sure that the "download server jar" option is enabled and press "install"
 
-6. Wait for the instalation to complete.
+8. Wait for the installation to complete.
 
-7. Compress the temp folder into an archive like .zip or .tar.gz
+10. Open the dashboard and navigate to The File Manager.
 
-9. Open the dashboard and navigate to The File Manager.
-
-10. Delete all the content of the File Manager and upload the archive.
-
-11. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
-
-   {: .error}
-   > Make sure that the all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
+11. Delete all the content of the File Manager and upload and upload the server.jar file created in the temporary folder.
 
 12. Start the server.
 {% endtab %}
