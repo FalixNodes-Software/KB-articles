@@ -19,7 +19,7 @@ Before proceeding with this guide, we recommend reading our [server software gui
 2. Select the desired Minecraft and Forge version in the menu and download the installer.
 
    {: .warning}
-   > Do not click anything on the download page—these are third-party ads. Wait for the countdown to finish and press the 'Skip' button in the top right
+   > Do not click on anything in the download page as this is a third-party ad. Wait for the countdown to finish and press the "Skip" button in the top right
 
 3. Create an empty, temporary, folder where the installer will download the server files to.
 
@@ -126,3 +126,5 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 11. Start the server.
 {% endtab %}
+
+{% endtabs %}
