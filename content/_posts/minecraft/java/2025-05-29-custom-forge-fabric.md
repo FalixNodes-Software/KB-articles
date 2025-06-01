@@ -11,42 +11,40 @@ author: TWIXhunter
 
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/java/general/server-software) to better understand the terms used below.
 
-Often a user will want to use a specific version or software, either because of a modpack requirement or for specific features.
-
 ## Installation
 {% tabs softwareType %} 
 {% tab softwareType Forge  %}
 1. Download the official Forge installer [here](https://files.minecraftforge.net/net/minecraftforge/forge/).
 
-2. Select the desired Minecraft and NeoForge version in the menu and download the installer.
+2. Select the desired Minecraft and Forge version in the menu and download the installer.
 
    {: .warning}
    > Do not click anything on the download page—these are third-party ads. Wait for the countdown to finish and press the 'Skip' button in the top right
 
-4. Create an empty, temporary, folder where the installer will download the server files to.
+3. Create an empty, temporary, folder where the installer will download the server files to.
 
-5. Download and run the installer.
+4. Download and run the installer.
 
-6. Select "server".
+5. Select "server".
 
-7. Enter the location of the temporary folder you created.
+6. Enter the location of the temporary folder you created.
 
-8. Delete the files called "run.bat" and "run.sh" from the temporary folder.
+7. Delete the files called "run.bat" and "run.sh" from the temporary folder.
 
-9. Go to "libraries/net/minecraftforge/forge/<version>/" and move the "unix_args.txt" file to the root folder.
+8. Go to "libraries/net/minecraftforge/forge/<version>/" and move the "unix_args.txt" file to the root of the temporary folder.
 
-10. Compress the temporary folder into an archive like .zip or .tar.gz
+9. Compress the temporary folder into an archive like .zip or .tar.gz
 
-11. Open the dashboard and navigate to The File Manager.
+10. Open the dashboard and navigate to The File Manager.
 
-12. Delete all the content of the File Manager and upload the archive.
+11. Delete all the content of the File Manager and upload the archive.
 
-13. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
+12. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
    {: .error}
    > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
 
-14. Start the server.
+13. Start the server.
 {% endtab %}
 
 
@@ -76,7 +74,7 @@ Often a user will want to use a specific version or software, either because of 
 11. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
    {: .error}
-   > Make sure that the all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
+   > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
 
 12. Start the server.
 {% endtab %}
@@ -122,9 +120,9 @@ Often a user will want to use a specific version or software, either because of 
 
 8. Wait for the installation to complete.
 
-10. Open the dashboard and navigate to The File Manager.
+9. Open the dashboard and navigate to The File Manager.
 
-11. Delete all the content of the File Manager and upload the server.jar file created in the temporary folder.
+10. Delete all the content of the File Manager and upload the server.jar file created in the temporary folder.
 
-12. Start the server.
+11. Start the server.
 {% endtab %}
