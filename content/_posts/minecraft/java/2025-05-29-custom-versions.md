@@ -127,4 +127,31 @@ Before proceeding with this guide, we recommend reading our [server software gui
 11. Start the server.
 {% endtab %}
 
+{% tab softwareType Spigot  %}
+   {: .warning}
+   > We recommend you to use Paper or Purpur instead of spigot because of performance improvements and extra stability.
+
+1. Download the official Spigot Buildtools [here](https://www.spigotmc.org/wiki/buildtools/).
+
+2. Create an empty, temporary, folder where the installer will download the server files to.
+
+3. Run the installer and select the desired minecraft version.
+
+   {: .warning}
+   > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Quilt website; however, since this is third-party software, we are not legally responsible for its use.
+
+4. Enter `server.jar`in the "final name" field.
+
+5. Enter the location of the temporary folder you created under the "output directory" field.
+
+6. Press the "compile" button and Wait for the installation to complete, this might take a while.
+
+7. Open the dashboard and navigate to The File Manager.
+
+8. Delete all the content of the File Manager and upload the server.jar file created in the temporary folder.
+
+9. Start the server.
+{% endtab %}
+
+
 {% endtabs %}
