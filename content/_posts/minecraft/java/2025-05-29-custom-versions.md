@@ -153,5 +153,22 @@ Before proceeding with this guide, we recommend reading our [server software gui
 9. Start the server.
 {% endtab %}
 
+{% tab softwareType Paper and forks  %}
+1. Open the official website of the wanted software:
+   - [Paper (by the PaperMC team)](https://papermc.io/downloads/paper) ([looking for older versions?](https://papermc.io/downloads/all))
+   - [Purpur (by the PurpurMC team)](https://purpurmc.org/download/purpur)
+   - [Pufferfish (by the pufferfish.host team)](https://pufferfish.host/downloads)
+
+2. Select the desired Minecraft version.
+
+3. Download the server jar
+
+4. rename the downloaded file to `server.jar`
+
+5. Open the dashboard and navigate to The File Manager.
+
+6. Delete all the content of the File Manager and upload the server.jar file.
+
+7. start the server.
 
 {% endtabs %}
