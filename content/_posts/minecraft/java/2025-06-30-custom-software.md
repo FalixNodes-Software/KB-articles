@@ -54,8 +54,6 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 {% endtab %}
 
 
-
-
 {% tab softwareType NeoForge  %}
 1. Download the official NeoForge installer [here](https://projects.neoforged.net/neoforged/neoforge).
 
@@ -86,8 +84,6 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 {% endtab %}
 
 
-
-
 {% tab softwareType Fabric  %}
 1. Visit the official Fabric server download page [here](https://fabricmc.net/use/server/).
 
@@ -103,7 +99,6 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 7. Start the server.
 {% endtab %}
-
 
 
 {% tab softwareType Quilt  %}
@@ -133,6 +128,7 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 11. Start the server.
 {% endtab %}
 
+
 {% tab softwareType Spigot  %}
    {: .warning}
    > We recommend using Paper or Purpur instead of Spigot, as they offer better performance and increased stability.
@@ -159,7 +155,8 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 9. Start the server.
 {% endtab %}
 
-{% tab softwareType Paper and forks  %}
+
+{% tab softwareType Paper/purpur/pufferfish  %}
 1. Open the official website of the wanted software:
    - [Paper (by the PaperMC team)](https://papermc.io/downloads/paper) ([looking for older versions?](https://papermc.io/downloads/all))
    - [Purpur (by the PurpurMC team)](https://purpurmc.org/download/purpur)
@@ -178,12 +175,20 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 7. start the server.
 {% endtab %}
 
-{% tab softwareType Mohist  %}
-1. Visit the official Mohist server download page [here](https://mohistmc.com/downloadSoftware?project=mohist&projectVersion=1.20.1).
 
-2. Select the desired Minecraft version in the dropdown at the right.
+{% tab softwareType Sponge/Mohist/Arclight  %}
+1. Open the official website of the wanted software:
+   - [SpongeVanilla (by spongepowered)](https://spongepowered.org/downloads/spongevanilla)
+   - [SpongeForge (by spongepowered)](https://spongepowered.org/downloads/spongeforge)
+   - [SpongeNeo (by spongepowered)](https://spongepowered.org/downloads/spongeneo)
+   - [Mohist (by mohistMC)](https://mohistmc.com/downloadSoftware?project=mohist)
+   - [Banner (by mohistMC)](https://mohistmc.com/downloadSoftware?project=banner)
+   - [Youer (by MohistMC)](https://mohistmc.com/downloadSoftware?project=youer)
+   - [Archlight (by izzel.io)](https://arclight.izzel.io/)
 
-3. Click on the Download button of the wanted build and press "mirror download"
+2. Select the desired version in the dropdown(s).
+
+3. Click on the Download button of the wanted build.
 
 4. Rename the downloaded file to `server.jar`
 
@@ -193,43 +198,4 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 7. start the server.
 {% endtab %}
-
-{% tab softwareType Sponge  %}
-1. Visit the official Sponge server download page [here](https://spongepowered.org/downloads/).
-
-2. Choose the wanted sponge project (vanilla, Forge, NeoForge).
-
-3. Select the desired Minecraft version in the dropdown at the right.
-
-4. Click on the Download button of the wanted build.
-
-5. Rename the downloaded file to `server.jar`
-
-6. Open the dashboard and navigate to The File Manager.
-
-7. Delete all the content of the File Manager and upload the server.jar file.
-
-8. start the server.
-{% endtab %}
-
-{% tab softwareType Arclight  %}
-1. Visit the official Arclight server download page [here](https://arclight.izzel.io/).
-
-3. Select the desired Minecraft version in the dropdown.
-
-4. Choose the wanted Loader (Forge, Fabric, NeoForge).
-
-4. Click on the Download button of the wanted build.
-
-5. Rename the downloaded file to `server.jar`
-
-6. Open the dashboard and navigate to The File Manager.
-
-7. Delete all the content of the File Manager and upload the server.jar file.
-
-8. start the server.
-{% endtab %}
-
-
-
 {% endtabs %}
