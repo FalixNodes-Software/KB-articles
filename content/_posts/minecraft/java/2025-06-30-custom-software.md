@@ -176,5 +176,5 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 6. Delete all the content of the File Manager and upload the server.jar file.
 
 7. start the server.
-
+{% endtab %}
 {% endtabs %}
