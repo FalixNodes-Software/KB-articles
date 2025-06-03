@@ -15,7 +15,9 @@ Before proceeding with this guide, we recommend reading our [server software gui
 
 Often a user will want to use a specific version or software, either because of a modpack requirement or for specific features. Fortunately, this can be easily done with a custom jar. Custom jars come in two forms: a standalone `.jar` file, or a `.jar` file, a library folder and sometimes other files.
 
-Some Installation processes (like (neo)forge and spigot) might require you to have a Java JRE/JDK package installed. You can find downloads for Java 21 [here](https://adoptium.net/temurin/releases/?os=any&arch=any&version=21)
+Please be aware that we are not affiliated with any of the third-party tools mentioned below. Use them at your own discretion.
+
+Some Installation processes (like (Neo)Forge and Spigot) might require you to have a Java JRE/JDK package installed. You can find downloads for Java 21 [here](https://adoptium.net/temurin/releases/?os=any&arch=any&version=21)
 
 ## Installation
 {% tabs softwareType %} 
@@ -37,13 +39,13 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 7. Delete the files called "run.bat" and "run.sh" from the temporary folder.
 
-8. Go to "libraries/net/minecraftforge/forge/<version>/" and move the "unix_args.txt" file to the root of the temporary folder.
+8. Go to the `libraries/net/minecraftforge/forge/<version>/` folder and move the "unix_args.txt" file to the root of the temporary folder.
 
 9. Compress the temporary folder into an archive like .zip or .tar.gz
 
-10. Open the dashboard and navigate to The File Manager.
+10. Open the dashboard and navigate to the File Manager.
 
-11. Delete all the content of the File Manager and upload the archive.
+11. Delete all content of the File Manager and upload the archive.
 
 12. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
@@ -71,9 +73,9 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 8. Compress the temporary folder into an archive like .zip or .tar.gz
 
-9. Open the dashboard and navigate to The File Manager.
+9. Open the dashboard and navigate to the File Manager.
 
-10. Delete all the content of the File Manager and upload the archive.
+10. Delete all content of the File Manager and upload the archive.
 
 11. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
@@ -93,9 +95,9 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 4. Rename the downloaded file to `server.jar`.
 
-5. Open the dashboard and navigate to The File Manager.
+5. Open the dashboard and navigate to the File Manager.
 
-6. Delete all the content of the File Manager and upload the server.jar file.
+6. Delete all content of the File Manager and upload the server.jar file.
 
 7. Start the server.
 {% endtab %}
@@ -121,9 +123,9 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 8. Wait for the installation to complete.
 
-9. Open the dashboard and navigate to The File Manager.
+9. Open the dashboard and navigate to the File Manager.
 
-10. Delete all the content of the File Manager and upload the server.jar file created in the temporary folder.
+10. Delete all content of the File Manager and upload the server.jar file created in the temporary folder.
 
 11. Start the server.
 {% endtab %}
@@ -142,41 +144,41 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
    {: .warning}
    > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Spigot website; however, since this is third-party software, we are not legally responsible for its use.
 
-4. Enter `server.jar`in the "final name" field.
+4. Enter `server.jar` in the "final name" field.
 
 5. Set the "output directory" to the temporary folder you created.
 
 6. Click the "compile" button and wait for the installation to complete, This may take several minutes.
 
-7. Open the dashboard and navigate to The File Manager.
+7. Open the dashboard and navigate to the File Manager.
 
-8. Delete all the content of the File Manager and upload the server.jar file created in the temporary folder.
+8. Delete all content of the File Manager and upload the server.jar file created in the temporary folder.
 
 9. Start the server.
 {% endtab %}
 
 
-{% tab softwareType Paper/purpur/pufferfish  %}
-1. Open the official website of the wanted software:
+{% tab softwareType Paper / Purpur / Pufferfish  %}
+1. Visit the official website of the wanted software:
    - [Paper (by the PaperMC team)](https://papermc.io/downloads/paper) ([looking for older versions?](https://papermc.io/downloads/all))
    - [Purpur (by the PurpurMC team)](https://purpurmc.org/download/purpur)
    - [Pufferfish (by the pufferfish.host team)](https://pufferfish.host/downloads)
 
 2. Select the desired Minecraft version.
 
-3. Download the server jar
+3. Click on the Download button of the wanted build.
 
-4. rename the downloaded file to `server.jar`
+4. Rename the downloaded file to `server.jar`.
 
-5. Open the dashboard and navigate to The File Manager.
+5. Open the dashboard and navigate to the File Manager.
 
-6. Delete all the content of the File Manager and upload the server.jar file.
+6. Delete all content of the File Manager and upload the server.jar file.
 
-7. start the server.
+7. Start the server.
 {% endtab %}
 
 
-{% tab softwareType Sponge/Mohist/Arclight  %}
+{% tab softwareType Sponge / Mohist / Arclight  %}
 1. Open the official website of the wanted software:
    - [SpongeVanilla (by spongepowered)](https://spongepowered.org/downloads/spongevanilla)
    - [SpongeForge (by spongepowered)](https://spongepowered.org/downloads/spongeforge)
@@ -184,18 +186,20 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
    - [Mohist (by mohistMC)](https://mohistmc.com/downloadSoftware?project=mohist)
    - [Banner (by mohistMC)](https://mohistmc.com/downloadSoftware?project=banner)
    - [Youer (by MohistMC)](https://mohistmc.com/downloadSoftware?project=youer)
-   - [Archlight (by izzel.io)](https://arclight.izzel.io/)
+   - [Arclight (by izzel.io)](https://arclight.izzel.io/)
 
 2. Select the desired version in the dropdown(s).
 
 3. Click on the Download button of the wanted build.
 
-4. Rename the downloaded file to `server.jar`
+4. Rename the downloaded file to `server.jar`.
 
-5. Open the dashboard and navigate to The File Manager.
+5. Open the dashboard and navigate to the File Manager.
 
-6. Delete all the content of the File Manager and upload the server.jar file.
+6. Delete all content of the File Manager and upload the server.jar file.
 
-7. start the server.
+7. Start the server.
 {% endtab %}
+
+
 {% endtabs %}
