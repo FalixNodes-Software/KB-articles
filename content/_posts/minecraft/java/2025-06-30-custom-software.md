@@ -6,7 +6,9 @@ keywords:
     - keyword: custom
       matches: ["software", "jar", "core"]
 permalink: /minecraft/java/general/custom-software
-author: Mocab
+author: 
+   - Mocab
+   - TWIXhunter
 ---
 
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/java/general/server-software) to better understand the terms used below.
