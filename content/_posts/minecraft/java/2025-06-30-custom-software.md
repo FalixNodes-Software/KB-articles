@@ -7,7 +7,6 @@ keywords:
       matches: ["software", "jar", "core"]
 permalink: /minecraft/java/general/custom-software
 author: 
-   - Mocab
    - TWIXhunter
 ---
 
@@ -33,13 +32,47 @@ Some Installation processes (like (Neo)Forge and Spigot) might require you to ha
 
 4. Download and run the installer.
 
-5. Select "server".
+5. Select "Install server".
 
 6. Enter the location of the temporary folder you created.
 
-7. Delete the files called "run.bat" and "run.sh" from the temporary folder.
+7. Press "OK" and wait for the installer to finish.
 
-8. Go to the `libraries/net/minecraftforge/forge/<version>/` folder and move the "unix_args.txt" file to the root of the temporary folder.
+8. Delete the files called "run.bat" and "run.sh" from the temporary folder.
+
+9. Go to the `libraries/net/minecraftforge/forge/<version>/` folder and move the "unix_args.txt" file to the root of the temporary folder.
+
+10. Compress the temporary folder into an archive like .zip or .tar.gz
+
+11. Open the dashboard and navigate to the File Manager.
+
+12. Delete all content of the File Manager and upload the archive.
+
+13. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
+
+   {: .error}
+   > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
+
+14. Start the server.
+{% endtab %}
+
+
+{% tab softwareType NeoForge  %}
+1. Download the official NeoForge installer [here](https://projects.neoforged.net/neoforged/neoforge).
+
+2. Select the desired Minecraft and NeoForge version from the dropdowns and download the installer.
+
+3. Create an empty temporary folder where the installer can generate the server files.
+
+4. Download and run the installer.
+
+5. Select "Server" and make sure that the "Server starter jar" option is enabled.
+
+6. Enter the location of the temporary folder you created.
+
+7. Press "Proceed" and wait for the installer to finish.
+
+8. Delete the files called "run.bat" and "run.sh" from the temporary folder.
 
 9. Compress the temporary folder into an archive like .zip or .tar.gz
 
@@ -53,36 +86,6 @@ Some Installation processes (like (Neo)Forge and Spigot) might require you to ha
    > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
 
 13. Start the server.
-{% endtab %}
-
-
-{% tab softwareType NeoForge  %}
-1. Download the official NeoForge installer [here](https://projects.neoforged.net/neoforged/neoforge).
-
-2. Select the desired Minecraft and NeoForge version from the dropdowns and download the installer.
-
-3. Create an empty temporary folder where the installer can generate the server files.
-
-4. Download and run the installer.
-
-5. Select "Server" and make sure the "Server starter jar" option is enabled.
-
-6. Enter the location of the temporary folder you created.
-
-7. Delete the files called "run.bat" and "run.sh" from the temporary folder.
-
-8. Compress the temporary folder into an archive like .zip or .tar.gz
-
-9. Open the dashboard and navigate to the File Manager.
-
-10. Delete all content of the File Manager and upload the archive.
-
-11. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
-
-   {: .error}
-   > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
-
-12. Start the server.
 {% endtab %}
 
 
@@ -166,7 +169,7 @@ Some Installation processes (like (Neo)Forge and Spigot) might require you to ha
 
 2. Select the desired Minecraft version.
 
-3. Click on the Download button of the wanted build.
+3. Download the wanted build.
 
 4. Rename the downloaded file to `server.jar`.
 
