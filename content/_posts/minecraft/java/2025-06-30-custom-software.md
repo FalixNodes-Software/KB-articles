@@ -197,9 +197,27 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 {% tab softwareType Sponge  %}
 1. Visit the official Sponge server download page [here](https://spongepowered.org/downloads/).
 
-2. Choose the wanted sponge project.
+2. Choose the wanted sponge project (vanilla, Forge, NeoForge).
 
 3. Select the desired Minecraft version in the dropdown at the right.
+
+4. Click on the Download button of the wanted build.
+
+5. Rename the downloaded file to `server.jar`
+
+6. Open the dashboard and navigate to The File Manager.
+
+7. Delete all the content of the File Manager and upload the server.jar file.
+
+8. start the server.
+{% endtab %}
+
+{% tab softwareType Arclight  %}
+1. Visit the official Arclight server download page [here](https://arclight.izzel.io/).
+
+3. Select the desired Minecraft version in the dropdown.
+
+4. Choose the wanted Loader (Forge, Fabric, NeoForge).
 
 4. Click on the Download button of the wanted build.
 
