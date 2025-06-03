@@ -185,11 +185,33 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 3. Click on the Download button of the wanted build and press "mirror download"
 
-4. Open the dashboard and navigate to The File Manager.
+4. Rename the downloaded file to `server.jar`
 
-5. Delete all the content of the File Manager and upload the server.jar file.
+5. Open the dashboard and navigate to The File Manager.
 
-6. start the server.
+6. Delete all the content of the File Manager and upload the server.jar file.
+
+7. start the server.
 {% endtab %}
+
+{% tab softwareType Sponge  %}
+1. Visit the official Sponge server download page [here](https://spongepowered.org/downloads/).
+
+2. Choose the wanted sponge project.
+
+3. Select the desired Minecraft version in the dropdown at the right.
+
+4. Click on the Download button of the wanted build.
+
+5. Rename the downloaded file to `server.jar`
+
+6. Open the dashboard and navigate to The File Manager.
+
+7. Delete all the content of the File Manager and upload the server.jar file.
+
+8. start the server.
+{% endtab %}
+
+
 
 {% endtabs %}
