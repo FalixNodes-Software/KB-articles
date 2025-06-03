@@ -177,4 +177,19 @@ Some Installation processes (like (neo)forge and spigot) might require you to ha
 
 7. start the server.
 {% endtab %}
+
+{% tab softwareType Mohist  %}
+1. Visit the official Mohist server download page [here](https://mohistmc.com/downloadSoftware?project=mohist&projectVersion=1.20.1).
+
+2. Select the desired Minecraft version in the dropdown at the right.
+
+3. Click on the Download button of the wanted build and press "mirror download"
+
+4. Open the dashboard and navigate to The File Manager.
+
+5. Delete all the content of the File Manager and upload the server.jar file.
+
+6. start the server.
+{% endtab %}
+
 {% endtabs %}
