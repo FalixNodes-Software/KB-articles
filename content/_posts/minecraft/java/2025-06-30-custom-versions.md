@@ -1,27 +1,17 @@
 ---
-title: Add Custom Versions To Your Minecraft Java Server
+title: Add Custom Server Software or Version To Your Minecraft Java Server
 tags: General
-description: Learn how to use a custom version of forge, fabric, spigot or paper and forks not available in the versions list.
+description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:
-    - keyword: forge
-      matches: &software_matches ["install", "custom"]
-    - keyword: neoforge
-      matches: *software_matches
-    - keyword: fabric
-      matches: *software_matches
-    - keyword: quilt
-      matches: *software_matches
-    - keyword: spigot
-      matches: *software_matches
-    - keyword: paper
-      matches: *software_matches
-    - keyword: purpur
-      matches: *software_matches
-permalink: /minecraft/java/general/custom-versions
-author: TWIXhunter
+    - keyword: custom
+      matches: ["software", "jar", "core"]
+permalink: /minecraft/java/general/custom-software
+author: Mocab
 ---
 
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/java/general/server-software) to better understand the terms used below.
+
+Often a user will want to use a specific version or software, either because of a modpack requirement or for specific features. Fortunately, this can be easily done with a custom jar. Custom jars come in two forms: a standalone `.jar` file, or a `.jar` file, a library folder and sometimes other files.
 
 Some Installation processes (like (neo)forge and spigot) might require you to have a Java JRE/JDK package installed. You can find downloads for Java 21 [here](https://adoptium.net/temurin/releases/?os=any&arch=any&version=21)
 
