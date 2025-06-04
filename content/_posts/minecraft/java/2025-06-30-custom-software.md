@@ -153,7 +153,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 6. Click the "Compile" button and wait for the installation to complete. This may take several minutes.
 
-7. Open the dashboard and navigate to the File Manager.
+7. Open the Dashboard and navigate to the File Manager.
 
 8. Delete all content of the File Manager and upload the server.jar file created in the temporary folder.
 
