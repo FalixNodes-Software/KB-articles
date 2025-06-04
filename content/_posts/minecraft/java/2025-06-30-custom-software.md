@@ -74,7 +74,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 8. Delete the files called `run.bat` and `run.sh` from the temporary folder.
 
-9. Compress the temporary folder into an archive like .zip or .tar.gz
+9. Compress the temporary folder into an archive like `.zip` or `.tar.gz`>
 
 10. Open the dashboard and navigate to the File Manager.
 
