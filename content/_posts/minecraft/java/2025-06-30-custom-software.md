@@ -175,7 +175,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 5. Open the Dashboard and navigate to the File Manager.
 
-6. Delete all content of the File Manager and upload the server.jar file.
+6. Delete all content from the File Manager and upload the `server.jar` file.
 
 7. Start the server.
 {% endtab %}
