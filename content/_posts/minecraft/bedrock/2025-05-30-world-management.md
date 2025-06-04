@@ -63,7 +63,7 @@ Follow the instructions below on how to get the required server files.
 {% endtabs %}
 
 
-### Uploading the world to the server:
+### Uploading The World To The Server
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
