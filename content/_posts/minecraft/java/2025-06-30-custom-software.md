@@ -149,7 +149,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 4. Enter `server.jar` in the "final name" field.
 
-5. Set the "output directory" to the temporary folder you created.
+5. Set the "Output directory" to the temporary folder you created.
 
 6. Click the "Compile" button and wait for the installation to complete. This may take several minutes.
 
