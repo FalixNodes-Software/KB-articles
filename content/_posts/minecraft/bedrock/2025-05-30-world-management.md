@@ -75,7 +75,7 @@ Follow the instructions below on how to get the required server files.
 
 5. Open the `worlds` folder and delete the existing `bedrock_level` folder.
 
-6. Upload the world folder by hovering over "upload" and selecting "upload folder".
+6. Upload the world folder by hovering over "Upload" and selecting "Upload Folder".
 
 7. Rename the folder you uploaded to `bedrock_level` by clicking on the 3 dots on the end and selecting "rename".
 
