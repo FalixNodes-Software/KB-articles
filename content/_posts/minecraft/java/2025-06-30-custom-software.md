@@ -42,7 +42,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 9. Go to the `libraries/net/minecraftforge/forge/<version>/` folder and move the `unix_args.txt` file to the root of the temporary folder.
 
-10. Compress the temporary folder into an archive like .zip or .tar.gz
+10. Compress the temporary folder into an archive like `.zip` or `.tar.gz`.
 
 11. Open the dashboard and navigate to the File Manager.
 
