@@ -48,7 +48,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 12. Delete all content from the File Manager and upload the archive.
 
-13. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
+13. Unarchive the file by pressing the 3 dots at the end and selecting "Unarchive".
 
    {: .error}
    > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
