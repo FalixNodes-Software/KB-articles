@@ -13,7 +13,7 @@ author:
 ---
 ## Uploading Your World
 
-### Getting the world Files:
+### Getting The World Files
 Your world might come with 2 types of files, the first one would be `.zip` (and other archives, such as `.gz`) and `.mcworld`. You may also upload a single player world.
 Follow the instructions below on how to get the required server files.
 
