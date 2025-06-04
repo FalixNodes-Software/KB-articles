@@ -51,7 +51,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 13. Unarchive the file by pressing the 3 dots at the end and selecting "Unarchive".
 
    {: .error}
-   > Make sure that all the files are directly in the root folder of the File Manager, if they got added as a folder then open that folder, select all, press "move" in the mass actions bar and enter "/" in the destination field.
+   > Make sure that all the files are directly in the root of the File Manager. If they got added as a folder, then open that folder, select all, press "Move" in the mass actions bar and enter "/" in the destination field.
 
 14. Start the server.
 {% endtab %}
