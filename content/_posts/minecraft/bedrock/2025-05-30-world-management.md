@@ -27,7 +27,8 @@ Follow the instructions below on how to get the required server files.
 
 1. Select the .zip file on your computer and extract it
 
-2. make sure that the extracted folder does not have an extra folder inside, if it does then move it outside the main folder.
+{: .warning }
+> Make sure that the extracted folder does not have an extra folder inside, if it does then move it outside the main folder. 
 
 {% endtab %}
 
