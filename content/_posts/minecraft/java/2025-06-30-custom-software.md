@@ -126,7 +126,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 8. Wait for the installation to complete.
 
-9. Open the dashboard and navigate to the File Manager.
+9. Open the Dashboard and navigate to the File Manager.
 
 10. Delete all content of the File Manager and upload the server.jar file created in the temporary folder.
 
