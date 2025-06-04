@@ -98,7 +98,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 4. Rename the downloaded file to `server.jar`.
 
-5. Open the dashboard and navigate to the File Manager.
+5. Open the Dashboard and navigate to the File Manager.
 
 6. Delete all content of the File Manager and upload the server.jar file.
 
