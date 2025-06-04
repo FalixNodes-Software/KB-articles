@@ -181,7 +181,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 {% endtab %}
 
 
-{% tab softwareType Sponge / Mohist / Arclight  %}
+{% tab softwareType Sponge, Mohist, Arclight %}
 1. Open the official website of the wanted software:
    - [SpongeVanilla (by spongepowered)](https://spongepowered.org/downloads/spongevanilla)
    - [SpongeForge (by spongepowered)](https://spongepowered.org/downloads/spongeforge)
