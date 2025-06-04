@@ -1,5 +1,5 @@
 ---
-title: Upload or Download Your World From Your Java Minecraft Server
+title: Upload or Download Your World From Your Minecraft Java Server
 tags: General
 permalink: /minecraft/java/general/world-management
 description: An essential guide to manage, upload and download your world to and from your server.
