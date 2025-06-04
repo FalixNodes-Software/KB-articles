@@ -116,7 +116,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 4. Run the installer and select `server` at the top.
 
    {: .warning}
-   > Windows Defender may show a warning, this is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Quilt website; however, since this is third-party software, we are not legally responsible for its use.
+   > Windows Defender may show a warning. This is normal for unsigned third-party tools and it's safe to proceed if downloaded from the official Quilt website; however, since this is third-party software, we are not legally responsible for its use. NEVER download content from suspicious websites!
 
 5. Select the desired Minecraft and Quilt version from the dropdowns.
 
