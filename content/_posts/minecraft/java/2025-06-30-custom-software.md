@@ -72,7 +72,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 7. Press "Proceed" and wait for the installer to finish.
 
-8. Delete the files called "run.bat" and "run.sh" from the temporary folder.
+8. Delete the files called `run.bat` and `run.sh` from the temporary folder.
 
 9. Compress the temporary folder into an archive like .zip or .tar.gz
 
