@@ -193,7 +193,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 2. Select the desired version in the dropdown(s).
 
-3. Click on the Download button of the wanted build.
+3. Download the build you want.
 
 4. Rename the downloaded file to `server.jar`.
 
