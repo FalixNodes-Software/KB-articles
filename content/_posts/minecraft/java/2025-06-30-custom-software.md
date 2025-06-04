@@ -122,7 +122,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 6. Enter the location of the temporary folder you created.
 
-7. Make sure that the "download server jar" option is enabled and press "install".
+7. Make sure that the "Download server jar" option is enabled and press "Install".
 
 8. Wait for the installation to complete.
 
