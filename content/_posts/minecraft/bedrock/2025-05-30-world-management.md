@@ -53,7 +53,7 @@ Follow the instructions below on how to get the required server files.
 
 1. Go to your installation folder. You can easily open it by pressing `Win` + `R` and paste `%localAppdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`.
 
-2. Find the right folder. you can identify your world by opening the `levelname.txt`file inside the folder.
+2. Find the right folder. You can identify your world by opening the `levelname.txt` file inside the folder.
 
 3. Copy the world folder to an easy location where you will find it back later.
 
