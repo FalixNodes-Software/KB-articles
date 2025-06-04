@@ -81,7 +81,7 @@ Follow the instructions below on how to get the required server files.
 
 8. (Re)start the server.
 
-## Downloading your world:
+## Downloading Your World
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
