@@ -44,7 +44,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 10. Compress the temporary folder into an archive like `.zip` or `.tar.gz`.
 
-11. Open the dashboard and navigate to the File Manager.
+11. Open the Dashboard and navigate to the File Manager.
 
 12. Delete all content of the File Manager and upload the archive.
 
