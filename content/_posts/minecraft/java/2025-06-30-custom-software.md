@@ -40,7 +40,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 8. Delete the files called `run.bat` and `run.sh` from the temporary folder.
 
-9. Go to the `libraries/net/minecraftforge/forge/<version>/` folder and move the "unix_args.txt" file to the root of the temporary folder.
+9. Go to the `libraries/net/minecraftforge/forge/<version>/` folder and move the `unix_args.txt` file to the root of the temporary folder.
 
 10. Compress the temporary folder into an archive like .zip or .tar.gz
 
