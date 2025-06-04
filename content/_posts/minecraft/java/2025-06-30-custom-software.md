@@ -16,7 +16,7 @@ Often a user will want to use a specific version or software, either because of 
 
 Please be aware that we are not affiliated with any of the third-party tools mentioned below. Use them at your own discretion.
 
-Some Installation processes (like (Neo)Forge and Spigot) might require you to have a Java JRE/JDK package installed. You can find downloads for Java 21 [here](https://adoptium.net/temurin/releases/?os=any&arch=any&version=21)
+Some installation processes (like NeoForge and Spigot) might require you to have a Java JRE/JDK package installed. You can find downloads for Java 21 [here](https://adoptium.net/temurin/releases/?os=any&arch=any&version=21).
 
 ## Installation
 {% tabs softwareType %} 
