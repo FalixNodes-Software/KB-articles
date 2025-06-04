@@ -78,7 +78,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 10. Open the Dashboard and navigate to the File Manager.
 
-11. Delete all content of the File Manager and upload the archive.
+11. Delete all content from the File Manager and upload the archive.
 
 12. Unarchive the file by pressing the 3 dots at the end and selecting "unarchive".
 
