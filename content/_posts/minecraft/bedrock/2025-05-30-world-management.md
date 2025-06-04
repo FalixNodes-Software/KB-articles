@@ -23,7 +23,7 @@ Follow the instructions below on how to get the required server files.
 {% tabs filetypes %}
 
 
-{% tab filetypes .zip and other archives %}
+{% tab filetypes  Archive files %}
 
 1. Select the .zip file on your computer and extract it
 
