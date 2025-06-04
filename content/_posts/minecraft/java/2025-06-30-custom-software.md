@@ -26,7 +26,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 2. Select the desired Minecraft and Forge version in the menu and download the installer.
 
    {: .warning}
-   > Do not click on anything in the download page as this is a third-party ad. Wait for the countdown to finish and press the "Skip" button in the top right
+   > Do not click on anything in the download page as these are third-party ads. Wait for the countdown to finish and press the "Skip" button in the top right.
 
 3. Create an empty temporary folder where the installer can generate the server files.
 
