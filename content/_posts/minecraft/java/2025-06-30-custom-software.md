@@ -161,7 +161,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 {% endtab %}
 
 
-{% tab softwareType Paper / Purpur / Pufferfish  %}
+{% tab softwareType Paper, Purpur, Pufferfish %}
 1. Visit the official website of the wanted software:
    - [Paper (by the PaperMC team)](https://papermc.io/downloads/paper) ([looking for older versions?](https://papermc.io/downloads/all))
    - [Purpur (by the PurpurMC team)](https://purpurmc.org/download/purpur)
