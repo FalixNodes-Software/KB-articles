@@ -49,7 +49,7 @@ Follow the instructions below on how to get the required server files.
 
 
 
-{% tab filetypes existing singleplayer world %}
+{% tab filetypes Existing single player world %}
 
 1. Go to your installation folder. You can easily open it by pressing `Win` + `R` and paste `%localAppdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`.
 
