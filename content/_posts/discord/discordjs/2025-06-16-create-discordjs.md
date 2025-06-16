@@ -65,7 +65,7 @@ TOKEN=Your-discord-bot-token-here
     {: .info}
     > If you do not have a discord Aplication/bot set up yet then please read the instructions here.
 
-4. Create or upload your bot.js file (sometimes reffered to as main.js or index.js), this file will contain the code that your bot must run at startup. more info and examples can be found here
+4. Create or upload your bot.js file (sometimes reffered to as main.js or index.js), this file will contain the code that your bot must run at startup. more info and examples can be found [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application)
 
 5. Navigate back to the console and start the server.
 
