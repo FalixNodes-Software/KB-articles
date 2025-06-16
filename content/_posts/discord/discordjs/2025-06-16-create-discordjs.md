@@ -39,9 +39,9 @@ If you want more information about discord.js or JavaScript then please see the 
 
 ```json
 {
-  "main": "bot.js",  // Set this to the main file of your bot
+  "main": "bot.js",  // Set this to the main file of your bot (like bot.js, main.js or index.js)
   "scripts": {
-    "start": "node bot.js"  // Set this to the main file of your bot
+    "start": "node bot.js"  // Set this to the main file of your bot (like bot.js, main.js or index.js)
   },
   "dependencies": {
     "discord.js": "^14.14.1",
