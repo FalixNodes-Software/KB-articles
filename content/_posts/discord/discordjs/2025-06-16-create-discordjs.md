@@ -3,7 +3,7 @@ layout: post
 title: "How To Create A Discord.js Bot"
 category: discordjs
 tags: General
-permalink: discord/discordjs/general/create-discord-js
+permalink: discord/discordjs/general/create-discorsjs
 description: "Learn how to Create and Host A Discord bot using the discord.js package"
 keywords:
     - keyword: discord.js
@@ -11,22 +11,23 @@ keywords:
 author: TWIXhunter
 ---
 
-Using Discord.js to create and host a Discord bot allows you to bring custom functionality, automation and interactive features directly to your Discord server. Whether you're building a moderation tool, a music player or a fun chatbot, Discord.js gives you the flexibility to do so using JavaScript and Node.js.
+Using Discord.js to create and host a Discord bot allows you to bring custom functionality, automation and interactive features directly to your Discord server. Whether you're building a moderation tool, a music player or a fun chatbot, Discord.js gives you the flexibility to do so using JavaScript and Nodejs.
 
-Running a Discord bot is only possible on a paid FalixNodes plan.
+{: .warning}
+> Running a Discord bot is only possible on a paid FalixNodes plan.
 
-For more information about Discord.js or JavaScript, please refer to the official Discord.js guides and documentation.
+For more information about Discord.js or JavaScript, please refer to the official Discord.js [guides](https://discordjs.guide/#before-you-begin) and [documentation](https://discord.js.org/docs/packages/discord.js/14.19.3).
 
-Creating the server
+## Creating the server
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
 2. In the navigation menu, click on Create Server.
 
 3. Enter a name and domain for your server.
 
-4. Select 'Custom Game Server' from the 'Select Your Game' dropdown menu.
+4. Select `Custom Game Server` from the `Select Your Game` dropdown menu.
 
-5. Choose the wanted resources and location and accept the EULA.
+5. Choose the desired resources and location and accept the EULA.
 
 5. Create the server and open the console.
 
