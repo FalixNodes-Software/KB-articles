@@ -166,6 +166,7 @@ Some installation processes (like NeoForge and Spigot) might require you to have
    - [Paper (by the PaperMC team)](https://papermc.io/downloads/paper) ([looking for older versions?](https://papermc.io/downloads/all))
    - [Purpur (by the PurpurMC team)](https://purpurmc.org/download/purpur)
    - [Pufferfish (by the pufferfish.host team)](https://pufferfish.host/downloads)
+   - [LeafMC (by Winds-Studio)](https://www.leafmc.one/download)
 
 2. Select the desired Minecraft version.
 
