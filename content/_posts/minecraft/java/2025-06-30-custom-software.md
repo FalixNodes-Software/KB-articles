@@ -20,7 +20,10 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 ## Installation
 {% tabs softwareType %} 
-{% tab softwareType Forge  %}
+{% tab softwareType Forge (1.17 and above)  %}
+   {: .warning}
+   > These instructions are written for version 1.17 and above, installation for older versions might differ.
+
 1. Download the official Forge installer [here](https://files.minecraftforge.net/net/minecraftforge/forge/).
 
 2. Select the desired Minecraft and Forge version in the menu and download the installer.
@@ -55,7 +58,42 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 14. Start the server.
 {% endtab %}
+{% tab softwareType Forge (1.16.5 and below)  %}
+   {: .warning}
+   > These instructions are written for version 1.16.5 and below, installation for newer versions might differ.
 
+1. Download the official Forge installer [here](https://files.minecraftforge.net/net/minecraftforge/forge/).
+
+2. Select the desired Minecraft and Forge version in the menu and download the installer.
+
+   {: .warning}
+   > Do not click on anything in the download page as these are third-party ads. Wait for the countdown to finish and press the "Skip" button in the top right.
+
+3. Create an empty temporary folder where the installer can generate the server files.
+
+4. Download and run the installer.
+
+5. Select "Install server".
+
+6. Enter the location of the temporary folder you created.
+
+7. Press "OK" and wait for the installer to finish.
+
+8. Open the temporary folder and rename the file called `forge-<version>.jar` to `server.jar`.
+
+9. Compress the temporary folder into an archive like `.zip` or `.tar.gz`.
+
+10. Open the Dashboard and navigate to the File Manager.
+
+11. Delete all content from the File Manager and upload the archive.
+
+12. Unarchive the file by pressing the 3 dots at the end and selecting "Unarchive".
+
+   {: .error}
+   > Make sure that all the files are directly in the root of the File Manager. If they got added as a folder, then open that folder, select all, press "Move" in the mass actions bar and enter "/" in the destination field.
+
+13. Start the server.
+{% endtab %}
 
 {% tab softwareType NeoForge  %}
 1. Download the official NeoForge installer [here](https://projects.neoforged.net/neoforged/neoforge).
