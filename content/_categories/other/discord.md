@@ -1,12 +1,12 @@
 ---
 layout: category
-title: "Discord.js"
-permalink: discord/discordjs
+title: "Discord"
+permalink: other/discord
 section: discord
-category: discordjs
+category: discord
 tags:
     - General
-description: "Learn how to create and host a discord.js bot"
+description: "Learn how to create and host a discord bot"
 icon: "content/assets/images/categories/user-gear.svg"
 color: "#1b4db1"
 cat_order: 2
