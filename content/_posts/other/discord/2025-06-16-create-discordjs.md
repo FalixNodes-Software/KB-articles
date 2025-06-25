@@ -48,7 +48,6 @@ For more information about Discord.js or JavaScript, please refer to the officia
   },
   "dependencies": {
     "discord.js": "^14.14.1",
-    "dotenv": "^16.3.1",
     "ms": "^2.1.3"
   },
   "engines": {
@@ -57,27 +56,16 @@ For more information about Discord.js or JavaScript, please refer to the officia
 }
 ```
 
-3. Create a new file called `.env` and enter the following:
-´´´
-# discord bot token - DO NOT SHARE WITH ANYONE
-TOKEN=Your-discord-bot-token-here
-´´´
-    {: .warning}
-    > Do not share the bot token with anyone, even if they claim to be from Support. Your bot token serves as a password for your bot. Sharing it will give anyone full access to your bot and the servers it is in.
+3. Upload or create your bot.js file. This is the main file that your bot runs at startup. Depending on your setup, it may also be named main.js or index.js (make sure that it matches the name in package.json). You can find examples and more information [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application).
 
-    {: .info}
-    > If you do not yet have a Discord application/bot set up, please read the instructions here.
+4. Navigate back to the console and start the server.
 
-4. Upload or create your bot.js file. This is the main file that your bot runs at startup. Depending on your setup, it may also be named main.js or index.js (make sure that it matches the name in package.json). You can find examples and more information [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application).
+5. Select `8` to install all the packages included in package.json.
 
-5. Navigate back to the console and start the server.
+6. Wait for the server to restart, then enter `10` to run `npm start`.
 
-6. Select `8` to install all the packages included in package.json.
-
-7. Wait for the server to restart, then enter `10` to run `npm start`.
-
-8. If prompted, enter `nodejs24.1.0` to start the latest version of Node.js (at the time of writing).
+7. If prompted, enter `nodejs24.1.0` to start the latest version of Node.js (at the time of writing).
 
     > You can skip this step by setting the NodeJS version in the settings page.
 
-9. The server should now start your Discord bot.
+8. The server should now start your Discord bot.
