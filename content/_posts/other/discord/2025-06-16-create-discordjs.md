@@ -16,7 +16,8 @@ Using [discord.js](https://discord.js.org) to create and host a Discord bot allo
 {: .warning}
 > Running a Discord bot is only possible on a paid FalixNodes plan.
 
-For more information about Discord.js or JavaScript, please refer to the official Discord.js [guides](https://discordjs.guide/#before-you-begin) and [documentation](https://discord.js.org/docs/packages/discord.js/14.19.3).
+For more information about discord.js or JavaScript, please refer to the official discord.js [guides](https://discordjs.guide/#before-you-begin) and [documentation](https://discord.js.org/docs/packages/discord.js/14.19.3).
+
 
 ## Creating the server
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
