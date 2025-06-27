@@ -11,7 +11,7 @@ keywords:
 author: TWIXhunter
 ---
 
-Using Discord.js to create and host a Discord bot allows you to bring custom functionality, automation and interactive features directly to your Discord server. Whether you're building a moderation tool, a music player or a fun chatbot, Discord.js gives you the flexibility to do so using JavaScript and Nodejs.
+Using [discord.js](https://discord.js.org) to create and host a Discord bot allows you to bring custom functionality, automation and interactive features directly to your Discord server. Whether you're building a moderation tool, a music player or a fun chatbot, discord.js gives you the flexibility to do so using JavaScript and Node.js.
 
 {: .warning}
 > Running a Discord bot is only possible on a paid FalixNodes plan.
