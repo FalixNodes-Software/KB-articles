@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Create A Discord.js Bot"
+title: "How To Create A discord.js Bot"
 category: discordjs
 tags: General
 permalink: other/discord/general/create-discordjs
