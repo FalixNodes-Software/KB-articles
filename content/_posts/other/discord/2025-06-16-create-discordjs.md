@@ -36,7 +36,8 @@ For more information about discord.js or JavaScript, please refer to the officia
 
 7. Enter 1 to select 'Bot Hosting'.
 
-## Setting up the Discord.js package
+## Setting up the discord.js package
+
 1. Navigate to the File Manager.
 
 2. Create a new file called 'package.json' (if it doesn't already exist) and enter the following:
