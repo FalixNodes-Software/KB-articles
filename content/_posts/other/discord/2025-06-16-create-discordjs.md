@@ -56,7 +56,7 @@ For more information about Discord.js or JavaScript, please refer to the officia
 }
 ```
 
-3. Upload or create your bot.js file. This is the main file that your bot runs at startup. Depending on your setup, it may also be named main.js or index.js (make sure that it matches the name in package.json). You can find examples and more information [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application).
+3. Upload or create your `bot.js file`. This is the main file that your bot runs at startup. Depending on your setup, it may also be named `main.js` or `index.js` (make sure that it matches the name in `package.json`). You can find examples and more information [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application).
 
 4. Navigate back to the console and start the server.
 
