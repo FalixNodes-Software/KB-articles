@@ -4,7 +4,7 @@ title: "How To install nodejs packages"
 category: discordjs
 tags: General
 permalink: other/discord/general/npm-install
-description: "Learn how to install nodejs packages on your server"
+description: "Learn how to install Node.js packages on your server"
 keywords:
     - keyword: discord.js
       matches: ["create", "host"]
