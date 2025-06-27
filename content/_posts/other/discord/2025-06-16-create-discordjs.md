@@ -66,7 +66,7 @@ For more information about Discord.js or JavaScript, please refer to the officia
 
 7. If prompted, enter `nodejs24.1.0` to start the latest version of Node.js (at the time of writing).
 
-    > You can skip this step by setting the NodeJS version in the settings page.
+    > You can skip this step by setting the Node.js version in the settings page.
 
 8. The server should now start your Discord bot.
 
