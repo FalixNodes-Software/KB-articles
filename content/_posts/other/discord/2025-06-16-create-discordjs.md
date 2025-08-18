@@ -44,13 +44,14 @@ For more information about discord.js or JavaScript, please refer to the officia
 
 ```json
 {
-  "main": "bot.js",  // Set this to the main file of your bot (like bot.js, main.js or index.js)
+  "main": "bot.js",  // Set this to the main file of your bot (like bot.js, main.js or index.js).
   "scripts": {
-    "start": "node bot.js"  // Set this to the main file of your bot (like bot.js, main.js or index.js)
+    "start": "node bot.js"  // Set this to the main file of your bot (like bot.js, main.js or index.js).
   },
   "dependencies": {
-    "discord.js": "^14.14.1",
+    "discord.js": "^14.14.1", //some older bots might be build for older versions of discordjs, double check it before you proceed!
     "ms": "^2.1.3"
+// add more dependencies here if needed, install them using the "Install NodeJS packages from package.json" option in the console.
   },
   "engines": {
     "node": ">=18.0.0"
@@ -58,18 +59,22 @@ For more information about discord.js or JavaScript, please refer to the officia
 }
 ```
 
-3. Upload or create your `bot.js file`. This is the main file that your bot runs at startup. Depending on your setup, it may also be named `main.js` or `index.js` (make sure that it matches the name in `package.json`). You can find examples and more information [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application).
+3. Upload or create your `bot.js file`. This is the main file that your bot runs at startup. Depending on your setup, it may also be named `main.js` or `index.js` (make sure that it matches the name set in `package.json`). You can find examples and more information [here](https://discordjs.guide/creating-your-bot/main-file.html#running-your-application).
 
 4. Navigate back to the console and start the server.
 
 5. Select `8` to install all the packages included in package.json.
 
-6. Wait for the server to restart, then enter `10` to run `npm start`.
+6. Wait for the server to restart.
 
-7. If prompted, enter `nodejs24.1.0` to start the latest version of Node.js (at the time of writing).
+7. Navigate to the server settings page.
 
-    > You can skip this step by setting the Node.js version in the settings page.
+8. Find the "Main bot file" option and set it to the name of your main bot file (this file will be ran at startup)
 
-8. The server should now start your Discord bot.
+9. Find the "NodeJS version" option and set it to the version of nodeJS required for your bot (most bots will be compatible with the latest version (nodejs24.1.0, at the time of writing) but doubble check it to be sure)
 
-> More information about hosting and creating a custom discord.js bot can be found [here](https://discordjs.guide/creating-your-bot/).
+10. Navigate back to the console and start the server.
+
+11. Select `1` to run the file set in the settings.
+
+> More information about creating a custom discord.js bot can be found [here](https://discordjs.guide/creating-your-bot/).
