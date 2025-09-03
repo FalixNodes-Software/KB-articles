@@ -42,13 +42,17 @@ DiscordSRV is a plugin that allows players to interact between your Minecraft se
 
 6. Set the "Install Link" to "None".
 
-7. Click on "**Save Changes**{: .green }" at the bottom of the page.
+7. Scroll down to "Default Install Settings".
 
-8. On the left, navigate to the "Bot" tab.
+8. Add the "Bot" scope to the Guild Install settings.
 
-9. Under "Authorization Flow" toggle the "Public Bot" option to off.
+9. Click on "**Save Changes**{: .green }" at the bottom of the page.
 
-10. Under the "Privileged Gateway Intents" section, enable "Server Members Intent" and "Message Content Intent".
+10. On the left, navigate to the "Bot" tab.
+
+11. Under "Authorization Flow" toggle the "Public Bot" option to off.
+
+12. Under the "Privileged Gateway Intents" section, enable "Server Members Intent" and "Message Content Intent".
 
 ### Adding to Your Server:
 
