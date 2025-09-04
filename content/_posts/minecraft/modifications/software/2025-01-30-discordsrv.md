@@ -32,15 +32,15 @@ DiscordSRV is a plugin that allows players to interact between your Minecraft se
 
 1. Log in to the [Discord Developer Portal](https://discord.com/developers/applications/).
 
-2. Click on "New Application" and give the bot a name.
+2. Press "New Application" and give your bot a name.
 
-3. Make sure to agree to the [Developer Terms of Service](https://support-dev.discord.com/hc/en-us/articles/8562894815383-Discord-Developer-Terms-of-Service) and [Developer Policy](https://support-dev.discord.com/hc/en-us/articles/8563934450327-Discord-Developer-Policy) before clicking "Create".
+3. Agree to the [Developer Terms of Service](https://support-dev.discord.com/hc/en-us/articles/8562894815383-Discord-Developer-Terms-of-Service) and [Developer Policy](https://support-dev.discord.com/hc/en-us/articles/8563934450327-Discord-Developer-Policy) and press "Create".
 
-4. Navigate to the "Installation" tab in the left menu.
+4. Navigate to the "Installation" tab.
 
-5. Under "Installation Contexts" uncheck the "User Install" option.
+5. Uncheck the "User Install" option under the "Installation Contexts" section.
 
-6. Set the "Install Link" to "None".
+6. Set "Install Link" to "None".
 
 7. Scroll down to "Default Install Settings".
 
@@ -48,11 +48,11 @@ DiscordSRV is a plugin that allows players to interact between your Minecraft se
 
 9. Click on "**Save Changes**{: .green }" at the bottom of the page.
 
-10. On the left, navigate to the "Bot" tab.
+10. Navigate to the "Bot" tab.
 
-11. Under "Authorization Flow" toggle the "Public Bot" option to off.
+11. Toggle off the "Public Bot" option under the "Authorization Flow" section.
 
-12. Under the "Privileged Gateway Intents" section, enable "Server Members Intent" and "Message Content Intent".
+12. Enable "Server Members Intent" and "Message Content Intent" under the "Privileged Gateway Intents" section.
 
 ### Adding to Your Server:
 
