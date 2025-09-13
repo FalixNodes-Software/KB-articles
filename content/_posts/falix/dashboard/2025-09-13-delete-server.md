@@ -21,4 +21,4 @@ toc: false
 
 5. Enter the 2FA code if necessarily.
 
-6. Enter "YES" and press "confirm"
+6. Enter "YES" and press "confirm".
