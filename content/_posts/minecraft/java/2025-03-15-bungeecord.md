@@ -89,9 +89,6 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 14. Connect your server to the IP of the proxy.
 
 ## BungeeCord Commands
-A list of BungeeCord commands can be found [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
+A Full list of BungeeCord commands can be found [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
+Here are some important examples:
 
-### In Game
-Players, including you (of course), can easily teleport to the other servers on your network by using the `/server` command in game. They can then use their cursor to click on the server they want to go to. You can also do `/server <name>`, like `/server lobby`.
-
-This command requires the `bungeecord.command.server` permission, which is granted to everyone by default.

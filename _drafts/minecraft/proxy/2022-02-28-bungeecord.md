@@ -92,9 +92,15 @@ It should look like this:
 > You can view all BungeeCord configuration options [here](https://www.spigotmc.org/wiki/bungeecord-configuration-guide/).
 
 ## BungeeCord Commands
-You can find a list of BungeeCord commands [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
+Here are some handy commands you might need:
 
-### In Game
-Players, including you (of course), can easily teleport to the other servers on your network by using the `/server` command in-game. Then they can use their cursor to click on the server they want to go to. They can also do `/server <name>`, like `/server lobby`.
+| Command                 	| description                                         	| Permission                | group       |
+|-------------------------	|-----------------------------------------------------	|-------------------------  |-----------  |
+| /server <target>        	| Moves you to the desired server.                    	| bungeecord.command.server | everyone    |
+| /glist                  	| Lists all players on the network.                   	| bungeecord.command.list   | everyone    |
+| /send <player> <target> 	| Sends the specified player to the specified server. 	| bungeecord.command.send   | admin-only  |
+| /greload                	| Reloads the bungee configuration.                   	| bungeecord.command.reload | admin-only  |
+| /find <player>          	| Searches what server a player is on.                	| bungeecord.command.find   | admin-only  |
+| /end                    	| stops the bungee server.                            	| bungeecord.command.end    | admin-only  |
 
-This command requires the `bungeecord.command.server` permission which is granted to everyone by default.
+You can find a full list of BungeeCord commands [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
