@@ -13,13 +13,16 @@ author:
     - Korbs
 ---
 
+{: .warning }
+> Server proxies like BungeeCord aren't available on free plan.
+
 ### What is it?
-[BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) (created by the [SpigotMC](https://www.spigotmc.org/XenStaff/) team) is a proxy designed to seamlessly connect multiple Minecraft servers, allowing players to navigate between them without leaving the game. 
+[BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) (created by the [SpigotMC](https://www.spigotmc.org/XenStaff/) team) is a proxy designed to seamlessly connect multiple Minecraft servers, allowing players to navigate between them without leaving the server. 
 
-BungeeCord is compatible with Spigot, Purpur, PaperMC, and any Spigot fork. It will **NOT** work on Forge, Fabric or Vanilla servers.
+BungeeCord is compatible with many servers: Spigot, Purpur, PaperMC, and more. It will **NOT** work on Forge, Fabric or Vanilla servers.
 
-{: .error }
-> Server networks and proxies like BungeeCord aren't available on free plan.
+{: .warning }
+> BungeeCord is an outdated server proxy and Velocity should be used for modern servers instead.
 
 ### What is it useful for?
 BungeeCord is very useful for server administrators who want to separate their server's activities (such as minigames, creative, survival, and so on). BungeeCord is used and trusted by notable servers like [Hypixel](https://hypixel.net/), [Mineplex](https://www.mineplex.com/home/), [HiveMC](https://hivemc.com/) and many more.
@@ -31,11 +34,11 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 2. Select a fallback server from your server list.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console)  of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+3. You will be redirected to the [Console](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
-5. Locate and open 'server.properties'.
+5. Locate and open `server.properties`.
 
-6. Scroll down and set `online mode' to `false'.
+6. Scroll down and set `online-mode` to `false`.
 
 7. Save the file and return to the file manager.
 
@@ -53,46 +56,40 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 4. Start your server.
 
-{: .note }
-> Do not rely on the server status at the top left of the page, it does not indicate the status of proxy servers correctly.
+5. Click Stop, then click Kill.
 
-7. Click Stop, then click Kill.
+6. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
 
-8. In the navigation menu, open the "Console & Files" category and navigate to [File Manager](https://client.falixnodes.net/server/filemanager).
+7. Locate and open `config.yml`.
 
-9. Locate and open `config.yml`.
+8. Scroll down to `servers:` and use the following template:
 
-10. Scroll down to `servers:` (line 9) and use the following template:
+	```yaml
+		server-name:
+			motd: '&1Just another BungeeCord - Forced Host'
+			address: server-IP:PORT
+			restricted: false
+	```
+	Change `server-name` to the fallback server name (case-sensitive).
+	Change `server-IP:PORT` to the IP with port of the fallback server, you can find the IP with port in the Connect tab in the console.
 
-```YAML
-  server name:
-    motd: '&1Just another BungeeCord - Forced Host'
-    address: server-IP:PORT
-    restricted: false
-```
-Change `server-name` to the fallback server name (case sensitive).
-Change `server-IP:PORT` to the IP with port of the fallback server, you can find the IP with port in the Connect tab in the console.
+	{: .note }
+	> `restricted: true` will disallow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
 
-{: .note }
-> Restricted will not allow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
+	{: .note }
+	> If you have multiple fallback servers, duplicate the above template and paste it under your first server.
 
-{: .note }
-> If you have multiple fallback servers, duplicate the above code and paste it under your first server.
+9. Scroll down to `priorities: lobby`, change `lobby` to the name of your default fallback server (case-sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
 
-11. Scroll down to `priorities:- lobby` (line 24), change `lobby` to the name of your default fallback server (case sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
+10. Scroll down to `host: 0.0.0.0:25577` and change the port value after `:` to your BungeeCord server's port. You can find your port in the Network tab in the Advanced category.
 
-12. Scroll down to `host: 0.0.0.0:25577` (line 27) and change the numbers after `:` to your BungeeCord's port. You can find your port in the Network tab under the Advanced category. 
+11. Scroll down and set `IP_forward` to `true`.
 
-13. Scroll down and set `IP_forward` to `true`. (line 46)
+12. Save the file and restart your server.
 
-14. Save the file and restart your server.
+13. Make sure both your proxy and fallback servers are running.
 
-{: .note }
-> You can view all BungeeCord configuration options [here](https://www.spigotmc.org/wiki/bungeecord-configuration-guide/).
-
-15. Make sure both your proxy and fallback servers are running.
-
-16. Connect your server to the IP of the proxy.
+14. Connect your server to the IP of the proxy.
 
 ## BungeeCord Commands
 A list of BungeeCord commands can be found [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
