@@ -24,9 +24,6 @@ BungeeCord is compatible with many servers: Spigot, Purpur, PaperMC, and more. I
 {: .warning }
 > BungeeCord is an outdated server proxy and Velocity should be used for modern servers instead.
 
-### What is it useful for?
-BungeeCord is very useful for server administrators who want to separate their server's activities (such as minigames, creative, survival, and so on). BungeeCord is used and trusted by notable servers like [Hypixel](https://hypixel.net/), [Mineplex](https://www.mineplex.com/home/), [HiveMC](https://hivemc.com/) and many more.
-
 ## Preparing the fallback servers
 Fallback servers are all servers connected to your BungeeCord proxy.
 
