@@ -113,6 +113,9 @@ the default is `10` (minutes), you are able to set it to whatever value you want
 This step is useful for all servers, even just when playing with friends.
 Coreprotect registers who placed/broke what block and who took what out of the chests (etc).
 
+{: .warning}
+> Coreportect is not able to recover damage done before it got added as a plugin
+
 ### How to install coreprotect.
 1. Make sure that you have a plugin loader (like Bukkit, Spigot, Paper or PurPur) installed, if you are not sure then you can just install it again in [the versions page](https://client.falixnodes.net/server/versions).
 
@@ -123,4 +126,20 @@ Coreprotect registers who placed/broke what block and who took what out of the c
 ### How to use Coreprotect
 
 **Checking who did something**
-You can check for actions like a block being placed or broken, items being put into picked out of a chest
+You can check for actions like a block being placed or broken, items being put into or picked out of a chest, etc.. by running the `/co inspect` command, this will enable the inspector mode, trying to break a block shows everything that happened in that position.
+
+**Rolling back damage**
+You can rollback changes using the `/co rollback` command, there are a few extra arguments you have to add:
+
+| argument   	| description                                          	| Special notes                                                                                       	|
+|------------	|------------------------------------------------------	|-----------------------------------------------------------------------------------------------------	|
+| u:<user>   	| specifies the user who's actions you want to resore  	| use a , between names to specifie multiple users, use # (like #tnt) to specify netural events.      	|
+| t:<time>   	| specifies the time you want to roll back             	| valid options look like: 2w (2 weeks), 5d (5days), 7h (7 hours) 2m (2minutes) and 10s (10 seconds). 	|
+| r:<radius> 	| The radius (in blocks) of the area you want to edit. 	| Use #global to rollback the entire server, use #worldname to rollback a specific world.             	|
+
+For example:
+`/co rollback u:TestUser r:10 t:1h`
+Rolls all the actions TestUser did in a radius of 10 blocks back to how they were 1h ago.
+
+`/co rollback r:#global t:1d`
+rolls the entire server back to how it was 1 day ago.
