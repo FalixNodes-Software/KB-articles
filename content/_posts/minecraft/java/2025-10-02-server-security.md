@@ -122,4 +122,5 @@ Coreprotect registers who placed/broke what block and who took what out of the c
 
 ### How to use Coreprotect
 
-etc... I have to go sleep now... I will add this tmrw
+**Checking who did something**
+You can check for actions like a block being placed or broken, items being put into picked out of a chest
