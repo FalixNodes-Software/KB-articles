@@ -30,7 +30,7 @@ Enabling online mode is a crucial part of securing your server, it should be ena
 Online-mode requires all payers to have an active microsoft account and makes sure that everyone that joins your server is actually who they claim to be. Online-mode often gets disabled by server owners because there might be certain players on their server that do not have a legitimate (paid) minecraft account, disabling online-mode allows these players to join because it stops checking if the player that tries to join actually has an account and is who they claim to be.
 
 *I have cracked Players on my server, what do I do*
-If you have cracked players (players who did not buy a legitimate copy of the game) on your server and you are not willing to loose them then you are not able to enable online-mode, I encourage you to follow the "authmereloaded" step below so you can make your server secure without having to enable online-mode.
+If you have cracked players (players who did not buy a legitimate copy of the game) on your server and you are not willing to loose them then you are not able to enable online-mode, I encourage you to follow the "Add an authentication plugin." step below so you can make your server secure without having to enable online-mode.
 
 ### How to enable-online mode
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
@@ -75,15 +75,12 @@ There are a few basic command you will want to learn to manage your whitelist.
 You can also add and remove players from the whitelist by pressing their username in the console (when it appears blue) and using the "+ whitelist" and "Unwhitelist" buttons.
 
 ## Step 3: Add an authentication plugin.
-This step is only useful for servers that do not have "online-mode" enabled. if you have it enabled then you can just skip this step.
-
-{% tabs software %}
-
-{% tab software plugin %}
-
 authmereloaded is a plugin that requires everyone to set a password when they first join the server and give it again every time they join from a new device. This makes sure that everyone is who they actually claim to be without requiring a microsoft account.
 
+> This step is only useful for servers that do not have "online-mode" enabled. if you have it enabled then you can just skip this step.
 
+
+### How to install and configure authmereloaded
 1. Make sure that you have a plugin loader (like Bukkit, Spigot, Paper or PurPur) installed, if you are not sure then you can just install it again in [the versions page](https://client.falixnodes.net/server/versions).
 
 2. Add the [authmereloaded](https://modrinth.com/plugin/authmereloaded) plugin to your server, more information about the installment process of plugins can be found [here](https://kb.falixnodes.net/minecraft/modifications/general/adding-plugins).
@@ -94,7 +91,7 @@ authmereloaded is a plugin that requires everyone to set a password when they fi
 
 5. Scroll down to the "enabled" option at Line 107 and set it to `true`.
 
-6. Scroll down to the Timeout setting at line 110 and set it to the desired number, the higer the less likely it is for people to have to login again when on the same device as before.
+6. Scroll down to the Timeout setting at line 110 and set it to the desired number, the higher the less likely it is for people to have to login again when on the same device as before.
 
 the default is `10` (minutes), you are able to set it to whatever value you want (like `60` for 1 hour or `1440` for a complete day)
 
@@ -103,11 +100,6 @@ the default is `10` (minutes), you are able to set it to whatever value you want
 8. Save the file and go back to the server console.
 
 9. Restart the server
-
-
-{% endtab %}
-
-{% endtabs %}
 
 ## Step 4: Add anti-grief plugins.
 This step is useful for all servers, even just when playing with friends.
@@ -143,3 +135,61 @@ Rolls all the actions TestUser did in a radius of 10 blocks back to how they wer
 
 `/co rollback r:#global t:1d`
 rolls the entire server back to how it was 1 day ago.
+
+## Step 5: Take regular backups
+taking regular backups (for example weekly, twice-a-week or even daily) allows you to recover your server when everything else fails, taking backups regularly allows you to always have a restore point without having to go back too far into the past.
+
+### How to take a backup
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Select a server from your server list.
+
+3. Navigate to the [Backups](https://client.falixnodes.net/server/backups) page.
+
+4. Click on the "+ New Backup" button in the top-right corner.
+
+5. Enter a name (optional).
+
+6. Click the "+ Create Backup" button.
+
+### How to delete old backups
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Select a server from your server list.
+
+3. Navigate to the [Backups](https://client.falixnodes.net/server/backups) page.
+
+4. Scroll to the desired backup and press "delete".
+
+### How to automate backups
+1. Log in to the [Dashboard](https://client.falixnodes.net/).
+
+2. Select a server from your server list.
+
+3. Navigate to the [Schedules](https://client.falixnodes.net/server/schedules) page (under the Server Settings category).
+
+4. Select your timezone in the dropdown.
+
+5. Press the "+ New schedule" button.
+
+6. Give your backup a clear name (eg. Daily Backup).
+
+7. Select the Time you want to run the schedule at (eg. Daily at 12PM, Weekly on sunday at 9PM, every 48 hours).
+
+8. Click the "Create schedule" button
+
+9. Click on the "Tasks" button.
+
+10. Add your first task by pressing the "New Task" button.
+
+11. Select command and enter "save-all"
+
+12. Click the "Create Task" button.
+
+13. Create another task.
+
+14. Select the "Backup" Option.
+
+15. Select a 30 seconds Execution delay to make sure that the save-all command finishes in time.
+
+16. Click the "Create Task" button.
