@@ -61,20 +61,20 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 8. Scroll down to `servers:` and use the following template:
 
-	```yaml
-		server-name:
-			motd: '&1Just another BungeeCord - Forced Host'
-			address: server-IP:PORT
-			restricted: false
-	```
-	Change `server-name` to the fallback server name (case-sensitive).
-	Change `server-IP:PORT` to the IP with port of the fallback server, you can find the IP with port in the Connect tab in the console.
+  ```yaml
+    server-name:
+      motd: '&1Just another BungeeCord - Forced Host'
+      address: server-IP:PORT
+      restricted: false
+  ```
+  Change `server-name` to the fallback server name (case-sensitive).
+  Change `server-IP:PORT` to the IP with port of the fallback server, you can find the IP with port in the Connect tab in the console.
 
-	{: .note }
-	> `restricted: true` will disallow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
+  {: .note }
+  > `restricted: true` will disallow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
 
-	{: .note }
-	> If you have multiple fallback servers, duplicate the above template and paste it under your first server.
+  {: .note }
+  > If you have multiple fallback servers, duplicate the above template and paste it under your first server.
 
 9. Scroll down to `priorities: lobby`, change `lobby` to the name of your default fallback server (case-sensitive). This will be the default server that users will be redirected to when they join your BungeeCord server.
 
@@ -89,6 +89,16 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 14. Connect your server to the IP of the proxy.
 
 ## BungeeCord Commands
-A Full list of BungeeCord commands can be found [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
-Here are some important examples:
 
+These are the most often used BungeeCord commands:
+
+| Command                   | Description                                           | Permission                | Group       |
+|---------------------------|-------------------------------------------------------|---------------------------|-------------|
+| /server <server>          | Moves you to the desired server.                      | bungeecord.command.server | everyone    |
+| /glist                    | Lists all players on the network.                     | bungeecord.command.list   | everyone    |
+| /send <player> <server>   | Sends the specified player to the specified server.   | bungeecord.command.send   | admin-only  |
+| /greload                  | Reloads the configuration.                            | bungeecord.command.reload | admin-only  |
+| /find <player>            | Finds the server that the player is on.               | bungeecord.command.find   | admin-only  |
+| /end                      | Stops the BungeeCord server.                          | bungeecord.command.end    | admin-only  |
+
+A full list of BungeeCord commands can be found [here](https://www.spigotmc.org/wiki/bungeecord-commands/).
