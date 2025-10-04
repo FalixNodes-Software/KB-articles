@@ -37,7 +37,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 6. Scroll down and set `online-mode` to `false`.
 
-7. Save the file and return to the file manager.
+7. Save the file and return to the File Manager.
 
 8. Locate and open `spigot.yml`.
 
