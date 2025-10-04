@@ -1,12 +1,12 @@
 ---
-title: How To Secure Your Minecraft Java Server.
+title: How To Secure Your Minecraft Java Server
 tags: General
 permalink: /minecraft/java/general/server-security
 description: Learn how to secure your server in 5 simple steps.
 keywords:
-    - keyword: Griefed
+    - keyword: griefed
       matches: ["being", "help"]
-    - keyword: Griefing
+    - keyword: griefing
       matches: ["help"]   
 
     - keyword: hacked
@@ -17,11 +17,11 @@ author:
     - TWIXhunter
 ---
 
-In this guide we will explain to you how to make your server even more secure to prevent it from being griefed, hacked and destroyed.
+This guide explains how to make your server secure against being griefed, hacked, or destroyed.
 
-Every step is optional and can be skipped or ignored, however, the more layers of security you have the better so it is recommended to follow as many of them as possible.
+Each step is optional and can be skipped. However, it is recommended that you follow as many steps as possible, because the more layers of security your server has, the better.
 
-If you have a vanilla server then I recommend you to install "PurPur" or "Paper(spigot)" in the versions page, you should then be able to follow the "Plugins" guides without requiring any changes on your players sides.
+If you have a vanilla server then I recommend you to install "Purpur" or "Paper" in the versions page, you should then be able to follow the "Plugins" guides without requiring any changes on your players sides.
 
 ## Step 1: Enable online-mode
 Enabling online mode is a crucial part of securing your server, it should be enabled by default but it is great to double check.
@@ -195,3 +195,4 @@ Taking regular backups (for example weekly, twice-a-week or even daily) allows y
 16. Select a 30 seconds Execution delay to make sure that the save-all command finishes in time..
 
 17. Click the "Create Task" button.
+
