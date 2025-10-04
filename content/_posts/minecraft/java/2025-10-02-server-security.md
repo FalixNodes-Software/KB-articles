@@ -26,10 +26,10 @@ If you have a vanilla server then I recommend you to install "PurPur" or "Paper(
 ## Step 1: Enable online-mode
 Enabling online mode is a crucial part of securing your server, it should be enabled by default but it is great to double check.
 
-*What does Online-mode do?*
+**What does Online-mode do?**
 Online-mode requires all players to have an active Microsoft account and makes sure that everyone that joins your server is actually who they claim to be. Online-mode often gets disabled by server owners because there might be certain players on their server that do not have a legitimate (paid) minecraft account, disabling online-mode allows these players to join because it stops checking if the player that tries to join actually has an account and is who they claim to be.
 
-*I have cracked players on my server, what do I do*
+**I have cracked players on my server, what do I do**
 If you have cracked players (players who did not buy a legitimate copy of the game) on your server and you are not willing to lose them then you are not able to enable online-mode, I encourage you to follow the "Add an authentication plugin." step below so you can make your server secure without having to enable online-mode.
 
 ### How to enable online-mode
