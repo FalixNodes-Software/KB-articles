@@ -10,6 +10,8 @@ keywords:
       matches: *bungee_matches
 author:
     - TWIXhunter
+	- Deka
+	- Metr
     - Korbs
 ---
 
