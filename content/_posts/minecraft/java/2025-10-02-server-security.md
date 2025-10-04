@@ -26,10 +26,10 @@ If you have a vanilla server then I recommend you to install "PurPur" or "Paper(
 ## Step 1: Enable online-mode
 Enabling online mode is a crucial part of securing your server, it should be enabled by default but it is great to double check.
 
-**What does Online-mode do?**
+**What does Online-mode do?** <br>
 Online-mode requires all players to have an active Microsoft account and makes sure that everyone that joins your server is actually who they claim to be. Online-mode often gets disabled by server owners because there might be certain players on their server that do not have a legitimate (paid) minecraft account, disabling online-mode allows these players to join because it stops checking if the player that tries to join actually has an account and is who they claim to be.
 
-**I have cracked players on my server, what do I do**
+**I have cracked players on my server, what do I do** <br>
 If you have cracked players (players who did not buy a legitimate copy of the game) on your server and you are not willing to lose them then you are not able to enable online-mode, I encourage you to follow the "Add an authentication plugin." step below so you can make your server secure without having to enable online-mode.
 
 ### How to enable online-mode
@@ -117,10 +117,10 @@ CoreProtect registers who placed/broke what block and who took what out of the c
 
 ### How to use CoreProtect
 
-**Checking who did something**
+**Checking who did something**<br>
 You can check for actions like a block being placed or broken, items being put into or picked out of a chest, etc.. by running the `/co inspect` command, this will enable the inspector mode, trying to break a block shows everything that happened in that position.
 
-**Rolling back damage**
+**Rolling back damage**<br>
 You can rollback changes using the `/co rollback` command, there are a few extra arguments you have to add:
 
 | argument   	| description                                          	| Special notes                                                                                       	|
