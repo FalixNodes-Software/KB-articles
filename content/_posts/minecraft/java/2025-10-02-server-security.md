@@ -21,7 +21,7 @@ This guide explains how to make your server secure against being griefed, hacked
 
 Each step is optional and can be skipped. However, it is recommended that you follow as many steps as possible, because the more layers of security your server has, the better.
 
-If you have a vanilla server then I recommend you to install "Purpur" or "Paper" in the versions page, you should then be able to follow the "Plugins" guides without requiring any changes on your players sides.
+If you have a vanilla server then it is recommend to install "Purpur" or "Paper" in the versions page, you should then be able to follow the "Plugins" guides without requiring any changes on your players side.
 
 ## Step 1: Enable online-mode
 Enabling online mode is a crucial part of securing your server, it should be enabled by default but it is great to double check.
@@ -30,7 +30,7 @@ Enabling online mode is a crucial part of securing your server, it should be ena
 Online-mode requires all players to have an active Microsoft account and makes sure that everyone that joins your server is actually who they claim to be. Online-mode often gets disabled by server owners because there might be certain players on their server that do not have a legitimate (paid) minecraft account, disabling online-mode allows these players to join because it stops checking if the player that tries to join actually has an account and is who they claim to be.
 
 **I have cracked players on my server, what do I do** <br>
-If you have cracked players (players who did not buy a legitimate copy of the game) on your server and you are not willing to lose them then you are not able to enable online-mode, I encourage you to follow the "Add an authentication plugin." step below so you can make your server secure without having to enable online-mode.
+If you have cracked players (players who did not buy a legitimate copy of the game) on your server and you are not willing to lose them then you are not able to enable online-mode, You can follow the "Add an authentication plugin." step below to learn how to make your server secure without having to enable online-mode.
 
 ### How to enable online-mode
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
@@ -95,7 +95,7 @@ authmereloaded is a plugin that requires everyone to set a password when they fi
 
 The default is `10` (minutes), you are able to set it to whatever value you want (like `60` for 1 hour or `1440` for a complete day)
 
-7. Scroll down to the `maxRegPerIp` option at line 145, this option restricts how many people can join from 1 wifi network, this is great to prevent alting but might be triggered when multiple players are playing together in the same location (like family members), I personally like to set this to `3` but that's up to you, setting it to 0 disables the feature.
+7. Scroll down to the `maxRegPerIp` option at line 145, this option restricts how many people can join from 1 wifi network, this is great to prevent alting but might be triggered when multiple players are playing together in the same location (like family members), setting it to 0 disables the feature.
 
 8. Save the file and go back to the server console.
 
