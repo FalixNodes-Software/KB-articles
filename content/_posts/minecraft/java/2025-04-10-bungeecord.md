@@ -43,7 +43,7 @@ Fallback servers are all servers connected to your BungeeCord proxy.
 
 9. Set `bungeecord` to `true`.
 
-## Creating and Configuring the Proxy 
+## Creating and configuring the proxy 
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 
