@@ -48,7 +48,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 1. Visit [the official Cloudflare site](https://dash.cloudflare.com/login).
 
-2, Log in to your Cloudflare account.
+2. Log in to your Cloudflare account.
 
 3. Select your domain from the dashboard.
 
@@ -58,7 +58,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 6. Select the record type (NS).
 
-7. Enter the name provided on the Falix domain site.
+7. Enter the hostname provided on the Falix domain site.
 
 8. Enter the primary and secondary nameservers.
 
@@ -71,14 +71,36 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 {% tab providers namecheap %}
 
-Steps go here
+1. Visit [the official NameCheap site](https://www.namecheap.com/myaccount/login/).
+
+2. Log in to your NameCheap account.
+
+3. Select "Domain List" in the left sidebar.
+
+4. Click the "Manage" button next to your domain.
+
+5. Navigate to the "Advanced DNS" tab.
+
+6. Click "ADD NEW RECORD".
+
+7. Select NS Record from the dropdown.
+
+8. Enter the hostname provided on the Falix domain site.
+
+9. Enter the Primary Nameserver.
+
+10. Leave the TTL at "automatic"
+
+11. Click the checkmark to save.
+
+12. repeat the steps above for the secondary Nameserver.
 
 {% endtab %}
 
 
 {% tab providers GoDaddy %}
 
-Steps go here
+Steps 
 
 {% endtab %}
 
