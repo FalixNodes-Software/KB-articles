@@ -15,6 +15,7 @@ author:
 
 There are many domain registrars you can use to purchase a domain. Here are a few popular options:
 
+- [cloudflare](https://cloudflare.com/en-gb/products/registrar/)
 - [Namecheap](https://namecheap.com/)
 - [GoDaddy](https://godaddy.com)
 - [Bluehost](https://bluehost.com/domains)
@@ -39,9 +40,67 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 8. Navigate to your domain providers dashboard and enter the given credentials.
 
-    > The exact process of adding the NS record might differ between providers. instructions on how to do this for some popular providers are given at the bottom of the site. 
+    > The exact process of adding the NS record might differ between providers. instructions on how to do this for some popular providers are listed below.
 
-    > (TODO: add them here).
+{% tabs providers %}
+
+{% tab providers cloudflare %}
+
+1. Visit [the official Cloudflare site](https://dash.cloudflare.com/login).
+
+2, Log in to your Cloudflare account.
+
+3. Select your domain from the dashboard.
+
+4. Go to the DNS tab.
+
+5. Click "Add record".
+
+6. Select the record type (NS).
+
+7. Enter the name provided on the Falix domain site.
+
+8. Enter the primary and secondary nameservers.
+
+9. leave the TTL at automatic.
+
+10. Click "save"
+
+{% endtab %}
+
+
+{% tab providers namecheap %}
+
+Steps go here
+
+{% endtab %}
+
+
+{% tab providers GoDaddy %}
+
+Steps go here
+
+{% endtab %}
+
+{% tab providers BlueHost %}
+
+Steps go here
+
+{% endtab %}
+
+{% tab providers SquareSpace %}
+
+Steps go here
+
+{% endtab %}
+
+{% tab providers Hover %}
+
+Steps go here
+
+{% endtab %}
+
+{% endtabs %}
 
 9. Press "I have added the DNS records".
 
