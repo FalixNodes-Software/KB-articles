@@ -45,5 +45,8 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 9. Press "I have added the DNS records".
 
-10. 
+10. Wait for the verification to complete and press "UNKNOWN BUTTON"
+
+{. :success}
+> you should now be able to join your Minecraft server using the domain you provided.
 
