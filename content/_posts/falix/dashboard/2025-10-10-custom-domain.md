@@ -114,7 +114,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 7. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). Enter "@" if you don't want any subdomain.
 
-8. Enter the Primary Nameserver domain given in the Falix Domains page into the "Value" field
+8. Enter the Primary Nameserver domain given in the Falix Domains page into the "Value" field.
 
 9. Leave the TTL as "automatic"
 
@@ -126,7 +126,38 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 {% tab providers SquareSpace %}
 
-Steps go here
+1. Visit [the official SquareSpace site](https://account.squarespace.com/domains).
+
+2. Log in to your SquareSpace account.
+
+3. Select your domain.
+
+4. navigate to DNS, then click DNSSEC.
+
+5. Toggle DNSSEC off.
+
+6. Navigate back to the previous page and click "DNS Settings".
+
+7. Scroll down to Custom Records.
+
+8. Click "Add record".
+
+9. Enter your Squarespace password again to verify that it is you.
+
+10. In the Type dropdown menu, select "NS".
+
+11. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). Enter "@" if you don't want any subdomain.
+
+12. Enter the Primary Nameserver domain given in the Falix Domains page into the "Data" field.
+
+13. Leave the TTL as "automatic" (if prompted.)
+
+14. Click "Save"
+
+15. Repeat the steps above for the secondary NameServer.
+
+{. :warn}
+> It might take SquareSpace up to 24 to 48 hours to update te changes globally.
 
 {% endtab %}
 
