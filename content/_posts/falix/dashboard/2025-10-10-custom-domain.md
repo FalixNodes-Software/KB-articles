@@ -52,13 +52,13 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 3. Select your domain from the dashboard.
 
-4. Go to the DNS tab.
+4. Go to the "DNS" tab in the sidebar.
 
 5. Click "Add record".
 
 6. Select the record type (NS).
 
-7. Enter the hostname provided on the Falix domain site.
+7. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). leave this empty if you don't want any subdomain.
 
 8. Enter the primary and secondary nameservers.
 
@@ -75,7 +75,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 2. Log in to your NameCheap account.
 
-3. Select "Domain List" in the left sidebar.
+3. Select "Domain List" in the left sidebar or header.
 
 4. Click the "Manage" button next to your domain.
 
@@ -85,7 +85,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 7. Select NS Record from the dropdown.
 
-8. Enter the hostname provided on the Falix domain site.
+8. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). Enter "@" if you don't want any subdomain.
 
 9. Enter the Primary Nameserver.
 
@@ -100,23 +100,31 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 {% tab providers GoDaddy %}
 
-Steps 
+1. Visit [the official GoDaddy site](https://dcc.godaddy.com/control/portfolio&prog_id=PROG_ID).
 
-{% endtab %}
+2. Log in to your GoDaddy account.
 
-{% tab providers BlueHost %}
+3. Select your domain.
 
-Steps go here
+4. Go to the "DNS" tab.
+
+5. Click the "Add New Record" button.
+
+6. Select "NS" in the type dropdown.
+
+7. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). Enter "@" if you don't want any subdomain.
+
+8. Enter the Primary Nameserver domain given in the Falix Domains page into the "Value" field
+
+9. Leave the TTL as "automatic"
+
+10. Click the "Save" button.
+
+11. Repeat the steps above for the secondary nameserver.
 
 {% endtab %}
 
 {% tab providers SquareSpace %}
-
-Steps go here
-
-{% endtab %}
-
-{% tab providers Hover %}
 
 Steps go here
 
