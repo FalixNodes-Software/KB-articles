@@ -39,7 +39,7 @@ If you have cracked players (players who did not buy a legitimate copy of the ga
 
 3. Navigate to the [Properties](https://client.falixnodes.net/server/properties) page (under the minecraft category).
 
-4. Scroll down to find the "Online Mode" property (it should be under the "Security Settings" section).
+4. Scroll down to find the "Cracked" property (it should be under the "Security Settings" section).
 
 5. Enable the toggle.
 
