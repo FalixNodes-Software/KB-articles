@@ -232,7 +232,36 @@ Some installation processes (like NeoForge and Spigot) might require you to have
 
 2. Select the desired version in the dropdown(s).
 
-3. Download the build you want.
+3. Download your preferred build.
+
+4. Rename the downloaded file to `server.jar`.
+
+5. Open the Dashboard and navigate to the File Manager.
+
+6. Delete all content from the File Manager and upload the `server.jar` file.
+
+7. Start the server.
+{% endtab %}
+
+
+{% tab softwareType Velocity %}
+1. Visit the official Velocity server download page [here](https://papermc.io/downloads/velocity).
+
+3. Download the latest build.
+
+4. Rename the downloaded file to `server.jar`.
+
+5. Open the Dashboard and navigate to the File Manager.
+
+6. Delete all content from the File Manager and upload the `server.jar` file.
+
+7. Start the server.
+{% endtab %}
+
+{% tab softwareType BungeeCord %}
+1. Visit the official BungeeCord server download page [here](https://ci.md-5.net/job/BungeeCord/).
+
+3. Download the latest build by clicking `BungeeCord.jar` under the `lastSuccessfulArtifacts` category.
 
 4. Rename the downloaded file to `server.jar`.
 
