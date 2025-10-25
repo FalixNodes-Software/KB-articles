@@ -25,7 +25,7 @@ Before proceeding with the cancellation, please note:
 > To avoid being charged for the next billing cycle, submit your cancellation request at least 4 days before your renewal date.
 
 ## Steps to Cancel Your Service
-1. Log in to the [Falix Client Area](https://client.falixnodes.net/).
+1. Log in to the [Falix Billing Area](https://billing.falixnodes.net/).
 2. Navigate to **Services** in the top menu.
 3. Click on the service you want to cancel.
 4. In the left sidebar, click the **Request Cancellation** button.
@@ -47,4 +47,4 @@ Once you've submitted your cancellation request:
 > Make sure to download any important files or configurations before your service is cancelled. Once a service is cancelled, we cannot guarantee data recovery.
 
 ## Need Help?
-If you're experiencing issues with your service or have questions before cancelling, please contact our support team. We're here to help resolve any problems you might be facing.
+If you're experiencing issues with your service or have questions before cancelling, please contact our [support team](https://client.falixnodes.net/support/). We're here to help resolve any problems you might be facing.
