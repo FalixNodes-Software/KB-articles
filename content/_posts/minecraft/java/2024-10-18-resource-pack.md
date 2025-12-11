@@ -11,7 +11,6 @@ permalink: /minecraft/java/configuration/resource-pack
 author:
     - Kuroi
     - Mocab
-    - Cakey
 ---
 
 Adding a resource pack to your Minecraft server can greatly enrich the player experience and maintain server aesthetics by altering the game's textures, sounds and font without altering the game's code directly. Resource packs are client side modifications and are therefore sent to individual players from the server to be stored and run on their own device.
@@ -35,11 +34,59 @@ You can also use your own custom resource pack.
 
 > Ensure the resource pack is compatible with the version of Minecraft used and any plugins or mods installed. Incompatible packs may cause crashes or visual glitches.
 
+### Obtaining a Download Link
 
+To add a resource pack to your server, you must provide a **direct** download link to the resource pack as a `.zip` file. This could either be obtained directly from the website hosting the resource pack, or self-hosted on a cloud file sharing platform, such as:
+
+-   [Google Drive](https://www.google.com/drive/)
+-   [Dropbox](https://www.dropbox.com/)
+-   [OneDrive](https://onedrive.live.com/about/en-gb/)
 
 {: .warning }
 
 > Make sure the `assets` folder and other relevant files within the resource pack archive is in the root of the zip archive and not within a folder.
+
+{% tabs downloadLink %}
+{% tab downloadLink Directly From the Website %}
+
+This may be different according to the hosting platform used, however it often involves right clicking and grabbing the download link directly from the "Download" button provided. Do note that some hosting platforms shuffle download links every so often, and so this method may not always work.
+
+{% endtab %}
+{% tab downloadLink Google Drive %}
+
+1. Upload the resource pack to your Google Drive account, ensure it is in the `.zip` file format.
+
+2. Select it and click on "Share".
+
+3. Under "General access", set "Restricted" to "Anyone with the link".
+
+4. Once the permission has been updated, click on "Copy link".
+
+5. Examine the copied link carefully and look for a random string of characters between slashes (`/` `/`); this is your file ID and is unique to each file.
+
+6. Copy and paste your file ID at the end of the following URL:
+
+    ```
+    https://drive.google.com/uc?export=download&id=
+    ```
+
+7. This is a direct download link to your file, it should look like the following:
+
+    ```
+    https://drive.google.com/uc?export=download&id=xxxxxxxxxxxxxxxxxxxxx
+    ```
+
+{% endtab %}
+{% tab downloadLink Dropbox %}
+
+1. Upload the resource pack to your Dropbox account, ensure it is in the `.zip` file format.
+
+2. Select it and click on "Copy link".
+
+3. To obtain a direct download link, add the end of the link replace `dl=0` with `dl=1`.
+
+{% endtab %}
+{% endtabs %}
 
 ## Configuration
 
@@ -49,34 +96,17 @@ You can also use your own custom resource pack.
 
 2. Within your server list, choose a server.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Minecraft" category and navigate to [Config](https://client.falixnodes.net/server/properties).
+3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Minecraft" category and navigate to [Server Properties](https://client.falixnodes.net/server/properties).
 
-4. Scroll to the Resource Packs section
-   
-You will see the following options:
-- **Require Resource Pack** – force players to use the pack  
-- **Resource Pack URL** – direct URL to the pack (auto-filled on upload)  
-- **Upload Pack** – upload a `.zip` file  
-- **Resource Pack ID** – unique identifier for advanced setups  
-- **Resource Pack Prompt** – message shown to players  
-- **Resource Pack SHA1** – integrity checksum
+4. Find and set `resource-pack` to the direct download link we obtained before.
 
----
-### Uploading a Resource Pack
-FalixNodes now supports **direct ZIP uploading**, making the process simpler and eliminating the need for external hosting.
+5. To save your changes, click on "**Submit**{: .blue }" at the top of the list.
 
-To upload a pack:
+6. (Re)start your server.
 
-1. Click **Upload Pack**.
-2. Select your resource pack as a **`.zip`** file.
-3. After uploading, the **Resource Pack URL** field will automatically populate.
+{: .success}
 
-Your archive must:
-- Be in `.zip` format  
-- Contain the `assets/` folder in the **root**, not inside another directory
-
-Once uploaded, the pack can be delivered to players immediately.
-
+> If you have successfully added the resource pack, you should be prompted with a "Download Resource Pack?" popup the next time you join the server.
 
 ### Enforcing the Resource Pack
 
@@ -84,21 +114,11 @@ By default, players will be prompted if they wish to download and install the re
 
 1. Open and navigate back to the [Server Properties](https://client.falixnodes.net/server/properties) page.
 
-2. Save your configuration if prompted.
+2. Find and set `require-resource-pack` to `Enabled`.
+
+3. To save your changes, click on "**Submit**{: .blue }" at the top of the list.
 
 4. (Re)start your server.
-
-When enabled, any player who does not accept resource packs in their Minecraft client settings will be **unable to join**.
-
-## Adding a Custom Download Prompt Message
-
-The **Resource Pack Prompt** field allows you to customize the message shown when players are asked to download the pack.
-
-Example:
-
-> Please download our official resource pack for the best gameplay experience.
-
-This is optional but useful for branding, instructions, or server-specific themes.
 
 ### Verifying the Resource Pack Integrity
 
@@ -114,9 +134,9 @@ The SHA1 hash can be generated by any SHA1 generator of your preference. In this
 
 4. Open and navigate back to [Server Properties](https://client.falixnodes.net/server/properties) page.
 
-5. Paste the generated string into the `Resource Pack SHA1` field.
+5. Find and set `resource-pack-sha1` to your SHA1 checksum.
 
-6. Save your changes.
+6. To save your changes, click on "**Submit**{: .blue }" at the top of the list.
 
 7. (Re)start your server.
 
