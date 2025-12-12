@@ -72,8 +72,6 @@ Your archive must:
 
 Once uploaded, the pack can be delivered to players immediately.
 
----
-
 {: .success}
 
 > If you have successfully added the resource pack, you should be prompted with a "Download Resource Pack?" popup the next time you join the server.
