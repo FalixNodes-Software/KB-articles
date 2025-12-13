@@ -14,6 +14,9 @@ keywords:
 author: Lily
 ---
 
+{: .warning}
+> It's not possible to change your resources on the free plan.
+
 ## Introduction
 After purchasing additional resources for your server, you'll need to allocate them through your server settings. This guide will show you how to change your server's CPU, memory, and disk allocation.
 

@@ -9,6 +9,9 @@ permalink: /minecraft/java/general/custom-software
 author: Mocab
 ---
 
+{: .warning}
+> Uploading your own software is only possible on a Premium plan.
+
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/java/general/server-software) to better understand the terms used below.
 
 Often a user will want to use a specific version or software, either because of a modpack requirement or for specific features. Fortunately, this can be easily done with a custom jar. Custom jars come in two forms: a standalone `.jar` file, or a `.jar` file, a library folder and sometimes other files.

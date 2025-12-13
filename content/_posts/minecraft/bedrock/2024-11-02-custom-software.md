@@ -13,6 +13,9 @@ author:
     - Mocab
 ---
 
+{: .warning}
+> Uploading your own software is only possible on a Premium plan.
+
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/bedrock/general/server-software) to better understand the terms used below.
 
 Users may often want to use other software not officially provided by Falix, either for their unique features, plugin support or cross-play capabilities. Fortunately this can be done by adding it as a custom core, as will further be explained in this article.
