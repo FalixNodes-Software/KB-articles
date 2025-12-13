@@ -10,7 +10,6 @@ author:
        - Mocab
        - Cakey
        - Deka
-toc: false
 ---
 
 Using the correct server software and version is essential for stability and compatibility. Falix makes this process simple by providing a server version installer directly in the dashboard, which automatically handles Java requirements and removes the need for manual configuration in most cases.
@@ -35,13 +34,15 @@ If you are switching Minecraft versions or changing server software, follow the 
 
 After clicking **Server Version**, a list of available server software types will appear. Some of the most popular ones are:
 
-- **Purpur / Paper** – Best for plugin-based servers with improved performance and configuration options.
+- **Paper** - Stable and widely used, best for plugin-based servers with optimization and additional configuration options.
 
-- **Fabric** – Lightweight mod loader, commonly used for performance or client-side mods.
+- **Purpur** - A fork of Paper with extended optimization and configuration options.
 
-- **Forge** – Required for many large modpacks and heavily modded servers.
+- **Fabric** - Lightweight mod loader.
 
-- **Vanilla** – Official Minecraft server software with no optimizations or additional configuration options.
+- **Forge** - Mod loader commonly used for large modpacks and heavily modded servers.
+
+- **Vanilla** - Official Minecraft server software with no optimizations or additional configuration options.
 
 Select your preferred software type and click **Next**.
 
