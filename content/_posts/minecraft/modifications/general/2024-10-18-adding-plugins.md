@@ -52,8 +52,9 @@ Plugins are often hosted on modding platforms, these are websites that contain a
 7. (Re)start your server to apply the plugin.
 
 ### Manually Installing Plugins:
+
 {: .warning}
-> Uploading your own plugins is only possible on a Premium plan.
+> Uploading custom plugins is possible only on Premium plans.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 

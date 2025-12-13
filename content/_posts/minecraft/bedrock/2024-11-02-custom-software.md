@@ -14,7 +14,7 @@ author:
 ---
 
 {: .warning}
-> Uploading your own software is only possible on a Premium plan.
+> Uploading custom software is possible only on Premium plans.
 
 Before proceeding with this guide, we recommend reading our [server software guide](/minecraft/bedrock/general/server-software) to better understand the terms used below.
 

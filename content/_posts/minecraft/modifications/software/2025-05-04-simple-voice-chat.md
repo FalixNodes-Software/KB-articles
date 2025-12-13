@@ -73,7 +73,7 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 5. Look for the `port=` setting and set it to your server's extra port or set it to the main port of your server if it is not possible to create extra ports. This will be the port your voice chat will be hosted on.
 
     {: .warning}
-    > If you are on a free plan then you can use your servers default port. please be aware that this is not possible while running geyser or other plugins that require a UDP port.
+    > If you are a Free plan user, you may use your server's main port. If your server has plugins that occupy the UDP port (e.g Geyser), this setting will conflict with the other plugin.
 
     > If you require assistance creating or finding your extra ports, refer to our [extra ports](/falix/dashboard/server/extra-port) guide.
 

@@ -50,8 +50,9 @@ Mods are often hosted on modding platforms, these are websites that contain a la
 6. (Re)start your server to apply the mod.
 
 ### Manually Installing Mods:
+
 {: .warning}
-> Manually installing mods is only possible on a Premium plan.
+> Manual installation is possible only on Premium plans.
 
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 

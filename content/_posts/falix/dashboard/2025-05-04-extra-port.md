@@ -12,7 +12,7 @@ author:
 ---
 
 {: .warning}
-> Additional ports are only available with a Premium plan.
+> Extra ports are available only on Premium plans.
 
 ## What Is a Port?
 
