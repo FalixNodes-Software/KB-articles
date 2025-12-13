@@ -70,6 +70,8 @@ Modpacks are often hosted on modding platforms; these are websites that contain 
 
 {% endtab %}
 {% tab Install Manual Install %}
+{: .warning}
+> Uploading your own modpacks is only possible on a Premium plan.
 
 The steps below are for general modpack installs; in some cases, modpacks may require further setup or tweaks. As such, we recommend reading through the instructions provided by the modpack creators in addition to these steps:
 
