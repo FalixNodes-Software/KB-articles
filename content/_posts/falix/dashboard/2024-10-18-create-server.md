@@ -16,7 +16,7 @@ post_order: 1
 ---
 
 
-This guide walks you through the updated process of creating a server on FalixNodes using the latest dashboard.
+This guide walks you through the updated process of creating a server on FalixNodes.
 
 ## Creating the Server
 
@@ -38,7 +38,7 @@ On this page, fill in the following details:
 
 - **Server Name**  
 
-    - `A name used to identify your server in the dashboard. This is only visible to you and can be changed later.`
+    - `A name used to identify your server in the dashboard. This is visible only to you by default, but it may appear publicly if enabled. The server name can be changed at any time.`
 
 - **Server Domain**  
 
@@ -61,6 +61,11 @@ Once completed, click **Continue**.
 2. Review the information carefully.
 
 3. Accept the **[Minecraft End User License Agreement (EULA)](https://www.minecraft.net/en-us/eula).**
+
+{: .note }
+
+> The EULA is only required for Minecraft-based servers.  
+> It is not mandatory for all game or application types
 
 4. Click on "**Create**{: .green }" to create your server.
 
