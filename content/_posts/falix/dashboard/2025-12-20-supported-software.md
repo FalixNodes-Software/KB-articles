@@ -28,7 +28,7 @@ Falix supports a wide range of games and applications. This article provides a c
 
 - **Vanilla**
 - **Vanilla Snapshots**
-- **Geyser (Purpur w/ Geyser & Floodgate preinstalled)
+- **Geyser (Purpur w/ Geyser & Floodgate preinstalled)**
 - **Purpur**
 - **Paper (PaperSpigot)**
 - **Spigot**
