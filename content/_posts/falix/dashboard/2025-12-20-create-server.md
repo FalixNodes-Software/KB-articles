@@ -41,7 +41,7 @@ Once completed, click **Continue**.
 
 1. Choose the game you want to run.
     - Free users can only select **Minecraft**.
-    - Premium users may also select other applications from the **Applications** tab, such as **Node.js** or **Python**.
+    - Premium users may also select other games and applications. You can see a full list of available software [here](/falix/dashboard/server/supported-software).
 
 2. Continue to the next page.
 
