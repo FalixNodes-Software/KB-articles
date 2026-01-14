@@ -16,7 +16,7 @@ author: TWIXhunter
 Hytale mods are user-created modifications or additions to the game that alter or enhance the gameplay experience. Mods can range from simple tweaks to the game's mechanics to extensive overhauls that add new features, items, entities, and much more.
 
 {: .warning }
-> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/minecraft-server-hosting) and requires the official Hytale Game to be purchased.
+> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/hytale-server-hosting) and requires the official Hytale Game to be purchased.
 
 
 ## Finding Mods
@@ -72,7 +72,7 @@ Hytale mods can be downloaded from [CurseForge](https://www.curseforge.com/hytal
 
 ## Configuring Mods
 
-Many mods include the option to configure and adjust the mod to fit your needs, either by adjusting the echanics or by enabling or disabling certain features. These options can be found within configuration files.
+Many mods include the option to configure and adjust the mod to fit your needs, either by adjusting the Mechanics or by enabling or disabling certain features. These options can be found within configuration files.
 
 {: .warning}
 > You have to restart the server after adding the mods to generate the config files.

@@ -7,7 +7,7 @@ category: hytale
 tags:
     - General
 description: "Dive into the world of Hytale and learn all there is."
-icon: "content/assets/images/categories/hytale-logo.png
+icon: "content/assets/images/categories/hytale-logo.png"
 color: "#52a535"
 cat_order: 1
 ---

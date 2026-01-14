@@ -13,7 +13,7 @@ post_order: 2
 ---
 
 {: .warning }
-> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/minecraft-server-hosting) and requires the official Hytale Game to be purchased.
+> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/hytale-server-hosting) and requires the official Hytale Game to be purchased.
 
 ## Starting Your Server
 
