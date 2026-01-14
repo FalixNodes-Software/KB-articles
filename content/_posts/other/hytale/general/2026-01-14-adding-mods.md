@@ -16,7 +16,7 @@ author: TWIXhunter
 Hytale mods are user-created modifications or additions to the game that alter or enhance the gameplay experience. Mods can range from simple tweaks to the game's mechanics to extensive overhauls that add new features, items, entities, and much more.
 
 {: .warning }
-> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/minecraft-server-hosting).
+> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/minecraft-server-hosting) and requires the official Hytale Game to be purchased.
 
 
 ## Finding Mods
