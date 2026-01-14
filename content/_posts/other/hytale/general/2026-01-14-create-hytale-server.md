@@ -34,15 +34,15 @@ Before you begin, make sure you have an active Hytale account that has purchased
 
 3. Choose the **Premium** plan and click **Continue**.
 
-4. Enter a name and domain for your server and click **Continue**
+4. Enter a name and domain for your server, and click **Continue**.
 
-4. Select "Hytale" and click **Continue**.
+5. Select "Hytale" and click **Continue**.
 
-5. Enter the amount of resources you want to allocate to the server.
+6. Enter the amount of resources you want to allocate to the server.
 
-6. Scroll down, Select the location closest to you and click **Continue**.
+7. Scroll down, select the location closest to you and click **Continue**.
 
-7. review if everything is correct and press **Create My server**.
+8. Review if everything is correct and press **Create My Server**.
 
 ## Starting Your Server
 
@@ -54,9 +54,9 @@ Before you begin, make sure you have an active Hytale account that has purchased
 
 4. Wait until it shows a "Hytale Account Login" popup and then press **Log in**.
 
-5. Click **APPROVE** and sign in using your preffered method if needed.
+5. Click **APPROVE** and sign in using your preferred method if needed.
 
-6. Wait for the server to start up and Join the server like explained [here].
+6. Wait for the server to start up and join the server like explained [here](/other/hytale/general/join-server).
 
 7. Open the console again and click the **Link account** option (if needed).
 
