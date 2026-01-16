@@ -18,7 +18,7 @@ post_order: 1
 Welcome to the world of Hytale! This guide will walk you through creating your very own Hytale server on Falix, allowing you to build, explore, and adventure with friends in this blocky universe.
 
 {: .warning }
-> Hytale server hosting is only available on our [Premium plans](https://falixnodes.net/hytale-server-hosting) and requires the official Hytale Game to be purchased.
+> Hytale server hosting requires the official Hytale Game to be purchased.
 
 
 ## Creating Your Hytale Server
