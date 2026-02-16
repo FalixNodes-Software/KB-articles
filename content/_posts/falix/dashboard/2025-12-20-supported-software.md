@@ -13,10 +13,10 @@ author:
     - Deka
 ---
 
-Falix supports a wide range of games and applications. This article provides a complete overview of the software currently available to run on Falix servers.
+Falix supports a wide range of games and applications. This article provides a complete overview of the softwares currently available to run on Falix servers.
 
 {: .warning }
-> The only software available for the Free plan is **Minecraft**. In order to install other software, upgrade to Premium.
+> The only software(s) available for the Free plan is **Minecraft and Hytale**. In order to install other software(s), upgrade to Premium plan.
 
 ## Minecraft
 
@@ -45,8 +45,6 @@ Falix supports a wide range of games and applications. This article provides a c
 - **Velocity**
 - **Waterfall**
 
-Premium users may also upload their own server JAR file.
-
 ### Bedrock Edition Software
 
 - **Vanilla (Bedrock)**
@@ -54,6 +52,13 @@ Premium users may also upload their own server JAR file.
 - **PocketMine**
 - **Nukkit**
 - **CloudBurst**
+
+## Hytale
+
+Falix supports Hytale servers with official, modded, and custom setup options, so you can easily create and run your own adventure worlds.
+
+- **Custom Server Setup**
+- **Modded Server Setup**
 
 ## Terraria
 
