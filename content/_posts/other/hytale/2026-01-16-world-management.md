@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Managing Your Hytale Server World
-category: Hytale
 tags: General
 permalink: /other/hytale/general/world-management
 description: Learn how to upload, download, and manage your Hytale server world files, including singleplayer worlds.

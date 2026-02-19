@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How To Join Your Hytale Server
-category: Hytale
 tags: General
 permalink: /other/hytale/general/join-server
 description: Learn how to connect and play on your Hytale server with your friends.

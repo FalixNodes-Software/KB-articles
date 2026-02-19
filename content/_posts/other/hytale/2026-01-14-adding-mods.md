@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How To Add Mods to Your Hytale Server
-category: Hytale
 tags: General
 permalink: /other/hytale/general/adding-mods
 description: A step-by-step guide to upload and install mods on your Hytale server.
