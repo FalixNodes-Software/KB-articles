@@ -2,8 +2,8 @@
 layout: post
 title: "My Payment Failed"
 category: Account
-tags: General
-permalink: falix/account/general/payment-failed
+tags: Billing
+permalink: falix/account/billing/payment-failed
 description: "What happens when a payment fails and how to resolve it."
 keywords:
     - keyword: payment
@@ -14,6 +14,8 @@ keywords:
       matches: ["suspended", "offline", "stopped"]
     - keyword: card
       matches: ["declined", "expired", "invalid"]
+    - keyword: renew
+      matches: ["subscription", "servers", "reactivate"]
 author: Lily
 ---
 
@@ -49,7 +51,10 @@ If the payment is still not resolved after suspension, your subscription will be
 
 ## How to Fix a Failed Payment
 
-### Retry Your Payment
+{% tabs fix %}
+
+{% tab fix Retry Payment %}
+
 If your subscription is **Past Due** or **Suspended**, you can retry the payment immediately:
 
 1. Go to the [Billing Dashboard](https://client.falixnodes.net/billing/).
@@ -57,9 +62,13 @@ If your subscription is **Past Due** or **Suspended**, you can retry the payment
 3. The system will attempt to charge your current payment method.
 4. If successful, your subscription returns to **Active** and any suspended servers will be brought back online automatically.
 
-There is a 5-minute cooldown between retry attempts.
+{: .info}
+> There is a 5-minute cooldown between retry attempts.
 
-### Update Your Payment Method
+{% endtab %}
+
+{% tab fix Update Payment Method %}
+
 If your card has expired or been declined, update it before retrying:
 
 1. Go to the [Billing Dashboard](https://client.falixnodes.net/billing/).
@@ -68,7 +77,10 @@ If your card has expired or been declined, update it before retrying:
 4. Follow the prompts to add or update your card details.
 5. Once updated, click **Retry Payment** to process the charge with your new payment method.
 
-### Renew After Cancellation
+{% endtab %}
+
+{% tab fix Renew After Cancellation %}
+
 If your subscription has been cancelled due to non-payment, you can still reactivate your servers:
 
 1. Go to the [Billing Dashboard](https://client.falixnodes.net/billing/).
@@ -80,6 +92,10 @@ If your subscription has been cancelled due to non-payment, you can still reacti
 
 {: .warning}
 > Renewal is only possible while your server data still exists. If your servers have been permanently deleted, they cannot be recovered.
+
+{% endtab %}
+
+{% endtabs %}
 
 ## Common Failure Reasons
 
@@ -93,5 +109,5 @@ If your subscription has been cancelled due to non-payment, you can still reacti
 ## Account Credits
 If you have account credits (from downgrades or prorated refunds), they will be applied automatically when retrying or renewing. If your credits cover the full amount, no charge will be made to your payment method.
 
-## Need Help?
-If you've tried the steps above and are still unable to resolve the payment issue, please contact our [support team](https://client.falixnodes.net/support/).
+## Still Not Working?
+Payment failures are handled between you and your bank or payment provider. If retrying and updating your payment method doesn't work, contact your bank to check for holds or blocks on the transaction, or try a different payment method entirely.
