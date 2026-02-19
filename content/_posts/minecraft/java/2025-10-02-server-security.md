@@ -41,7 +41,7 @@ If you have cracked players (players who did not buy a legitimate copy of the ga
 
 4. Scroll down to find the "Cracked" property (it should be under the "Security Settings" section).
 
-5. Enable the toggle.
+5. Disable the toggle.
 
 > If it is already enabled then you don't have to do anything, great work!
 
@@ -195,4 +195,5 @@ Taking regular backups (for example weekly, twice-a-week or even daily) allows y
 16. Select a 30 seconds Execution delay to make sure that the save-all command finishes in time..
 
 17. Click the "Create Task" button.
+
 
