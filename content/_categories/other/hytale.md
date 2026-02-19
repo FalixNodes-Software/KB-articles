@@ -2,7 +2,7 @@
 layout: category
 title: "Hytale"
 permalink: other/hytale/
-section: other
+section: Other
 category: Hytale
 tags:
     - General
