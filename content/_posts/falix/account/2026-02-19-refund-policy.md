@@ -2,8 +2,8 @@
 layout: post
 title: "Refund Policy & How To Request a Refund"
 category: Account
-tags: General
-permalink: falix/account/general/refund-policy
+tags: Billing
+permalink: falix/account/billing/refund-policy
 description: "Learn about our 14-day money-back guarantee and how to request a refund."
 keywords:
     - keyword: refund
