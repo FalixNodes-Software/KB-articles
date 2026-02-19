@@ -10,8 +10,6 @@ keywords:
       matches: ["service", "subscription", "plan", "server"]
     - keyword: cancellation
       matches: ["request", "form", "undo", "reactivate"]
-    - keyword: refund
-      matches: ["money back", "14 day", "guarantee"]
 author: Lily
 ---
 ## Introduction
