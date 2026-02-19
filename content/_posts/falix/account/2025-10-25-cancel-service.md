@@ -56,16 +56,6 @@ Changed your mind? You can reverse a cancellation before the billing period ends
 {: .info}
 > You can cancel and undo as many times as you like before the billing period ends.
 
-### 14-Day Money-Back Guarantee
-If you are within 14 days of your first purchase, you may be eligible for a full refund instead of a standard cancellation:
-1. Go to the [Billing Dashboard](https://client.falixnodes.net/billing/).
-2. Open your most recent invoice.
-3. If eligible, you will see a **Request Refund** option.
-4. Requesting a refund will cancel all servers on your subscription immediately and process the refund to your original payment method.
-
-{: .warning}
-> Refunds are only available within 14 days of your first charge. After that window, you can still cancel but no refund will be issued.
-
 {% endtab %}
 
 {% tab cancel Legacy (WHMCS) %}
