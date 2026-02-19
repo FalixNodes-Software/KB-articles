@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Managing Your Hytale Server World
 tags: General
 permalink: /other/hytale/general/world-management

@@ -3,7 +3,7 @@ layout: category
 title: "Hytale"
 permalink: other/hytale/
 section: other
-category: hytale
+category: Hytale
 tags:
     - General
 description: "Dive into the world of Hytale and learn all there is."
