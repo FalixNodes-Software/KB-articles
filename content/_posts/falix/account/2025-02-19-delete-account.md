@@ -27,6 +27,7 @@ The following data will be permanently deleted:
 - Your user account
 - All servers and their files
 - All databases associated with your servers
+- All backups associated with your servers
 
 {: .info}
 > If you have an active billing subscription, make sure to cancel it before deleting your account to avoid any further charges.
@@ -64,3 +65,6 @@ Once the 14-day cooldown expires and your account is deleted:
 - You will no longer be able to log in
 - All servers are removed and their files are permanently deleted
 - Your account cannot be recovered — you would need to create a new one
+
+{: .info}
+> Certain data may be retained after your account is deleted. Billing records, invoices, and transaction history are kept as required by law for tax and accounting purposes. Security logs may also be retained for fraud prevention and abuse protection.
