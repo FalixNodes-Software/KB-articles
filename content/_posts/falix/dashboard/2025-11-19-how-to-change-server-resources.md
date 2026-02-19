@@ -8,7 +8,9 @@ keywords:
     - keyword: resources
       matches: ["change", "allocate", "upgrade", "adjust"]
     - keyword: server
-      matches: ["upgrade", "downgrade"]
+      matches: ["cpu", "memory", "ram", "disk", "storage"]
+    - keyword: settings
+      matches: ["configuration", "allocation"]
     - keyword: plan
       matches: ["upgrade", "downgrade", "change", "switch"]
 author: Lily
@@ -17,38 +19,39 @@ author: Lily
 ## Introduction
 This guide covers how to change your server's resources. The process differs depending on whether your server is on the **new billing system** or a **legacy premium plan**.
 
-## Before You Start
-- Changing resources requires a server restart to take effect
-- Your server may experience brief downtime during the restart
+{: .info}
+> Changing resources requires a server restart to take effect. Your server may experience brief downtime during the restart.
 
----
+## Changing Resources
 
-## New Billing System
+{% tabs resources %}
+
+{% tab resources New Billing %}
 
 If you purchased your server through the [Billing Dashboard](https://client.falixnodes.net/billing/), follow these steps.
 
-### Steps to Change Resources
-
+### Steps
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 2. Navigate to your server and go to **Server Settings** -> **Settings**.
 3. Click the **Change Plan** button.
 4. A modal will appear with two ways to select your new resources:
 
-#### Preset Plans
-Choose from one of the available preset plans:
-- **Starter** — 4 GB RAM, 2 CPU cores
-- **Friends** — 6 GB RAM, 3 CPU cores
-- **Community** — 8 GB RAM, 4 CPU cores
-- **Network** — 12 GB RAM, 5 CPU cores
+### Preset Plans
 
-#### Custom Configuration
+| Plan | RAM | CPU |
+|------|-----|-----|
+| Starter | 4 GB | 2 cores |
+| Friends | 6 GB | 3 cores |
+| Community | 8 GB | 4 cores |
+| Network | 12 GB | 5 cores |
+
+### Custom Configuration
 Use the sliders to set your own values:
 - **RAM**: 512 MB to 32 GB (in 512 MB increments)
 - **CPU**: 1 to 8 cores
 
 ### Pricing
-
-The modal will show a real-time pricing breakdown as you adjust resources, including:
+The modal shows a real-time pricing breakdown as you adjust resources, including:
 - Your current plan cost
 - The new plan cost
 - Pro-rata charges or credits for the remaining billing period
@@ -61,32 +64,23 @@ The modal will show a real-time pricing breakdown as you adjust resources, inclu
 5. Click **Pay & Apply Upgrade** (for upgrades) or **Apply Downgrade** (for downgrades).
 6. Restart your server for the changes to take effect.
 
----
+{% endtab %}
 
-## Legacy Premium Plans
+{% tab resources Legacy Premium %}
 
-> This section is for Premium customers who are managing servers purchased through the legacy billing system.
+> This section is for Premium customers managing servers purchased through the legacy billing system.
 
-### Steps to Change Resources
-
+### Steps
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
 2. Navigate to your server and go to **Server Settings** -> **Settings**.
 3. Click the **Change Resources** button.
 4. A modal will appear with the following fields:
 
-#### CPU Allocation
-- Enter the desired CPU allocation
-- 1 = 100% of one CPU core
-- Minimum value: 0.25 (25% of one core)
-
-#### Memory Allocation
-- Enter the desired memory in megabytes (MB)
-- Minimum value: 128 MB
-- Example: For 2 GB of RAM, enter 2048
-
-#### Disk Allocation
-- Premium plans include unmetered disk space
-- If you have an unmetered storage plan, this field will show "Unmetered Storage"
+| Resource | Details |
+|----------|---------|
+| CPU | Enter desired allocation. 1 = 100% of one core. Minimum: 0.25 |
+| Memory | Enter desired memory in MB. Minimum: 128 MB. Example: 2048 for 2 GB |
+| Disk | Premium plans include unmetered disk space |
 
 5. Click **Save Changes**.
 6. Restart your server for the changes to take effect.
@@ -94,23 +88,20 @@ The modal will show a real-time pricing breakdown as you adjust resources, inclu
 {: .warning}
 > Resource changes are limited by your plan. You cannot allocate more CPU or RAM than your plan allows.
 
----
+{% endtab %}
 
-## After Changing Resources
+{% endtabs %}
 
-- Your server needs to restart for changes to apply
-- The new resource allocation will be reflected in your server dashboard
-- Monitor your server to ensure it's running properly with the new configuration
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Server won't start | Verify you've allocated sufficient CPU and memory for your server software |
+| Resources not showing | Try refreshing the page or logging out and back in |
+| Changes not applied | Ensure you restarted your server after making changes |
 
 {: .warning}
 > If your server fails to start after changing resources, make sure you've allocated enough CPU and memory for your server software to run properly.
 
-## Troubleshooting
-
-- **Server won't start**: Verify you've allocated sufficient CPU and memory
-- **Resources not showing**: Try refreshing the page or logging out and back in
-- **Changes not applied**: Ensure you restarted your server after making changes
-
 ## Need Help?
-
-If you're having trouble changing your server resources or need assistance determining the right allocation for your needs, please contact our [support team](https://client.falixnodes.net/support/).
+If you're having trouble changing your server resources, please contact our [support team](https://client.falixnodes.net/support/).
