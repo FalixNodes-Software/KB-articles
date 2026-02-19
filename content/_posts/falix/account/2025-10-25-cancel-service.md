@@ -2,8 +2,8 @@
 layout: post
 title: "How To Cancel a Service"
 category: Account
-tags: General
-permalink: falix/account/general/cancel-service
+tags: Billing
+permalink: falix/account/billing/cancel-service
 description: "Learn how to cancel your Falix service through our billing systems."
 keywords:
     - keyword: cancel
