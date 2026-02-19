@@ -12,24 +12,23 @@ keywords:
       matches: ["request", "form", "undo", "reactivate"]
 author: Lily
 ---
-## Introduction
-If you need to cancel your Falix service, you can do so through either of our billing systems depending on where your subscription was created. This guide covers both the **new billing system** (integrated into the client area) and the **legacy billing system** (WHMCS).
 
-## Before You Cancel
-Before proceeding with the cancellation, please note:
-- Make sure to backup any important data before cancelling
-- Once cancelled, your data may not be recoverable
+## Introduction
+If you need to cancel your Falix service, you can do so through either of our billing systems depending on where your subscription was created.
 
 {: .warning}
-> To avoid being charged for the next billing cycle, submit your cancellation request before your renewal date.
+> Make sure to backup any important data before cancelling. Once cancelled, your data may not be recoverable.
 
----
+## Cancelling Your Service
 
-## New Billing System (Client Area)
+{% tabs cancel %}
+
+{% tab cancel New Billing %}
+
 If you purchased your service through the client area at [client.falixnodes.net/billing](https://client.falixnodes.net/billing/), follow these steps.
 
 ### How Cancellation Works
-Cancellations in the new billing system are **deferred** — your server stays active until the end of your current billing period. You will not be charged again, but you keep access until the period ends. You can also **undo a cancellation** at any time before the period ends.
+Cancellations are **deferred** — your server stays active until the end of your current billing period. You will not be charged again, but you keep access until the period ends.
 
 ### Steps to Cancel a Server
 1. Log in to the [Falix Client Area](https://client.falixnodes.net/).
@@ -54,9 +53,23 @@ Changed your mind? You can reverse a cancellation before the billing period ends
 3. Click the **Undo Cancellation** button.
 4. Your server will return to **Active** status and billing will resume as normal.
 
----
+{: .info}
+> You can cancel and undo as many times as you like before the billing period ends.
 
-## Legacy Billing System (WHMCS)
+### 14-Day Money-Back Guarantee
+If you are within 14 days of your first purchase, you may be eligible for a full refund instead of a standard cancellation:
+1. Go to the [Billing Dashboard](https://client.falixnodes.net/billing/).
+2. Open your most recent invoice.
+3. If eligible, you will see a **Request Refund** option.
+4. Requesting a refund will cancel all servers on your subscription immediately and process the refund to your original payment method.
+
+{: .warning}
+> Refunds are only available within 14 days of your first charge. After that window, you can still cancel but no refund will be issued.
+
+{% endtab %}
+
+{% tab cancel Legacy (WHMCS) %}
+
 If you purchased your service through the legacy billing area at [billing.falixnodes.net](https://billing.falixnodes.net/), follow these steps.
 
 ### Steps to Cancel Your Service
@@ -71,17 +84,22 @@ If you purchased your service through the legacy billing area at [billing.falixn
 7. (Optional) Provide additional feedback in the text box.
 8. Click **Request Cancellation** to submit your request.
 
+{: .warning}
+> To avoid being charged for the next billing cycle, submit your cancellation request at least 4 days before your renewal date.
+
 ### After Submitting
 - Your cancellation will be processed instantly
 - You will receive a confirmation email
 - If you selected **Immediate**, your service will be terminated right away
 - If you selected **End of Billing Period**, your service will remain active until the current billing cycle ends
 
----
+{% endtab %}
+
+{% endtabs %}
 
 ## Which Billing System Am I On?
 - If you purchased your service recently through the client area checkout, you are on the **new billing system**. Visit [client.falixnodes.net/billing](https://client.falixnodes.net/billing/) to manage it.
 - If you purchased through billing.falixnodes.net or have an older subscription, you are on the **legacy billing system**. Visit [billing.falixnodes.net](https://billing.falixnodes.net/) to manage it.
 
 ## Need Help?
-If you're experiencing issues with your service or have questions before cancelling, please contact our [support team](https://client.falixnodes.net/support/). We're here to help resolve any problems you might be facing.
+If you're experiencing issues with your service or have questions before cancelling, please contact our [support team](https://client.falixnodes.net/support/).
