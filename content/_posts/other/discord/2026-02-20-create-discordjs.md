@@ -38,7 +38,7 @@ For more information about discord.js or JavaScript, please refer to the officia
 
 1. In the navigation menu, open the "Server Settings" category and navigate to [Settings](https://client.falixnodes.net/server/settings).
 
-2. Go to the "Startup" tab and select the correct NodeJS version in the "Docker Image" Dropdown.
+2. Go to the "Startup" tab and select the correct Node.js version in the "Docker Image" dropdown.
 
 2. Go to the "Environment" tab and find the "Additional Node packages" variable.
 
