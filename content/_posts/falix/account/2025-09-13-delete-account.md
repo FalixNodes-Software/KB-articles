@@ -14,12 +14,10 @@ toc: false
 
 1. Log in to the [dashboard](https://client.falixnodes.net).
 
-2. Navigate to the [Profile Settings page](https://client.falixnodes.net/profile/settings).
+2. Open the "Account" category in the navbar and navigate to [the Settings page](https://client.falixnodes.net/profile/settings).
 
-3. Find the "Delete This Account" option.
+3. Scroll down to the "Delete Account" option.
 
-4. Click the "Delete" Button.
+4. Enter "YES" to confirm and enter your 2FA code if necessary.
 
-5. Enter the 2FA code if necessarily.
-
-6. Enter "YES" and click "Confirm".
+5. Click the "Delete Account" Button at the bottom of the modal.
