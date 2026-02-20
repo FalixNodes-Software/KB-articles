@@ -31,6 +31,6 @@ author: TWIXhunter
 
 2. Go to the "Environment" tab and find the "Uninstall Node packages" variable.
 
-3. Enter the packages you want to remove, Use a space to separate between packages.
+3. Enter the packages you want to remove, use a space to separate between packages.
 
 4. Navigate back to [the console page](https://client.falixnodes.net/server/console) and (re)start the server.
