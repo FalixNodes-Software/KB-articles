@@ -28,7 +28,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 2. Choose a server within your server list.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Server Settings" category and navigate to the [Domains](https://client.falixnodes.net/server/subdomains) page. 
+3. In the navigation menu, open the "Server Settings" category and navigate to the [Network](https://client.falixnodes.net/server/subdomains) page. 
 
 4. Click the "+ New domain" button.
 
@@ -60,7 +60,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 7. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). leave this empty if you don't want any subdomain.
 
-8. Enter the primary and secondary nameservers.
+8. Enter the primary and secondary nameservers provided in the Falix client panel.
 
 9. leave the TTL at automatic.
 
@@ -83,7 +83,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 6. Click "ADD NEW RECORD".
 
-7. Select NS Record from the dropdown.
+7. Select "NS Record" from the dropdown.
 
 8. Enter the subdomain you want to use (for example: "play" will redirect "play.example.com"). Enter "@" if you don't want any subdomain.
 
@@ -157,7 +157,7 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 15. Repeat the steps above for the secondary NameServer.
 
 {. :warn}
-> It might take SquareSpace up to 24 to 48 hours to update te changes globally.
+> It might take SquareSpace between 24 and 48 hours to update te changes globally.
 
 {% endtab %}
 
@@ -165,7 +165,12 @@ There are many domain registrars you can use to purchase a domain. Here are a fe
 
 9. Press "I have added the DNS records".
 
-10. Wait for the verification to complete and press "UNKNOWN BUTTON"
+10. Wait for the verification to complete, if it doesn't then please double check the domain records or wait until your domain provider publishes the new records (this depends on the provider and might take somewhere between 30 minutes and a few hours.)
+
+    {. :warn}
+    > make sure to not close or refresh the verification page while waiting for the records to be published.
+
+11. press **"‼️UNKNOWN BUTTON, I DON'T HAVE A DOMAIN SO I DON'T KNOW WHAT BUTTON IS HERE ‼️"**
 
 {. :success}
 > you should now be able to join your Minecraft server using the domain you provided.
