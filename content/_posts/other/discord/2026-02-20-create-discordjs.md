@@ -32,7 +32,7 @@ For more information about discord.js or JavaScript, please refer to the officia
 
 6. Complete the Billing steps (if needed) or press "Create My Server".
 
-7. Select the server to go open the console and wait for nodeJS to be installed.
+7. Select the server to go open the console and wait for Node.js to be installed.
 
 ## Setting up the Discord Bot
 
