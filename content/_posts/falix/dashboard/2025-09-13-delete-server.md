@@ -19,6 +19,6 @@ toc: false
 
 4. Click the "Delete" Button inside the "dangerzone" tab.
 
-5. Enter the 2FA code if necessarily.
+5. Type the name of your server (case sensitive) and enter your 2FA code if necessarily.
 
-6. Enter the name of your server and press "confirm".
+6. Click the "Delete server permanently" button at the bottom of the modal.
