@@ -31,14 +31,12 @@ Simple Voice Chat is a software that introduces proximity-based voice chat. It a
 {% tab softwareType <i class="type-software plugin"></i> Plugin %}
 
 -   Ensure your server is running with Spigot or any of its forks (Paper, Purpur, etc).
--   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
 -   Make sure players have the mod installed locally.
 
 {% endtab %}
 {% tab softwareType <i class="type-software mod"></i> Mod %}
 
 -   Ensure your server is running with either Fabric or Forge or any of their forks (Quilt & NeoForge respectively).
--   Your server must have at least one **unused** extra port or in other words, a forwarded port. If you wish to allocate an extra port, please follow our [extra ports](/falix/dashboard/server/extra-port) guide.
 -   Make sure players have the mod installed locally.
 
 {% endtab %}
@@ -72,7 +70,10 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 
 4. Find and open "voicechat-server.properties". This is the main configuration file where you will be able to customize any feature needed.
 
-5. Look for the `port=` setting and set it to your server's **unused** extra port. This will be the port your voice chat will be hosted on.
+5. Look for the `port=` setting and set it to your server's extra port or set it to the main port of your server if it is not possible to create extra ports. This will be the port your voice chat will be hosted on.
+
+    {: .warning}
+    > If you are a Free plan user, you may use your server's main port. If your server has plugins that occupy the UDP port (e.g Geyser), this setting will conflict with the other plugin.
 
     > If you require assistance creating or finding your extra ports, refer to our [extra ports](/falix/dashboard/server/extra-port) guide.
 
@@ -91,9 +92,10 @@ We already have a guide on how to install Simple Voice Chat as well as any other
 
 4. Find and open "voicechat-server.properties". This is the main configuration file where you will be able to customize any feature needed.
 
-5. Look for the `port=` setting and set it to your server's **unused** extra port. This will be the port your voice chat will be hosted on.
+5. Look for the `port=` setting and set it to your server's extra port or set it to the main port of your server if it is not possible to create extra ports. This will be the port your voice chat will be hosted on.
 
-    > If you require assistance creating or finding your extra ports, refer to our [extra ports](/falix/dashboard/server/extra-port) guide.
+    {: .warning}
+    > If you are on a free plan then you can use your servers default port. please be aware that this is not possible while running geyser or other plugins that require a UDP port.
 
 6. Click on "**Save File**{: .green }" to save your changes.
 
