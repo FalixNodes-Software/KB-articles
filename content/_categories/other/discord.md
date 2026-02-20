@@ -1,9 +1,9 @@
 ---
 layout: category
 title: "Discord"
-permalink: other/discord
-section: discord
-category: discord
+permalink: other/discord/
+section: Discord
+category: Discord
 tags:
     - General
 description: "Learn how to create and host a discord bot"

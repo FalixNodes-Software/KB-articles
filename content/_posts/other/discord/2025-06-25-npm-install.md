@@ -4,7 +4,7 @@ title: "How To install nodejs packages"
 category: discordjs
 tags: General
 permalink: other/discord/general/npm-install
-description: "Learn how to install Node.js packages on your server"
+description: "Learn how to install and remove Node.js packages on your server"
 keywords:
     - keyword: discord.js
       matches: ["create", "host"]
@@ -12,35 +12,25 @@ author: TWIXhunter
 ---
 
 
+### Installing packages
+1. Log in to the [Dashboard](https://client.falixnodes.net/) and choose a server within your server list.
 
-1. Navigate to the File Manager and open the `package.json` file. It should look like the following example:
+2. In the navigation menu, open the "Server Settings" category and navigate to [Settings](https://client.falixnodes.net/server/settings).
 
-```json
-{
-  "main": "bot.js",  // Set this to the main file of your bot (like bot.js, main.js or index.js)
-  "scripts": {
-    "start": "node bot.js"  // Set this to the main file of your bot (like bot.js, main.js or index.js)
-  },
-  "dependencies": {
-    "discord.js": "^14.14.1",
-    "ms": "^2.1.3"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
-}
-```
+2. Go to the "Environment" tab and find the "Additional Node packages" variable.
 
-2. Add the following entry inside the dependencies object:
+3. Enter the packages you want to install, Use a space to separate between packages.
 
-```json
-    "packagename": "^version.number.here"
-```
+4. Navigate back to [the console page](https://client.falixnodes.net/server/console) and (re)start the server.
 
-3. Ensure each entry (except the last one) ends with a `,` to maintain valid JSON syntax.
 
-4. Save the file and return to the console.
+### Removing packages
+1. Log in to the [Dashboard](https://client.falixnodes.net/) and choose a server within your server list.
 
-5. Start the server and select option `8` to install the Node.js packages.
+2. In the navigation menu, open the "Server Settings" category and navigate to [Settings](https://client.falixnodes.net/server/settings).
 
-6. Wait for the server to install or update all listed packages.
+2. Go to the "Environment" tab and find the "Uninstall Node packages" variable.
+
+3. Enter the packages you want to remove, Use a space to separate between packages.
+
+4. Navigate back to [the console page](https://client.falixnodes.net/server/console) and (re)start the server.
