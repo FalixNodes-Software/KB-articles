@@ -19,25 +19,25 @@ author: Lily
 ---
 
 ## Introduction
-Schedules let you automate server tasks like backups, restarts, and console commands. You can run them on a timer, trigger them from server events, or execute them manually.
+Ever forget to back up your world before a big update? Or wish your server would restart itself every night to stay fresh without you having to lift a finger? That's exactly what schedules are for. They let you automate the routine stuff -- backups, restarts, console commands, file cleanup -- so your server takes care of itself even while you're away. You can run tasks on a timer, fire them off when something happens on your server (like a crash or a player joining), or just trigger them manually whenever you need to.
 
 ## Setting Your Timezone
 
-Before creating schedules, set your timezone so all times display correctly:
+Before you create any schedules, take a moment to set your timezone so everything displays in times that actually make sense to you:
 
 1. Navigate to your server's **Schedules** page.
 2. Click the timezone dropdown in the top right.
 3. Search for and select your timezone.
 
 {: .info}
-> All schedule times are displayed in your selected timezone. The server stores everything in UTC internally.
+> All schedule times are displayed in your selected timezone. Behind the scenes, the server stores everything in UTC.
 
 ## Creating a Schedule
 
 1. Navigate to your server's **Schedules** page.
 2. Click **Create Schedule**.
-3. Enter a **name** for your schedule (e.g. "Daily Backup", "Hourly Restart").
-4. Select a **schedule type**.
+3. Give your schedule a descriptive **name** -- something like "Daily Backup" or "Hourly Restart" so you can tell at a glance what it does.
+4. Select a **schedule type** based on how often (or why) you want it to run.
 
 ### Schedule Types
 
@@ -71,7 +71,7 @@ Or set a custom time using the time picker.
 
 Runs on selected days of the week at a specific time.
 
-1. Select one or more weekdays (Sun–Sat).
+1. Select one or more weekdays (Sun--Sat).
 2. Set the time using the time picker.
 
 **Example cron:** `0 14 * * 1,3,5` (Mon, Wed, Fri at 2:00 PM)
@@ -82,7 +82,7 @@ Runs on selected days of the week at a specific time.
 
 Runs on a specific day of the month at a specific time.
 
-1. Select the day of the month (1st–31st).
+1. Select the day of the month (1st--31st).
 2. Set the time using the time picker.
 
 **Example cron:** `0 14 15 * *` (15th of every month at 2:00 PM)
@@ -95,7 +95,7 @@ Triggered by server events instead of (or in addition to) a timer.
 
 See the [Event Triggers](#event-triggers) section below for all available events.
 
-You can optionally enable **"Also run on a time schedule"** to combine event triggers with a time-based backup schedule (interval, daily, weekly, or monthly).
+You can optionally enable **"Also run on a time schedule"** to combine event triggers with a time-based schedule (interval, daily, weekly, or monthly). This is great when you want a backup to run both every night and whenever the server crashes.
 
 {% endtab %}
 
@@ -103,7 +103,7 @@ You can optionally enable **"Also run on a time schedule"** to combine event tri
 
 Only runs when you click the **Run Now** button or when triggered by a Git deployment.
 
-No timer or event configuration needed.
+No timer or event configuration needed -- this is perfect for tasks you only want to run on demand.
 
 {% endtab %}
 
@@ -111,16 +111,16 @@ No timer or event configuration needed.
 
 ### Additional Options
 
-- **Run When Offline** — allows the schedule to execute even when the server is stopped (premium only)
-- **Advanced: Custom Cron** — expand Advanced Options to enter a raw cron expression (format: `minute hour day_of_month month day_of_week`)
+- **Run When Offline** -- lets the schedule execute even when your server is stopped. This is a premium-only feature, and it's handy for things like Git syncs or file cleanup that don't need the server running.
+- **Advanced: Custom Cron** -- expand Advanced Options to enter a raw cron expression if you're comfortable with that format: `minute hour day_of_month month day_of_week`.
 
-A live **schedule preview** shows a human-readable description of when your schedule will run (e.g. "Runs every Monday, Wednesday, Friday at 3:00 PM").
+A live **schedule preview** appears as you configure things, showing a plain-English description of when your schedule will fire (for example, "Runs every Monday, Wednesday, Friday at 3:00 PM"). It's a quick sanity check before you save.
 
 5. Click **Create Schedule**.
 
 ## Adding Tasks
 
-After creating a schedule, you'll be taken to the task page to add actions. Tasks run sequentially in the order they appear.
+After creating a schedule, you'll land on the task page where you add the actual actions you want to happen. Tasks run one after another in the order you set them, so think of it like writing a to-do list for your server.
 
 ### Task Actions
 
@@ -144,8 +144,11 @@ Create a server backup.
 **Availability:** All plans (free users limited to daily or less frequent schedules)
 
 **Configuration:**
-- Optionally set a label for the backup
-- Backup limits are enforced — if you've reached your server's backup limit, the oldest unlocked backup is automatically deleted
+- Optionally set a label for the backup so you can identify it later
+- If you've reached your server's backup limit, the oldest unlocked backup is automatically deleted to make room
+
+{: .info}
+> A great starting point: set up a daily backup at 3 AM so your world is always protected, even if you forget to do it manually.
 
 {% endtab %}
 
@@ -165,14 +168,17 @@ Start, restart, stop, or kill the server.
 | Kill | Force stop the server process |
 
 **Shutdown Warning (for stop and kill):**
-Enable a warning command that runs before the server shuts down. Template variables:
-- `{time}` — formatted countdown (e.g. "30 seconds")
-- `{seconds}` — raw seconds value
+You can enable a warning command that runs before the server shuts down, giving your players a heads-up. Use these template variables in your warning message:
+- `{time}` -- formatted countdown (e.g. "30 seconds")
+- `{seconds}` -- raw seconds value
 
 **Built-in warning templates:**
 - Minecraft: `say Server shutting down in {time}!`
 - Tellraw: `tellraw @a {"text":"Shutting down in {time}!","color":"red"}`
 - Essentials: `broadcast &c[Server] &fShutting down in {time}!`
+
+{: .info}
+> Use a shutdown warning template so your players aren't caught off-guard by restarts. Nobody likes getting kicked mid-build without notice.
 
 {% endtab %}
 
@@ -188,7 +194,7 @@ Delete specified files or folders from your server.
 - Examples: `logs/`, `crash-reports/`, `*.log`
 
 {: .warning}
-> Dangerous paths like `/`, `*`, `**`, `..` are blocked to prevent accidental deletion of your entire server.
+> Dangerous paths like `/`, `*`, `**`, and `..` are blocked to prevent accidental deletion of your entire server.
 
 {% endtab %}
 
@@ -199,8 +205,8 @@ Trigger a deployment from your linked Git repository.
 **Availability:** Premium only
 
 **Configuration:**
-- No additional settings — uses your existing Git integration configuration (branch, sync paths, post-deploy action)
-- A Git repository must be linked to your server
+- No additional settings needed -- it uses your existing Git integration configuration (branch, sync paths, post-deploy action)
+- A Git repository must already be linked to your server
 
 {% endtab %}
 
@@ -208,19 +214,17 @@ Trigger a deployment from your linked Git repository.
 
 ### Task Options
 
-Every task has these additional options:
+Every task has a couple of extra settings you can tweak:
 
-| Option | Description |
-|--------|-------------|
-| Time offset | Delay before this task runs (0 seconds to 6 hours). Presets: 0s, 30s, 1m, 5m, 10m, 15m, 30m, 1h, 2h, 4h, 6h |
-| Continue on failure | If enabled, the next task runs even if this one fails. Otherwise the schedule stops. |
+- **Time offset** -- adds a delay before this task runs, anywhere from 0 seconds up to 6 hours. Presets are available (0s, 30s, 1m, 5m, 10m, 15m, 30m, 1h, 2h, 4h, 6h), or you can enter a custom value. This is useful when you want to stagger actions -- for example, sending a warning message and then waiting 30 seconds before actually stopping the server.
+- **Continue on failure** -- if enabled, the next task in line will still run even if this one fails. Otherwise, the entire schedule stops at the failed task. Turn this on for non-critical tasks where a failure shouldn't block everything else.
 
 ### Reordering Tasks
-Drag and drop tasks to change the execution order.
+You can drag and drop tasks to change the order they run in. Since tasks execute sequentially, the order matters -- put your warning messages before your restarts, and your save commands before your backups.
 
 ## Event Triggers
 
-Event-based schedules trigger automatically when server conditions are met.
+Event-based schedules fire automatically when certain conditions are met on your server. This is a premium feature and it's incredibly useful for things like running a backup whenever the server crashes, or shutting down when the server goes idle.
 
 ### Server Events
 
@@ -237,13 +241,13 @@ Event-based schedules trigger automatically when server conditions are met.
 |-------|-------------|---------------|
 | Player joined | Triggers when a player joins | None |
 | Player left | Triggers when a player leaves | None |
-| Server idle | Triggers after no players for X minutes | Idle duration: 1–1440 minutes (default: 5) |
+| Server idle | Triggers after no players for X minutes | Idle duration: 1--1440 minutes (default: 5) |
 
 ### Threshold Events
 
 | Event | Description | Configuration |
 |-------|-------------|---------------|
-| CPU usage | Triggers when CPU crosses a threshold | Operator (>=, >, <=, <) + percentage (1–100%, default: 80%) |
+| CPU usage | Triggers when CPU crosses a threshold | Operator (>=, >, <=, <) + percentage (1--100%, default: 80%) |
 | Memory usage | Triggers when memory crosses a threshold | Operator + percentage (default: 90%) |
 | Disk usage | Triggers when disk crosses a threshold | Operator + percentage (default: 95%) |
 
@@ -255,9 +259,9 @@ Event-based schedules trigger automatically when server conditions are met.
 
 ### Event Trigger Options
 
-- **Cooldown** — minimum seconds between triggers to prevent rapid re-triggering (default: 60 seconds, range: 0–86400)
-- **Rate limit** — maximum 60 triggers per server per hour (hard limit)
-- Threshold events include **hysteresis** to prevent flapping around the boundary
+- **Cooldown** -- the minimum number of seconds between triggers, preventing the same event from firing over and over in rapid succession. The default is 60 seconds, and you can set it anywhere from 0 to 86,400 (a full day).
+- **Rate limit** -- there's a hard cap of 60 triggers per server per hour, so even a misconfigured schedule can't run away on you.
+- Threshold events include **hysteresis** to prevent flapping -- this means the value has to move meaningfully past the boundary before it can trigger again, so you won't get spammed with notifications when CPU usage hovers right around 80%.
 
 ## Running a Schedule
 
@@ -265,9 +269,9 @@ Event-based schedules trigger automatically when server conditions are met.
 
 {% tab run Automatic %}
 
-Time-based schedules run automatically according to their configured interval. The next run time is displayed on the schedule row.
+Time-based schedules run automatically according to their configured interval. You can see when each schedule will next run on the schedule row.
 
-Event-based schedules trigger automatically when the configured event occurs.
+Event-based schedules trigger automatically whenever the configured event occurs.
 
 {% endtab %}
 
@@ -284,13 +288,13 @@ Click the **Run Now** button (play icon) on any schedule to execute it immediate
 
 ## Webhooks
 
-Get notified when your schedules run by setting up webhooks:
+Want to know when your schedules actually run? Webhooks let you get real-time notifications -- sent straight to a Discord channel or to any external tool you use.
 
 1. Click the **webhook button** on a schedule row.
 2. Click **Add Webhook**.
 3. Enter the webhook URL (must be HTTPS) and select the type.
-4. Select which events to notify on.
-5. Save and optionally click **Test** to verify the webhook works.
+4. Choose which events you want to be notified about.
+5. Save, and optionally click **Test** to verify the webhook is working.
 
 ### Webhook Types
 
@@ -366,19 +370,17 @@ Sends a JSON POST request with `Content-Type: application/json`. Useful for inte
 ## Editing and Deleting
 
 - Click the **edit button** (pencil icon) on a schedule to modify its name, timing, or settings.
-- Click the **delete button** (trash icon) to remove a schedule and all its tasks.
+- Click the **delete button** (trash icon) to remove a schedule along with all its tasks. This can't be undone, so make sure you really don't need it anymore.
 
 ## Viewing Logs
 
-Click the **logs button** on a schedule to view execution history. Each log entry shows:
+Click the **logs button** on a schedule to see its execution history. This is the first place to look when something isn't working the way you expect. Each log entry shows:
 
-| Field | Description |
-|-------|-------------|
-| Event | What happened (started, completed, failed) |
-| Status | Success, failed, or skipped |
-| Action | Which task action ran |
-| Execution time | How long it took |
-| Error message | Details if the task failed |
+- **Event** -- what happened (started, completed, or failed)
+- **Status** -- whether it succeeded, failed, or was skipped
+- **Action** -- which task action ran
+- **Execution time** -- how long it took
+- **Error message** -- details about what went wrong, if the task failed
 
 ## Free vs Premium
 
