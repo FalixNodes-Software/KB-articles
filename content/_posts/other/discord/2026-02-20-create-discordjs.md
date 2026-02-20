@@ -26,7 +26,7 @@ For more information about discord.js or JavaScript, please refer to the officia
 
 3. Select a plan and enter a name and domain for your server.
 
-4. Go to the "Applications" tab and select "Node.JS"
+4. Go to the "Applications" tab and select "Node.js"
 
 5. Click continue and choose the desired resources and location.
 
