@@ -44,7 +44,7 @@ Once you're happy with your choices, click **Continue**.
 
 1. Choose the game you'd like to run on your server.
     - Free users can select **Minecraft** and **Hytale**.
-    - Premium users get access to a wider selection of games and applications. You can browse the full list of available software [here](/falix/dashboard/server/supported-software).
+    - Premium users get access to a wider selection of games and applications. You can browse the full list of available software [here](/falix/dashboard/setup/supported-software).
 
 2. Continue to the next page.
 
@@ -78,7 +78,7 @@ You're almost there! Take a moment to double-check everything before you finaliz
 
 Now that your server is live, here are a few things you might want to do next:
 
-- **Install or change your server version** -- Whether you want the latest release or a specific version, head over to **[How to Install or Change Your Server Version](/minecraft/java/general/server-version)** to get set up.
+- **Install or change your server version** -- Whether you want the latest release or a specific version, head over to **[How to Install or Change Your Server Version](/minecraft/java/setup/server-version)** to get set up.
 - **Invite your friends** -- Share your server domain with friends so they can join and start playing with you right away.
 - **Add plugins or mods** -- Customize your server with plugins and mods to make the experience truly your own.
 - **Configure your server settings** -- Tweak gameplay options, difficulty, and more to set the perfect vibe for your community.

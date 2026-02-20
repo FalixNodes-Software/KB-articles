@@ -112,9 +112,6 @@ Right-click any file or folder to open the context menu, or use the action dropd
 
 {% endtabs %}
 
-{: .info}
-> Free plan users will not see `.sh` (shell script) files in the file listing at all -- these files are hidden on the free plan.
-
 ### Renaming
 
 Click **Rename** to open a modal with the current name pre-filled. Edit the name and confirm. Be careful when changing file extensions -- the modal will warn you about this, since changing an extension can make a file unreadable by the software that uses it.
@@ -337,7 +334,6 @@ If you prefer keeping your hands on the keyboard, the File Manager has you cover
 
 ## World Viewer
 
-{: .info}
-> The World Viewer is currently under development and may not be available yet.
+For Minecraft Java servers, when you navigate into a world's `region` folder, a **World View** button appears in the toolbar. Click it to visualize your Minecraft world data right in the browser -- see a top-down map of the entire world, zoom into regions with actual block textures, inspect chunks in 3D with X-Ray mode, and bulk-delete unused chunks to reduce world size.
 
-For Minecraft servers, when you navigate into a world's `region` folder, a **World View** button may appear. Click it to visualize your Minecraft world data right in the browser -- a great way to get a quick overview of what your world looks like without launching the game.
+For full details, see the dedicated [World Viewer](/falix/dashboard/files/world-viewer) article.

@@ -32,7 +32,7 @@ Here are some common scenarios where switching applications makes sense:
 {: .warning}
 > Switching applications changes how your server starts and what software it runs. Your existing files will stay on disk, but they almost certainly will not be compatible with the new application. A Minecraft world file means nothing to a Terraria server, for example. **Always create a backup before switching** so you can restore your data if you ever want to go back.
 
-If you are not sure how to create a backup, check out the [Server Backups](/falix/dashboard/server/backups) article. It only takes a moment and can save you a lot of headache later.
+If you are not sure how to create a backup, check out the [Server Backups](/falix/dashboard/files/backups) article. It only takes a moment and can save you a lot of headache later.
 
 ## How to Switch Applications
 

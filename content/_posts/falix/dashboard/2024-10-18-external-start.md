@@ -46,19 +46,3 @@ The external start feature is a great way to allow players or users to start you
 
 > You may have to wait a few minutes for the server to finish starting.
 
-## Start on Join
-
-There's also a separate **Start on Join** feature that automatically starts your server when a player tries to connect to it. Instead of needing someone to manually trigger a start, your server wakes up on its own when it detects an incoming connection.
-
-This feature works by routing your server's domain through a lobby proxy. When a player connects, the proxy detects the connection attempt and starts your server automatically.
-
-### Enabling Start on Join
-
-1. Navigate to your server and open the **Settings** page.
-
-2. Find the **Start on Join** toggle.
-
-3. Flip the toggle to enable it. When enabled, your server's DNS records are updated to route through the lobby proxy.
-
-{: .info}
-> Start on Join is a per-server setting, unlike external start which is account-wide. You can enable it on some servers and leave it off on others.

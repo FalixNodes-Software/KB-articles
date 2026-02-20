@@ -128,5 +128,5 @@ Falix provides multiple Terraria server options, including modded and plugin-bas
 
 ## Related Articles
 
-- [How to Create Your First Falix Server](/falix/dashboard/server/create-server)
-- [How to Install or Change Your Server Version](/minecraft/java/general/server-version)
+- [How to Create Your First Falix Server](/falix/dashboard/setup/create-server)
+- [How to Install or Change Your Server Version](/minecraft/java/setup/server-version)
