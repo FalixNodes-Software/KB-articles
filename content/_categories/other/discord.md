@@ -6,7 +6,7 @@ section: Discord
 category: Discord
 tags:
     - General
-description: "Learn how to create and host a discord bot"
+description: "Learn how to create and host a Discord bot"
 icon: "content/assets/images/categories/discord.svg"
 color: "#1b4db1"
 cat_order: 2
