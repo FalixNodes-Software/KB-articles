@@ -15,10 +15,10 @@ toc: false
 
 2. Choose a server within your server list.
 
-3. You will be redirected to the [Console Page](https://client.falixnodes.net/server/console) of your server. In the navigation menu, open the "Server Settings" category and navigate to [Settings](https://client.falixnodes.net/server/settings).
+3. In the navigation menu, open the "Server Settings" category and navigate to [Settings](https://client.falixnodes.net/server/settings).
 
-4. Click the "Delete" Button.
+4. Click the "Delete" Button inside the "dangerzone" tab.
 
 5. Enter the 2FA code if necessarily.
 
-6. Enter "YES" and press "confirm".
+6. Enter the name of your server and press "confirm".
