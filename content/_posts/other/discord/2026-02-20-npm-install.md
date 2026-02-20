@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To install nodejs packages"
+title: "How To Install Node.js packages"
 category: discordjs
 tags: General
 permalink: other/discord/general/npm-install
