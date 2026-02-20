@@ -6,12 +6,14 @@ description: A step by step article to create your very first server.
 keywords:
     - keyword: server
       matches: ["create", "make"]
-author: 
+author:
       - Mocab
       - Cakey
 getting-started-tag: General
 post_order: 1
 ---
+
+Ready to get your server up and running? Here's how to create your first server on Falix. The whole process only takes a minute or two, and you'll be up and playing before you know it.
 
 ## Creating the Server
 
@@ -21,56 +23,64 @@ post_order: 1
 
 3. Scroll down to the **Plan Selection** section.
 
-4. Choose either:
-    - **Free**
-    - **Premium**
+4. Pick the plan that works best for you:
+    - **Free** -- a great way to get started at no cost. You'll have access to Minecraft and Hytale servers with generous resources to try things out.
+    - **Premium** -- unlocks additional games, applications, and extra server resources for a more powerful experience.
 
 5. Click **Continue** to proceed.
 
 ### Enter Server Details
 
-On this page, fill in the following details:
+Now you'll give your server a name and an address. Fill in the following:
 
-- **Server Name**: A name used to identify your server in the dashboard. This is visible only to you by default, but it may appear publicly if enabled. The server name can be changed at any time.
+- **Server Name**: This is how your server will appear in your dashboard. It's visible only to you by default, though it may appear publicly if you enable that later. Don't worry about picking the perfect name right now -- you can change it at any time.
 
-- **Server Domain**: The address players will use to connect to your server. This can also be changed later.
+- **Server Domain**: This is the address your players will type in to connect to your server. Like the server name, this can also be changed later if you change your mind.
 
-Once completed, click **Continue**.
+Once you're happy with your choices, click **Continue**.
 
 ### Select the Game or Application
 
-1. Choose the game you want to run.
-    - Free users can only select **Minecraft**.
-    - Premium users may also select other games and applications. You can see a full list of available software [here](/falix/dashboard/server/supported-software).
+1. Choose the game you'd like to run on your server.
+    - Free users can select **Minecraft** and **Hytale**.
+    - Premium users get access to a wider selection of games and applications. You can browse the full list of available software [here](/falix/dashboard/server/supported-software).
 
 2. Continue to the next page.
 
 ### Review and Create the Server
 
-1. A **Summary** page will appear showing all selected details.
+You're almost there! Take a moment to double-check everything before you finalize.
 
-2. Review the information carefully.
+1. A **Summary** page will appear showing all the details you've selected.
 
-3. If installing a Minecraft server, accept the **[Minecraft End User License Agreement (EULA)](https://www.minecraft.net/en-us/eula)**.
+2. Review the information and make sure everything looks right.
 
-4. Click on "**Create**{: .green }" to create your server.
+3. If you're installing a Minecraft server, you'll need to accept the **[Minecraft End User License Agreement (EULA)](https://www.minecraft.net/en-us/eula)**.
+
+4. When you're ready, click "**Create**{: .green }" to bring your server to life.
 
 {: .success}
-> If successful, a popup message should appear: **"Your server has been created successfully."**
+> If everything went smoothly, you'll see a popup message: **"Your server has been created successfully."** Congratulations -- your server is officially born!
 
 ## Accessing Your Server
 
-1. Return to the [Dashboard](https://client.falixnodes.net/).
+1. Head back to the [Dashboard](https://client.falixnodes.net/).
 
-2. Scroll down to the server list.
+2. Scroll down to your server list.
 
 3. Click on your newly created server to open the [Console](https://client.falixnodes.net/server/).
 
 {: .success}
-> Your server is now ready!
+> Your server is now ready! From the console, you can start it up, monitor activity, and manage everything in one place.
 
 ## Next Steps
 
-To install or change your server version, refer to the following article: 
+Now that your server is live, here are a few things you might want to do next:
 
-**[How to Install or Change Your Server Version](/minecraft/java/general/server-version)**
+- **Install or change your server version** -- Whether you want the latest release or a specific version, head over to **[How to Install or Change Your Server Version](/minecraft/java/general/server-version)** to get set up.
+- **Invite your friends** -- Share your server domain with friends so they can join and start playing with you right away.
+- **Add plugins or mods** -- Customize your server with plugins and mods to make the experience truly your own.
+- **Configure your server settings** -- Tweak gameplay options, difficulty, and more to set the perfect vibe for your community.
+- **Set up backups** -- Protect your hard work by enabling backups so you never lose progress.
+
+Have fun building something awesome -- and welcome to Falix!
