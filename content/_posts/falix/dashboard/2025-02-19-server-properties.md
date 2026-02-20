@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Server Properties"
-tags: Server
-permalink: falix/dashboard/general/server-properties
+tags: Setup
+permalink: falix/dashboard/setup/server-properties
 description: "Edit your server's configuration files including server.properties, bukkit.yml, spigot.yml, paper.yml, and more."
 keywords:
     - keyword: properties

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Viewing & Sharing Server Logs"
-tags: Server
-permalink: falix/dashboard/general/server-logs
+tags: Monitoring
+permalink: falix/dashboard/monitoring/server-logs
 description: "View, filter, analyze, download, and share your server log files."
 keywords:
     - keyword: logs

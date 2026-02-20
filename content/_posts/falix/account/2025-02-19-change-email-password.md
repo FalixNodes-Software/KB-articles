@@ -2,8 +2,8 @@
 layout: post
 title: "How To Change Your Email or Password"
 category: Account
-tags: General
-permalink: falix/account/general/change-email-password
+tags: Security
+permalink: falix/account/security/change-email-password
 description: "Update your account email address or change your password."
 keywords:
     - keyword: email

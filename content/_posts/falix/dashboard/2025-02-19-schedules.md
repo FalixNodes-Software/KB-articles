@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Set Up Schedules"
-tags: Server
-permalink: falix/dashboard/general/schedules
+tags: Automation
+permalink: falix/dashboard/automation/schedules
 description: "Automate server tasks like backups, restarts, and commands with scheduled tasks."
 keywords:
     - keyword: schedule

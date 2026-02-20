@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Startup Configuration"
-tags: Server
-permalink: falix/dashboard/general/startup-configuration
+tags: Setup
+permalink: falix/dashboard/setup/startup-configuration
 description: "Configure startup commands, stop commands, Docker images, Java versions, environment variables, and timezone."
 keywords:
     - keyword: startup

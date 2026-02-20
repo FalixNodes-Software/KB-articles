@@ -1,7 +1,7 @@
 ---
 title: How To Change Your Minecraft Java Server Icon
-tags: General
-permalink: /minecraft/java/general/server-icon
+tags: Customization
+permalink: /minecraft/java/customization/server-icon
 description: Set a custom and unique icon to make your server stand out in multiplayer servers list.
 keywords:
     - keyword: icon

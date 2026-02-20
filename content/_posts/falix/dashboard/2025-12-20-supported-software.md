@@ -1,7 +1,7 @@
 ---
 title: Supported Games and Applications
-tags: Server
-permalink: falix/dashboard/server/supported-software
+tags: Setup
+permalink: falix/dashboard/setup/supported-software
 description: A complete list of all games and applications supported on Falix.
 keywords:
   - keyword: games

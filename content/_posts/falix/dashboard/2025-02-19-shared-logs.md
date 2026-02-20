@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Viewing Shared Logs"
-tags: Server
-permalink: falix/dashboard/general/shared-logs
+tags: Monitoring
+permalink: falix/dashboard/monitoring/shared-logs
 description: "How shared log links work and what you can do with them."
 keywords:
     - keyword: shared logs

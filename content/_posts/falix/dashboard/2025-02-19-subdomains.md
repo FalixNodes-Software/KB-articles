@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Set Up Subdomains & Custom Domains"
-tags: Server
-permalink: falix/dashboard/general/subdomains
+tags: Networking
+permalink: falix/dashboard/networking/subdomains
 description: "Create free Falix subdomains or connect your own custom domain to your server."
 keywords:
     - keyword: subdomain

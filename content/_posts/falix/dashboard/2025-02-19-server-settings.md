@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Server Settings"
-tags: Server
-permalink: falix/dashboard/general/server-settings
+tags: Setup
+permalink: falix/dashboard/setup/server-settings
 description: "Change your server's name, description, icon, and crash notification preferences."
 keywords:
     - keyword: server name

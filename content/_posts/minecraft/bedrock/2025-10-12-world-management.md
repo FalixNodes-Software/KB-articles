@@ -1,7 +1,7 @@
 ---
 title: Upload or Download Your World From Your Minecraft Bedrock Server
-tags: General
-permalink: /minecraft/bedrock/general/world-management
+tags: Customization
+permalink: /minecraft/bedrock/customization/world-management
 description: An essential guide to manage, upload and download your world to and from your server.
 keywords:
     - keyword: world

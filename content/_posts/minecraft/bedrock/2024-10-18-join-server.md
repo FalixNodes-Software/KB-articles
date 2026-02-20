@@ -1,7 +1,7 @@
 ---
 title: How To Join Your Minecraft Bedrock Server
-tags: General
-permalink: minecraft/bedrock/general/join-server
+tags: Setup
+permalink: minecraft/bedrock/setup/join-server
 description: How to connect and play on your server through the Minecraft launcher.
 keywords:
     - keyword: server

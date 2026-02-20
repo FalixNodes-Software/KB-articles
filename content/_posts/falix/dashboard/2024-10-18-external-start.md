@@ -1,7 +1,7 @@
 ---
 title: How To Start Your Server Externally
-tags: Server
-permalink: falix/dashboard/server/external-start
+tags: Automation
+permalink: falix/dashboard/automation/external-start
 description: Use the external start feature to turn on your server without accessing the console.
 keywords:
     - keyword: turn on

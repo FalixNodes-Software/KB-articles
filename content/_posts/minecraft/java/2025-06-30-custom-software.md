@@ -1,11 +1,11 @@
 ---
 title: Add Custom Server Software or Version To Your Minecraft Java Server
-tags: General
+tags: Setup
 description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:
     - keyword: custom
       matches: ["software", "jar", "core"]
-permalink: /minecraft/java/general/custom-software
+permalink: /minecraft/java/setup/custom-software
 author: 
    - TWIXhunter
 ---

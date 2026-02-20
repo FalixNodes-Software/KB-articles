@@ -2,8 +2,8 @@
 layout: post
 title: "How To Link Your Falix Account To Discord"
 category: Account
-tags: General
-permalink: falix/account/general/link-discord
+tags: Profile
+permalink: falix/account/profile/link-discord
 description: "Learn how to link your Discord account to your Falix account."
 keywords:
     - keyword: discord

@@ -1,13 +1,13 @@
 ---
 title: Migrating Your Minecraft Java World Between Vanilla and Spigot
-tags: General
+tags: Worlds
 description: Convert a vanilla world to or from Spigot or any of its forks.
 keywords:
     - keyword: convert
       matches: &convert_matches ["world", "map"]
     - keyword: migrate
       matches: *convert_matches
-permalink: /minecraft/java/general/migrate-world
+permalink: /minecraft/java/worlds/migrate-world
 author: Mocab
 ---
 

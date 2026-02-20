@@ -1,7 +1,7 @@
 ---
 title: How To Add Modpacks to Your Server
-tags: General
-permalink: minecraft/modifications/general/adding-modpacks
+tags: Guides
+permalink: minecraft/modifications/guides/adding-modpacks
 description: Installing and configuring modpacks in your server.
 keywords:
     - keyword: modpacks

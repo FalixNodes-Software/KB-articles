@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Crash Detection & Auto-Restart"
-tags: Server
-permalink: falix/dashboard/general/crash-detection
+tags: Monitoring
+permalink: falix/dashboard/monitoring/crash-detection
 description: "Configure restart policies, rate limiting, health monitoring, and OOM handling for your server."
 keywords:
     - keyword: crash

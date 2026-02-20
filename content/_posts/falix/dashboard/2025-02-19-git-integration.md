@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Set Up Git Integration"
-tags: Server
-permalink: falix/dashboard/general/git-integration
+tags: Automation
+permalink: falix/dashboard/automation/git-integration
 description: "Link a Git repository to your server for automatic or manual deployments."
 keywords:
     - keyword: git

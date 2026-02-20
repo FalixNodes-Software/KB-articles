@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Player Management"
-tags: Server
-permalink: falix/dashboard/general/player-management
+tags: Players
+permalink: falix/dashboard/players/player-management
 description: "View online and offline players, manage your whitelist, operators, and bans."
 keywords:
     - keyword: player

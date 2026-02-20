@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "File Manager"
-tags: Server
-permalink: falix/dashboard/general/file-manager
+tags: Files
+permalink: falix/dashboard/files/file-manager
 description: "Browse, edit, upload, and manage your server files with the built-in file manager."
 keywords:
     - keyword: file manager

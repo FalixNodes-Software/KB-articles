@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Player Analytics"
-tags: Server
-permalink: falix/dashboard/general/player-analytics
+tags: Players
+permalink: falix/dashboard/players/player-analytics
 description: "Track player activity, retention, peak hours, and session data for your Minecraft server."
 keywords:
     - keyword: player analytics

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Server Monitoring"
-tags: Server
-permalink: falix/dashboard/general/server-monitoring
+tags: Monitoring
+permalink: falix/dashboard/monitoring/server-monitoring
 description: "Monitor your server's performance with real-time charts, health scores, crash reports, and predictive alerts."
 keywords:
     - keyword: monitor

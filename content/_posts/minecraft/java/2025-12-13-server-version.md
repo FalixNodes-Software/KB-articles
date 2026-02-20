@@ -1,11 +1,11 @@
 ---
 title: Changing the Minecraft Server Version
-tags: General
+tags: Setup
 description: Choose the right server version for more functionality and optimal performance.
 keywords:
     - keyword: java
       matches: ["version"]
-permalink: /minecraft/java/general/server-version
+permalink: /minecraft/java/setup/server-version
 author:
        - Mocab
        - Cakey

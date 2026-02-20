@@ -1,7 +1,7 @@
 ---
 title: How To Add Plugins to Your Server
-tags: General
-permalink: minecraft/modifications/general/adding-plugins
+tags: Guides
+permalink: minecraft/modifications/guides/adding-plugins
 description: A step-by-step guide to upload and install plugins on your server.
 keywords:
     - keyword: plugins

@@ -2,8 +2,8 @@
 layout: post
 title: Managing Your Hytale Server World
 category: Hytale
-tags: General
-permalink: /other/hytale/general/world-management
+tags: Essentials
+permalink: /other/hytale/essentials/world-management
 description: Learn how to upload, download, and manage your Hytale server world files, including singleplayer worlds.
 keywords:
     - keyword: hytale

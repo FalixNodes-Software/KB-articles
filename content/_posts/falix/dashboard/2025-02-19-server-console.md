@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Server Console"
-tags: Server
-permalink: falix/dashboard/general/server-console
+tags: Monitoring
+permalink: falix/dashboard/monitoring/server-console
 description: "Control your server with the real-time console — send commands, monitor resources, view player activity, search logs, and manage power state."
 keywords:
     - keyword: console

@@ -1,13 +1,13 @@
 ---
 title: How To Add Data Packs To Your Minecraft Java Server
-tags: Configuration
+tags: Customization
 description: Modify gameplay with a server data pack to add new features without requiring mods or plugins.
 keywords:
     - keyword: pack
       matches: &pack_matches ["data"]
     - keyword: datapack
       matches: ["add","custom","server", "put"]
-permalink: /minecraft/java/configuration/datapacks
+permalink: /minecraft/java/customization/datapacks
 author:
     - TWIXhunter
     - Deka

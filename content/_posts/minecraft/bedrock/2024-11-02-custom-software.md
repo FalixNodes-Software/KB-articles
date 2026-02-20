@@ -1,13 +1,13 @@
 ---
 title: Add Custom Server Software or Version To Your Minecraft Bedrock Server
-tags: General
+tags: Setup
 description: Find out how to use a custom or modified software or version not available in the versions list.
 keywords:
     - keyword: custom
       matches: ["software", "core", "bedrock", "server"]
     - keyword: pocketmine
     - keyword: nukkit
-permalink: /minecraft/bedrock/general/custom-software
+permalink: /minecraft/bedrock/setup/custom-software
 author:
     - DynamicSlayer
     - Mocab

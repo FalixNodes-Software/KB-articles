@@ -1,6 +1,6 @@
 ---
 title: How to Configure Your Minecraft Bedrock Server Properties
-tags: Configuration
+tags: Customization
 description: Editing and customising common attributes of the server.properties file.
 keywords:
     - keyword: server
@@ -17,7 +17,7 @@ keywords:
       matches: *allow_matches
     - keyword: disable
       matches: *allow_matches
-permalink: /minecraft/bedrock/configuration/server-properties
+permalink: /minecraft/bedrock/customization/server-properties
 author:
     - Kuroi
     - Mocab

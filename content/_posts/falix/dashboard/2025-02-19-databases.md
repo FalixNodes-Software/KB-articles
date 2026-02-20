@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Set Up Databases"
-tags: Server
-permalink: falix/dashboard/general/databases
+tags: Files
+permalink: falix/dashboard/files/databases
 description: "Create and manage MySQL, PostgreSQL, and MongoDB databases for your server."
 keywords:
     - keyword: database

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Change Server Resources"
-tags: Server
-permalink: falix/dashboard/general/change-resources
+tags: Setup
+permalink: falix/dashboard/setup/change-resources
 description: "Learn how to allocate and change your server's CPU, memory, and disk resources."
 keywords:
     - keyword: resources

@@ -5,7 +5,8 @@ permalink: falix/account/
 section: Falix
 category: Account
 tags:
-    - General
+    - Security
+    - Profile
     - Billing
 description: "Manage your account and keep track of billing."
 icon: "content/assets/images/categories/user-gear.svg"

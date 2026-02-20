@@ -2,8 +2,8 @@
 layout: post
 title: "Managing Your Profile Settings"
 category: Account
-tags: General
-permalink: falix/account/general/profile-settings
+tags: Profile
+permalink: falix/account/profile/profile-settings
 description: "Customize your username, profile picture, pronouns, and other account preferences."
 keywords:
     - keyword: username

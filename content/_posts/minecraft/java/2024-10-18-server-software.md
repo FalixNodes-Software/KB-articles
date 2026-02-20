@@ -1,11 +1,11 @@
 ---
 title: How To Pick the Best Minecraft Java Server Software
-tags: General
+tags: Setup
 description: Explore different server flavors and software to find the best fit for mod, plugin, hybrid or proxy setups.
 keywords:
     - keyword: server
       matches: ["software", "jar", "core"]
-permalink: /minecraft/java/general/server-software
+permalink: /minecraft/java/setup/server-software
 author:
     - Lovinoes
     - Mocab

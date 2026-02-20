@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Data Packs"
-tags: Server
-permalink: falix/dashboard/general/datapacks
+tags: Content
+permalink: falix/dashboard/content/datapacks
 description: "Browse and install Minecraft data packs from Modrinth."
 keywords:
     - keyword: datapack

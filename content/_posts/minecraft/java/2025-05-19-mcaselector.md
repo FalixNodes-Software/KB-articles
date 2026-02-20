@@ -1,7 +1,7 @@
 ---
 title: Deleting Unused Chunks On Your Minecraft Java World
-tags: General
-permalink: /minecraft/java/general/mcaselector
+tags: Worlds
+permalink: /minecraft/java/worlds/mcaselector
 description: A guide on saving disk space by deleting unused chunks using MCA Selector.
 keywords:
     - keyword: mcaselector

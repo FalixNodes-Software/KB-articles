@@ -2,8 +2,8 @@
 layout: post
 title: How To Add Mods to Your Hytale Server
 category: Hytale
-tags: General
-permalink: /other/hytale/general/adding-mods
+tags: Essentials
+permalink: /other/hytale/essentials/adding-mods
 description: A step-by-step guide to upload and install mods on your Hytale server.
 keywords:
     - keyword: mods

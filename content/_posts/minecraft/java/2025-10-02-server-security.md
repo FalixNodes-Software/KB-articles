@@ -1,7 +1,7 @@
 ---
 title: How To Secure Your Minecraft Java Server
-tags: General
-permalink: /minecraft/java/general/server-security
+tags: Setup
+permalink: /minecraft/java/setup/server-security
 description: Learn how to secure your server in 5 simple steps.
 keywords:
     - keyword: griefed

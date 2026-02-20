@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "World Settings"
-tags: Server
-permalink: falix/dashboard/general/world-settings
+tags: Content
+permalink: falix/dashboard/content/world-settings
 description: "Configure game rules, time, weather, spawning, world border, and more for individual worlds."
 keywords:
     - keyword: game rules

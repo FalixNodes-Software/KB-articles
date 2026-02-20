@@ -2,8 +2,8 @@
 layout: post
 title: How to Create a Hytale Server
 category: Hytale
-tags: General
-permalink: /other/hytale/general/create-hytale-server
+tags: Essentials
+permalink: /other/hytale/essentials/create-hytale-server
 description: A step-by-step guide to creating and running your first Hytale server on Falix.
 keywords:
     - keyword: hytale

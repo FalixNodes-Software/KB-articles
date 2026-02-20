@@ -2,8 +2,8 @@
 layout: post
 title: "Viewing Your Activity Log"
 category: Account
-tags: General
-permalink: falix/account/general/activity-log
+tags: Profile
+permalink: falix/account/profile/activity-log
 description: "Review a history of actions performed on your account."
 keywords:
     - keyword: activity

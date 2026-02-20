@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Set Up Internal Networking"
-tags: Server
-permalink: falix/dashboard/general/internal-network
+tags: Networking
+permalink: falix/dashboard/networking/internal-network
 description: "Connect your servers together using private internal IPs for proxy setups and linked services."
 keywords:
     - keyword: internal network

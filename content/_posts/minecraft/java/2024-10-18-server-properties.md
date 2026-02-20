@@ -1,5 +1,6 @@
 ---
 title: How to Configure Your Minecraft Java Server Properties
+tags: Customization
 description: Editing and customising common attributes of the server.properties file.
 keywords:
     - keyword: server
@@ -16,7 +17,7 @@ keywords:
       matches: *allow_matches
     - keyword: disable
       matches: *allow_matches
-permalink: /minecraft/java/configuration/server-properties
+permalink: /minecraft/java/customization/server-properties
 author:
     - Kuroi
     - Mocab

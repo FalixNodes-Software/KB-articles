@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Import a Server"
-tags: Server
-permalink: falix/dashboard/general/server-importer
+tags: Setup
+permalink: falix/dashboard/setup/server-importer
 description: "Import files from another server or host via SFTP or FTP."
 keywords:
     - keyword: import

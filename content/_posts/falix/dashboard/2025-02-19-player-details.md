@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Player Details & Commands"
-tags: Server
-permalink: falix/dashboard/general/player-details
+tags: Players
+permalink: falix/dashboard/players/player-details
 description: "View player stats, manage inventory, modify abilities, run commands, and edit player data."
 keywords:
     - keyword: player

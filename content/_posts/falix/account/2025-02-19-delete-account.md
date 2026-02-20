@@ -2,8 +2,8 @@
 layout: post
 title: "How To Delete Your Account"
 category: Account
-tags: General
-permalink: falix/account/general/delete-account
+tags: Profile
+permalink: falix/account/profile/delete-account
 description: "How to permanently delete your Falix account and what happens to your data."
 keywords:
     - keyword: account

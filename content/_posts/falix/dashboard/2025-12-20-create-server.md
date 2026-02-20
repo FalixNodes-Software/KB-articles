@@ -1,7 +1,7 @@
 ---
 title: How to Create Your First Falix Server
-tags: Server
-permalink: falix/dashboard/server/create-server
+tags: Setup
+permalink: falix/dashboard/setup/create-server
 description: A step by step article to create your very first server.
 keywords:
     - keyword: server

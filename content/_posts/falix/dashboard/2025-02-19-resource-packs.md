@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Resource Packs"
-tags: Server
-permalink: falix/dashboard/general/resource-packs
+tags: Content
+permalink: falix/dashboard/content/resource-packs
 description: "Browse and install server-side resource packs from Modrinth and CurseForge."
 keywords:
     - keyword: resource pack

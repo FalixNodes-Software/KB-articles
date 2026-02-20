@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Reinstalling & Deleting a Server"
-tags: Server
-permalink: falix/dashboard/general/reinstall-delete-server
+tags: Setup
+permalink: falix/dashboard/setup/reinstall-delete-server
 description: "How to reinstall your server's software or permanently delete a server."
 keywords:
     - keyword: reinstall

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Switch Applications"
-tags: Server
-permalink: falix/dashboard/general/switch-application
+tags: Setup
+permalink: falix/dashboard/setup/switch-application
 description: "Change your server's game or application type."
 keywords:
     - keyword: switch

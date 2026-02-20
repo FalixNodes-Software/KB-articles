@@ -1,7 +1,7 @@
 ---
 title: How To Add Addons To Your Minecraft Bedrock Server
-tags: General
-permalink: minecraft/bedrock/general/add-addons
+tags: Setup
+permalink: minecraft/bedrock/setup/add-addons
 description: Learn how to add addons to your Bedrock server.
 keywords:
     - keyword: addons

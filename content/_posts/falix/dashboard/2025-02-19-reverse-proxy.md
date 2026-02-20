@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How To Set Up a Reverse Proxy"
-tags: Server
-permalink: falix/dashboard/general/reverse-proxy
+tags: Networking
+permalink: falix/dashboard/networking/reverse-proxy
 description: "Expose web applications running on your server to the internet with automatic SSL."
 keywords:
     - keyword: reverse proxy
