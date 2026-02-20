@@ -82,7 +82,7 @@ This is handy when you want to cut through the noise and focus only on errors an
 
 {% tab filters Log Types (Minecraft) %}
 
-If you're running a Minecraft server, you can also filter by message type (all unchecked by default):
+If you're running a Minecraft server, you can also filter by message type (all checked by default):
 
 - **Chat** — player chat messages and [CHAT] tags
 - **Commands** — server commands issued by players
@@ -108,7 +108,7 @@ These filters help you zero in on specific kinds of activity without wading thro
 {: .info}
 > Log analysis is only available for **Minecraft** servers.
 
-One of the most helpful features on this page is the **Analyze** button. Instead of reading through hundreds of log lines yourself, click Analyze and let the system scan your logs against 30+ known issue categories. It will return results grouped by severity so you can tackle the most important problems first.
+One of the most helpful features on this page is the **Analyze** button. Instead of reading through hundreds of log lines yourself, click Analyze and let the system scan your logs against 200+ known issue categories. It will return results grouped by severity so you can tackle the most important problems first.
 
 {: .info}
 > When your server won't start and you're not sure why, the Analyze feature should be your go-to. It can instantly identify common blockers like an unaccepted EULA, wrong Java version, or corrupted server JAR — saving you a lot of guesswork.
@@ -119,7 +119,7 @@ One of the most helpful features on this page is the **Analyze** button. Instead
 |-------|-------|---------|
 | Critical | Red | EULA not accepted, out of memory, corrupted JAR, port in use, wrong Java version, world corruption |
 | High | Orange | Plugin failed to load, missing dependency, mod errors |
-| Medium | Yellow | Low memory warnings, TPS lag |
+| Medium | Blue | Low memory warnings, TPS lag |
 | Low | Gray | Minor warnings |
 
 ### Analysis Results
@@ -147,9 +147,8 @@ Before your log is shared, the system automatically redacts sensitive informatio
 |-----------|-------------|
 | IPv4 addresses | `[REDACTED_IP]` |
 | IPv6 addresses | `[REDACTED_IPV6]` |
-| Auth tokens, passwords, API keys | `[REDACTED_AUTH]` |
+| Auth tokens, passwords, API keys | `[REDACTED_AUTH_INFO]` |
 | Email addresses | `[REDACTED_EMAIL]` |
-| Minecraft UUIDs | `[REDACTED_UUID]` |
 
 ### Creating a Share Link
 
@@ -163,7 +162,7 @@ Before your log is shared, the system automatically redacts sensitive informatio
 
 | Setting | Value |
 |---------|-------|
-| Expiration | 7 days (configurable 1-30 days) |
+| Expiration | 7 days |
 | Rate limit | 10 shares per hour |
 | Max size | 10 MB |
 | Access | Public via URL |

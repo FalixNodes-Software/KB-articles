@@ -31,6 +31,7 @@ Falix supports a wide range of games and applications. This article provides a c
 - **Geyser (Purpur w/ Geyser & Floodgate preinstalled)**
 - **Purpur**
 - **Paper (PaperSpigot)**
+- **CraftBukkit**
 - **Spigot**
 - **Pufferfish**
 - **Leaf**
@@ -55,10 +56,10 @@ Falix supports a wide range of games and applications. This article provides a c
 
 ## Hytale
 
-Falix supports Hytale servers with official, modded, and custom setup options, so you can easily create and run your own adventure worlds.
+Falix supports Hytale servers so you can easily create and run your own adventure worlds.
 
-- **Custom Server Setup**
-- **Modded Server Setup**
+- **Hytale** -- The standard Hytale server setup.
+- **Hytale Server** -- An alternative Hytale server configuration for custom setups.
 
 ## Terraria
 
@@ -71,32 +72,28 @@ Falix provides multiple Terraria server options, including modded and plugin-bas
 
 ## Factorio
 
-- **Factorio (Vanilla)**
-- **Factorio (Mod Updater)**
-- **Clusterio**
+- **Factorio (Create New)** -- Start a fresh Factorio world from scratch.
+- **Factorio (Load Existing)** -- Load an existing Factorio save file.
+- **Clusterio** -- Run a Factorio Clusterio node for distributed multiplayer.
 
 ## Steam Games
 
 - **Palworld**
 - **Satisfactory**
 - **ARK: Survival Evolved**
-- **Rust**
+- **Rust Autowipe**
 - **Rust Staging**
 - **Valheim**
 - **Valheim Plus**
-- **Valheim BepINex**
+- **Valheim BepInEx**
 - **Subnautica**
 - **SCUM**
 - **Trackmania**
 - **Aloft**
 - **Unturned**
 - **Sons of the Forest**
-
-## Other Options
-
-- **Custom Server**
-
-> Custom servers require manual setup and may need additional configuration depending on the software.
+- **BeamMP** -- Multiplayer mod for BeamNG.drive.
+- **Astroneer** -- Dedicated server for the space exploration sandbox game.
 
 ## Applications
 
@@ -107,7 +104,7 @@ Falix provides multiple Terraria server options, including modded and plugin-bas
 - **Java**
 - **Bun**
 - **Rust**
-- **C#**
+- **C# (.NET)**
 - **Dart**
 - **Lua (Luvit)**
 - **Go**
@@ -119,9 +116,9 @@ Falix provides multiple Terraria server options, including modded and plugin-bas
 
 ### Databases
 
-- **PostgreSQL**
-- **MongoDB**
-- **Redis**
+- **PostgreSQL 17**
+- **MongoDB 8**
+- **Redis 7**
 
 ### Software & Services
 

@@ -32,9 +32,10 @@ If you purchased your server through the [Billing Dashboard](https://client.fali
 
 ### Steps
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
-2. Navigate to your server and go to **Server Settings** -> **Settings**.
-3. Click the **Change Plan** button.
-4. A modal will appear with two ways to select your new resources:
+2. Navigate to your server and go to **Settings**.
+3. Select the **Operations** tab.
+4. Click the **Change Plan** button.
+5. A modal will appear with two ways to select your new resources:
 
 ### Preset Plans
 
@@ -61,8 +62,8 @@ The modal shows a real-time pricing breakdown as you adjust resources, including
 
 **Downgrades**: A credit for the price difference will be applied to your account automatically.
 
-5. Click **Pay & Apply Upgrade** (for upgrades) or **Apply Downgrade** (for downgrades).
-6. Restart your server for the changes to take effect.
+6. Click **Pay & Apply Upgrade** (for upgrades) or **Apply Downgrade** (for downgrades).
+7. Restart your server for the changes to take effect.
 
 {% endtab %}
 
@@ -72,9 +73,10 @@ The modal shows a real-time pricing breakdown as you adjust resources, including
 
 ### Steps
 1. Log in to the [Dashboard](https://client.falixnodes.net/).
-2. Navigate to your server and go to **Server Settings** -> **Settings**.
-3. Click the **Change Resources** button.
-4. A modal will appear with the following fields:
+2. Navigate to your server and go to **Settings**.
+3. Select the **Operations** tab.
+4. Click the **Change Resources** button.
+5. A modal will appear with the following fields:
 
 | Resource | Details |
 |----------|---------|
@@ -82,8 +84,8 @@ The modal shows a real-time pricing breakdown as you adjust resources, including
 | Memory | Enter desired memory in MB. Minimum: 128 MB. Example: 2048 for 2 GB |
 | Disk | Premium plans include unmetered disk space |
 
-5. Click **Save Changes**.
-6. Restart your server for the changes to take effect.
+6. Click **Save Changes**.
+7. Restart your server for the changes to take effect.
 
 {: .warning}
 > Resource changes are limited by your plan. You cannot allocate more CPU or RAM than your plan allows.

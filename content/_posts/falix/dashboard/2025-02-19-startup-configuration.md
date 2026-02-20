@@ -141,12 +141,13 @@ Keep in mind that GraalVM uses a bit more memory than standard HotSpot, so it's 
 
 {% tab java Other %}
 
-These options are for non-Java Minecraft servers:
+These options are for non-Java Minecraft servers or other applications:
 
 | Version | Use Case |
 |---------|----------|
-| PMMP | PocketMine-MP (Bedrock PHP servers) |
-| Bedrock | Bedrock Dedicated Server |
+| Vanilla Bedrock | Bedrock Dedicated Server |
+| PocketMineMP | PocketMine-MP (Bedrock PHP servers) |
+| Other Game/Application | A multi-application image for running non-Minecraft software. **Premium only.** |
 
 {% endtab %}
 

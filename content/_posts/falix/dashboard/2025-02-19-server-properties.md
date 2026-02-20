@@ -37,13 +37,17 @@ Depending on which server software you're running, you may have more than just `
 | **server.properties** | All Minecraft Java servers |
 | **bukkit.yml** | Bukkit, Spigot, Paper |
 | **spigot.yml** | Spigot, Paper |
+| **paper.yml** | Paper (legacy, pre-1.19) |
 | **paper-global.yml** | Paper 1.19+ |
 | **paper-world-defaults.yml** | Paper 1.19+ |
 | **purpur.yml** | Purpur |
-| **serverconfig.txt** | Terraria |
+| **World Settings** | All Minecraft Java servers |
+| **serverconfig.txt** | Terraria (Vanilla, tModLoader) |
 | **config.json** | Hytale |
 
 Most servers will only ever need to touch **server.properties** -- it covers all the core gameplay and network settings. If you're running Paper, it's worth checking the **paper-global.yml** tab for performance tweaks like async chunk loading and entity tick rates. Spigot users will find similar optimizations in **spigot.yml**.
+
+The **World Settings** tab lets you select one of your server's worlds and jump to its per-world configuration page, where you can adjust settings that apply to that specific world rather than the entire server.
 
 Each tab loads its settings on demand when you click it, so the page stays fast even if you have several config files.
 
@@ -51,20 +55,21 @@ Each tab loads its settings on demand when you click it, so the page stays fast 
 
 The `server.properties` tab organizes its settings into logical groups so you don't have to scroll through a wall of options:
 
-- **Essential** -- The big ones: game mode, difficulty, and other core gameplay settings. Start here.
-- **Gameplay** -- Fine-tune game mechanics like PvP, flight, and structure generation.
-- **World** -- World generation type, level name, and seed settings.
+- **Essential** -- The big ones: game mode, difficulty, max players, view distance, whitelist, spawning toggles, and other core settings. Start here.
+- **Gameplay** -- Fine-tune game mechanics like flight and force gamemode.
+- **World** -- World generation type, level name, seed, generator settings, and data packs.
+- **Dimensions** -- Manage access to different dimensions like the Nether.
 - **Spawning** -- Control whether monsters, animals, and NPCs spawn, and how many.
-- **Performance** -- Entity broadcast range, network compression, tick settings. Helpful if your server feels sluggish.
-- **Security** -- Whitelist, online mode, and secure profiles. Important for controlling who can join.
-- **Networking** -- Server status, transfer settings, and native transport options.
-- **Remote** -- RCON, query, and JMX monitoring for advanced server management.
-- **Admin** -- Command block permissions and broadcast settings.
-- **Players** -- Max players, view distance, simulation distance, and idle timeout.
-- **Resources** -- Resource pack URL, SHA1 hash, and the prompt message players see.
-- **Storage** -- Data storage options.
-- **Moderation** -- Chat reporting and text filtering settings.
-- **Advanced** -- Debug options, code of conduct, and bug report settings. You probably won't need these often.
+- **Performance** -- Simulation distance, entity broadcast range, network compression, tick settings, and world size limits. Helpful if your server feels sluggish.
+- **Security** -- Spawn protection, whitelist enforcement, online mode, op permission level, proxy prevention, and secure profiles.
+- **Networking** -- Server name, IP, port, status, transfer settings, hidden player counts, and native transport options.
+- **Remote** -- RCON, query, JMX monitoring, heartbeat interval, and management server settings for advanced server administration.
+- **Admin** -- Command block permissions, function permission level, and broadcast settings.
+- **Players** -- Player idle timeout, pause-when-empty, and code of conduct settings.
+- **Resources** -- Resource pack URL, ID, SHA1 hash, prompt message, and whether the pack is required.
+- **Storage** -- Sync chunk writes and region file compression options.
+- **Moderation** -- Text filtering config and version settings.
+- **Advanced** -- Debug mode and bug report link. You probably won't need these often.
 
 ## Search and Filter
 
@@ -81,7 +86,7 @@ Each property uses the input type that makes the most sense for it:
 | Type | Used For | Examples |
 |------|----------|---------|
 | **Toggle** | Boolean on/off settings | PvP, whitelist, hardcore |
-| **Dropdown** | Predefined options | Gamemode, difficulty, op level |
+| **Dropdown** | Predefined options | Gamemode, difficulty |
 | **Text** | Free-form text values | MOTD, level seed, server name |
 | **Number** | Numeric values | Max players, view distance, spawn protection |
 
@@ -104,12 +109,12 @@ Your MOTD (Message of the Day) is what players see in the Minecraft server list,
 - **Live preview** -- see exactly how your MOTD will appear in the server list as you type
 - **Color buttons** -- all 16 Minecraft color codes (section-sign 0 through f) at the click of a button
 - **Formatting buttons** -- bold, italic, underline, strikethrough, obfuscated, and reset
-- **Quick templates** -- pre-made MOTDs for common themes (Welcome, Colorful, Gradient, Survival, Creative, Minigames, Skyblock, Factions, Prison, Christmas, Halloween, and more)
+- **Quick templates** -- pre-made MOTDs for common themes (Welcome, Colorful, Fancy, Gradient, Survival, Creative, Minigames, and Skyblock)
 - **Multi-line support** -- Minecraft MOTDs can have up to 2 lines, and the editor supports both
 
 ### Resource Pack Prompt Editor
 
-When you require a resource pack, Minecraft shows players a prompt asking them to accept or decline. This editor works just like the MOTD editor with color and formatting buttons, plus its own set of quick templates. The preview shows the prompt with Yes/No buttons exactly as a player would see it.
+When you require a resource pack, Minecraft shows players a prompt asking them to accept or decline. This editor works just like the MOTD editor with color and formatting buttons, plus quick templates for common prompt styles (Friendly, Required, and Optional). The preview shows the prompt with Yes/No buttons exactly as a player would see it.
 
 ### Resource Pack Upload
 
@@ -139,7 +144,7 @@ Don't want to tweak every setting by hand? Presets let you apply a batch of sett
 | **Hardcore** | Hard difficulty, hardcore mode |
 | **PvP** | No spawn protection |
 | **Peaceful** | No monsters, no PvP |
-| **Skyblock** | No structures, limited world size |
+| **Skyblock** | No structures, reduced view distance, normal difficulty |
 | **Adventure** | Adventure mode, no flight |
 | **Minigames** | Command blocks enabled, adventure mode |
 | **Roleplay** | Adventure mode, NPCs enabled |
@@ -186,9 +191,9 @@ Don't want to tweak every setting by hand? Presets let you apply a batch of sett
 
 ### Online Mode (Cracked Mode)
 
-This is one of the most important settings to understand. By default, **online mode is enabled**, which means your server checks every player's account against Mojang/Microsoft's authentication servers. Only players who own a legitimate copy of Minecraft can join.
+This is one of the most important settings to understand. When **online mode is enabled**, your server checks every player's account against Mojang/Microsoft's authentication servers. Only players who own a legitimate copy of Minecraft can join.
 
-Disabling online mode (sometimes called "cracked mode") lets players without a paid account connect. While this might seem appealing if you have friends who haven't bought the game, it comes with serious risks:
+Disabling online mode (sometimes called "cracked mode") lets players without a paid account connect. While this opens the server to more players, it comes with serious risks:
 
 - **Inventory and data wipes** -- player data is tied to UUIDs, and cracked accounts get different UUIDs, which can cause data loss when switching between modes
 - **Account impersonation** -- anyone can join using any username, including yours, and gain access to that player's inventory and permissions
@@ -206,6 +211,22 @@ Enabling hardcore mode sets the difficulty to hard and gives players only one li
 ### RCON
 
 RCON (Remote Console) lets you send commands to your server from external tools. It's powerful but opens a network port that attackers could target, so a security warning appears when you enable it. Make sure you set a strong RCON password if you turn this on.
+
+### Management Server (1.21+)
+
+Minecraft 1.21 introduced a built-in REST API management server that lets you control the server remotely. The properties page exposes all the related settings:
+
+- **Management Server Enabled** -- turn the API on or off
+- **Management Server Host** -- the host address (defaults to `localhost`)
+- **Management Server Port** -- the port the API listens on
+- **Management Allowed Origins** -- allowed origins for CORS requests
+- **Management TLS Enabled** -- enable HTTPS for the management API
+- **Management Server Secret** -- the authentication key for API requests
+- **Management TLS Keystore** -- path to the TLS keystore file
+- **Management Keystore Password** -- password for the keystore
+
+{: .warning}
+> The secret and keystore password are sensitive values. Keep them private and never share them.
 
 ### Player Idle Timeout
 

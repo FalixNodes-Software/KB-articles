@@ -3,7 +3,7 @@ layout: post
 title: "Server Monitoring"
 tags: Monitoring
 permalink: falix/dashboard/monitoring/server-monitoring
-description: "Monitor your server's performance with real-time charts, health scores, crash reports, and predictive alerts."
+description: "Monitor your server's performance with real-time charts, health scores, crash reports, predictive alerts, and player activity tracking."
 keywords:
     - keyword: monitor
       matches: ["performance", "cpu", "ram", "disk", "network"]
@@ -17,13 +17,15 @@ keywords:
       matches: ["ram", "usage", "monitor", "performance"]
     - keyword: uptime
       matches: ["monitor", "server", "session", "restart"]
+    - keyword: player activity
+      matches: ["online", "retention", "leaderboard", "peak"]
 author: Lily
 ---
 
 ## Introduction
 Server problems rarely show up out of nowhere. Usually, there are warning signs -- CPU creeping up, memory slowly filling, restarts happening more often than they should. The Monitor page helps you spot those patterns before they turn into real issues.
 
-From here, you can track your server's resource usage in real time, see a health score that summarizes how things have been going over the past week, and dig into crash reports when something does go wrong. Think of it as your server's dashboard for understanding what's happening under the hood.
+From here, you can track your server's resource usage in real time, see a health score that summarizes how things have been going over the past week, dig into crash reports when something does go wrong, and -- if you're running a Minecraft server -- keep tabs on player activity and retention. Think of it as your server's dashboard for understanding what's happening under the hood.
 
 ## Health Score
 
@@ -50,9 +52,9 @@ Memory carries the most weight because running out of RAM is one of the most com
 
 ### What the Grades Mean
 
-- **Green (80--100, grades A+ through A-)** -- Your server is in great shape. Keep doing what you're doing.
-- **Orange (50--79, grades B+ through C-)** -- Things are okay, but there's room for improvement. Worth checking which metric is dragging the score down.
-- **Red (0--49, grades D+ through F)** -- Your server needs attention. Check the crash reports and resource charts to figure out what's going wrong.
+- **Green (90--100, grades A+ through A-)** -- Your server is in great shape. Keep doing what you're doing.
+- **Orange (60--89, grades B+ through D-)** -- Things are okay, but there's room for improvement. Worth checking which metric is dragging the score down.
+- **Red (0--59, grade F)** -- Your server needs attention. Check the crash reports and resource charts to figure out what's going wrong.
 
 You'll also see a trend indicator that tells you whether your score has gone up or down compared to last week, so you can tell at a glance if things are getting better or worse.
 
@@ -126,6 +128,44 @@ This is one of the most useful features on the monitoring page. The system watch
 
 {: .success}
 > Predictive alerts can save you from surprise outages. If you see one, it's a good time to check whether you need to optimize your server, reduce plugins, or upgrade your plan.
+
+## Player Activity (Minecraft Only)
+
+If you're running a Minecraft server, you'll see a second tab at the top of the Monitor page called **Player Activity**. This tab gives you a detailed look at who's playing on your server, when they're playing, and how well you're retaining them over time.
+
+### Overview Cards
+
+At the top, a hero card shows the number of **players currently online**, along with quick stats for **peak** players, **average** online count, **unique** players, and **new** players for the selected time range.
+
+Below that, four insight cards give you a snapshot of your server's community health:
+
+- **Growth Rate** -- How your player count is trending compared to the previous period.
+- **Retention Rate** -- The percentage of players who come back after their first visit.
+- **Avg Session** -- How long players typically stay on your server per session.
+- **Top Region** -- The most common geographic region your players connect from.
+
+### Charts and Visualizations
+
+The Player Activity tab includes several charts to help you understand player behavior:
+
+- **Player Count Timeline** -- A line chart showing how many players were online over time, so you can spot trends and peak periods.
+- **Peak Hours** -- A bar chart showing which hours of the day are busiest, helping you plan restarts or events around your server's most active times.
+- **Activity Heatmap** -- A visual grid showing player activity patterns across days and hours, making it easy to see at a glance when your server is most and least active.
+
+### Retention Funnel
+
+The retention funnel tracks how well your server keeps players coming back. It shows the flow from **New Players** to **Day 1** retention, then **Day 7**, and finally **Day 30** retention, with percentages and player counts at each stage. If you notice a big drop-off at a particular stage, that's a signal to investigate what might be driving players away.
+
+### Player Leaderboard and Activity Feed
+
+On the lower half of the tab, you'll find two panels side by side:
+
+- **Player Leaderboard** -- Ranks your most active players by playtime, with a search bar so you can look up specific players.
+- **Activity Feed** -- A live feed of player events like joins and leaves, so you can see who's coming and going in real time.
+
+### Time Ranges
+
+You can adjust the time range for player activity data using the dropdown. Available ranges are 1 hour, 6 hours, 24 hours (the default), 3 days, 7 days, and 30 days.
 
 ## Crash Reports
 

@@ -113,7 +113,7 @@ Right-click any file or folder to open the context menu, or use the action dropd
 {% endtabs %}
 
 {: .info}
-> Free plan users cannot rename or move `.sh` (shell script) files.
+> Free plan users will not see `.sh` (shell script) files in the file listing at all -- these files are hidden on the free plan.
 
 ### Renaming
 
@@ -161,8 +161,9 @@ There are several ways to get files onto your server, depending on what is most 
 - **File Upload** -- Select one or more files from your computer using the file picker
 - **Folder Upload** -- Upload an entire folder, including all its subfolders, at once
 - **Drag and Drop** -- Simply drag files from your desktop onto the page and a drop overlay will appear
-- **Pull from URL** -- Enter a URL and the server will download the file directly, saving you from downloading it to your computer first. You can optionally set a custom filename
-- **SFTP** -- Connect with an SFTP client like FileZilla or WinSCP for direct file access and bulk uploads. This is the best option for transferring large numbers of files
+- **Pull from URL** -- Enter a URL and the server will download the file directly, saving you from downloading it to your computer first. You can optionally set a custom filename. This is a **premium feature**
+- **Server Importer** -- Import files from another server hosting provider. This is a **premium feature**
+- **SFTP** -- Connect with an SFTP client like FileZilla or WinSCP for direct file access and bulk uploads. This is the best option for transferring large numbers of files and is available on all plans
 
 ### Upload Limits
 
@@ -216,7 +217,10 @@ Click **Edit** on any text or code file to open it in the built-in code editor. 
 
 ### Filename Search
 
-Click the search button or press **Ctrl+F** to open the search bar. As you type, files in the current directory are filtered in real-time. A counter shows how many results match (for example, "3 of 12"), making it easy to spot what you are looking for.
+{: .info}
+> Filename search is a **premium feature**.
+
+Click the search button or press **Ctrl+F** (or **Cmd+F** on Mac) to open the search bar. As you type, files in the current directory are filtered in real-time. A counter shows how many results match (for example, "3 of 12"), making it easy to spot what you are looking for.
 
 ## Disk Usage Analysis
 
@@ -320,7 +324,7 @@ If you prefer keeping your hands on the keyboard, the File Manager has you cover
 
 | Shortcut | Action |
 |----------|--------|
-| **Ctrl+F / Cmd+F** | Open filename search |
+| **Ctrl+F / Cmd+F** | Open filename search (premium only) |
 | **Ctrl+A / Cmd+A** | Select all files |
 | **Ctrl+U / Cmd+U** | Upload files |
 | **Ctrl+N / Cmd+N** | Create new folder |
@@ -333,4 +337,7 @@ If you prefer keeping your hands on the keyboard, the File Manager has you cover
 
 ## World Viewer
 
-Here is something fun for Minecraft servers: when you navigate into a world's `region` folder, a **World View** button appears. Click it to visualize your Minecraft world data right in the browser -- a great way to get a quick overview of what your world looks like without launching the game.
+{: .info}
+> The World Viewer is currently under development and may not be available yet.
+
+For Minecraft servers, when you navigate into a world's `region` folder, a **World View** button may appear. Click it to visualize your Minecraft world data right in the browser -- a great way to get a quick overview of what your world looks like without launching the game.

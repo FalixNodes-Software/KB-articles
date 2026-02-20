@@ -23,7 +23,7 @@ author: Lily
 ## Introduction
 The player details page gives you full control over an individual player -- right from your dashboard, no commands needed. You can check their health, hunger, experience, inventory, abilities, advancements, and more. Need to heal someone, swap their gamemode, or teleport them across the map? It's all here in one place.
 
-To open a player's details, click their card on the [Players](falix/dashboard/general/player-management) page.
+To open a player's details, click their card on the [Players](falix/dashboard/players/player-management) page.
 
 {: .info}
 > Most editing features require the player to be **online**. A few actions -- like deleting player data -- actually require the player to be **offline** first.
@@ -112,9 +112,11 @@ You can rearrange items by dragging and dropping them between slots, which is a 
 
 | Action | Description | Requires |
 |--------|-------------|----------|
-| **View Ender Chest** | Opens a modal showing the player's 27-slot ender chest contents | Any |
-| **Give Item** | Give an item to the player via a modal | Online |
+| **View Ender Chest** | Opens a modal showing the player's 27-slot ender chest contents. You can also clear the ender chest from within this modal. | Any |
+| **Give Item** | Give an item to the player -- browse items by category, set quantity (1-64), and choose a target slot | Online |
 | **Clear Inventory** | Remove all items from the player's inventory (confirmation required) | Online |
+
+Clicking on a **shulker box** or **bundle** in the inventory will open a modal showing its contents, so you can inspect what's inside without asking the player.
 
 {: .warning}
 > Clearing a player's inventory removes everything they're carrying. Double-check before confirming -- there's no undo.
@@ -160,6 +162,7 @@ Click **More Abilities** to open a modal with the full set of player attributes.
 | Follow Range | Mob detection range |
 | Step Height | Maximum block height the player can step up |
 | Scale | Player model scale |
+| Gravity | Gravitational pull strength |
 | Safe Fall Distance | Distance before fall damage starts |
 | Fall Damage Multi | Fall damage multiplier |
 | Burning Time | Duration of fire damage |
@@ -168,6 +171,14 @@ Click **More Abilities** to open a modal with the full set of player attributes.
 | Oxygen Bonus | Underwater breathing bonus |
 | Movement Efficiency | Movement speed on certain blocks |
 | Block Interact Range | Reach distance for block interaction |
+| Entity Interact Range | Reach distance for entity interaction |
+| Attack Knockback | Knockback dealt by melee attacks |
+| Block Break Speed | Speed of breaking blocks |
+| Underwater Mining | Mining speed while submerged |
+| Sneaking Speed | Movement speed while sneaking |
+| Flying Speed | Speed while flying |
+| Max Absorption | Maximum absorption (golden hearts) |
+| Sweeping Damage | Ratio of sweeping attack damage |
 
 {: .info}
 > Most of the time you won't need to touch advanced attributes, but they're incredibly useful for custom game modes, events, or debugging weird player behavior.
@@ -189,6 +200,17 @@ Shows unlocked recipe count with a progress bar. Displays the number of new reci
 {% endtab %}
 
 {% endtabs %}
+
+## Permissions & Moderation
+
+At the top of the actions panel, you'll find quick access buttons for managing the player's permissions and handling moderation:
+
+- **Operator** -- Toggle operator (op) status on or off for the player.
+- **Whitelist** -- Add or remove the player from the whitelist.
+- **Kick** -- Kick the player from the server (only visible when the player is online).
+- **Ban / Unban** -- Ban the player from the server or lift an existing ban.
+
+These are the same actions available on the [Player Management](falix/dashboard/players/player-management) page, but having them here saves you from switching pages when you're already looking at a specific player.
 
 ## Commands
 
@@ -215,9 +237,9 @@ Requires the player to be **online**.
 
 | Command | Description | Requires |
 |---------|-------------|----------|
-| **Teleport to coordinates** | Enter X, Y, Z coordinates | Online |
-| **Set spawn point** | Set the player's spawn to specific coordinates | Any |
-| **Teleport to dimension** | Move to Overworld, Nether, or End | Online |
+| **Teleport to coordinates** | Enter X, Y, Z coordinates to move the player there | Online |
+| **Set spawn point** | Set the player's respawn point to their current position | Online |
+| **World teleport** | Move the player to the Overworld, Nether, or End, optionally with custom coordinates | Online |
 
 {% endtab %}
 
@@ -230,37 +252,36 @@ Apply or remove potion effects.
 - Set duration (in seconds)
 - Set amplifier level
 
-**Quick effects:**
-
-| Button | Effect |
-|--------|--------|
-| **Extinguish** | Fire resistance (removes fire) |
-| **Restore Air** | Water breathing (stops drowning) |
-| **Clear Fall** | Slow falling (prevents fall damage) |
-| **End Portal Cooldown** | Resets portal cooldown timer |
-
-You can also clear a specific active effect by clicking the remove button next to it.
-
-All effect commands require the player to be **online**.
+Requires the player to be **online**.
 
 {% endtab %}
 
 {% tab commands Messaging %}
 
-Send visual messages to the player.
+Send visual messages to the player. The messaging modal includes:
 
-| Type | Description |
-|------|-------------|
-| **Title** | Large text in the center of the screen |
-| **Action Bar** | Text above the hotbar |
+- **Quick templates** -- Pre-written messages for common situations (Welcome, Warning, Rules, Help) that you can insert with one click.
+- **Message text** -- Type your custom message (up to 256 characters).
+- **Color codes** -- Pick from all 16 Minecraft color codes to style your text.
+- **Formatting** -- Apply bold, italic, underline, strikethrough, or reset formatting.
+- **Display type** -- Choose between **Action Bar** (text above the hotbar) or **Title** (large text in the center of the screen).
 
-Enter the message text and select the display type. Requires **online**.
+Requires the player to be **online**.
 
 {% endtab %}
 
 {% tab commands Sounds %}
 
-Play a sound effect for the player. Select from available Minecraft sounds. Requires **online**.
+Play a sound effect for the player. Sounds are organized into four categories:
+
+| Category | Sounds |
+|----------|--------|
+| **Scary** | Wither, Dragon, Ghast, Guardian |
+| **Ambient** | Cave, Thunder, Bell, Pling |
+| **Alerts** | Level Up, Challenge, Anvil, XP |
+| **Funny** | Villager No, Cat Hiss, Pig, Goat |
+
+Just click any sound button to play it for the player. Requires **online**.
 
 {% endtab %}
 
@@ -276,8 +297,8 @@ Chaos commands for fun interactions with online players.
 | **Freeze** | Slowness + Mining Fatigue |
 | **Blind** | Blindness effect |
 | **Bounce** | Jump boost |
-| **Burn** | Fire + fire blocks around the player |
-| **Rocket** | Elytra + firework boost |
+| **Burn** | Fire resistance + fills blocks around the player with fire |
+| **Rocket** | Gives the player an elytra and 64 firework rockets |
 | **Drunk** | Nausea + Slowness |
 | **Glow** | Glowing outline effect |
 | **Invisible** | Invisibility effect |
@@ -295,6 +316,43 @@ All fun commands require the player to be **online**.
 
 {: .info}
 > The fun commands are a great way to interact with your community during events or livestreams. Just be mindful that some of them (like Explode and Burn) can destroy blocks or kill the player, so use them wisely.
+
+## Emergency Actions
+
+When a player is in trouble, emergency action buttons automatically appear to help you respond quickly. These show up contextually based on the player's current status:
+
+| Button | Appears When | Effect |
+|--------|-------------|--------|
+| **Extinguish Fire** | Player is on fire | Grants fire resistance to put them out |
+| **Restore Air** | Player is drowning | Grants water breathing to stop drowning |
+| **Clear Fall Damage** | Player is falling | Grants slow falling to prevent fall damage |
+| **End Portal Cooldown** | Player is in portal cooldown | Grants resistance to reset portal cooldown |
+| **Revive at Death Location** | Player has a recorded death location | Teleports the player back to where they last died |
+
+All emergency actions require the player to be **online**.
+
+## Location
+
+The location card shows where the player is in the world. You'll see:
+
+- **Current coordinates** -- The player's X, Y, Z position along with their current dimension (Overworld, Nether, or End). Click the teleport button to move the player there.
+- **Respawn point** -- Where the player will respawn after dying, if one is set. Also has a teleport button.
+- **Last death location** -- Where the player most recently died. You can teleport them back to recover their items.
+
+Each location section has a quick-teleport button that sends the player to those coordinates with a single click.
+
+## Statistics
+
+The statistics card gives you a snapshot of the player's in-game activity. At the top you'll see summary stats for **play time** and **distance walked**. Below that, expandable sections break down:
+
+- **Blocks mined** -- Which blocks they've mined and how many of each.
+- **Items used** -- Which items they've interacted with.
+- **Entities killed** -- Which mobs they've taken down.
+
+Click **View All** to open a full statistics modal with searchable, categorized breakdowns including items crafted, deaths, tools broken, items picked up, items dropped, and custom stats.
+
+{: .info}
+> Statistics are only available for Minecraft Java servers. The data comes from the server's built-in statistics tracking.
 
 ## Player Data Files
 

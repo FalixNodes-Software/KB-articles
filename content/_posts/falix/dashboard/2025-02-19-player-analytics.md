@@ -91,15 +91,15 @@ Each stage displays both the percentage and the actual count (for example, "45% 
 
 ## Player Leaderboard
 
-The player leaderboard is a ranked list of your top players sorted by total playtime. For each player, you'll see:
+The player leaderboard is a ranked list of your top players sorted by session count. For each player, you'll see:
 
-- **Rank** -- Their position on the leaderboard.
-- **Player Name** -- Their Minecraft username, which you can click to see more details.
-- **Play Time** -- The total time they've spent on your server.
-- **Join Count** -- How many separate sessions they've logged.
-- **Last Seen** -- When they were last online, shown as relative time (like "2 hours ago").
+- **Rank** -- Their position on the leaderboard, with gold, silver, and bronze highlights for the top three.
+- **Player Name** -- Their Minecraft username and avatar. Click any player to see their detailed activity breakdown.
+- **Sessions & Play Time** -- How many separate sessions they've logged and their total time on the server.
 
-Use the **search bar** at the top of the leaderboard to quickly look up a specific player by name. This is a great way to check on regulars or investigate a specific player's activity.
+New players are marked with a **NEW** badge, and players with a 3+ day streak get a streak badge showing their current consecutive-day count. The leaderboard is paginated with 5 players per page.
+
+Use the **search bar** above the leaderboard to look up a specific player by name. Click any player on the leaderboard to see a detailed view of their individual activity, including session history and play patterns.
 
 ## Live Activity Feed
 
@@ -107,7 +107,5 @@ At the bottom of the page, you'll find a real-time feed of player events marked 
 
 - Player joins
 - Player leaves
-- Achievements
-- Deaths
 
-Each event shows the player's name and a timestamp. The feed displays the 100 most recent events and auto-scrolls to keep the latest activity in view, so you can keep an eye on what's happening without refreshing.
+Each event shows the player's avatar, name, and a relative timestamp. The feed displays up to 100 recent events with pagination (10 per page), so you can browse through recent activity without the list getting overwhelming.

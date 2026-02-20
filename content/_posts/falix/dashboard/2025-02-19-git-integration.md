@@ -154,8 +154,10 @@ The **Deployments** tab keeps a full history of every deployment, so you can alw
 - **Status** -- whether the deployment is pending, in progress, succeeded, or failed
 - **Commit hash and message** -- so you know exactly which code was deployed
 - **Branch** -- the branch it was deployed from
+- **Author** -- who made the commit
 - **Trigger** -- whether it was kicked off manually or by a webhook push
 - **Duration** -- how long the deployment took
+- **Files changed** -- how many files were affected
 
 This makes it easy to track down issues if something goes wrong after a deploy.
 

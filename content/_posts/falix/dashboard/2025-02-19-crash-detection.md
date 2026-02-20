@@ -32,15 +32,15 @@ Your restart policy tells the system what to do when your server goes down. Here
 
 | Policy | Description |
 |--------|-------------|
-| **Default (on-failure)** | Restart only when the server exits with an error |
+| **Default (on-failure)** | Restart only when the server exits with an error. This is selected when you leave the dropdown on its default value. |
 | **Never restart** | Never auto-restart regardless of exit status |
 | **Always restart** | Always restart after any shutdown |
-| **On failure** | Restart only on non-zero exit code |
-| **On abnormal exit** | Restart on abnormal exits (signals, timeouts) |
-| **Unless stopped** | Restart unless manually stopped by the user |
+| **Restart on failure** | Restart only on non-zero exit code |
+| **Restart on abnormal exit** | Restart on abnormal exits (signals, timeouts) |
+| **Unless manually stopped** | Restart unless you manually stopped the server yourself |
 
 {: .info}
-> Most servers should stick with the default **on-failure** policy. It restarts your server when something actually goes wrong, but won't interfere when you shut it down intentionally. If you're running a production server that needs maximum uptime, **unless stopped** is a solid alternative -- it keeps the server running through almost anything, unless you explicitly stop it yourself.
+> Most servers should stick with the default **on-failure** policy. It restarts your server when something actually goes wrong, but won't interfere when you shut it down intentionally. If you're running a production server that needs maximum uptime, **unless manually stopped** is a solid alternative -- it keeps the server running through almost anything, unless you explicitly stop it yourself.
 
 ### Rate Limiting
 

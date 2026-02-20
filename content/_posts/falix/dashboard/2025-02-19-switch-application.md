@@ -52,6 +52,7 @@ When you confirm the switch, a few things happen on the backend:
 - **The server egg is replaced.** The egg defines the startup script, the Docker image your server runs inside, and the configuration variables available on your Settings page. All of these are swapped out for the new application's versions.
 - **Your files remain on disk.** Falix does not automatically delete your existing files when you switch. They will still be sitting in your File Manager afterward. However, the new application will likely ignore them entirely since they belong to a different piece of software.
 - **The server may need to be reinstalled.** Depending on the application, the new egg's installation script may need to run in order to download the correct server software. If prompted, follow the on-screen instructions.
+- **Some settings are preserved automatically.** Your timezone and memory configuration carry over to the new application, so you do not need to reconfigure those after switching.
 
 {: .info}
 > If you switch back to your original application later, your old files should still be there (assuming you have not deleted them). This means you can often pick up right where you left off, though it is always safest to restore from a backup rather than relying on leftover files.
@@ -64,11 +65,11 @@ Applications are organized into categories to make browsing easier:
 - **Apps** — This category covers everything that is not a game. Web servers, Discord bots, custom applications, and other software all live here. If you want to repurpose your server slot for something outside of gaming, check this section out.
 
 {: .info}
-> Some applications may only be available to premium users. If you do not see an option you are looking for, it might require a premium plan.
+> Free plan users can only switch between Minecraft Java and Hytale. All other applications require a premium plan.
 
 ## Tips and Things to Keep in Mind
 
-- **You can switch as many times as you like.** There is no limit on how often you change your server's application. Feel free to experiment.
+- **You can switch as many times as you like.** There is no limit on how often you change your server's application. Feel free to experiment. The only restriction is that you cannot switch to the application your server is already running.
 - **Switching does not affect your server slot or plan.** Your server keeps the same resources (RAM, disk space, etc.) regardless of which application is running.
 - **Old files can pile up.** Since switching does not delete files, you might end up with leftover data from previous applications cluttering your File Manager. It is a good idea to clean up files you no longer need after a switch.
 - **Check your startup configuration after switching.** The new application will have different startup variables and settings. Head over to your server's **Startup Configuration** page after switching to make sure everything looks right.

@@ -17,7 +17,7 @@ author: Lily
 ## Introduction
 Sometimes things go sideways. Maybe your server's installation got corrupted after a bad update, your startup files aren't behaving the way they should, or you just want a completely fresh start. Other times, you might be done with a server entirely and want to free up a slot for something new.
 
-That's where the **Danger Zone** tab on your server's **Settings** page comes in. It gives you two powerful options: reinstalling your server's software or permanently deleting the server altogether. Both of these actions are serious, so let's walk through exactly what each one does and when you'd want to use it.
+That's where the **Danger Zone** tab on your server's **Settings** page comes in. Navigate to your server's **Settings**, then select the **Danger Zone** tab from the tabs at the top. It gives you two powerful options: reinstalling your server's software or permanently deleting the server altogether. Both of these actions are serious, so let's walk through exactly what each one does and when you'd want to use it.
 
 {: .warning}
 > Before doing either of these, always create a backup first. Both reinstalling (with file deletion) and deleting a server are irreversible, and there's no way to recover data that wasn't backed up.

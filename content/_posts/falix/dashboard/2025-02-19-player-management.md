@@ -40,7 +40,7 @@ Both counts auto-refresh every 60 seconds. The full player list itself refreshes
 
 Every player appears as their own card in the list. You will see their in-game skin or avatar, their username, and a status badge showing whether they are **Online** or **Offline**. If a player has been given operator permissions, they will have an **Op** badge next to their name, and banned players are clearly marked with a **Banned** badge. Each card also shows a "last seen" timestamp so you can tell when someone was last active.
 
-Click on any player card to open their [full player details](falix/dashboard/general/player-details) page, where you can take a closer look at their history and manage them individually.
+Click on any player card to open their [full player details](falix/dashboard/players/player-details) page, where you can take a closer look at their history and manage them individually.
 
 ### Searching
 

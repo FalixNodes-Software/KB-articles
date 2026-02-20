@@ -21,21 +21,22 @@ Ready to get your server up and running? Here's how to create your first server 
 
 2. In the navigation menu, click on [Create Server](https://client.falixnodes.net/create).
 
-3. Scroll down to the **Plan Selection** section.
-
-4. Pick the plan that works best for you:
+3. Choose the server type that works best for you:
     - **Free** -- a great way to get started at no cost. You'll have access to Minecraft and Hytale servers with generous resources to try things out.
     - **Premium** -- unlocks additional games, applications, and extra server resources for a more powerful experience.
 
-5. Click **Continue** to proceed.
+4. Click **Continue** to proceed.
+
+{: .info}
+> If you already have a premium plan, this step is skipped and you'll go straight to entering your server details.
 
 ### Enter Server Details
 
 Now you'll give your server a name and an address. Fill in the following:
 
-- **Server Name**: This is how your server will appear in your dashboard. It's visible only to you by default, though it may appear publicly if you enable that later. Don't worry about picking the perfect name right now -- you can change it at any time.
+- **Server Name**: This is how your server will appear in your dashboard (3-20 characters). Don't worry about picking the perfect name right now -- you can change it at any time.
 
-- **Server Domain**: This is the address your players will type in to connect to your server. Like the server name, this can also be changed later if you change your mind.
+- **Server Domain**: This is the address your players will type in to connect to your server (1-20 characters, lowercase letters only). You can also pick a domain suffix from the dropdown. Like the server name, this can be changed later if you change your mind.
 
 Once you're happy with your choices, click **Continue**.
 

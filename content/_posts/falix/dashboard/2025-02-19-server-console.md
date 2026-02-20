@@ -3,7 +3,7 @@ layout: post
 title: "Server Console"
 tags: Monitoring
 permalink: falix/dashboard/monitoring/server-console
-description: "Control your server with the real-time console — send commands, monitor resources, view player activity, search logs, and manage power state."
+description: "Control your server with the real-time console — send commands, monitor resources, view player activity, and manage power state."
 keywords:
     - keyword: console
       matches: ["server", "terminal", "command", "output"]
@@ -29,7 +29,7 @@ If there is one page you will visit more than any other, it is the Console. This
 
 ## Console Output
 
-The console shows your server's log output in real time, so you always know exactly what is happening. It uses virtual scrolling to stay fast even under heavy log volume, and it holds up to 10,000 messages in a circular buffer (older messages rotate out as new ones come in).
+The console shows your server's log output in real time, so you always know exactly what is happening. To keep things fast, the console limits the display to roughly 500 messages at a time -- older messages are removed from the view as new ones come in.
 
 ### What Makes the Console Smart
 
@@ -43,7 +43,6 @@ The output is not just plain text. The console parses and enriches your logs in 
 - **UUIDs** are highlighted in purple and clickable to copy.
 - **URLs are detected and made clickable**. If a link points to an unknown domain, you will see a trust confirmation before being redirected.
 - **Auto-scroll** keeps you pinned to the latest messages. If you scroll up to read older logs, auto-scroll pauses automatically and a "scroll to bottom" button appears so you can jump back down whenever you are ready.
-- **Scroll to the very top** to load older log history from the server beyond what is currently in the buffer.
 
 ### Console State Overlay
 
@@ -69,7 +68,7 @@ When the console has no messages to show, you will see a state overlay that tell
 Instead of scrolling through thousands of log lines to find what you need, the console gives you filtered tabs that pull out specific message types:
 
 - **Console** -- the full, unfiltered server output.
-- **Chat** -- only player chat messages. A badge shows how many chat messages have come in.
+- **Chat** -- only player chat messages (Minecraft and Hytale). A badge shows how many chat messages have come in.
 - **Players** -- a list of online and offline players (Hytale only). The badge shows the current player count.
 - **Errors** -- only error-level log entries (Minecraft only). The badge tells you how many errors have occurred.
 - **Warnings** -- only warning-level log entries (Minecraft only). Same idea -- the badge shows the count.
@@ -81,14 +80,15 @@ Instead of scrolling through thousands of log lines to find what you need, the c
 
 On the right side of the tab bar (Minecraft only), you will find a few handy controls:
 
-- **Popup** -- opens the console in a separate popup window so you can monitor your server on a second screen. This is a premium feature.
+- **Popup** -- opens the console in a separate popup window so you can monitor your server on a second screen. This is a **premium feature**.
 - **Share** -- creates a shareable link of your console logs, perfect for asking for help.
 - **View Mode** -- toggles between graph and simple resource views (more on this below).
-- **Clear** -- clears the messages in the currently active filtered tab. This button appears when you are on the Errors, Warnings, or Chat tab.
+- **Clear** -- when you are on the main Console tab, this clears all console messages. When you are on the Errors, Warnings, or Chat tab, it clears only that tab's filtered messages.
+- **Export** -- appears on the Errors, Warnings, and Chat tabs, letting you download the filtered messages.
 
 ### Exporting Tab Messages
 
-When you are viewing the Errors, Warnings, or Chat tab, an **Export** button appears. Clicking it downloads the filtered messages as a `.txt` file with a filename like `server-errors-{id}-{date}.txt`. This is useful when you want to save a record of issues or share them with someone helping you troubleshoot.
+When you are viewing the Errors, Warnings, or Chat tab, an **Export** button appears alongside the Clear button. Clicking it downloads the filtered messages as a `.txt` file with a filename like `server-errors-{id}-{date}.txt`, `server-warnings-{id}-{date}.txt`, or `server-chat-{id}-{date}.txt` depending on the active tab. This is useful when you want to save a record of issues or share them with someone helping you troubleshoot.
 
 ### Players Panel
 
@@ -123,7 +123,7 @@ The console header gives you quick access to your server's power state:
 {: .warning}
 > Only use **Kill** if your server is not responding to a normal Stop. Force-stopping can occasionally cause data loss if the server has not finished saving.
 
-For non-Minecraft servers, the Popup, Share, and View Mode controls are tucked under a dropdown menu (**...**) in the header.
+For non-Minecraft servers, the Popup, Share, and View Mode controls are tucked under a dropdown menu (**...**) in the header instead of appearing in the tab bar.
 
 ### Startup Queue
 
@@ -204,11 +204,13 @@ The Minecraft connection modal has **Java Edition** and **Bedrock Edition** tabs
 3. Your direct IP:port (click to copy).
 
 **Bedrock Edition** shows:
-1. A Quick Join button that uses the `minecraft://` protocol to launch the game directly.
-2. Separate IP and Port fields (click to copy).
-3. A share link you can send to friends.
+1. A Quick Join button that uses the `minecraft://` protocol to launch the game and add the server directly.
+2. A share link you can send to friends so they can easily join.
+3. Direct IP and Port fields (click to copy).
 
 A **Verify DNS** button checks whether your domain is resolving correctly and reports success, warning, or error status. This is handy if players are having trouble connecting using your domain.
+
+The connection modal also includes a **Remote Startup** section at the bottom, where you can create a public link that allows friends to start your server remotely even when you are not online.
 
 {: .warning}
 > If your server is Java-only, the Bedrock tab will show a warning suggesting you install Geyser to enable cross-play. If it is Bedrock-only, the Java tab shows a corresponding note.
@@ -219,28 +221,13 @@ A **Verify DNS** button checks whether your domain is resolving correctly and re
 
 For non-Minecraft servers, the modal is simpler:
 
-- Domain address (click to copy)
-- Direct IP:port (click to copy)
-- Separate IP and Port fields (click to copy)
+- Domain address with port (click to copy)
+- Direct IP:port connection (click to copy)
+- Separate IP and Port fields (click to copy) -- not shown for Hytale servers
 
 {% endtab %}
 
 {% endtabs %}
-
-## Search
-
-Need to find a specific log entry? Open the search bar by pressing **Ctrl+F** (or **Cmd+F** on Mac), or by clicking the search toggle button.
-
-Search supports full regex syntax, so you can look for simple text or build complex patterns. Here is what to expect:
-
-- Up to **500 matches** are returned, each with 2 lines of context before and after.
-- Results are **cached for 5 minutes**, so repeating a recent search is instant.
-- If you enter an invalid regex pattern, you will see a helpful error message instead of confusing results.
-
-Search results replace the console output and display line numbers, highlighted matches, and context separators. Click **Close** to return to the live console view.
-
-{: .success}
-> Try searching for `ERROR|WARN` to quickly find all errors and warnings at once. Regex makes the search bar surprisingly powerful.
 
 ## Sharing Console Logs
 
@@ -299,5 +286,4 @@ These shortcuts help you work faster without reaching for the mouse:
 | **Enter** | Send the command you have typed |
 | **Up/Down arrows** (in command input) | Cycle through your command history |
 | **Up/Down arrows** (when autocomplete is open) | Navigate autocomplete suggestions |
-| **Ctrl+F / Cmd+F** | Open or focus the search bar |
-| **Escape** | Close the search bar |
+| **Enter** (when autocomplete is open) | Confirm the selected autocomplete suggestion |

@@ -15,7 +15,7 @@ author: Lily
 ---
 
 ## Introduction
-Sometimes a friend sends you a link and says "my server keeps crashing, can you take a look?" Other times, a support agent shares a log with you so you can see exactly what went wrong. Either way, when someone [shares a server log](falix/dashboard/general/server-logs), a public link is created that anyone with the URL can open -- no login required.
+Sometimes a friend sends you a link and says "my server keeps crashing, can you take a look?" Other times, a support agent shares a log with you so you can see exactly what went wrong. Either way, when someone [shares a server log](falix/dashboard/monitoring/server-logs), a public link is created that anyone with the URL can open -- no login required.
 
 Shared log URLs follow this format: `https://client.falixnodes.net/shared-logs/<id>`
 
@@ -36,7 +36,7 @@ Just below the header, three counters give you a quick snapshot of the log's hea
 
 ### Log Content
 
-The log itself is displayed in a dark, monospace viewer that is easy on the eyes. Line numbers run down the left side, and syntax highlighting makes timestamps, thread names, and log levels stand out. Error lines are tinted red and warning lines are tinted orange, so problem areas practically jump off the screen. You will also notice some values highlighted in orange like `[REDACTED_IP]` or `[REDACTED_AUTH]` -- these are pieces of sensitive data that were automatically removed before sharing.
+The log itself is displayed in a dark, monospace viewer that is easy on the eyes. Line numbers run down the left side, and syntax highlighting makes timestamps, thread names, and log levels stand out. Error lines are tinted red and warning lines are tinted orange, so problem areas practically jump off the screen. You will also notice some values highlighted in orange like `[REDACTED_IP]` or `[REDACTED_AUTH_INFO]` -- these are pieces of sensitive data that were automatically removed before sharing.
 
 ## Filtering
 
@@ -53,7 +53,7 @@ Here is where things get really useful. Shared logs from Minecraft servers are a
 
 ### What It Detects
 
-The analyzer scans for over 20 issue categories across four severity levels:
+The analyzer scans for over 200 issue categories across four severity levels:
 
 | Severity | Examples |
 |----------|---------|
@@ -66,7 +66,7 @@ The analyzer scans for over 20 issue categories across four severity levels:
 
 Each detected issue is presented as a card that gives you everything you need to understand and fix the problem:
 
-- **Severity badge** -- color-coded so you can triage at a glance (red for critical, orange for high, yellow for medium, gray for low)
+- **Severity badge** -- color-coded so you can triage at a glance (red for critical, orange for high, blue for medium, gray for low)
 - **Title and description** of the problem in plain language
 - **Details** -- affected plugins or mods, server version, TPS, memory usage, and affected worlds
 - **Log examples** -- the actual lines that triggered the detection, complete with syntax highlighting so you can see exactly what happened
@@ -95,9 +95,8 @@ Before a log is ever shared, sensitive data is automatically detected and replac
 |----------|--------------|
 | IPv4 addresses | `[REDACTED_IP]` |
 | IPv6 addresses | `[REDACTED_IPV6]` |
-| Auth tokens, passwords, API keys | `[REDACTED_AUTH]` |
+| Auth tokens, passwords, API keys | `[REDACTED_AUTH_INFO]` |
 | Email addresses | `[REDACTED_EMAIL]` |
-| Minecraft UUIDs | `[REDACTED_UUID]` |
 
 Redacted values are highlighted in orange in the viewer, so you can see exactly where data was removed without worrying about what was there.
 

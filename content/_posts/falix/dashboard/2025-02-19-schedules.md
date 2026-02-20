@@ -144,7 +144,7 @@ Create a server backup.
 **Availability:** All plans (free users limited to daily or less frequent schedules)
 
 **Configuration:**
-- Optionally set a label for the backup so you can identify it later
+- No additional configuration needed -- a backup is created automatically when this task runs
 - If you've reached your server's backup limit, the oldest unlocked backup is automatically deleted to make room
 
 {: .info}
@@ -214,10 +214,9 @@ Trigger a deployment from your linked Git repository.
 
 ### Task Options
 
-Every task has a couple of extra settings you can tweak:
+Every task has an extra setting you can tweak:
 
 - **Time offset** -- adds a delay before this task runs, anywhere from 0 seconds up to 6 hours. Presets are available (0s, 30s, 1m, 5m, 10m, 15m, 30m, 1h, 2h, 4h, 6h), or you can enter a custom value. This is useful when you want to stagger actions -- for example, sending a warning message and then waiting 30 seconds before actually stopping the server.
-- **Continue on failure** -- if enabled, the next task in line will still run even if this one fails. Otherwise, the entire schedule stops at the failed task. Turn this on for non-critical tasks where a failure shouldn't block everything else.
 
 ### Reordering Tasks
 You can drag and drop tasks to change the order they run in. Since tasks execute sequentially, the order matters -- put your warning messages before your restarts, and your save commands before your backups.
