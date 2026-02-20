@@ -11,6 +11,9 @@ author:
     - Mocab
 ---
 
+{: .warning}
+> Extra ports are available only on Premium plans.
+
 ## What Is a Port?
 
 A port is like a gateway that allows internet traffic to flow in and out of. Just like in a harbour, you cannot have two ships arriving or departing from the same dock, and so multiple docks are used to increase the ship capacity. The same can be applied to ports, when multiple different types of content is delivered from the server, multiple ports must be used to avoid clashing with each other and the main port.
