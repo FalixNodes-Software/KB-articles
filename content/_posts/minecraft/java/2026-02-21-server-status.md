@@ -34,7 +34,7 @@ The most common reason is that the server simply has not been started. To start 
 
 ### DNS Has Not Updated Yet
 
-If you recently created your server or your server's runtime machine has changed, the hostname (e.g. `eu9-free.falixserver.net`) may not resolve correctly yet. Servers are sometimes moved between different nodes for load balancing, which causes the underlying IP address to change. When this happens, the DNS records need to update to point to the new address, which can take anywhere from a few minutes to several hours.
+If you recently created your server or your server's runtime machine has changed, your server domain may not resolve correctly yet. Servers are sometimes moved between different nodes for load balancing, which causes the underlying IP address to change. When this happens, the DNS records need to update to point to the new address, which can take anywhere from a few minutes to several hours.
 
 In the meantime, we recommend using the dynamic IP to connect:
 
