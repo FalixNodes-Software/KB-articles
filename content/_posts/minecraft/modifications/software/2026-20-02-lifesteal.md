@@ -18,7 +18,7 @@ mod-url: "https://modrinth.com/plugin/twix-lifesteal"
 
 ## What is LifeSteal?
 
-LifeSteal is an intense Minecraft PvP gamemode where every fight has permanent consequences. When you kill another player, you steal one of their hearts, increasing your maximum health while they lose theirs. Players who lose all their hearts are eliminated from the server (or temporarily banned, depending on configuration). This creates a high-stakes survival experience where combat skill and strategy are essential. LifeSteal has become incredibly popular for SMPs and PvP servers, offering a thrilling mix of survival, combat, and social dynamics.
+LifeSteal is an intense Minecraft PvP gamemode where every fight has permanent consequences. When you kill another player, you steal one of their hearts, increasing your maximum health while they lose theirs. Players who lose all their hearts are eliminated from the server (or temporarily banned, depending on configuration).
 
 ## Installation:
 
