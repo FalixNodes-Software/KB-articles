@@ -23,7 +23,7 @@ Ready to get your server up and running? Here's how to create your first server 
 
 3. Choose the server type that works best for you:
     - **Free** -- a great way to get started at no cost. You'll have access to Minecraft and Hytale servers with generous resources to try things out.
-    - **Premium** -- unlocks additional games, applications, and extra server resources for a more powerful experience.
+    - **Premium** -- unlocks additional games, applications, and extra server resources for a more powerful experience. For a detailed walkthrough of the premium checkout process, see [How To Purchase a Premium Server](falix/account/billing/purchasing-server).
 
 4. Click **Continue** to proceed.
 

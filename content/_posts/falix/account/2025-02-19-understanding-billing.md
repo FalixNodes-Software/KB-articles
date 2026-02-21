@@ -104,3 +104,5 @@ Three payment gateways are supported:
 | PayPal | PayPal balance or linked cards |
 
 You can switch between gateways at any time. See our [Update Payment Method](falix/account/billing/update-payment-method) article for details.
+
+To set up your billing country and VAT number, see [How To Manage Your Billing Details](falix/account/billing/billing-details).
