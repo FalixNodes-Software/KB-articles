@@ -58,8 +58,8 @@ Falix supports a wide range of games and applications. This article provides a c
 
 Falix supports Hytale servers so you can easily create and run your own adventure worlds.
 
-- **Hytale** -- The standard Hytale server setup.
-- **Hytale Server** -- An alternative Hytale server configuration for custom setups.
+- **Hytale**
+- **Hytale Server**
 
 ## Terraria
 
@@ -72,8 +72,8 @@ Falix provides multiple Terraria server options, including modded and plugin-bas
 
 ## Factorio
 
-- **Factorio (Create New)** -- Start a fresh Factorio world from scratch.
-- **Factorio (Load Existing)** -- Load an existing Factorio save file.
+- **Factorio (Create New)**
+- **Factorio (Load Existing)**
 - **Clusterio** -- Run a Factorio Clusterio node for distributed multiplayer.
 
 ## Steam Games
@@ -92,8 +92,8 @@ Falix provides multiple Terraria server options, including modded and plugin-bas
 - **Aloft**
 - **Unturned**
 - **Sons of the Forest**
-- **BeamMP** -- Multiplayer mod for BeamNG.drive.
-- **Astroneer** -- Dedicated server for the space exploration sandbox game.
+- **BeamMP**
+- **Astroneer**
 
 ## Applications
 
