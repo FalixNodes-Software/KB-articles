@@ -3,7 +3,7 @@ layout: post
 title: "How To Use the Support Center"
 category: Account
 tags: Support
-permalink: falix/account/support-center
+permalink: falix/account/support/support-center
 description: "Create support tickets, track their progress, and communicate with the Falix support team."
 keywords:
     - keyword: support

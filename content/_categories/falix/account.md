@@ -9,6 +9,7 @@ tags:
     - Profile
     - Billing
     - Support
+    - Legal
 description: "Manage your account and keep track of billing."
 icon: "content/assets/images/categories/user-gear.svg"
 color: "#1b4db1"

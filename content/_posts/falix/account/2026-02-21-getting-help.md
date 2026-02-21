@@ -3,7 +3,7 @@ layout: post
 title: "Best Practices for Getting Help"
 category: Account
 tags: Support
-permalink: falix/account/getting-help
+permalink: falix/account/support/getting-help
 description: "How to write effective support tickets and get your issues resolved faster."
 keywords:
     - keyword: help
@@ -97,4 +97,4 @@ When your issue is resolved:
 - **Rate your experience** -- after a staff member has helped you, you can rate their support on helpfulness, professionalism, knowledge, and speed. This feedback helps us improve.
 
 ## Related Articles
-- [How To Use the Support Center](falix/account/support-center) -- full guide to navigating the support system, creating tickets, and managing them
+- [How To Use the Support Center](/falix/account/support/support-center) -- full guide to navigating the support system, creating tickets, and managing them
