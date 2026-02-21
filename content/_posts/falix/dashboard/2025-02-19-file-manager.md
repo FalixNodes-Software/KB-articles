@@ -150,9 +150,6 @@ Use the create folder option to add a new directory. A tip in the modal reminds 
 
 ## Uploading
 
-{: .info}
-> File upload and drag-and-drop are **premium features**. Free plan users can still upload files through SFTP.
-
 There are several ways to get files onto your server, depending on what is most convenient for you:
 
 - **File Upload** -- Select one or more files from your computer using the file picker
