@@ -53,4 +53,4 @@ While your server is offline, its MOTD (Message of the Day) is automatically rep
 > This server is OFFLINE!
 > Start the server at FalixNodes.net/start
 
-This lets anyone who pings your server in their server list know that it can be started remotely. The offline MOTD is always shown while the server is off — disabling the external start feature will not remove it. Once your server starts up, the MOTD returns to whatever you have set in your server properties.
+This lets anyone who pings your server in their server list know that it can be started remotely. Disabling the external start feature will also disable the offline MOTD. Once your server starts up, the MOTD returns to whatever you have set in your server properties.
