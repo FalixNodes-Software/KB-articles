@@ -25,9 +25,9 @@ author: Lily
 ---
 
 ## Introduction
-Your server runs on files -- config files, world data, plugins, mods, scripts, and more. The File Manager is where you interact with all of them directly from the dashboard. Whether you need to tweak a setting, upload a new plugin, or dig through logs to troubleshoot an issue, this is your go-to tool.
+Your server operates using various data types, including configuration files, world data, plugins, mods, and scripts. The File Manager allows you to manage these files directly from your dashboard. This is the primary tool for adjusting settings, uploading plugins, and reviewing logs for troubleshooting.
 
-You can browse directories, edit files in a built-in code editor, upload and download content, manage archives, and even transfer files between servers -- all without leaving your browser.
+Within the browser, you can navigate directories, use the built-in code editor, and handle file transfers. The interface also supports uploading, downloading, and managing compressed archives.
 
 ## File Listing
 
@@ -37,7 +37,7 @@ At the left of each row there is a **checkbox** you can use to select files for 
 
 ### Special Items
 
-If you are on a premium plan, you will notice two special entries at the top of your root directory. The **Recycle Bin** is where deleted files go instead of being permanently removed -- think of it as a safety net in case you accidentally delete something. The **.backups** folder is a virtual directory that lets you browse and manage your backups right from the File Manager without needing to switch pages.
+At the top of your root directory, you will find two special entries. The **Recycle Bin** serves as a safety net, holding deleted files so they can be recovered if removed by mistake. The **.backups** folder is a virtual directory that provides direct access to your backup archives, allowing you to manage them without leaving the File Manager.
 
 ### Sorting
 
@@ -47,7 +47,7 @@ You can sort your files by clicking any column header. Click once to sort ascend
 
 ### Breadcrumbs
 
-A breadcrumb bar at the top of the page shows your current path. You can click any segment to jump directly to that directory -- handy when you are several folders deep and want to go back a few levels. The home icon takes you straight back to the root `/` directory.
+The breadcrumb bar at the top shows your current location. Click any folder name in the path to jump directly to that directory. This is the fastest way to navigate back when you are several levels deep. Click the **Home** icon to return immediately to the root `/` directory.
 
 ### URL Parameters
 
@@ -114,7 +114,10 @@ Right-click any file or folder to open the context menu, or use the action dropd
 
 ### Renaming
 
-Click **Rename** to open a modal with the current name pre-filled. Edit the name and confirm. Be careful when changing file extensions -- the modal will warn you about this, since changing an extension can make a file unreadable by the software that uses it.
+Click **Rename** to open a modal with the current file name already filled in. Edit the name and confirm the change.
+
+{: .warning}
+> Be careful when modifying file extensions. The system will show a warning if you do this, as a different extension can prevent the server or its plugins from recognizing and reading the file.
 
 ### Moving
 
@@ -134,19 +137,17 @@ Click **Permissions** to set the file or folder permissions using a 3-digit octa
 ### Deleting
 
 Click **Delete** to remove a file or folder. A confirmation dialog appears showing the item name so you can double-check before proceeding.
-
-- **Premium users**: Items are moved to the Recycle Bin, so you can recover them if needed
-- **Free plan users**: Items are permanently deleted right away
+Items are moved to the Recycle Bin, so you can recover them if needed
 
 ## Creating Files and Folders
 
 ### Create File
 
-Use the create file option to make a new empty file in the current directory. Just enter a name, and the file will be created ready for you to open in the code editor. This is great for creating new config files or scripts from scratch.
+Click **Create File** to make a new empty file in the current directory. Just enter a name, and the file will be created ready for you to open in the code editor. This is great for creating new config files or scripts from scratch.
 
 ### Create Folder
 
-Use the create folder option to add a new directory. A tip in the modal reminds you about naming conventions -- stick to lowercase letters, numbers, and hyphens for the most compatible names.
+Click **Create Folder** to add a new directory to your current path. A tip within the modal suggests following standard naming conventions for maximum compatibility. It is best to use only lowercase letters, numbers, and hyphens.
 
 ## Uploading
 
@@ -249,7 +250,7 @@ If you run multiple servers, you can send files directly from one to another wit
 2. Choose the destination directory using the directory browser.
 3. Confirm the transfer.
 
-A progress modal keeps you updated on the transfer status. When you transfer a folder, it is automatically archived, sent to the destination, and extracted there -- all handled behind the scenes.
+A progress modal keeps you updated on the transfer status. When you transfer a folder, it is automatically archived, sent to the destination, and extracted there. All handled behind the scenes.
 
 ## Backup Integration
 
@@ -292,7 +293,7 @@ You can also copy individual files from a backup to a specific directory using t
 {: .info}
 > File history is a **premium feature**.
 
-Click **History** on any file to see how it has changed over time. This is especially valuable for config files -- if a change breaks something, you can see exactly what was modified and when.
+Click **History** on any file to see how it has changed over time. This is especially valuable for config files; if a change breaks something, you can see exactly what was modified and when.
 
 ## Integrated Console
 
@@ -331,6 +332,6 @@ If you prefer keeping your hands on the keyboard, the File Manager has you cover
 
 ## World Viewer
 
-For Minecraft Java servers, when you navigate into a world's `region` folder, a **World View** button appears in the toolbar. Click it to visualize your Minecraft world data right in the browser -- see a top-down map of the entire world, zoom into regions with actual block textures, inspect chunks in 3D with X-Ray mode, and bulk-delete unused chunks to reduce world size.
+For Minecraft Java servers, when you navigate into a world's `region` folder, a **World View** button appears in the toolbar. Click it to visualize your Minecraft world data right in the browser; see a top-down map of the entire world, zoom into regions with actual block textures, inspect chunks in 3D with X-Ray mode, and bulk-delete unused chunks to reduce world size.
 
 For full details, see the dedicated [World Viewer](/falix/dashboard/files/world-viewer) article.
